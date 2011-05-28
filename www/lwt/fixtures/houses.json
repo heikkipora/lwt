@@ -1,0 +1,86 @@
+[
+{
+id: "1",
+name: "Kuninkaanlampi",
+address: "Kuhlefeltinkatu 8",
+description: "Kuninkaanlammen talon runko-osa on rakennettu 1750-1800 -lukujen v&auml;liss&auml; ja rakennus on laajentunut vuosien saatossa. Nykyiset omistajat pitiv&auml;t taloa aluksi kes&auml;m&ouml;kkin&auml;, kunnes muuttivat taloon pysyv&auml;sti. Aiemmat tummat pinnat ovat muuttuneet remontissa vaaleiksi. Kaunis ja kukoistava vanhanajan ruusuinen puutarha rajoittuu 1700-luvun linnoitust&ouml;iss&auml; syntyneeseen Kuninkaanlampeen ja rauhoitutetun lehdon l&auml;pi kulkevaan Ehrensv&auml;rdin luontopolkuun.",
+thumbnail: "images/talot/kuninkaanlampi.thumb.jpg",
+images: [ {title:"Etupiha", src:"images/talot/kuninkaanlampi_1.jpg"}, {title:"Lampi",src:"images/talot/kuninkaanlampi_2.jpg"}]
+},
+
+{
+id: "9",
+name: "Smirnoffin talo",
+address: "Kuningattarenkatu 6",
+description: "Smirnoffin talona tunnetun kiinteist&ouml;n nykyisen omistajan iso&auml;idin isois&auml; yhdisti 1800-luvun alussa useita erikokoisia rakennuksia suureksi L-kirjaimen muotoiseksi kokonaisuudeksi. Rapattu talo on hirsitaloakin vanhempi, kivinen yl&auml;talo on entinen nahkav&auml;rj&auml;&auml;m&ouml;. Kun valtioneuvoksetar Smirnoff p&auml;&auml;tti tehd&auml; 1800-luvun loppupuolella perint&ouml;talostaan kes&auml;huvilan, h&auml;n muutti yl&auml;kertaan ja alakerta jaettiin useiksi erillisiksi vuokra-asunnoiksi. Nyt entiseen Bagarstuganiin kunnostetaan uusia asuntoja.",
+thumbnail: "images/talot/smirnoffintalo.thumb.jpg",
+images: []
+},
+
+{
+id: "9",
+name: "Smirnoffin talo",
+address: "Kuningattarenkatu 6",
+description: "Smirnoffin talona tunnetun kiinteist&ouml;n nykyisen omistajan iso&auml;idin isois&auml; yhdisti 1800-luvun alussa useita erikokoisia rakennuksia suureksi L-kirjaimen muotoiseksi kokonaisuudeksi. Rapattu talo on hirsitaloakin vanhempi, kivinen yl&auml;talo on entinen nahkav&auml;rj&auml;&auml;m&ouml;. Kun valtioneuvoksetar Smirnoff p&auml;&auml;tti tehd&auml; 1800-luvun loppupuolella perint&ouml;talostaan kes&auml;huvilan, h&auml;n muutti yl&auml;kertaan ja alakerta jaettiin useiksi erillisiksi vuokra-asunnoiksi. Nyt entiseen Bagarstuganiin kunnostetaan uusia asuntoja.",
+thumbnail: "images/talot/smirnoffintalo.thumb.jpg",
+images: []
+}
+
+
+]
+  <div class="house" title="Perheen lempioleskelupaikaksi muodustunut uusi kuisti kruunaa 1856 rakennettua Pitk&auml;np&ouml;yd&auml;ntaloa, jossa on ollut aikoinaan kolme erillist&auml; asuntoa. Opettajapariskunta on korjaillut pikku hiljaa 1980-luvun modernien remonttiajatusten ep&auml;onnistuneita ratkaisuja oikeaoppisen perinnerakentamisen puitteissa ja Museoviraston ohjeiden mukaisesti. Talossa on keskitytty puul&auml;mmitykseen. Sen apuna toimiva ilmal&auml;mp&ouml;pumppu saa perheelt&auml; paljon kiitoksia.">
+  	<p class="number">13</p>
+    <h2>Pitk&auml;np&ouml;yd&auml;ntalo</h2>
+    <p class="address">Mariankatu 7</p>
+    <img src="images/talot/pitkanpoydantalo.thumb.jpg">
+  </div>
+
+  <div class="house">
+  	<p class="number">20</p>
+    <h2>Villa Lindholm</h2>
+    <p class="address">Etel&auml;harju 3 a</p>
+    <img src="images/talot/villalindholm.thumb.jpg">
+  </div>
+
+  <div class="house">
+  	<p class="number">11</p>
+    <h2>Liisantalo</h2>
+    <p class="address">Mariankatu 2 C</p>
+    <img src="images/talot/liisantalo.thumb.jpg">
+  </div>
+
+  <div class="house">
+  	<p class="number">15</p>
+    <h2>Kyrkan</h2>
+    <p class="address">Puutarhakatu 26</p>
+    <img src="images/talot/kyrkan.thumb.jpg">
+  </div>
+
+  <div class="house new">
+  	<p class="number">22</p>
+    <h2>Ajurintalo</h2>
+    <p class="address">Puutarhakatu 32</p>
+	<img src="images/talot/ajurintalo.thumb.jpg">
+	<a class="first" title="Takapiha talvella" href="images/talot/ajurintalo_1.jpg"></a>
+	<a title="Omenapuu" href="images/talot/ajurintalo_2.jpg"></a>
+	<a title="Kurkistus " href="images/talot/ajurintalo_3.jpg"></a>
+	<a title="Talli" href="images/talot/ajurintalo_4.jpg"></a>
+  </div>
+
+</div>
+
+<h1>Et&auml;kohteet</h1>
+
+<div class="gallery c">
+
+  <div class="house" title="Aiemmin Mantan torppana tunnettu 1880 rakennettu pieni talo siirtui nelj&auml; vuotta sitten televisiostakin tutun puutarha-asiantuntija Eija Klaucken haltuun ja kakkosasunnosta kehkeytyi pian oma koti. Talo on toiminut aikoinaan Str&ouml;mforsin ruukin ty&ouml;suhdeasuntona. Vuoden 1963 remontissa sit&auml; nostettiin hirsien m&auml;t&auml;neimsen takia ja tuolloin siihen rakennettiin my&ouml;s etuhuone ja avokuisti. Talon ymp&auml;rill&auml; sijaitsee Eija Klaucken laaja el&auml;myspuutarha Eija's Garden, jonne on erillinen p&auml;&auml;symaksu.">
+  	<p class="number">A</p>
+    <h2>Eijan Torppa</h2>
+    <p class="address">Elim&auml;entie 74, Ahvenkoski</p>
+    <img src="images/talot/eijantorppa.thumb.jpg">
+  </div>
+  
+</div>
+
+<p class="new-house"><img src="images/star.png"/> uusi kohde 2011</p>
+
