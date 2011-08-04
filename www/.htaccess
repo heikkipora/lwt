@@ -4,6 +4,7 @@ RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L]
 
 RewriteRule ^etusivu\.html$ /  [R]
+RewriteRule ^Intro\.html$ /  [R]
 RewriteRule ^info\.html$ /  [R]
 RewriteRule ^ajankohtaista\.html$  /  [R]
 RewriteRule ^kartta\.html$  /  [R]
