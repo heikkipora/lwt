@@ -1,9 +1,11 @@
-// load('steal/compress/test/run.js')
+// load('steal/build/pluginify/test/pluginify_test.js')
 /**
  * Tests compressing a very basic page and one that is using steal
  */
-load('steal/rhino/steal.js')
-steal.plugins('steal/test','steal/build/pluginify').then( function( s ) {
+load('steal/rhino/rhino.js')
+steal('steal/test','steal/build', 'steal/build/pluginify', function( s ) {
+	
+	
 	STEALPRINT = false;
 	s.test.module("steal/build/pluginify")
 	
@@ -25,6 +27,7 @@ steal.plugins('steal/test','steal/build/pluginify').then( function( s ) {
 		var firstFunc = steal.build.pluginify.getFunction(js, 0);
 		//print(firstFunc);
 	})
+
 	s.test.test("parse", function(t){
 		var js = readFile('jquery/class/class.js');
 		var tokens = js.tokens('=<>!+-*&|/%^', '=<>&|');
@@ -47,6 +50,19 @@ steal.plugins('steal/test','steal/build/pluginify').then( function( s ) {
 		js = readFile('steal/build/pluginify/test/weirdRegexps.js');
 		var tokens = js.tokens('=<>!+-*&|/%^', '=<>&|');
 		
-	})	
-
+	});
+	
+	s.test.test("pluginify function", function(t){
+		s.build.pluginify("jquery/controller",{
+			nojquery: true,
+			out: "steal/build/pluginify/test/controller.js"
+		})
+		
+		steal.build.open("steal/build/pluginify/test/controller.html", function(opener){
+			
+		})
+		
+		s.test.wait("jQuery.Controller");
+		s.test.ok(true, "controller exists")
+	})
 });

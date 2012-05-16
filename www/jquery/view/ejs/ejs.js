@@ -2,17 +2,24 @@
 
 
 
-steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
-	var myEval = function(script){
-			eval(script);
-		}
-
-	//helpers we use 
-	var chop = function( string ) {
-		return string.substr(0, string.length - 1);
+steal('jquery/view', 'jquery/lang/string/rsplit').then(function( $ ) {
+	var myEval = function( script ) {
+		eval(script);
 	},
+		chop = function( string ) {
+			return string.substr(0, string.length - 1);
+		},
+		rSplit = $.String.rsplit,
 		extend = $.extend,
 		isArray = $.isArray,
+		clean = function( content ) {
+			var converted = content.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/"/g, '\\"').replace(/\t/g, '\\t');
+			return converted;
+		},
+		// from prototype  http://www.prototypejs.org/
+		escapeHTML = function( content ) {
+			return content.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&#34;').replace(/'/g, "&#39;");
+		},
 		EJS = function( options ) {
 			//returns a renderer function
 			if ( this.constructor != EJS ) {
@@ -21,22 +28,16 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 					return ejs.render(data, helpers);
 				};
 			}
-
+			//so we can set the processor
 			if ( typeof options == "function" ) {
 				this.template = {};
 				this.template.process = options;
 				return;
 			}
 			//set options on self
-			$.extend(this, EJS.options, options);
-
-			var template = new EJS.Compiler(this.text, this.type);
-
-			template.compile(options, this.name);
-
-			this.template = template;
-		},
-		defaultSplitter = /(\[%%)|(%%\])|(\[%=)|(\[%#)|(\[%)|(%\]\n)|(%\])|(\n)/;
+			extend(this, EJS.options, options);
+			this.template = compile(this.text, this.type, this.name);
+		};
 	/**
 	 * @class jQuery.EJS
 	 * 
@@ -49,8 +50,11 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 	 * Ejs provides <a href="http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/">ERB</a> 
 	 * style client side templates.  Use them with controllers to easily build html and inject
 	 * it into the DOM.
-	 * <h3>Example</h3>
+	 * 
+	 * ###  Example
+	 * 
 	 * The following generates a list of tasks:
+	 * 
 	 * @codestart html
 	 * &lt;ul>
 	 * &lt;% for(var i = 0; i < tasks.length; i++){ %>
@@ -58,37 +62,53 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 	 * &lt;% } %>
 	 * &lt;/ul>
 	 * @codeend
-	 * For the following examples, we assume this view is in <i>'views\tasks\list.ejs'</i>
-	 * <h2>Use</h2>
-	 * There are 2 common ways to use Views: 
-	 * <ul>
-	 *     <li>Controller's [jQuery.Controller.prototype.view view function]</li>
-	 *     <li>The jQuery Helpers: [jQuery.fn.after after], 
-	 *                             [jQuery.fn.append append], 
-	 *                             [jQuery.fn.before before], 
-	 *                             [jQuery.fn.before html], 
-	 *                             [jQuery.fn.before prepend], 
-	 *                             [jQuery.fn.before replace], and 
-	 *                             [jQuery.fn.before text].</li>
-	 * </ul>
-	 * <h3>View</h3>
-	 * jQuery.Controller.prototype.view is the preferred way of rendering a view.  
-	 * You can find all the options for render in 
-	 * its [jQuery.Controller.prototype.view documentation], but here is a brief example of rendering the 
-	 * <i>list.ejs</i> view from a controller:
-	 * @codestart
-	 * $.Controller.extend("TasksController",{
-	 *     init: function( el ) {
-	 *         Task.findAll({},this.callback('list'))
-	 *     },
-	 *     list: function( tasks ) {
-	 *         this.element.html(
-	 *          this.view("list", {tasks: tasks})
-	 *        )
-	 *     }
-	 * })
-	 * @codeend
 	 * 
+	 * For the following examples, we assume this view is in <i>'views\tasks\list.ejs'</i>.
+	 * 
+	 * 
+	 * ## Use
+	 * 
+	 * ### Loading and Rendering EJS:
+	 * 
+	 * You should use EJS through the helper functions [jQuery.View] provides such as:
+	 * 
+	 *   - [jQuery.fn.after after]
+	 *   - [jQuery.fn.append append]
+	 *   - [jQuery.fn.before before]
+	 *   - [jQuery.fn.html html], 
+	 *   - [jQuery.fn.prepend prepend],
+	 *   - [jQuery.fn.replaceWith replaceWith], and 
+	 *   - [jQuery.fn.text text].
+	 * 
+	 * or [jQuery.Controller.prototype.view].
+	 * 
+	 * ### Syntax
+	 * 
+	 * EJS uses 5 types of tags:
+	 * 
+	 *   - <code>&lt;% CODE %&gt;</code> - Runs JS Code.
+	 *     For example:
+	 *     
+	 *         <% alert('hello world') %>
+	 *     
+	 *   - <code>&lt;%= CODE %&gt;</code> - Runs JS Code and writes the _escaped_ result into the result of the template.
+	 *     For example:
+	 *     
+	 *         <h1><%= 'hello world' %></h1>
+	 *         
+	 *   - <code>&lt;%== CODE %&gt;</code> - Runs JS Code and writes the _unescaped_ result into the result of the template.
+	 *     For example:
+	 *     
+	 *         <h1><%== '<span>hello world</span>' %></h1>
+	 *         
+	 *   - <code>&lt;%%= CODE %&gt;</code> - Writes <%= CODE %> to the result of the template.  This is very useful for generators.
+	 *     
+	 *         <%%= 'hello world' %>
+	 *         
+	 *   - <code>&lt;%# CODE %&gt;</code> - Used for comments.  This does nothing.
+	 *     
+	 *         <%# 'hello world' %>
+	 *        
 	 * ## Hooking up controllers
 	 * 
 	 * After drawing some html, you often want to add other widgets and plugins inside that html.
@@ -170,9 +190,6 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 			this._extra_helpers = extraHelpers;
 			var v = new EJS.Helpers(object, extraHelpers || {});
 			return this.template.process.call(object, object, v);
-		},
-		out: function() {
-			return this.template.out;
 		}
 	};
 	/* @Static */
@@ -207,107 +224,173 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 		if ( typeof input == 'string' ) {
 			return input;
 		}
-		var myid;
 		if ( input === null || input === undefined ) {
 			return '';
 		}
-		if ( input instanceof Date ) {
-			return input.toDateString();
-		}
-		if ( input.hookup ) {
-			myid = $.View.hookup(function( el, id ) {
-				input.hookup.call(input, el, id);
-			});
-			return "data-view-id='" + myid + "'";
-		}
-		if ( typeof input == 'function' ) {
-			return "data-view-id='" + $.View.hookup(input) + "'";
-		}
-
-		if ( isArray(input) ) {
-			myid = $.View.hookup(function( el, id ) {
-				for ( var i = 0; i < input.length; i++ ) {
-					var stub;
-					stub = input[i].hookup ? input[i].hookup(el, id) : input[i](el, id);
-				}
-			});
-			return "data-view-id='" + myid + "'";
-		}
-		if ( input.nodeName || input.jQuery ) {
-			throw "elements in views are not supported";
-		}
-
-		if ( input.toString ) {
-			return myid ? input.toString(myid) : input.toString();
-		}
-		return '';
-	};
-
-
-
-
-	// used to break text into tolkens
-	EJS.Scanner = function( source, left, right ) {
-
-		// add these properties to the scanner
-		extend(this, {
-			leftDelimiter: left + '%',
-			rightDelimiter: '%' + right,
-			doubleLeft: left + '%%',
-			doubleRight: '%%' + right,
-			leftEqual: left + '%=',
-			leftComment: left + '%#'
-		});
-
-
-		// make a regexp that can split on these token
-		this.splitRegexp = (left == '[' ? defaultSplitter : new RegExp("(" + [this.doubleLeft, this.doubleRight, this.leftEqual, this.leftComment, this.leftDelimiter, this.rightDelimiter + '\n', this.rightDelimiter, '\n'].join(")|(") + ")"));
-
-		this.source = source;
-		this.lines = 0;
-	};
-
-
-	EJS.Scanner.prototype = {
-		// calls block with each token
-		scan: function( block ) {
-			var regex = this.splitRegexp;
-			if ( this.source ) {
-				var source_split = $.String.rsplit(this.source, /\n/);
-				for ( var i = 0; i < source_split.length; i++ ) {
-					var item = source_split[i];
-					this.scanline(item, regex, block);
-				}
+		var hook = (input.hookup &&
+		function( el, id ) {
+			input.hookup.call(input, el, id);
+		}) || (typeof input == 'function' && input) || (isArray(input) &&
+		function( el, id ) {
+			for ( var i = 0; i < input.length; i++ ) {
+				var stub;
+				stub = input[i].hookup ? input[i].hookup(el, id) : input[i](el, id);
 			}
-		},
-		scanline: function( line, regex, block ) {
-			this.lines++;
-			var line_split = $.String.rsplit(line, regex),
+		});
+		if ( hook ) {
+			return "data-view-id='" + $.View.hookup(hook) + "'";
+		}
+		return input.toString ? input.toString() : "";
+	};
+	EJS.clean = function( text ) {
+		//return sanatized text
+		if ( typeof text == 'string' ) {
+			return escapeHTML(text);
+		} else if ( typeof text == 'number' ) {
+			return text;
+		} else {
+			return EJS.text(text);
+		}
+	}
+	//returns something you can call scan on
+	var scan = function( scanner, source, block ) {
+		var source_split = rSplit(source, /\n/),
+			i = 0;
+		for (; i < source_split.length; i++ ) {
+			scanline(scanner, source_split[i], block);
+		}
+
+	},
+		scanline = function( scanner, line, block ) {
+			scanner.lines++;
+			var line_split = rSplit(line, scanner.splitter),
 				token;
 			for ( var i = 0; i < line_split.length; i++ ) {
 				token = line_split[i];
 				if ( token !== null ) {
-					try {
-						block(token, this);
-					} catch (e) {
-						throw {
-							type: 'jQuery.EJS.Scanner',
-							line: this.lines
-						};
-					}
+					block(token, scanner);
 				}
 			}
-		}
-	};
+		},
+		makeScanner = function( left, right ) {
+			var scanner = {};
+			extend(scanner, {
+				left: left + '%',
+				right: '%' + right,
+				dLeft: left + '%%',
+				dRight: '%%' + right,
+				eeLeft: left + '%==',
+				eLeft: left + '%=',
+				cmnt: left + '%#',
+				scan: scan,
+				lines: 0
+			});
+			scanner.splitter = new RegExp("(" + [scanner.dLeft, scanner.dRight, scanner.eeLeft, scanner.eLeft, scanner.cmnt, scanner.left, scanner.right + '\n', scanner.right, '\n'].join(")|(").
+			replace(/\[/g, "\\[").replace(/\]/g, "\\]") + ")");
+			return scanner;
+		},
+		// compiles a template
+		compile = function( source, left, name ) {
+			source = source.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+			//normalize line endings
+			left = left || '<';
+			var put_cmd = "___v1ew.push(",
+				insert_cmd = put_cmd,
+				buff = new EJS.Buffer(['var ___v1ew = [];'], []),
+				content = '',
+				put = function( content ) {
+					buff.push(put_cmd, '"', clean(content), '");');
+				},
+				startTag = null,
+				empty = function() {
+					content = ''
+				};
+
+			scan(makeScanner(left, left === '[' ? ']' : '>'), source || "", function( token, scanner ) {
+				// if we don't have a start pair
+				if ( startTag === null ) {
+					switch ( token ) {
+					case '\n':
+						content = content + "\n";
+						put(content);
+						buff.cr();
+						empty();
+						break;
+					case scanner.left:
+					case scanner.eLeft:
+					case scanner.eeLeft:
+					case scanner.cmnt:
+						startTag = token;
+						if ( content.length > 0 ) {
+							put(content);
+						}
+						empty();
+						break;
+
+						// replace <%% with <%
+					case scanner.dLeft:
+						content += scanner.left;
+						break;
+					default:
+						content += token;
+						break;
+					}
+				}
+				else {
+					switch ( token ) {
+					case scanner.right:
+						switch ( startTag ) {
+						case scanner.left:
+							if ( content[content.length - 1] == '\n' ) {
+								content = chop(content);
+								buff.push(content, ";");
+								buff.cr();
+							}
+							else {
+								buff.push(content, ";");
+							}
+							break;
+						case scanner.eLeft:
+							buff.push(insert_cmd, "(jQuery.EJS.clean(", content, ")));");
+							break;
+						case scanner.eeLeft:
+							buff.push(insert_cmd, "(jQuery.EJS.text(", content, ")));");
+							break;
+						}
+						startTag = null;
+						empty();
+						break;
+					case scanner.dRight:
+						content += scanner.right;
+						break;
+					default:
+						content += token;
+						break;
+					}
+				}
+			})
+			if ( content.length > 0 ) {
+				// Should be content.dump in Ruby
+				buff.push(put_cmd, '"', clean(content) + '");');
+			}
+			var template = buff.close(),
+				out = {
+					out: 'try { with(_VIEW) { with (_CONTEXT) {' + template + " return ___v1ew.join('');}}}catch(e){e.lineNumber=null;throw e;}"
+				};
+			//use eval instead of creating a function, b/c it is easier to debug
+			myEval.call(out, 'this.process = (function(_CONTEXT,_VIEW){' + out.out + '});\r\n//@ sourceURL=' + name + ".js");
+			return out;
+		};
+
 
 	// a line and script buffer
 	// we use this so we know line numbers when there
 	// is an error.  
 	// pre and post are setup and teardown for the buffer
-	EJS.Buffer = function( pre_cmd, post_cmd ) {
+	EJS.Buffer = function( pre_cmd, post ) {
 		this.line = [];
 		this.script = [];
-		this.post_cmd = post_cmd;
+		this.post = post;
 
 		// add the pre commands to the first line
 		this.push.apply(this, pre_cmd);
@@ -331,122 +414,14 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 				this.line = [];
 			}
 
-			stub = this.post_cmd.length && this.push.apply(this, this.post_cmd);
+			stub = this.post.length && this.push.apply(this, this.post);
 
 			this.script.push(";"); //makes sure we always have an ending /
 			return this.script.join("");
 		}
 
 	};
-	// compiles a template
-	EJS.Compiler = function( source, left ) {
-		//normalize line endings
-		this.source = source.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 
-		left = left || '<';
-		var right = '>';
-		switch ( left ) {
-		case '[':
-			right = ']';
-			break;
-		case '<':
-			break;
-		default:
-			throw left + ' is not a supported deliminator';
-		}
-		this.scanner = new EJS.Scanner(this.source, left, right);
-		this.out = '';
-	};
-	EJS.Compiler.prototype = {
-		compile: function( options, name ) {
-
-			options = options || {};
-
-			this.out = '';
-
-			var put_cmd = "___v1ew.push(",
-				insert_cmd = put_cmd,
-				buff = new EJS.Buffer(['var ___v1ew = [];'], []),
-				content = '',
-				clean = function( content ) {
-					return content.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/"/g, '\\"');
-				},
-				put = function( content ) {
-					buff.push(put_cmd, '"', clean(content), '");');
-				},
-				startTag = null;
-
-			this.scanner.scan(function( token, scanner ) {
-				// if we don't have a start pair
-				if ( startTag === null ) {
-					switch ( token ) {
-					case '\n':
-						content = content + "\n";
-						put(content);
-						//buff.push(put_cmd , '"' , clean(content) , '");');
-						buff.cr();
-						content = '';
-						break;
-					case scanner.leftDelimiter:
-					case scanner.leftEqual:
-					case scanner.leftComment:
-						startTag = token;
-						if ( content.length > 0 ) {
-							put(content);
-						}
-						content = '';
-						break;
-
-						// replace <%% with <%
-					case scanner.doubleLeft:
-						content = content + scanner.leftDelimiter;
-						break;
-					default:
-						content = content + token;
-						break;
-					}
-				}
-				else {
-					switch ( token ) {
-					case scanner.rightDelimiter:
-						switch ( startTag ) {
-						case scanner.leftDelimiter:
-							if ( content[content.length - 1] == '\n' ) {
-								content = chop(content);
-								buff.push(content, ";");
-								buff.cr();
-							}
-							else {
-								buff.push(content, ";");
-							}
-							break;
-						case scanner.leftEqual:
-							buff.push(insert_cmd, "(jQuery.EJS.text(", content, ")));");
-							break;
-						}
-						startTag = null;
-						content = '';
-						break;
-					case scanner.doubleRight:
-						content = content + scanner.rightDelimiter;
-						break;
-					default:
-						content = content + token;
-						break;
-					}
-				}
-			});
-			if ( content.length > 0 ) {
-				// Should be content.dump in Ruby
-				buff.push(put_cmd, '"', clean(content) + '");');
-			}
-			var template = buff.close();
-			this.out = 'try { with(_VIEW) { with (_CONTEXT) {' + template + " return ___v1ew.join('');}}}catch(e){e.lineNumber=null;throw e;}";
-			//use eval instead of creating a function, b/c it is easier to debug
-			myEval.call(this,'this.process = (function(_CONTEXT,_VIEW){' + this.out + '});\r\n//@ sourceURL='+name+".js")
-		}
-	};
-	
 
 	//type, cache, folder
 	/**
@@ -470,7 +445,6 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 	 * 
 	 */
 	EJS.options = {
-		cache: true,
 		type: '<',
 		ext: '.ejs'
 	};
@@ -483,6 +457,32 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 	 * @parent jQuery.EJS
 	 * By adding functions to jQuery.EJS.Helpers.prototype, those functions will be available in the 
 	 * views.
+	 * 
+	 * The following helper converts a given string to upper case:
+	 * 
+	 * 	$.EJS.Helpers.prototype.toUpper = function(params)
+	 * 	{
+	 * 		return params.toUpperCase();
+	 * 	}
+	 * 
+	 * Use it like this in any EJS template:
+	 * 
+	 * 	<%= toUpper('javascriptmvc') %>
+	 * 
+	 * To access the current DOM element return a function that takes the element as a parameter:
+	 * 
+	 * 	$.EJS.Helpers.prototype.upperHtml = function(params)
+	 * 	{
+	 * 		return function(el) {
+	 * 			$(el).html(params.toUpperCase());
+	 * 		}
+	 * 	}
+	 * 
+	 * In your EJS view you can then call the helper on an element tag:
+	 * 
+	 * 	<div <%= upperHtml('javascriptmvc') %>></div>
+	 * 
+	 * 
 	 * @constructor Creates a view helper.  This function is called internally.  You should never call it.
 	 * @param {Object} data The data passed to the view.  Helpers have access to it through this._data
 	 */
@@ -494,7 +494,7 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 	/* @prototype*/
 	EJS.Helpers.prototype = {
 		/**
-		 * Makes a plugin
+		 * Hooks up a jQuery plugin on.
 		 * @param {String} name the plugin name
 		 */
 		plugin: function( name ) {
@@ -521,8 +521,9 @@ steal.plugins('jquery/view', 'jquery/lang/rsplit').then(function( $ ) {
 		//returns a function that renders the view
 		script: function( id, src ) {
 			return "jQuery.EJS(function(_CONTEXT,_VIEW) { " + new EJS({
-				text: src
-			}).out() + " })";
+				text: src,
+				name: id
+			}).template.out + " })";
 		},
 		renderer: function( id, text ) {
 			var ejs = new EJS({

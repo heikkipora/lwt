@@ -1,8 +1,8 @@
-steal.plugins('jquery/controller').then(function($){
+steal('jquery/controller').then(function($){
 
 /**
- * @core
  * @class jQuery.Tie
+ * @core
  * 
  * The $.fn.tie plugin binds form elements and controllers with 
  * models and vice versa.  The result is that a change in 
@@ -14,7 +14,7 @@ steal.plugins('jquery/controller').then(function($){
  * 
  * 
  */
-$.Controller.extend("jQuery.Tie",{
+$.Controller("jQuery.Tie",{
 	init : function(el, inst, attr, type){
 		// if there's a controller
 		if(!type){
@@ -35,7 +35,7 @@ $.Controller.extend("jQuery.Tie",{
 		this.bind(inst, attr, "attrChanged");
 		
 		//destroy this controller if the model instance is destroyed
-		this.bind(inst, "destroyed", "destroy");
+		this.bind(inst, "destroyed", "modelDestroyed");
 		
 		var value = inst.attr(attr);
 		//set the value
@@ -56,6 +56,9 @@ $.Controller.extend("jQuery.Tie",{
 			this.lastValue = val;
 		}
 	},
+	modelDestroyed : function(){
+		this.destroy()
+	},
 	setVal : function(val){
 		if (this.type) {
 			this.element[this.type]("val", val)
@@ -69,7 +72,7 @@ $.Controller.extend("jQuery.Tie",{
 			val = this.element.val();
 		}
 		
-		this.inst.attr(this.attr, val, null, this.callback('setBack'))
+		this.inst.attr(this.attr, val, null, this.proxy('setBack'))
 		
 	},
 	setBack : function(){
@@ -77,7 +80,12 @@ $.Controller.extend("jQuery.Tie",{
 	},
 	destroy : function(){
 		this.inst = null;
-		this._super();
+		if(! this._destroyed ){
+			// assume it's because of the https://github.com/jupiterjs/jquerymx/pull/20
+			// problem and don't throw an error
+			this._super();
+		}
+		
 	}
 });
 

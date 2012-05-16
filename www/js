@@ -8,15 +8,12 @@ then
   java -cp steal/rhino/js.jar:funcunit/java/selenium-java-client-driver.jar org.mozilla.javascript.tools.shell.Main
   exit 127
 fi
-if [ $1 = "-selenium" ]
-then
-  java -jar funcunit/java/selenium-server.jar
-  exit 127
-fi
 CP=funcunit/java/selenium-java-client-driver.jar:steal/rhino/js.jar
-if [ $1 = "-mail" ]
+
+ERRORLEV=0
+if [ $1 = "-e" ]
 then
-	CP=steal/rhino/mail.jar:funcunit/java/selenium-java-client-driver.jar:steal/rhino/js.jar
+	ERRORLEV=1
 	shift
 fi
 
@@ -37,7 +34,6 @@ echo  -e "./js apps/[NAME]/compress.js\t\tCompress your application and generate
   exit 127
 fi
 
-
 if [ $1 = "-d" ]
 then
         java -classpath steal/rhino/js.jar:steal/rhino/selenium-java-client-driver.jar org.mozilla.javascript.tools.debugger.Main
@@ -53,4 +49,9 @@ do
   fi
 done
 ARGS=$ARGS]
-java -Xmx228m -Xss1024k -cp $CP org.mozilla.javascript.tools.shell.Main -e _args=$ARGS -opt -1 -e 'load('"'"$1"'"')'
+java -Xmx512m -Xss1024k -cp $CP org.mozilla.javascript.tools.shell.Main -e _args=$ARGS -opt -1 -e 'load('"'"$1"'"')'
+
+if [ $ERRORLEV = "1" -a $? = "1" ]
+then
+	exit $?
+fi

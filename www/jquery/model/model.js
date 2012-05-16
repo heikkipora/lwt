@@ -1,309 +1,691 @@
 /*global OpenAjax: true */
 
-steal.plugins('jquery/class', 'jquery/lang').then(function() {
+steal('jquery/class', 'jquery/lang/string', function() {
 	
-	/**
-	 * @class jQuery.Model
-	 * @tag core
-	 * @download  http://jmvcsite.heroku.com/pluginify?plugins[]=jquery/model/model.js
-	 * @test jquery/model/qunit.html
-	 * @plugin jquery/model
-	 * 
-	 * Models wrap an application's data layer.  In large applications, a model is critical for:
-	 * 
-	 *  - Encapsulating services so controllers + views don't care where data comes from.
-	 *    
-	 *  - Providing helper functions that make manipulating and abstracting raw service data easier.
-	 * 
-	 * This is done in two ways:
-	 * 
-	 *  - Requesting data from and interacting with services
-	 *  
-	 *  - Converting or wrapping raw service data into a more useful form.
-	 * 
-	 * 
-	 * ## Basic Use
-	 * 
-	 * The [jQuery.Model] class provides a basic skeleton to organize pieces of your application's data layer.
-	 * First, consider doing Ajax <b>without</b> a model.  In our imaginary app, you:
-	 * 
-	 *  - retrieve a list of tasks</li>
-	 *  - display the number of days remaining for each task
-	 *  - mark tasks as complete after users click them
-	 * 
-	 * Let's see how that might look without a model:
-	 * 
-	 * @codestart
-	 * $.Controller.extend("MyApp.Controllers.Tasks",{onDocument: true},
-	 * {
-	 *   // get tasks when the page is ready 
-	 *   ready: function() {
-	 *     $.get('/tasks.json', this.callback('gotTasks'), 'json')
-	 *   },
-	 *  |* 
-	 *   * assume json is an array like [{name: "trash", due_date: 1247111409283}, ...]
-	 *   *|
-	 *  gotTasks: function( json ) { 
-	 *     for(var i =0; i < json.length; i++){
-	 *       var taskJson = json[i];
-	 *       
-	 *       //calculate time remaining
-	 *       var remaininTime = new Date() - new Date(taskJson.due_date);
-	 *       
-	 *       //append some html
-	 *       $("#tasks").append("&lt;div class='task' taskid='"+taskJson.id+"'>"+
-	 *                           "&lt;label>"+taskJson.name+"&lt;/label>"+
-	 *                           "Due Date = "+remaininTime+"&lt;/div>")
-	 *     }
-	 *   },
-	 *   // when a task is complete, get the id, make a request, remove it
-	 *   ".task click" : function( el ) {
-	 *     $.post('/task_complete',{id: el.attr('data-taskid')}, function(){
-	 *       el.remove();
-	 *     })
-	 *   }
-	 * })
-	 * @codeend
-	 * 
-	 * This code might seem fine for right now, but what if:
-	 * 
-	 *  - The service changes?
-	 *  - Other parts of the app want to calculate <code>remaininTime</code>?
-	 *  - Other parts of the app want to get tasks?</li>
-	 *  - The same task is represented multiple palces on the page?
-	 * 
-	 * The solution is of course a strong model layer.  Lets look at what a
-	 * a good model does for a controller before we learn how to make one:
-	 * 
-	 * @codestart
-	 * $.Controller.extend("MyApp.Controllers.Tasks",{onDocument: true},
-	 * {
-	 *   load: function() {
-	 *     Task.findAll({},this.callback('list'))
-	 *   },
-	 *   list: function( tasks ) {
-	 *     $("#tasks").html(this.view(tasks))
-	 *   },
-	 *   ".task click" : function( el ) {
-	 *     el.models()[0].complete(function(){
-	 *       el.remove();
-	 *     });
-	 *   }
-	 * })
-	 * @codeend
-	 * 
-	 * In views/tasks/list.ejs
-	 * 
-	 * @codestart html
-	 * &lt;% for(var i =0; i &lt; tasks.length; i++){ %>
-	 * &lt;div class='task &lt;%= tasks[i].<b>identity</b>() %>'>
-	 *    &lt;label>&lt;%= tasks[i].name %>&lt;/label>
-	 *    &lt;%= tasks[i].<b>timeRemaining</b>() %>
-	 * &lt;/div>
-	 * &lt;% } %>
-	 * @codeend
-	 * 
-	 * Isn't that better!  Granted, some of the improvement comes because we used a view, but we've
-	 * also made our controller completely understandable.  Now lets take a look at the model:
-	 * 
-	 * @codestart
-	 * $.Model.extend("Task",
-	 * {
-	 *  findAll: function( params,success ) {
-	 *   $.get("/tasks.json", params, this.callback(["wrapMany",success]),"json");
-	 *  }
-	 * },
-	 * {
-	 *  timeRemaining: function() {
-	 *   return new Date() - new Date(this.due_date)
-	 *  },
-	 *  complete: function( success ) {
-	 *   $.get("/task_complete", {id: this.id }, success,"json");
-	 *  }
-	 * })
-	 * @codeend
-	 * 
-	 * There, much better!  Now you have a single place where you can organize Ajax functionality and
-	 * wrap the data that it returned.  Lets go through each bolded item in the controller and view.<br/>
-	 * 
-	 * ### Task.findAll
-	 * 
-	 * The findAll function requests data from "/tasks.json".  When the data is returned, it it is run through
-	 * the "wrapMany" function before being passed to the success callback.<br/>
-	 * If you don't understand how the callback works, you might want to check out 
-	 * [jQuery.Model.static.wrapMany wrapMany] and [jQuery.Class.static.callback callback].
-	 * 
-	 * ### el.models
-	 * 
-	 * [jQuery.fn.models models] is a jQuery helper that returns model instances.  It uses
-	 * the jQuery's elements' shortNames to find matching model instances.  For example:
-	 * 
-	 * @codestart html
-	 * &lt;div class='task task_5'> ... &lt;/div>
-	 * @codeend
-	 * 
-	 * It knows to return a task with id = 5.
-	 * 
-	 * ### complete
-	 * 
-	 * This should be pretty obvious.
-	 * 
-	 * ### identity
-	 * 
-	 * [jQuery.Model.prototype.identity Identity] returns a unique identifier that [jQuery.fn.models] can use
-	 * to retrieve your model instance.
-	 * 
-	 * ### timeRemaining
-	 * 
-	 * timeRemaining is a good example of wrapping your model's raw data with more useful functionality.
-	 * ## Validations
-	 * 
-	 * You can validate your model's attributes with another plugin.  See [validation].
-	 */
-	
-	//helper stuff for later.
+	//helper stuff for later.  Eventually, might not need jQuery.
 	var underscore = $.String.underscore,
 		classize = $.String.classize,
-		ajax = function(str, attrs, success, error, fixture, type){
-			attrs = $.extend({},attrs)
-			var url = $.String.sub(str, attrs, true)
-			$.ajax({
+		isArray = $.isArray,
+		makeArray = $.makeArray,
+		extend = $.extend,
+		each = $.each,
+		reqType = /GET|POST|PUT|DELETE/i,
+		ajax = function(ajaxOb, attrs, success, error, fixture, type, dataType){
+			var dataType = dataType || "json",
+				src = "",
+				tmp;
+			if(typeof ajaxOb == "string"){
+				var sp = ajaxOb.indexOf(" ")
+				if( sp > 2 && sp <7){
+					tmp = ajaxOb.substr(0,sp);
+					if(reqType.test(tmp)){
+						type = tmp;
+					}else{
+						dataType = tmp;
+					}
+					src = ajaxOb.substr(sp+1)
+				}else{
+					src = ajaxOb;
+				}
+			}
+			typeof attrs == "object" && (!isArray(attrs)) && (attrs =  extend({},attrs))
+			
+			var url = $.String.sub(src, attrs, true)
+			return $.ajax({
 				url : url,
 				data : attrs,
 				success : success,
 				error: error,
 				type : type || "post",
-				dataType : "json",
+				dataType : dataType,
 				fixture: fixture
 			});
 		},
-		fixture = function(){
-			return "//"+$.String.underscore( this.fullName )
+		//guesses at a fixture name
+		fixture = function(extra, or){
+			var u = underscore( this.shortName ),
+				f = "-"+u+(extra||"");
+			return $.fixture && $.fixture[f] ? f : or ||
+				"//"+underscore( this.fullName )
 						.replace(/\.models\..*/,"")
-						.replace(/\./g,"/")+"/fixtures/"+$.String.underscore( this.shortName )
+						.replace(/\./g,"/")+"/fixtures/"+u+
+						(extra || "")+".json";
 		},
 		addId = function(attrs, id){
 			attrs = attrs || {};
-			if(attrs[this.id]){
-				attrs["new"+$.String.capitalize(this.id)] = attrs[this.id];
-				delete attrs[this.id];
+			var identity = this.id;
+			if(attrs[identity] && attrs[identity] !== id){
+				attrs["new"+$.String.capitalize(id)] = attrs[identity];
+				delete attrs[identity];
 			}
-			attrs[this.id] = id;
+			attrs[identity] = id;
 			return attrs;
 		},
+		getList = function(type){
+			var listType = type || $.Model.List || Array;
+			return new listType();
+		},
+		getId = function(inst){
+			return inst[inst.constructor.id]
+		},
+		unique = function(items){
+	        var collect = [];
+	        for(var i=0; i < items.length; i++){
+	            if(!items[i]["__u Nique"]){
+	                collect.push(items[i]);
+	                items[i]["__u Nique"] = true;
+	            }
+	        }
+	        for(i=0; i< collect.length; i++){
+	            delete collect[i]["__u Nique"];
+	        }
+	        return collect;
+	    },
+		// makes a deferred request
+		makeRequest = function(self, type, success, error, method){
+			var deferred = $.Deferred(),
+				resolve = function(data){
+					self[method || type+"d"](data);
+					deferred.resolveWith(self,[self, data, type]);
+				},
+				reject = function(data){
+					deferred.rejectWith(self, [data])
+				},
+				args = [self.serialize(), resolve, reject],
+				constructor = self.constructor;
+				
+			if(type == 'destroy'){
+				args.shift();
+			}	
+				
+			if(type !== 'create' ){
+				args.unshift(getId(self))
+			} 
+			
+			deferred.then(success);
+			deferred.fail(error);
+			
+			constructor[type].apply(constructor, args);
+				
+			return deferred.promise();
+		},
+		// a quick way to tell if it's an object and not some string
+		isObject = function(obj){
+			return typeof obj === 'object' && obj !== null && obj;
+		},
+		$method = function(name){
+			return function( eventType, handler ) {
+				$.fn[name].apply($([this]), arguments);
+				return this;
+			}
+		},
+		bind = $method('bind'),
+		unbind = $method('unbind'),
+		STR_CONSTRUCTOR = 'constructor';
+	/**
+	 * @class jQuery.Model
+	 * @parent jquerymx
+	 * @download  http://jmvcsite.heroku.com/pluginify?plugins[]=jquery/model/model.js
+	 * @test jquery/model/qunit.html
+	 * @plugin jquery/model
+	 * 
+	 * Models super-charge an application's
+	 * data layer, making it easy to:
+	 * 
+	 *  - Get and modify data from the server
+	 *  - Listen to changes in data
+	 *  - Setting and retrieving models on elements
+	 *  - Deal with lists of data
+	 *  - Do other good stuff
+	 * 
+	 * Model inherits from [jQuery.Class $.Class] and make use
+	 * of REST services and [http://api.jquery.com/category/deferred-object/ deferreds]
+	 * so these concepts are worth exploring.  Also, 
+	 * the [mvc.model Get Started with jQueryMX] has a good walkthrough of $.Model.
+	 * 
+	 * 
+	 * ## Get and modify data from the server
+	 * 
+	 * $.Model makes connecting to a JSON REST service 
+	 * really easy.  The following models <code>todos</code> by
+	 * describing the services that can create, retrieve,
+	 * update, and delete todos. 
+	 * 
+	 *     $.Model('Todo',{
+	 *       findAll: 'GET /todos.json',
+	 *       findOne: 'GET /todos/{id}.json',
+	 *       create:  'POST /todos.json',
+	 *       update:  'PUT /todos/{id}.json',
+	 *       destroy: 'DELETE /todos/{id}.json' 
+	 *     },{});
+	 * 
+	 * This lets you create, retrieve, update, and delete
+	 * todos programatically:
+	 * 
+	 * __Create__
+	 * 
+	 * Create a todo instance and 
+	 * call [jQuery.Model.prototype.save save]<code>( success, error )</code>
+	 * to create the todo on the server.
+	 *     
+	 *     // create a todo instance
+	 *     var todo = new Todo({name: "do the dishes"})
+	 *     
+	 *     // save it on the server
+	 *     todo.save();
+	 * 
+	 * __Retrieve__
+	 * 
+	 * Retrieve a list of todos from the server with
+	 * <code>findAll( params, callback( items ) )</code>: 
+	 *     
+	 *     Todo.findAll({}, function( todos ){
+	 *     
+	 *       // print out the todo names
+	 *       $.each(todos, function(i, todo){
+	 *         console.log( todo.name );
+	 *       });
+	 *     });
+	 * 
+	 * Retrieve a single todo from the server with
+	 * <code>findOne( params, callback( item ) )</code>:
+	 * 
+	 *     Todo.findOne({id: 5}, function( todo ){
+	 *     
+	 *       // print out the todo name
+	 *       console.log( todo.name );
+	 *     });
+	 * 
+	 * __Update__
+	 * 
+	 * Once an item has been created on the server,
+	 * you can change its properties and call
+	 * <code>save</code> to update it on the server.
+	 * 
+	 *     // update the todos' name
+	 *     todo.attr('name','Take out the trash')
+	 *       
+	 *     // update it on the server
+	 *     todo.save()
+	 *       
+	 * 
+	 * __Destroy__
+	 * 
+	 * Call [jQuery.Model.prototype.destroy destroy]<code>( success, error )</code>
+	 * to delete an item on the server.
+	 * 
+	 *     todo.destroy()
+	 * 
+	 * ## Listen to changes in data
+	 * 
+	 * Listening to changes in data is a critical part of 
+	 * the [http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller Model-View-Controller]
+	 * architecture.  $.Model lets you listen to when an item is created, updated, destroyed
+	 * and its properties are changed by creating [jquery.model.events events]
+	 * on the Model and on instances of the model.
+	 * 
+	 * __Create__
+	 * 
+	 *     // listen for when any todo is created
+	 *     Todo.bind('created', function( ev, todo ) {...})
+	 *     
+	 *     // listen for when a specific todo is created
+	 *     var todo = new Todo({name: 'do dishes'})
+	 *     todo.bind('created', function( ev ) {...})
+	 *   
+	 * __Update__
+	 * 
+	 *     // listen for when any todo is updated
+	 *     Todo.bind('updated', function( ev, todo ) {...})
+	 *     
+	 *     // listen for when a specific todo is created
+	 *     Todo.findOne({id: 6}, function( todo ) {
+	 *       todo.bind('updated', function( ev ) {...})
+	 *     })
+	 *   
+	 * __Destroy__
+	 * 
+	 *     // listen for when any todo is destroyed
+	 *     Todo.bind('destroyed', function( ev, todo ) {...})
+	 *    
+	 *     // listen for when a specific todo is destroyed
+	 *     todo.bind('destroyed', function( ev ) {...})
+	 * 
+	 * __Property Changes__
+	 * 
+	 *     // listen for when the name property changes
+	 *     todo.bind('name', function(ev){  })
+	 * 
+	 * __Listening with Controller__
+	 * 
+	 * You should be using controller to listen to model changes like:
+	 * 
+	 *     $.Controller('Todos',{
+	 *       "{Todo} updated" : function(Todo, ev, todo) {...}
+	 *     })
+	 * 
+	 * 
+	 * ## Setting and retrieving data on elements
+	 * 
+	 * Almost always, we use HTMLElements to represent
+	 * data to the user.  When that data changes, we update those
+	 * elements to reflect the new data.
+	 * 
+	 * $.Model has helper methods that make this easy.  They
+	 * let you "add" a model to an element and also find
+	 * all elements that have had a model "added" to them.
+	 * 
+	 * Consider a todo list widget
+	 * that lists each todo in the page and when a todo is
+	 * deleted, removes it.  
+	 * 
+	 * [jQuery.fn.model $.fn.model]<code>( item )</code> lets you set or read a model 
+	 * instance from an element:
+	 * 
+	 *     Todo.findAll({}, function( todos ) {
+	 *       
+	 *       $.each(todos, function(todo) {
+	 *         $('<li>').model(todo)
+	 *                  .text(todo.name)
+	 *                  .appendTo('#todos')
+	 *       });
+	 *     });
+	 * 
+	 * When a todo is deleted, get its element with
+	 * <code>item.</code>[jQuery.Model.prototype.elements elements]<code>( context )</code>
+	 * and remove it from the page.
+	 * 
+	 *     Todo.bind('destroyed', function( ev, todo ) { 
+	 *       todo.elements( $('#todos') ).remove()
+	 *     })
+	 * 
+	 * __Using EJS and $.Controller__
+	 * 
+	 * [jQuery.View $.View] and [jQuery.EJS EJS] makes adding model data 
+	 * to elements easy.  We can implement the todos widget like the following:
+	 * 
+	 *     $.Controller('Todos',{
+	 *       init: function(){
+	 *         this.element.html('//todos/views/todos.ejs', Todo.findAll({}) ); 
+	 *       },
+	 *       "{Todo} destroyed": function(Todo, ev, todo) {
+	 *         todo.elements( this.element ).remove()
+	 *       }
+	 *     })
+	 * 
+	 * In todos.ejs
+	 * 
+	 * @codestart html
+	 * &lt;% for(var i =0; i &lt; todos.length; i++){ %>
+	 *   &lt;li &lt;%= todos[i] %>>&lt;%= todos[i].name %>&lt;/li>
+	 * &lt;% } %>
+	 * @codeend
+	 * 
+	 * Notice how you can add a model to an element with <code>&lt;%= model %&gt;</code>
+	 * 
+	 * ## Lists
+	 * 
+	 * [jQuery.Model.List $.Model.List] lets you handle multiple model instances
+	 * with ease.  A List acts just like an <code>Array</code>, but you can add special properties 
+	 * to it and listen to events on it.  
+	 * 
+	 * <code>$.Model.List</code> has become its own plugin, read about it
+	 * [jQuery.Model.List here].
+	 * 
+	 * ## Other Good Stuff
+	 * 
+	 * Model can make a lot of other common tasks much easier.
+	 * 
+	 * ### Type Conversion
+	 * 
+	 * Data from the server often needs massaging to make it more useful 
+	 * for JavaScript.  A typical example is date data which is 
+	 * commonly passed as
+	 * a number representing the Julian date like:
+	 * 
+	 *     { name: 'take out trash', 
+	 *       id: 1,
+	 *       dueDate: 1303173531164 }
+	 * 
+	 * But instead, you want a JavaScript date object:
+	 * 
+	 *     date.attr('dueDate') //-> new Date(1303173531164)
+	 *     
+	 * By defining property-type pairs in [jQuery.Model.static.attributes attributes],
+	 * you can have model auto-convert values from the server into more useful types:
+	 * 
+	 *     $.Model('Todo',{
+	 *       attributes : {
+	 *         dueDate: 'date'
+	 *       }
+	 *     },{})
+	 * 
+	 * ### Associations
+	 * 
+	 * The [jQuery.Model.static.attributes attributes] property also 
+	 * supports associations. For example, todo data might come back with
+	 * User data as an owner property like:
+	 * 
+	 *     { name: 'take out trash', 
+	 *       id: 1, 
+	 *       owner: { name: 'Justin', id: 3} }
+	 * 
+	 * To convert owner into a User model, set the owner type as the User's
+	 * [jQuery.Model.static.model model]<code>( data )</code> method:
+	 * 
+	 *     $.Model('Todo',{
+	 *       attributes : {
+	 *         owner: 'User.model'
+	 *       }
+	 *     },{})
+	 * 
+	 * ### Helper Functions
+	 * 
+	 * Often, you need to perform repeated calculations 
+	 * with a model's data.  You can create methods in the model's 
+	 * prototype and they will be available on 
+	 * all model instances.  
+	 * 
+	 * The following creates a <code>timeRemaining</code> method that
+	 * returns the number of seconds left to complete the todo:
+	 * 
+	 *     $.Model('Todo',{
+	 *     },{
+	 *        timeRemaining : function(){
+	 *          return new Date() - new Date(this.dueDate)
+	 *        }
+	 *     })
+	 *     
+	 *     // create a todo
+	 *     var todo = new Todo({dueDate: new Date()});
+	 *     
+	 *     // show off timeRemaining
+	 *     todo.timeRemaining() //-> Number
+	 * 
+	 * ### Deferreds
+	 * 
+	 * Model methods that make requests to the server such as:
+	 * [jQuery.Model.static.findAll findAll], [jQuery.Model.static.findOne findOne], 
+	 * [jQuery.Model.prototype.save save], and [jQuery.Model.prototype.destroy destroy] return a
+	 * [jquery.model.deferreds deferred] that resolves to the item(s)
+	 * being retrieved or modified.  
+	 * 
+	 * Deferreds can make a lot of asynchronous code much easier.  For example, the following
+	 * waits for all users and tasks before continuing :
+	 * 
+	 *     $.when(Task.findAll(), User.findAll())
+	 *       .then(function( tasksRes, usersRes ){ ... })
+	 * 
+	 * ### Validations
+	 * 
+	 * [jquery.model.validations Validate] your model's attributes.
+	 * 
+	 *     $.Model("Contact",{
+	 *     init : function(){
+	 *         this.validate("birthday",function(){
+	 *             if(this.birthday > new Date){
+	 *                 return "your birthday needs to be in the past"
+	 *             }
+	 *         })
+	 *     }
+	 *     ,{});
+	 * 
+	 *     
+	 */
 		// methods that we'll weave into model if provided
 		ajaxMethods = 
 		/** 
 	     * @Static
 	     */
 		{
-
-		/**
-		 * Create is used to create a model instance on the server.  By implementing 
-		 * create along with the rest of the [jquery.model.services service api], your models provide an abstract
-		 * API for services.  
-		 * 
-		 * Create is called by save to create a new instance.  If you want to be able to call save on an instance
-		 * you have to implement create.
-		 * 
-		 * The easist way to implement create is to just give it the url to post data to:
-		 * 
-		 *     $.Model("Recipe",{
-		 *       create: "/recipes"
-		 *     },{})
-		 *     
-		 * This lets you create a recipe like:
-		 *  
-		 *     new Recipe({name: "hot dog"}).save(function(){
-		 *       this.name //this is the new recipe
-		 *     }).save(callback)
-		 *  
-		 * You can also implement create by yourself.  You just need to call success back with
-		 * an object that contains the id of the new instance and any other properties that should be
-		 * set on the instance.
-		 *  
-		 * For example, the following code makes a request 
-		 * to '/recipes.json?name=hot+dog' and gets back
-		 * something that looks like:
-		 *  
-		 *     { 
-		 *       id: 5,
-		 *       createdAt: 2234234329
-		 *     }
-		 * 
-		 * The code looks like:
-		 * 
-		 *     $.Model("Recipe", {
-		 *       create : function(attrs, success, error){
-		 *         $.post("/recipes.json",attrs, success,"json");
-		 *       }
-		 *     },{})
-		 * 
-		 * ## API
-		 * 
-		 * @param {Object} attrs Attributes on the model instance
-		 * @param {Function} success the callback function, it must be called with an object 
-		 * that has the id of the new instance and any other attributes the service needs to add.
-		 * @param {Function} error a function to callback if something goes wrong.  
-		 */
 		create: function(str  ) {
+			/**
+			 * @function create
+			 * Create is used to create a model instance on the server.  By implementing 
+			 * create along with the rest of the [jquery.model.services service api], your models provide an abstract
+			 * API for services.  
+			 * 
+			 * Create is called by save to create a new instance.  If you want to be able to call save on an instance
+			 * you have to implement create.
+			 * 
+			 * The easiest way to implement create is to just give it the url to post data to:
+			 * 
+			 *     $.Model("Recipe",{
+			 *       create: "/recipes"
+			 *     },{})
+			 *     
+			 * This lets you create a recipe like:
+			 *  
+			 *     new Recipe({name: "hot dog"}).save(function(){
+			 *       this.name //this is the new recipe
+			 *     }).save(callback)
+			 *  
+			 * You can also implement create by yourself.  You just need to call success back with
+			 * an object that contains the id of the new instance and any other properties that should be
+			 * set on the instance.
+			 *  
+			 * For example, the following code makes a request 
+			 * to '/recipes.json?name=hot+dog' and gets back
+			 * something that looks like:
+			 *  
+			 *     { 
+			 *       id: 5,
+			 *       createdAt: 2234234329
+			 *     }
+			 * 
+			 * The code looks like:
+			 * 
+			 *     $.Model("Recipe", {
+			 *       create : function(attrs, success, error){
+			 *         $.post("/recipes.json",attrs, success,"json");
+			 *       }
+			 *     },{})
+			 * 
+			 * 
+			 * @param {Object} attrs Attributes on the model instance
+			 * @param {Function} success(attrs) the callback function, it must be called with an object 
+			 * that has the id of the new instance and any other attributes the service needs to add.
+			 * @param {Function} error a function to callback if something goes wrong.  
+			 */
 			return function(attrs, success, error){
-				ajax(str, attrs, success, error, "-restCreate")
+				return ajax(str, attrs, success, error, fixture.call(this,"Create", "-restCreate"))
 			};
 		},
-		/**
-		 * Implement this function!
-		 * Update is called by save to update an instance.  If you want to be able to call save on an instance
-		 * you have to implement update.
-		 */
 		update: function( str ) {
+			/**
+			 * @function update
+			 * Update is used to update a model instance on the server.  By implementing 
+			 * update along with the rest of the [jquery.model.services service api], your models provide an abstract
+			 * API for services.  
+			 * 
+			 * Update is called by [jQuery.Model.prototype.save] or [jQuery.Model.prototype.update] 
+			 * on an existing model instance.  
+			 * 
+			 * The easist way to implement update is to just give it the url to put data to:
+			 * 
+			 *     $.Model("Recipe",{
+			 *       update: "/recipes/{id}"
+			 *     },{})
+			 *     
+			 * This lets you update a recipe like:
+			 *  
+			 *     // PUT /recipes/5 {name: "Hot Dog"}
+			 *     Recipe.update(5, {name: "Hot Dog"},
+			 *       function(){
+			 *         this.name //this is the updated recipe
+			 *       })
+			 *  
+			 * If your server doesn't use PUT, you can change it to post like:
+			 * 
+			 *     $.Model("Recipe",{
+			 *       update: "POST /recipes/{id}"
+			 *     },{})
+			 * 
+			 * Your server should send back an object with any new attributes the model 
+			 * should have.  For example if your server udpates the "updatedAt" property, it
+			 * should send back something like:
+			 * 
+			 *     // PUT /recipes/4 {name: "Food"} ->
+			 *     {
+			 *       updatedAt : "10-20-2011"
+			 *     }
+			 * 
+			 * You can also implement create by yourself.  You just need to call success back with
+			 * an object that contains any properties that should be
+			 * set on the instance.
+			 *  
+			 * For example, the following code makes a request 
+			 * to '/recipes/5.json?name=hot+dog' and gets back
+			 * something that looks like:
+			 *  
+			 *     { 
+			 *       updatedAt: "10-20-2011"
+			 *     }
+			 * 
+			 * The code looks like:
+			 * 
+			 *     $.Model("Recipe", {
+			 *       update : function(id, attrs, success, error){
+			 *         $.post("/recipes/"+id+".json",attrs, success,"json");
+			 *       }
+			 *     },{})
+			 * 
+			 * 
+			 * @param {String} id the id of the model instance
+			 * @param {Object} attrs Attributes on the model instance
+			 * @param {Function} success(attrs) the callback function.  It optionally accepts 
+			 * an object of attribute / value pairs of property changes the client doesn't already 
+			 * know about. For example, when you update a name property, the server might 
+			 * update other properties as well (such as updatedAt). The server should send 
+			 * these properties as the response to updates.  Passing them to success will 
+			 * update the model instance with these properties.
+			 * 
+			 * @param {Function} error a function to callback if something goes wrong.  
+			 */
 			return function(id, attrs, success, error){
-				ajax(str, addId.call(this,attrs, id), success, error, "-restUpdate")
+				return ajax(str, addId.call(this,attrs, id), success, error, fixture.call(this,"Update", "-restUpdate"),"put")
 			}
 		},
-		/**
-		 * Implement this function!
-		 * Destroy is called by destroy to remove an instance.  If you want to be able to call destroy on an instance
-		 * you have to implement update.
-		 * @param {String|Number} id the id of the instance you want destroyed
-		 */
 		destroy: function( str ) {
+			/**
+			 * @function destroy
+			 * Destroy is used to remove a model instance from the server. By implementing 
+			 * destroy along with the rest of the [jquery.model.services service api], your models provide an abstract
+			 * service API.
+			 * 
+			 * You can implement destroy with a string like:
+			 * 
+			 *     $.Model("Thing",{
+			 *       destroy : "POST /thing/destroy/{id}"
+			 *     })
+			 * 
+			 * Or you can implement destroy manually like:
+			 * 
+			 *     $.Model("Thing",{
+			 *       destroy : function(id, success, error){
+			 *         $.post("/thing/destroy/"+id,{}, success);
+			 *       }
+			 *     })
+			 * 
+			 * You just have to call success if the destroy was successful.
+			 * 
+			 * @param {String|Number} id the id of the instance you want destroyed
+			 * @param {Function} success the callback function, it must be called with an object 
+			 * that has the id of the new instance and any other attributes the service needs to add.
+			 * @param {Function} error a function to callback if something goes wrong.  
+			 */
 			return function( id, success, error ) {
 				var attrs = {};
 				attrs[this.id] = id;
-				ajax(str, attrs, success, error, "-restDestroy")
+				return ajax(str, attrs, success, error, fixture.call(this,"Destroy", "-restDestroy") ,"delete")
 			}
 		},
-		/**
-		 * Implement this function!
-		 * @param {Object} params
-		 * @param {Function} success
-		 * @param {Function} error
-		 */
+		
 		findAll: function( str ) {
+			/**
+			 * @function findAll
+			 * FindAll is used to retrive a model instances from the server. By implementing 
+			 * findAll along with the rest of the [jquery.model.services service api], your models provide an abstract
+			 * service API.
+			 * findAll returns a deferred ($.Deferred)
+			 * 
+			 * You can implement findAll with a string:
+			 * 
+			 *     $.Model("Thing",{
+			 *       findAll : "/things.json"
+			 *     },{})
+			 * 
+			 * Or you can implement it yourself.  The 'dataType' attribute is used to convert a JSON array of attributes
+			 * to an array of instances.  For example:
+			 * 
+			 *     $.Model("Thing",{
+			 *       findAll : function(params, success, error){
+			 *         return $.ajax({
+			 *         	 url: '/things.json',
+			 *           type: 'get',
+			 *           dataType: 'json thing.models',
+			 *           data: params,
+			 *           success: success,
+			 *           error: error})
+			 *       }
+			 *     },{})
+			 * 
+			 * 
+			 * @param {Object} params data to refine the results.  An example might be passing {limit : 20} to
+			 * limit the number of items retrieved.
+			 * @param {Function} success(items) called with an array (or Model.List) of model instances.
+			 * @param {Function} error
+			 */
 			return function(params, success, error){
-				ajax(str, 
+				return ajax(str || this.shortName+"s.json", 
 					params, 
-					this.callback(['wrapMany',success]), 
+					success, 
 					error, 
-					fixture.call(this)+"s.json",
-					"get");
+					fixture.call(this,"s"),
+					"get",
+					"json "+this._shortName+".models");
 			};
 		},
-		/**
-		 * Implement this function!
-		 * @param {Object} params
-		 * @param {Function} success
-		 * @param {Function} error
-		 */
 		findOne: function( str ) {
+			/**
+			 * @function findOne
+			 * FindOne is used to retrive a model instances from the server. By implementing 
+			 * findOne along with the rest of the [jquery.model.services service api], your models provide an abstract
+			 * service API.
+			 * 
+			 * You can implement findOne with a string:
+			 * 
+			 *     $.Model("Thing",{
+			 *       findOne : "/things/{id}.json"
+			 *     },{})
+			 * 
+			 * Or you can implement it yourself. 
+			 * 
+			 *     $.Model("Thing",{
+			 *       findOne : function(params, success, error){
+			 *         var self = this,
+			 *             id = params.id;
+			 *         delete params.id;
+			 *         return $.get("/things/"+id+".json",
+			 *           params,
+			 *           success,
+			 *           "json thing.model")
+			 *       }
+			 *     },{})
+			 * 
+			 * 
+			 * @param {Object} params data to refine the results. This is often something like {id: 5}.
+			 * @param {Function} success(item) called with a model instance
+			 * @param {Function} error
+			 */
 			return function(params, success, error){
-				ajax(str, 
+				return ajax(str,
 					params, 
-					this.callback(['wrap',success]), 
+					success,
 					error, 
-					fixture.call(this)+".json",
-					"get");
+					fixture.call(this),
+					"get",
+					"json "+this._shortName+".model");
 			};
 		}
 	};
@@ -312,34 +694,32 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 
 
 
-	jQuery.Class.extend("jQuery.Model",	{
+	jQuery.Class("jQuery.Model",	{
 		setup: function( superClass , stat, proto) {
 			//we do not inherit attributes (or associations)
-			if (!this.attributes || superClass.attributes === this.attributes ) {
-				this.attributes = {};
-			}
+			var self=this;
+			each(["attributes","associations","validations"],function(i,name){
+				if (!self[name] || superClass[name] === self[name] ) {
+					self[name] = {};
+				}
+			})
 
-			if (!this.associations || superClass.associations === this.associations ) {
-				this.associations = {};
-			}
-			if (!this.validations || superClass.validations === this.validations ) {
-				this.validations = {};
-			}
-
-			//add missing converters
-			if ( superClass.convert != this.convert ) {
-				this.convert = $.extend(superClass.convert, this.convert);
-			}
-
+			//add missing converters and serializes
+			each(["convert","serialize"],function( i, name ) {
+				if ( superClass[name] != self[name] ) {
+					self[name] = extend({}, superClass[name], self[name] );
+				}
+			});
 
 			this._fullName = underscore(this.fullName.replace(/\./g, "_"));
+			this._shortName = underscore(this.shortName);
 
 			if ( this.fullName.substr(0, 7) == "jQuery." ) {
 				return;
 			}
 
 			//add this to the collection of models
-			jQuery.Model.models[this._fullName] = this;
+			//jQuery.Model.models[this._fullName] = this;
 
 			if ( this.listType ) {
 				this.list = new this.listType([]);
@@ -350,156 +730,238 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 			}
 			//@steal-remove-end
 			for(var name in ajaxMethods){
-				if(typeof this[name] === 'string'){
+				if(typeof this[name] !== 'function'){
 					this[name] = ajaxMethods[name](this[name]);
 				}
 			}
+			
+			//add ajax converters
+			var converters = {},
+				convertName = "* "+this._shortName+".model";
+				
+			converters[convertName+"s"] = this.proxy('models');
+			converters[convertName] = this.proxy('model');	
+			
+			$.ajaxSetup({
+				converters : converters
+			});				
 		},
 		/**
 		 * @attribute attributes
-		 * Attributes contains a list of properties and their types
-		 * for this model.  You can use this in conjunction with 
+		 * Attributes contains a map of attribute names/types.  
+		 * You can use this in conjunction with 
 		 * [jQuery.Model.static.convert] to provide automatic 
-		 * [jquery.model.typeconversion type conversion].  
+		 * [jquery.model.typeconversion type conversion] (including
+		 * associations).  
 		 * 
 		 * The following converts dueDates to JavaScript dates:
 		 * 
-		 * @codestart
-		 * $.Model.extend("Contact",{
-		 *   attributes : { 
-		 *     birthday : 'date'
-		 *   },
-		 *   convert : {
-		 *     date : function(raw){
-		 *       if(typeof raw == 'string'){
-		 *         var matches = raw.match(/(\d+)-(\d+)-(\d+)/)
-		 *         return new Date( matches[1], 
-		 *                  (+matches[2])-1, 
-		 *                 matches[3] )
-		 *       }else if(raw instanceof Date){
-		 *           return raw;
+		 * 
+		 *     $.Model("Contact",{
+		 *       attributes : { 
+		 *         birthday : 'date'
+		 *       },
+		 *       convert : {
+		 *         date : function(raw){
+		 *           if(typeof raw == 'string'){
+		 *             var matches = raw.match(/(\d+)-(\d+)-(\d+)/)
+		 *             return new Date( matches[1], 
+		 *                      (+matches[2])-1, 
+		 *                     matches[3] )
+		 *           }else if(raw instanceof Date){
+		 *               return raw;
+		 *           }
+		 *         }
 		 *       }
+		 *     },{})
+		 * 
+		 * ## Associations
+		 * 
+		 * Attribute type values can also represent the name of a 
+		 * function.  The most common case this is used is for
+		 * associated data. 
+		 * 
+		 * For example, a Deliverable might have many tasks and 
+		 * an owner (which is a Person).  The attributes property might
+		 * look like:
+		 * 
+		 *     attributes : {
+		 *       tasks : "App.Models.Task.models"
+		 *       owner: "App.Models.Person.model"
 		 *     }
-		 *   }
-		 * },{})
-		 * @codeend
+		 * 
+		 * This points tasks and owner properties to use 
+		 * <code>Task.models</code> and <code>Person.model</code>
+		 * to convert the raw data into an array of Tasks and a Person.
+		 * 
+		 * @demo jquery/model/pages/associations.html
+		 * 
 		 */
 		attributes: {},
 		/**
-		 * @attribute defaults
-		 * An object of default values to be set on all instances.  This 
-		 * is useful if you want some value to be present when new instances are created.
+		 * $.Model.model is used as a [http://api.jquery.com/extending-ajax/#Converters Ajax converter] 
+		 * to convert the response of a [jQuery.Model.static.findOne] request 
+		 * into a model instance.  
 		 * 
-		 * @codestart
-		 * $.Model.extend("Recipe",{
-		 *   defaults : {
-		 *     createdAt : new Date();
-		 *   }
-		 * },{})
+		 * You will never call this method directly.  Instead, you tell $.ajax about it in findOne:
 		 * 
-		 * var recipe = new Recipe();
+		 *     $.Model('Recipe',{
+		 *       findOne : function(params, success, error ){
+		 *         return $.ajax({
+		 *           url: '/services/recipes/'+params.id+'.json',
+		 *           type: 'get',
+		 *           
+		 *           dataType : 'json recipe.model' //LOOK HERE!
+		 *         });
+		 *       }
+		 *     },{})
 		 * 
-		 * recipe.createdAt //-> date
+		 * This makes the result of findOne a [http://api.jquery.com/category/deferred-object/ $.Deferred]
+		 * that resolves to a model instance:
 		 * 
-		 * @codeend
-		 */
-		defaults: {},
-		/**
-		 * Wrap is used to create a new instance from data returned from the server.
-		 * It is very similar to doing <code> new Model(attributes) </code> 
-		 * except that wrap will check if the data passed has an
+		 *     var deferredRecipe = Recipe.findOne({id: 6});
+		 *     
+		 *     deferredRecipe.then(function(recipe){
+		 *       console.log('I am '+recipes.description+'.');
+		 *     })
 		 * 
-		 * - attributes,
-		 * - data, or
-		 * - <i>singularName</i>
+		 * ## Non-standard Services
 		 * 
-		 * property.  If it does, it will use that objects attributes.
+		 * $.jQuery.model expects data to be name-value pairs like:
 		 * 
-		 * Wrap is really a convience method for servers that don't return just attributes.
+		 *     {id: 1, name : "justin"}
+		 *     
+		 * It can also take an object with attributes in a data, attributes, or
+		 * 'shortName' property.  For a App.Models.Person model the following will  all work:
 		 * 
-		 * @param {Object} attributes
+		 *     { data : {id: 1, name : "justin"} }
+		 *     
+		 *     { attributes : {id: 1, name : "justin"} }
+		 *     
+		 *     { person : {id: 1, name : "justin"} }
+		 * 
+		 * 
+		 * ### Overwriting Model
+		 * 
+		 * If your service returns data like:
+		 * 
+		 *     {id : 1, name: "justin", data: {foo : "bar"} }
+		 *     
+		 * This will confuse $.Model.model.  You will want to overwrite it to create 
+		 * an instance manually:
+		 * 
+		 *     $.Model('Person',{
+		 *       model : function(data){
+		 *         return new this(data);
+		 *       }
+		 *     },{})
+		 *     
+		 * 
+		 * @param {Object} attributes An object of name-value pairs or an object that has a 
+		 *  data, attributes, or 'shortName' property that maps to an object of name-value pairs.
 		 * @return {Model} an instance of the model
 		 */
-		wrap: function( attributes ) {
+		model: function( attributes ) {
 			if (!attributes ) {
 				return null;
 			}
+			if( attributes instanceof this){
+				attributes = attributes.serialize();
+			}
 			return new this(
-			// checks for properties in an object (like rails 2.0 gives);
-			attributes[this.singularName] || attributes.data || attributes.attributes || attributes);
+				// checks for properties in an object (like rails 2.0 gives);
+				isObject(attributes[this._shortName]) ||
+				isObject(attributes.data) || 
+				isObject(attributes.attributes) || 
+				attributes);
 		},
 		/**
-		 * Takes raw data from the server, and returns an array of model instances.
-		 * Each item in the raw array becomes an instance of a model class.
+		 * $.Model.models is used as a [http://api.jquery.com/extending-ajax/#Converters Ajax converter] 
+		 * to convert the response of a [jQuery.Model.static.findAll] request 
+		 * into an array (or [jQuery.Model.List $.Model.List]) of model instances.  
 		 * 
-		 * @codestart
-		 * $.Model.extend("Recipe",{
-		 *   helper : function(){
-		 *     return i*i;
-		 *   }
-		 * })
+		 * You will never call this method directly.  Instead, you tell $.ajax about it in findAll:
 		 * 
-		 * var recipes = Recipe.wrapMany([{id: 1},{id: 2}])
-		 * recipes[0].helper() //-> 1
-		 * @codeend
+		 *     $.Model('Recipe',{
+		 *       findAll : function(params, success, error ){
+		 *         return $.ajax({
+		 *           url: '/services/recipes.json',
+		 *           type: 'get',
+		 *           data: params
+		 *           
+		 *           dataType : 'json recipe.models' //LOOK HERE!
+		 *         });
+		 *       }
+		 *     },{})
 		 * 
-		 * If an array is not passed to wrapMany, it will look in the object's .data
-		 * property.  
+		 * This makes the result of findAll a [http://api.jquery.com/category/deferred-object/ $.Deferred]
+		 * that resolves to a list of model instances:
 		 * 
-		 * For example:
+		 *     var deferredRecipes = Recipe.findAll({});
+		 *     
+		 *     deferredRecipes.then(function(recipes){
+		 *       console.log('I have '+recipes.length+'recipes.');
+		 *     })
 		 * 
-		 * @codestart
-		 * var recipes = Recipe.wrapMany({data: [{id: 1},{id: 2}]})
-		 * recipes[0].helper() //-> 1
-		 * @codeend
+		 * ## Non-standard Services
 		 * 
-		 * Often wrapMany is used with this.callback inside a model's [jQuery.Model.static.findAll findAll]
-		 * method like:
+		 * $.jQuery.models expects data to be an array of name-value pairs like:
 		 * 
-		 *     findAll : function(params, success, error){
-		 *       $.get('/url',
-		 *             params,
-		 *             this.callback(['wrapMany',success]) )
+		 *     [{id: 1, name : "justin"},{id:2, name: "brian"}, ...]
+		 *     
+		 * It can also take an object with additional data about the array like:
+		 * 
+		 *     {
+		 *       count: 15000 //how many total items there might be
+		 *       data: [{id: 1, name : "justin"},{id:2, name: "brian"}, ...]
 		 *     }
 		 * 
-		 * If you are having problems getting your model to callback success correctly,
-		 * make sure a request is being made (with firebug's net tab).  Also, you 
-		 * might not use this.callback and instead do:
+		 * In this case, models will return an array of instances found in 
+		 * data, but with additional properties as expandos on the array:
 		 * 
-		 *     findAll : function(params, success, error){
-		 *       self = this;
-		 *       $.get('/url',
-		 *             params,
-		 *             function(data){
-		 *               var wrapped = self.wrapMany(data);
-		 *               success(data)
-		 *             })
-		 *     }
+		 *     var people = Person.models({
+		 *       count : 1500,
+		 *       data : [{id: 1, name: 'justin'}, ...]
+		 *     })
+		 *     people[0].name // -> justin
+		 *     people.count // -> 1500
 		 * 
-		 * ## API
+		 * ### Overwriting Models
+		 * 
+		 * If your service returns data like:
+		 * 
+		 *     {ballers: [{name: "justin", id: 5}]}
+		 * 
+		 * You will want to overwrite models to pass the base models what it expects like:
+		 * 
+		 *     $.Model('Person',{
+		 *       models : function(data){
+		 *         this._super(data.ballers);
+		 *       }
+		 *     },{})
 		 * 
 		 * @param {Array} instancesRawData an array of raw name - value pairs.
 		 * @return {Array} a JavaScript array of instances or a [jQuery.Model.List list] of instances
 		 *  if the model list plugin has been included.
 		 */
-		wrapMany: function( instancesRawData ) {
+		models: function( instancesRawData ) {
 			if (!instancesRawData ) {
 				return null;
 			}
-			var listType = this.List || $.Model.List || Array,
-				res = new listType(),
-				arr = $.isArray(instancesRawData),
-				raw = arr ? instancesRawData : instancesRawData.data,
+			var res = getList(this.List),
+				arr = isArray(instancesRawData),
+				ml = ($.Model.List && instancesRawData instanceof $.Model.List),
+				raw = arr ? instancesRawData : (ml ? instancesRawData.serialize() : instancesRawData.data),
 				length = raw.length,
 				i = 0;
 			//@steal-remove-start
 			if (! length ) {
-				steal.dev.warn("model.js wrapMany has no data.  If you're trying to wrap 1 item, use wrap. ")
+				steal.dev.warn("model.js models has no data.  If you have one item, use model")
 			}
 			//@steal-remove-end
 			res._use_call = true; //so we don't call next function with all of these
 			for (; i < length; i++ ) {
-				res.push(this.wrap(raw[i]));
+				res.push(this.model(raw[i]));
 			}
 			if (!arr ) { //push other stuff onto array
 				for ( var prop in instancesRawData ) {
@@ -517,7 +979,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * For example, it's common in .NET to use Id.  Your model might look like:
 		 * 
 		 * @codestart
-		 * $.Model.extend("Friends",{
+		 * $.Model("Friends",{
 		 *   id: "Id"
 		 * },{});
 		 * @codeend
@@ -536,11 +998,12 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 			if ( this.associations[property] ) {
 				return;
 			}
+			
 			stub = this.attributes[property] || (this.attributes[property] = type);
 			return type;
 		},
 		// a collection of all models
-		models: {},
+		_models: {},
 		/**
 		 * If OpenAjax is available,
 		 * publishes to OpenAjax.hub.  Always adds the shortName.event.
@@ -555,44 +1018,15 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 */
 		publish: function( event, data ) {
 			//@steal-remove-start
-			steal.dev.log("Model.js - publishing " + underscore(this.shortName) + "." + event);
+			steal.dev.log("Model.js - "+ this.shortName+" "+ event);
 			//@steal-remove-end
 			if ( window.OpenAjax ) {
-				OpenAjax.hub.publish(underscore(this.shortName) + "." + event, data);
+				OpenAjax.hub.publish(this._shortName + "." + event, data);
 			}
 
 		},
-		/**
-		 * @hide
-		 * Guesses the type of an object.  This is what sets the type if not provided in 
-		 * [jQuery.Model.static.attributes].
-		 * @param {Object} object the object you want to test.
-		 * @return {String} one of string, object, date, array, boolean, number, function
-		 */
-		guessType: function( object ) {
-			if ( typeof object != 'string' ) {
-				if ( object === null ) {
-					return typeof object;
-				}
-				if ( object.constructor == Date ) {
-					return 'date';
-				}
-				if ( $.isArray(object) ) {
-					return 'array';
-				}
-				return typeof object;
-			}
-			if ( object === "" ) {
-				return 'string';
-			}
-			//check if true or false
-			if ( object == 'true' || object == 'false' ) {
-				return 'boolean';
-			}
-			if (!isNaN(object) && isFinite(+object) ) {
-				return 'number';
-			}
-			return typeof object;
+		guessType : function(){
+			return "string"
 		},
 		/**
 		 * @attribute convert
@@ -604,15 +1038,40 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 */
 		convert: {
 			"date": function( str ) {
-				return typeof str === "string" ? (isNaN(Date.parse(str)) ? null : Date.parse(str)) : str;
+				var type = typeof str;
+				if( type === "string" ) {
+					return isNaN(Date.parse(str)) ? null : Date.parse(str)
+				} else if ( type === 'number') {
+					return new Date(str)
+				} else {
+					return str
+				}
 			},
 			"number": function( val ) {
 				return parseFloat(val);
 			},
 			"boolean": function( val ) {
 				return Boolean(val);
+			},
+			"default" : function(val, error, type){
+				var construct = $.String.getObject(type), 
+					context = window, realType;
+				if(type.indexOf(".") >= 0){
+					realType = type.substring(0, type.lastIndexOf("."));
+					context = $.String.getObject(realType);
+				}
+				return typeof construct == "function" ? 
+					construct.call(context, val) : val;
 			}
-		}
+		},
+		serialize : {
+			"default" : function( val, type ){
+				return isObject(val) && val.serialize ? val.serialize() : val;
+			}
+		},
+		bind: bind,
+		unbind: unbind,
+		_ajax: ajax
 	},
 	/**
 	 * @Prototype
@@ -625,7 +1084,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * Setup should never be called directly.
 		 * 
 		 * @codestart
-		 * $.Model.extend("Recipe")
+		 * $.Model("Recipe")
 		 * var recipe = new Recipe({foo: "bar"});
 		 * recipe.foo //-> "bar"
 		 * recipe.attr("foo") //-> "bar"
@@ -634,15 +1093,10 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {Object} attributes a hash of attributes
 		 */
 		setup: function( attributes ) {
-			var stub;
-
 			// so we know not to fire events
-			this._initializing = true;
-
-			stub = this.Class.defaults && this.attrs(this.Class.defaults);
-
-			this.attrs(attributes);
-			delete this._initializing;
+			this._init = true;
+			this.attrs(extend({},this.constructor.defaults,attributes));
+			delete this._init;
 		},
 		/**
 		 * Sets the attributes on this instance and calls save.
@@ -654,9 +1108,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * recipe.update({name: "chicken"}, success, error);
 		 * @codeend
 		 * 
-		 * If OpenAjax.hub is available, the model will also
-		 * publish a "<i>modelName</i>.updated" message with
-		 * the updated instance.
+		 * The model will also publish a _updated_ event with [jquery.model.events Model Events].
 		 * 
 		 * @param {Object} attrs the model's attributes
 		 * @param {Function} success called if a successful update
@@ -676,7 +1128,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * model/validations plugin.
 		 * 
 		 * @codestart
-		 * $.Model.extend("Task",{
+		 * $.Model("Task",{
 		 *   init : function(){
 		 *     this.validatePresenceOf("dueDate")
 		 *   }
@@ -690,12 +1142,12 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 */
 		errors: function( attrs ) {
 			if ( attrs ) {
-				attrs = $.isArray(attrs) ? attrs : $.makeArray(arguments);
+				attrs = isArray(attrs) ? attrs : makeArray(arguments);
 			}
 			var errors = {},
 				self = this,
 				addErrors = function( attr, funcs ) {
-					$.each(funcs, function( i, func ) {
+					each(funcs, function( i, func ) {
 						var res = func.call(self);
 						if ( res ) {
 							if (!errors.hasOwnProperty(attr) ) {
@@ -706,12 +1158,13 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 						}
 
 					});
-				};
+				},
+				validations = this.constructor.validations;
 
-			$.each(attrs || this.Class.validations || {}, function( attr, funcs ) {
+			each(attrs || validations || {}, function( attr, funcs ) {
 				if ( typeof attr == 'number' ) {
 					attr = funcs;
-					funcs = self.Class.validations[attr];
+					funcs = validations[attr];
 				}
 				addErrors(attr, funcs || []);
 			});
@@ -728,7 +1181,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * getters if available.
 		 * 
 		 * @codestart
-		 * $.Model.extend("Recipe")
+		 * $.Model("Recipe")
 		 * var recipe = new Recipe();
 		 * recipe.attr("foo","bar")
 		 * recipe.foo //-> "bar"
@@ -742,7 +1195,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * with the value and is expected to return the converted value.
 		 * 
 		 * @codestart
-		 * $.Model.extend("Recipe",{
+		 * $.Model("Recipe",{
 		 *   setCreatedAt : function(raw){
 		 *     return Date.parse(raw)
 		 *   }
@@ -761,7 +1214,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * call success with the converted value.  For example:
 		 * 
 		 * @codestart
-		 * $.Model.extend("Recipe",{
+		 * $.Model("Recipe",{
 		 *   setTitle : function(title, success, error){
 		 *     $.post(
 		 *       "recipe/update/"+this.id+"/title",
@@ -791,19 +1244,21 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		attr: function( attribute, value, success, error ) {
 			var cap = classize(attribute),
 				get = "get" + cap;
+				
 			if ( value !== undefined ) {
 				this._setProperty(attribute, value, success, error, cap);
 				return this;
 			}
 			return this[get] ? this[get]() : this[attribute];
 		},
+		
 		/**
 		 * Binds to events on this model instance.  Typically 
 		 * you'll bind to an attribute name.  Handler will be called
 		 * every time the attribute value changes.  For example:
 		 * 
 		 * @codestart
-		 * $.Model.extend("School")
+		 * $.Model("School")
 		 * var school = new School();
 		 * school.bind("address", function(ev, address){
 		 *   alert('address changed to '+address);
@@ -814,7 +1269,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * You can also bind to attribute errors.
 		 * 
 		 * @codestart
-		 * $.Model.extend("School",{
+		 * $.Model("School",{
 		 *   setName : function(name, success, error){
 		 *     if(!name){
 		 *        error("no name");
@@ -835,11 +1290,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {Function} handler a function to call back when an event happens on this model.
 		 * @return {model} the model instance for chaining
 		 */
-		bind: function( eventType, handler ) {
-			var wrapped = $(this);
-			wrapped.bind.apply(wrapped, arguments);
-			return this;
-		},
+		bind: bind,
 		/**
 		 * Unbinds an event handler from this instance.
 		 * Read [jQuery.Model.prototype.bind] for 
@@ -847,11 +1298,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {String} eventType
 		 * @param {Function} handler
 		 */
-		unbind: function( eventType, handler ) {
-			var wrapped = $(this);
-			wrapped.unbind.apply(wrapped, arguments);
-			return this;
-		},
+		unbind: unbind,
 		/**
 		 * Checks if there is a set_<i>property</i> value.  If it returns true, lets it handle; otherwise
 		 * saves it.
@@ -871,9 +1318,10 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 					$(self).triggerHandler("error." + property, errors);
 				};
 
-			// if the setter returns nothing, do not set
-			// we might want to indicate if this was set ok
-			if ( this[setName] && (value = this[setName](value, this.callback('_updateProperty', property, value, old, success, errorCallback), errorCallback)) === undefined ) {
+			// provides getter / setters
+			// 
+			if ( this[setName] && 
+				(value = this[setName](value, this.proxy('_updateProperty', property, value, old, success, errorCallback), errorCallback)) === undefined ) {
 				return;
 			}
 			this._updateProperty(property, value, old, success, errorCallback);
@@ -887,45 +1335,86 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {Object} success
 		 */
 		_updateProperty: function( property, value, old, success, errorCallback ) {
-			var Class = this.Class,
+			var Class = this.constructor,
 				val, type = Class.attributes[property] || Class.addAttr(property, Class.guessType(value)),
 				//the converter
-				converter = Class.convert[type],
+				converter = Class.convert[type] || Class.convert['default'],
 				errors = null,
-				stub;
+				prefix = "",
+				global = "updated.",
+				args,
+				globalArgs,
+				callback = success,
+				list = Class.list;
 
 			val = this[property] = (value === null ? //if the value is null or undefined
 			null : // it should be null
-			(converter ? converter.call(Class, value) : //convert it to something useful
-			value)); //just return it
+			converter.call(Class, value, function(){}, type)  //convert it to something useful
+			); //just return it
 			//validate (only if not initializing, this is for performance)
-			if (!this._initializing ) {
+			if (!this._init ) {
 				errors = this.errors(property);
 			}
-
-			if ( errors ) {
-				errorCallback(errors);
-			} else {
-				if ( old !== val && !this._initializing ) {
-					$(this).triggerHandler(property, val);
-				}
-				stub = success && success(this);
-
+			args = [val];
+			globalArgs = [property,val, old];
+			if(errors){
+				prefix = global ="error.";
+				callback = errorCallback;
+				globalArgs.splice(1,0, errors);
+				args.unshift(errors)
 			}
+			if (old !== val && !this._init) {
+				!errors && $(this).triggerHandler(prefix + property, args);
+				$(this).triggerHandler(global + "attr", globalArgs);
+			}
+			callback && callback.apply(this, args);
 
 			//if this class has a global list, add / remove from the list.
-			if ( property == Class.id && val !== null && Class.list ) {
+			if ( property === Class.id && val !== null && list ) {
 				// if we didn't have an old id, add ourselves
 				if (!old ) {
-					Class.list.push(this);
+					list.push(this);
 				} else if ( old != val ) {
 					// if our id has changed ... well this should be ok
-					Class.list.remove(old);
-					Class.list.push(this);
+					list.remove(old);
+					list.push(this);
 				}
 			}
 
 		},
+		
+		/**
+		 * Removes an attribute from the list existing of attributes. 
+		 * Each attribute is set with [jQuery.Model.prototype.attr attr].
+		 * 
+		 * @codestart
+		 * recipe.removeAttr('name')
+		 * @codeend
+		 * 
+		 * @param {Object} [attribute]  the attribute to remove
+		 */
+		removeAttr: function(attr){
+			var old = this[attr],
+				deleted = false,
+				attrs = this.constructor.attributes;
+			
+			//- pop it off the object
+			if(this[attr]){
+				delete this[attr];
+			}
+			
+			//- pop it off the Class attributes collection
+			if(attrs[attr]){
+				delete attrs[attr];
+				deleted = true;
+			}
+			
+			//- trigger the update
+			if (!this._init && deleted && old) {
+				$(this).triggerHandler("updated.attr", [attr, null, old]);
+			}
+		},
+		
 		/**
 		 * Gets or sets a list of attributes. 
 		 * Each attribute is set with [jQuery.Model.prototype.attr attr].
@@ -937,20 +1426,24 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * })
 		 * @codeend
 		 * 
+		 * This can be used nicely with [jquery.model.events].
+		 * 
 		 * @param {Object} [attributes]  if present, the list of attributes to send
 		 * @return {Object} the current attributes of the model
 		 */
 		attrs: function( attributes ) {
-			var key;
+			var key,
+				constructor  = this.constructor,
+				attrs = constructor.attributes;
 			if (!attributes ) {
 				attributes = {};
-				for ( key in this.Class.attributes ) {
-					if ( this.Class.attributes.hasOwnProperty(key) ) {
+				for ( key in attrs ) {
+					if ( attrs.hasOwnProperty(key) ) {
 						attributes[key] = this.attr(key);
 					}
 				}
 			} else {
-				var idName = this.Class.id;
+				var idName = constructor.id;
 				//always set the id last
 				for ( key in attributes ) {
 					if ( key != idName ) {
@@ -964,6 +1457,25 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 			}
 			return attributes;
 		},
+		serialize : function(){
+			var Class = this.constructor,
+				attrs = Class.attributes,
+				type,
+				converter,
+				data = {},
+				attr;
+
+				attributes = {};
+				
+			for ( attr in attrs ) {
+				if ( attrs.hasOwnProperty(attr) ) {
+					type = attrs[attr];
+					converter = Class.serialize[type] || Class.serialize['default'];
+					data[attr] = converter( this[attr] , type );
+				}
+			}
+			return data;
+		},
 		/**
 		 * Returns if the instance is a new object.  This is essentially if the
 		 * id is null or undefined.
@@ -972,7 +1484,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @return {Boolean} false if an id is set, true if otherwise.
 		 */
 		isNew: function() {
-			var id = this[this.Class.id];
+			var id = getId(this);
 			return (id === undefined || id === null); //if null or undefined
 		},
 		/**
@@ -992,16 +1504,7 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {Function} [error] called if the save was not successful.
 		 */
 		save: function( success, error ) {
-			var stub;
-
-			if ( this.errors() ) {
-				//needs to send errors
-				return false;
-			}
-			stub = this.isNew() ? this.Class.create(this.attrs(), this.callback(['created', success]), error) : this.Class.update(this[this.Class.id], this.attrs(), this.callback(['updated', success]), error);
-
-			//this.is_new_record = this.Class.new_record_func;
-			return true;
+			return makeRequest(this, this.isNew()  ? 'create' : 'update' , success, error);
 		},
 
 		/**
@@ -1020,9 +1523,9 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @param {Function} [error] called if an unsuccessful destroy
 		 */
 		destroy: function( success, error ) {
-			this.Class.destroy(this[this.Class.id], this.callback(["destroyed", success]), error);
+			return makeRequest(this, 'destroy' , success, error , 'destroyed');
 		},
-
+		
 
 		/**
 		 * Returns a unique identifier for the model instance.  For example:
@@ -1034,8 +1537,9 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * @return {String}
 		 */
 		identity: function() {
-			var id = this[this.Class.id];
-			return this.Class._fullName + '_' + (this.Class.escapeIdentity ? encodeURIComponent(id) : id);
+			var id = getId(this), 
+				constructor = this.constructor;
+			return (constructor._fullName + '_' + (constructor.escapeIdentity ? encodeURIComponent(id) : id)).replace(/ /g, '_');
 		},
 		/**
 		 * Returns elements that represent this model instance.  For this to work, your element's should
@@ -1047,13 +1551,12 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		 * 
 		 *     <div <%= todo %>> ... </div>
 		 *     
-		 * Typically, you'll use this as a response of an OpenAjax message:
+		 * Typically, you'll use this as a response to a Model Event:
 		 * 
-		 *     "todo.destroyed subscribe": function(called, todo){
+		 *     "{Todo} destroyed": function(Todo, event, todo){
 		 *       todo.elements(this.element).remove();
 		 *     }
 		 * 
-		 * ## API
 		 * 
 		 * @param {String|jQuery|element} context If provided, only elements inside this element
 		 * that represent this model will be returned.
@@ -1065,22 +1568,38 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 			return $("." + this.identity(), context);
 		},
 		/**
-		 * Publishes to open ajax hub
-		 * @param {String} event
-		 * @param {Object} [opt6] data if missing, uses the instance in {data: this}
+		 * @hide
+		 * Publishes to OpenAjax.hub
+		 * 
+		 *     $.Model('Task', {
+		 *       complete : function(cb){
+		 *         var self = this;
+		 *         $.post('/task/'+this.id,
+		 *           {complete : true},
+		 *           function(){
+		 *             self.attr('completed', true);
+		 *             self.publish('completed');
+		 *           })
+		 *       }
+		 *     })
+		 *     
+		 *     
+		 * @param {String} event The event type.  The model's short name will be automatically prefixed.
+		 * @param {Object} [data] if missing, uses the instance in {data: this}
 		 */
 		publish: function( event, data ) {
-			this.Class.publish(event, data || this);
+			this.constructor.publish(event, data || this);
 		},
 		hookup: function( el ) {
-			var shortName = underscore(this.Class.shortName),
+			var shortName = this.constructor._shortName,
 				models = $.data(el, "models") || $.data(el, "models", {});
 			$(el).addClass(shortName + " " + this.identity());
 			models[shortName] = this;
 		}
 	});
+	
 
-	$.each([
+	each([
 	/**
 	 * @function created
 	 * @hide
@@ -1098,20 +1617,32 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 	/**
 	 * @function destroyed
 	 * @hide
-	 * Called after an instance is destroyed.  Publishes
-	 * "shortName.destroyed"
+	 * Called after an instance is destroyed.  
+	 *   - Publishes "shortName.destroyed".
+	 *   - Triggers a "destroyed" event on this model.
+	 *   - Removes the model from the global list if its used.
+	 * 
 	 */
 	"destroyed"], function( i, funcName ) {
 		$.Model.prototype[funcName] = function( attrs ) {
-			var stub;
-
-			if ( funcName === 'destroyed' && this.Class.list ) {
-				this.Class.list.remove(this[this.Class.id]);
+			var stub,
+				constructor = this.constructor;
+			
+			// remove from the list if instance is destroyed
+			if ( funcName === 'destroyed' && constructor.list ) {
+				constructor.list.remove(getId(this));
 			}
-			$(this).triggerHandler(funcName);
+			
+			// update attributes if attributes have been passed
 			stub = attrs && typeof attrs == 'object' && this.attrs(attrs.attrs ? attrs.attrs() : attrs);
+			
+			// call event on the instance
+			$(this).triggerHandler(funcName);
 			this.publish(funcName, this);
-			return [this].concat($.makeArray(arguments));
+			
+			// call event on the instance's Class
+			$([constructor]).triggerHandler(funcName, this);
+			return [this].concat(makeArray(arguments)); // return like this for this.proxy chains
 		};
 	});
 
@@ -1137,25 +1668,41 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 		var collection = [],
 			kind, ret, retType;
 		this.each(function() {
-			$.each($.data(this, "models") || {}, function( name, instance ) {
+			each($.data(this, "models") || {}, function( name, instance ) {
 				//either null or the list type shared by all classes
-				kind = kind === undefined ? instance.Class.List || null : (instance.Class.List === kind ? kind : null);
+				kind = kind === undefined ? 
+					instance.constructor.List || null : 
+					(instance.constructor.List === kind ? kind : null);
 				collection.push(instance);
 			});
 		});
 
-		retType = kind || $.Model.List || Array;
-		ret = new retType();
+		ret = getList(kind);
 
-		ret.push.apply(ret, $.unique(collection));
+		ret.push.apply(ret, unique(collection));
 		return ret;
 	};
 	/**
 	 * @function model
 	 * 
-	 * Returns the first model instance found from [jQuery.fn.models].
+	 * Returns the first model instance found from [jQuery.fn.models] or
+	 * sets the model instance on an element.
 	 * 
-	 * @param {Object} type
+	 *     //gets an instance
+	 *     ".edit click" : function(el) {
+	 *       el.closest('.todo').model().destroy()
+	 *     },
+	 *     // sets an instance
+	 *     list : function(items){
+	 *        var el = this.element;
+	 *        $.each(item, function(item){
+	 *          $('<div/>').model(item)
+	 *            .appendTo(el)
+	 *        })
+	 *     }
+	 * 
+	 * @param {Object} [type] The type of model to return.  If a model instance is provided
+	 * it will add the model to the element.
 	 */
 	$.fn.model = function( type ) {
 		if ( type && type instanceof $.Model ) {
@@ -1170,7 +1717,8 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 	 * @page jquery.model.services Service APIs
 	 * @parent jQuery.Model
 	 * 
-	 * Models provide an abstract API for connecting to your Services.  By implementing static:
+	 * Models provide an abstract API for connecting to your Services.  
+	 * By implementing static:
 	 * 
 	 *  - [jQuery.Model.static.findAll] 
 	 *  - [jQuery.Model.static.findOne] 
@@ -1178,8 +1726,58 @@ steal.plugins('jquery/class', 'jquery/lang').then(function() {
 	 *  - [jQuery.Model.static.update] 
 	 *  - [jQuery.Model.static.destroy]
 	 *  
-	 * You can pass a model class to widgets and the widgets can interface with the
-	 * model.  This prevents the need for every widget to be configured with the ajax functionality
-	 * necessary to make a request to your services.
+	 * You can find more details on how to implement each method.
+	 * Typically, you can just use templated service urls. But if you need to
+	 * implement these methods yourself, the following
+	 * is a useful quick reference:
+	 * 
+	 * ### create(attrs, success([attrs]), error()) -> deferred
+	 *  
+	 *  - <code>attrs</code> - an Object of attribute / value pairs
+	 *  - <code>success([attrs])</code> - Create calls success when the request has completed 
+	 *    successfully.  Success can be called back with an object that represents
+	 *    additional properties that will be set on the instance. For example, the server might 
+	 *    send back an updatedAt date.
+	 *  - <code>error</code> - Create should callback error if an error happens during the request
+	 *  - <code>deferred</code> - A deferred that gets resolved to any additional attrs
+	 *    that might need to be set on the model instance.
+	 * 
+	 * 
+	 * ### findAll( params, success(items), error) -> deferred
+	 * 
+	 * 
+	 *  - <code>params</code> - an Object that filters the items returned
+	 *  - <code>success(items)</code> - success should be called with an Array of Model instances.
+	 *  - <code>error</code> - called if an error happens during the request
+	 *  - <code>deferred</code> - A deferred that gets resolved to the list of items
+	 *          
+	 * ### findOne(params, success(items), error) -> deferred
+	 *          
+	 *  - <code>params</code> - an Object that filters the item returned
+	 *  - <code>success(item)</code> - success should be called with a model instance.
+	 *  - <code>error</code> - called if an error happens during the request
+	 *  - <code>deferred</code> - A deferred that gets resolved to a model instance
+	 *        
+	 * ### update(id, attrs, success([attrs]), error()) -> deferred
+	 *  
+	 *  - <code>id</code> - the id of the instance you are updating
+	 *  - <code>attrs</code> - an Object of attribute / value pairs
+	 *  - <code>success([attrs])</code> - Call success when the request has completed 
+	 *    successfully.  Success can be called back with an object that represents
+	 *    additional properties that will be set on the instance. For example, the server might 
+	 *    send back an updatedAt date.
+	 *  - <code>error</code> - Callback error if an error happens during the request
+	 *  - <code>deferred</code> - A deferred that gets resolved to any additional attrs
+	 *      that might need to be set on the model instance.
+	 *     
+	 * ### destroy(id, success([attrs]), error()) -> deferred
+	 *  
+	 *  - <code>id</code> - the id of the instance you are destroying
+	 *  - <code>success([attrs])</code> - Calls success when the request has completed 
+	 *      successfully.  Success can be called back with an object that represents
+	 *      additional properties that will be set on the instance. 
+	 *  - <code>error</code> - Create should callback error if an error happens during the request
+	 *  - <code>deferred</code> - A deferred that gets resolved to any additional attrs
+	 *      that might need to be set on the model instance.
 	 */
 });

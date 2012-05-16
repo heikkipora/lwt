@@ -41,13 +41,17 @@
 			}
 		 	this.dependencies = [];
 		 	var $form = $target.closest('form'),
-				params = $form.formParams(), i;
+				params = $form.formParams(), i, queryVal;
 			for(i=0; i<params.plugins.length; i++){
 				this._pushPlugins(this._getDependencies(params.plugins[i]));
 			}
 			$('#pluginForm input[type=checkbox]').attr('checked', false);
 			for(i=0; i<this.dependencies.length; i++){
-				$('input[value='+this.dependencies[i]+']').attr('checked', true);
+				queryVal = this.dependencies[i]
+					.replace(new RegExp("/", "g"), "\\/")
+					.replace(new RegExp("\\.", "g"), "\\.");
+				$('input[value='+queryVal+']')
+					.attr('checked', true);
 			}
 		 },
 		 /**
@@ -80,10 +84,12 @@
 				return [name];
 			}
 		 	for(i=0; i<dependencies.length; i++){
-				lowerDependencies = this._getDependencies(dependencies[i]);
-				for (j = 0; j < lowerDependencies.length; j++) {
-					// TODO if you find a duplicate, remove the other one first
-					totalDependencies.push(lowerDependencies[j])
+		 		if(dependencies[i] !== name) {
+					lowerDependencies = this._getDependencies(dependencies[i]);
+					for (j = 0; j < lowerDependencies.length; j++) {
+						// TODO if you find a duplicate, remove the other one first
+						totalDependencies.push(lowerDependencies[j])
+					}
 				}
 			}
 			totalDependencies.push(name)

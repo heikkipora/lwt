@@ -1,0 +1,1 @@
+// Just a placeholder - jmvc insists to load this file for templates with .html suffix. The actual plugin is at ../transparency
