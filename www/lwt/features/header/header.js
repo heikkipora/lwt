@@ -6,7 +6,7 @@ steal('jquery/controller',
     .then('//lwt/features/header/date_se.tmpl')
     .then(function ($) {
         Lwt.Controller('Lwt.Header', {
-            load:function () {
+            init:function () {
                 $('#date').html(this.lang('//lwt/features/header/date'), {});
             },
             '#language span click':function (element) {

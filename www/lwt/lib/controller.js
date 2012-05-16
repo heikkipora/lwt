@@ -1,4 +1,5 @@
-steal('jquery/controller')
+steal('jquery/controller',
+    'jquery/dom/cookie')
     .then(function ($) {
         $.Controller('Lwt.Controller', {
             lang:function (fileName) {

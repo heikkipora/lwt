@@ -2,6 +2,9 @@ steal('jquery/controller',
     'jquery/controller/view',
     'jquery/view/tmpl',
     'lwt/lib/controller.js')
+    .then('lwt/lib/jquery.ba-hashchange.js')
+    .then('lwt/lib/jquery.scrollTo.js')
+    .then('lwt/lib/jquery.nivo.slider.js')
     .then('//lwt/features/navigation/ajankohtaista_fi.tmpl')
     .then('//lwt/features/navigation/ajankohtaista_se.tmpl')
     .then('//lwt/features/navigation/info_fi.tmpl')
@@ -18,10 +21,10 @@ steal('jquery/controller',
     .then('//lwt/features/navigation/slider_se.tmpl')
     .then('//lwt/features/navigation/yhteystiedot_fi.tmpl')
     .then('//lwt/features/navigation/yhteystiedot_se.tmpl')
+    .then('lwt/features/gallery')
     .then(function ($) {
         Lwt.Controller('Lwt.Navigation', {
-            pageIdToSpritePos:{ "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" },
-            load:function () {
+            init:function () {
                 $('#slider').html(this.lang('//lwt/features/navigation/slider'), {});
                 $('#slider').nivoSlider({directionNav:false, controlNav:false, pauseOnHover:false});
                 $(window).hashchange(this.callback('hashChangeEvent'));
@@ -31,15 +34,16 @@ steal('jquery/controller',
                 $('#footer').html(this.lang('//lwt/features/navigation/yhteystiedot'), {});
                 $('#ext-links').html(this.lang('//lwt/features/navigation/ext-links'), {});
             },
+            pageIdToSpritePos:{ "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" },
             hashChangeEvent:function () {
                 this.showPage(this.getPageIdFromHash());
                 this.scrollToTabs();
             },
             showPage:function (pageName) {
-                $('#content').html(this.view(this.lang(pageName), {}));
+                $('#content').html(this.lang("//lwt/features/navigation/" + pageName), {});
                 this.updateIndicator(pageName);
                 if (pageName == 'wanhattalot') {
-                    new Lwt.Controllers.Gallery($('#gallery'));
+                   $('#gallery').lwt_gallery();
                 }
                 this.track('Sivut', this.lang(pageName));
             },
@@ -54,7 +58,7 @@ steal('jquery/controller',
                 }
             },
             updateIndicator:function (pageId) {
-                var cssYPosition = Lwt.Controllers.Navigation.pageIdToSpritePos[pageId];
+                var cssYPosition = this.pageIdToSpritePos[pageId];
                 $('#navigation-indicator').css("background-position", cssYPosition);
             }
         });

@@ -3,7 +3,7 @@ steal('jquery/controller',
     'lwt/lib/controller.js')
     .then(function ($) {
         Lwt.Controller('Lwt.Logo', {
-            load:function () {
+            init:function () {
                 $('#logo').removeClass('fi se').addClass(this.getLang());
             }
         });
