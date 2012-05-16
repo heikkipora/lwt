@@ -11,11 +11,38 @@ a { color: white; }
 .phone-inverse { padding-left: 18px; background: transparent url('images/symbols.png') 0 -47px no-repeat; }
 .mail-inverse { padding-left: 18px; background: transparent url('images/symbols.png') 0 -64px no-repeat; }
 
-#header { padding-top: 8px; background-color: #2d3f49; height: 37px; filter:alpha(opacity=85); -moz-opacity:0.85; -khtml-opacity: 0.85; opacity: 0.85; margin-bottom: 1px; width: 100%; }
-#header #date { font-size: 28px; color: white; text-align: center; width: 20em; margin: 0px auto;}
-#header #language { float: right; margin: 10px 10px 0 0; font-size: 14px; color: white; }
-#header #language span { text-decoration: none; }
-#header #language span:hover { text-decoration: underline; cursor: pointer; }
+#header {
+  padding-top: 8px;
+  background-color: #2d3f49;
+  height: 37px;
+  filter:alpha(opacity=85);
+  -moz-opacity:0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+  margin-bottom: 1px;
+  width: 100%;
+  #date {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    width: 20em;
+    margin: 0px auto;
+  }
+  #language {
+    float: right;
+    margin: 10px 10px 0 0;
+    font-size: 14px;
+    color: white;
+    span {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 hr {height: 1px; border: none; background-color: #2d3f49; }
 
 #logo {
