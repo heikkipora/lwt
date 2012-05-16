@@ -1,8 +1,8 @@
 steal('jquery/controller',
     'jquery/controller/view',
     'jquery/view/tmpl',
+    'jquery/event/hashchange',
     'lwt/lib/controller.js')
-    .then('lwt/lib/jquery.ba-hashchange.js')
     .then('lwt/lib/jquery.scrollTo.js')
     .then('lwt/lib/jquery.nivo.slider.js')
     .then('//lwt/features/navigation/ajankohtaista_fi.tmpl')
@@ -28,7 +28,6 @@ steal('jquery/controller',
             init:function () {
                 $('#slider').html(this.lang('//lwt/features/navigation/slider'), {});
                 $('#slider').nivoSlider({directionNav:false, controlNav:false, pauseOnHover:false});
-                $(window).hashchange(this.callback('hashChangeEvent'));
                 $('#tabs').removeClass('fi se').addClass(this.getLang());
                 $('#navigation-indicator').removeClass('fi se').addClass(this.getLang());
                 this.showPage(this.getPageIdFromHash());
@@ -37,7 +36,7 @@ steal('jquery/controller',
                 $('#content').lwt_content();
             },
             pageIdToSpritePos:{ "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" },
-            hashChangeEvent:function () {
+            '{window} hashchange':function () {
                 this.showPage(this.getPageIdFromHash());
                 this.scrollToTabs();
             },
