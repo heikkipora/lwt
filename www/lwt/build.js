@@ -15,7 +15,7 @@ steal('steal/build').then('steal/build/scripts', 'steal/build/styles', 'steal/bu
                 {regexp: /url\([^\)]*\/images\//g, replaceWith: 'url(images/'},
             ]},
             {file: 'steal/steal.production.js', to: '../steal/steal.production.js'},
-            {file: 'lwt/images', to: 'resources/'}
+            {file: 'lwt/images', to: 'images/'}
         ]
     });
 });
