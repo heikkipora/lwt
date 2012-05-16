@@ -22,6 +22,7 @@ steal('jquery/controller',
     .then('//lwt/features/navigation/yhteystiedot_fi.tmpl')
     .then('//lwt/features/navigation/yhteystiedot_se.tmpl')
     .then('lwt/features/gallery')
+    .then('lwt/features/content')
     .then(function ($) {
         Lwt.Controller('Lwt.Navigation', {
             init:function () {
@@ -33,6 +34,7 @@ steal('jquery/controller',
                 this.showPage(this.getPageIdFromHash());
                 $('#footer').html(this.lang('//lwt/features/navigation/yhteystiedot'), {});
                 $('#ext-links').html(this.lang('//lwt/features/navigation/ext-links'), {});
+                $('#content').lwt_content();
             },
             pageIdToSpritePos:{ "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" },
             hashChangeEvent:function () {
