@@ -20,6 +20,7 @@ steal('jquery/controller',
                 $('#footer').lwt_yhteystiedot();
                 $('#ext-links').lwt_social();
                 this.showPage(this.getPageIdFromHash());
+                $('body').removeClass('building');
             },
             '{window} hashchange':function () {
                 this.showPage(this.getPageIdFromHash());
