@@ -16,3 +16,7 @@ RewriteRule ^2009.messuliite\.html$  /  [R]
     Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform"
     Header set Pragma "no-cache"
 </FilesMatch>
+
+<FilesMatch "\.(js|css|png|jpg|gif)$">
+    Header set Cache-Control "max-age=2592000"
+</FilesMatch>
