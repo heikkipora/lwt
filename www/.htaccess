@@ -11,7 +11,7 @@ RewriteRule ^kartta\.html$  /  [R]
 RewriteRule ^Wanhat.Talot\.html$  /  [R]
 RewriteRule ^2009.messuliite\.html$  /  [R]
 
-<FilesMatch "\.html$">
+<FilesMatch "\.(html|pdf)$">
     ExpiresDefault A0
     Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform"
     Header set Pragma "no-cache"
