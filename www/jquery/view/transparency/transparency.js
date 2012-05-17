@@ -7,7 +7,7 @@ steal('jquery/view')
     $.View.Transparency = {
         createTemplate : function(templateText) {
             var tmpl = $(templateText)
-            localizeTemplate(tmpl)
+            // localizeTemplate(tmpl)
             return tmpl
         }
     }

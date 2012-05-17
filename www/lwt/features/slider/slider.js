@@ -3,8 +3,8 @@ steal('jquery/controller',
     'lwt/lib/controller.js')
     .then('lwt/lib/jquery.nivo.slider.js')
     .then('lwt/lib/nivo-slider.css')
-    .then('//lwt/features/slider/slider_fi.tmpl')
-    .then('//lwt/features/slider/slider_se.tmpl')
+    .then('//lwt/features/slider/slider_fi.html')
+    .then('//lwt/features/slider/slider_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Slider', {
             init: function() {

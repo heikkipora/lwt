@@ -4,8 +4,8 @@ steal('jquery/controller',
     'lwt/lib/jquery.lightbox-0.5.js',
     'lwt/lib/controller.js')
     .then('lwt/lib/jquery.lightbox-0.5.css')
-    .then('//lwt/features/wanhattalot/wanhattalot_fi.tmpl')
-    .then('//lwt/features/wanhattalot/wanhattalot_se.tmpl')
+    .then('//lwt/features/wanhattalot/wanhattalot_fi.html')
+    .then('//lwt/features/wanhattalot/wanhattalot_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Wanhattalot', {
             init:function () {

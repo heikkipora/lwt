@@ -1,6 +1,5 @@
 steal('jquery/controller',
     'jquery/controller/view',
-    'jquery/view/tmpl',
     'jquery/event/hashchange',
     'lwt/lib/controller.js')
     .then('lwt/lib/jquery.scrollTo.js')

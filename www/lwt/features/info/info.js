@@ -1,8 +1,8 @@
 steal('jquery/controller',
     'jquery/controller/view',
     'lwt/lib/controller.js')
-    .then('//lwt/features/info/info_fi.tmpl')
-    .then('//lwt/features/info/info_se.tmpl')
+    .then('//lwt/features/info/info_fi.html')
+    .then('//lwt/features/info/info_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Info', {
             init: function() {

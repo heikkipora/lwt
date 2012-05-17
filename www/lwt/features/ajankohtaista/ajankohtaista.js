@@ -1,8 +1,8 @@
 steal('jquery/controller',
     'jquery/controller/view',
     'lwt/lib/controller.js')
-    .then('//lwt/features/ajankohtaista/ajankohtaista_fi.tmpl')
-    .then('//lwt/features/ajankohtaista/ajankohtaista_se.tmpl')
+    .then('//lwt/features/ajankohtaista/ajankohtaista_fi.html')
+    .then('//lwt/features/ajankohtaista/ajankohtaista_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Ajankohtaista', {
             init: function() {

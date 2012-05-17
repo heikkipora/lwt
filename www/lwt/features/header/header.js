@@ -1,9 +1,8 @@
 steal('jquery/controller',
     'jquery/controller/view',
-    'jquery/view/tmpl',
     'lwt/lib/controller.js')
-    .then('//lwt/features/header/date_fi.tmpl')
-    .then('//lwt/features/header/date_se.tmpl')
+    .then('//lwt/features/header/date_fi.html')
+    .then('//lwt/features/header/date_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Header', {
             init:function () {

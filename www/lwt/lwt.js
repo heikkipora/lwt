@@ -1,5 +1,5 @@
 steal('steal/less',
-    'jquery/view/tmpl',
+    'jquery/view/transparency',
     'lwt/features/header',
     'lwt/features/logo',
     'lwt/features/navigation')
