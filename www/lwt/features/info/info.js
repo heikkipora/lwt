@@ -1,16 +1,12 @@
 steal('jquery/controller',
     'jquery/controller/view',
     'lwt/lib/controller.js')
+    .then('//lwt/features/info/info_fi.tmpl')
+    .then('//lwt/features/info/info_se.tmpl')
     .then(function ($) {
-        Lwt.Controller('Lwt.Content', {
-            '.item .readmore click':function (element) {
-                element.hide();
-                var item = element.closest('.item');
-                item.find('.more').slideDown('fast');
-                item.find('img.thumb').hide();
-                item.find('img.full').show();
-                var itemTitle = item.find('h2').text();
-                this.track('Ajankohtaista', itemTitle);
+        Lwt.Controller('Lwt.Info', {
+            init: function() {
+                $('#content').html(this.lang("//lwt/features/info/info"), {});
             },
             '.info-links span click':function (element) {
                 var h1num = element.attr("id");

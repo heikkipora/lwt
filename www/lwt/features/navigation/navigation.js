@@ -4,48 +4,41 @@ steal('jquery/controller',
     'jquery/event/hashchange',
     'lwt/lib/controller.js')
     .then('lwt/lib/jquery.scrollTo.js')
-    .then('lwt/lib/jquery.nivo.slider.js')
-    .then('//lwt/features/navigation/ajankohtaista_fi.tmpl')
-    .then('//lwt/features/navigation/ajankohtaista_se.tmpl')
-    .then('//lwt/features/navigation/info_fi.tmpl')
-    .then('//lwt/features/navigation/info_se.tmpl')
-    .then('//lwt/features/navigation/kartta_fi.tmpl')
-    .then('//lwt/features/navigation/kartta_se.tmpl')
-    .then('//lwt/features/navigation/messulehti_fi.tmpl')
-    .then('//lwt/features/navigation/messulehti_se.tmpl')
-    .then('//lwt/features/navigation/wanhattalot_fi.tmpl')
-    .then('//lwt/features/navigation/wanhattalot_se.tmpl')
-    .then('//lwt/features/navigation/ext-links_fi.tmpl')
-    .then('//lwt/features/navigation/ext-links_se.tmpl')
-    .then('//lwt/features/navigation/slider_fi.tmpl')
-    .then('//lwt/features/navigation/slider_se.tmpl')
-    .then('//lwt/features/navigation/yhteystiedot_fi.tmpl')
-    .then('//lwt/features/navigation/yhteystiedot_se.tmpl')
-    .then('lwt/features/gallery')
-    .then('lwt/features/content')
+    .then('lwt/features/ajankohtaista')
+    .then('lwt/features/info')
+    .then('lwt/features/kartta')
+    .then('lwt/features/messulehti')
+    .then('lwt/features/slider')
+    .then('lwt/features/social')
+    .then('lwt/features/wanhattalot')
+    .then('lwt/features/yhteystiedot')
     .then(function ($) {
         Lwt.Controller('Lwt.Navigation', {
             init:function () {
-                $('#slider').html(this.lang('//lwt/features/navigation/slider'), {});
-                $('#slider').nivoSlider({directionNav:false, controlNav:false, pauseOnHover:false});
                 $('#tabs').removeClass('fi se').addClass(this.getLang());
                 $('#navigation-indicator').removeClass('fi se').addClass(this.getLang());
+                $('#slider').lwt_slider();
+                $('#footer').lwt_yhteystiedot();
+                $('#ext-links').lwt_social();
                 this.showPage(this.getPageIdFromHash());
-                $('#footer').html(this.lang('//lwt/features/navigation/yhteystiedot'), {});
-                $('#ext-links').html(this.lang('//lwt/features/navigation/ext-links'), {});
-                $('#content').lwt_content();
             },
-            pageIdToSpritePos:{ "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" },
             '{window} hashchange':function () {
                 this.showPage(this.getPageIdFromHash());
                 this.scrollToTabs();
             },
             showPage:function (pageName) {
-                $('#content').html(this.lang("//lwt/features/navigation/" + pageName), {});
-                this.updateIndicator(pageName);
-                if (pageName == 'wanhattalot') {
-                   $('#gallery').lwt_gallery();
+                if (pageName == 'ajankohtaista') {
+                    $('#content').lwt_ajankohtaista();
+                } else if (pageName == 'info') {
+                    $('#content').lwt_info();
+                } else if (pageName == 'kartta') {
+                    $('#content').lwt_kartta();
+                } else if (pageName == 'messulehti') {
+                    $('#content').lwt_messulehti();
+                } else if (pageName == 'wanhattalot') {
+                    $('#content').lwt_wanhattalot();
                 }
+                this.updateIndicator(pageName);
                 this.track('Sivut', this.lang(pageName));
             },
             scrollToTabs:function () {
@@ -59,8 +52,8 @@ steal('jquery/controller',
                 }
             },
             updateIndicator:function (pageId) {
-                var cssYPosition = this.pageIdToSpritePos[pageId];
-                $('#navigation-indicator').css("background-position", cssYPosition);
+                var pageIdToSpritePos = { "ajankohtaista":"0 0px", "wanhattalot":"0 -25px", "kartta":"0 -50px", "info":"0 -75px", "messulehti":"0 -100px" }
+                $('#navigation-indicator').css("background-position", pageIdToSpritePos[pageId]);
             }
         });
     });

@@ -1,0 +1,21 @@
+steal('jquery/controller',
+    'jquery/controller/view',
+    'lwt/lib/controller.js')
+    .then('//lwt/features/ajankohtaista/ajankohtaista_fi.tmpl')
+    .then('//lwt/features/ajankohtaista/ajankohtaista_se.tmpl')
+    .then(function ($) {
+        Lwt.Controller('Lwt.Ajankohtaista', {
+            init: function() {
+                $('#content').html(this.lang("//lwt/features/ajankohtaista/ajankohtaista"), {});
+            },
+            '.item .readmore click':function (element) {
+                element.hide();
+                var item = element.closest('.item');
+                item.find('.more').slideDown('fast');
+                item.find('img.thumb').hide();
+                item.find('img.full').show();
+                var itemTitle = item.find('h2').text();
+                this.track('Ajankohtaista', itemTitle);
+            }
+        });
+    });
