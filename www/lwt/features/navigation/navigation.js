@@ -27,6 +27,9 @@ steal('jquery/controller',
                 this.scrollToTabs();
             },
             showPage:function (pageName) {
+                if ($('#content').controller()) {
+                    $('#content').controller().destroy();
+                }
                 if (pageName == 'ajankohtaista') {
                     $('#content').lwt_ajankohtaista();
                 } else if (pageName == 'info') {
