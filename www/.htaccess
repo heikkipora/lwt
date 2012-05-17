@@ -11,6 +11,9 @@ RewriteRule ^kartta\.html$  /  [R]
 RewriteRule ^Wanhat.Talot\.html$  /  [R]
 RewriteRule ^2009.messuliite\.html$  /  [R]
 
+RewriteRule ^steal-([0-9]+)/steal.production.js$ steal/steal.production.js [L]
+RewriteRule ^([0-9]+)/lwt/production.js$ lwt/production.js [L]
+
 <FilesMatch "\.(html|pdf)$">
     ExpiresDefault A0
     Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0, proxy-revalidate, no-transform"

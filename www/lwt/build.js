@@ -2,7 +2,7 @@ load("steal/rhino/rhino.js");
 var cachebuster = Date.now()
 steal('steal/build').then('steal/build/scripts', 'steal/build/styles', 'steal/build/resources', function () {
     commonSubstitutions = [
-        {regexp: /steal\.js\?lwt/mgi, replaceWith: 'steal.production.js?lwt&' + cachebuster},
+        {regexp: /\.\.\/steal\/steal\.js\?lwt/mgi, replaceWith: 'steal-' + cachebuster + '/steal.production.js?' + cachebuster + '/lwt'},
         {regexp: /<!--placeholder_for_production\.css-->/mgi, replaceWith: '<link rel="stylesheet" href="lwt/production.css?' + cachebuster + '">'}
     ]
     steal.build('lwt/build.html', {
