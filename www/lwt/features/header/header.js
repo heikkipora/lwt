@@ -1,12 +1,12 @@
 steal('jquery/controller',
     'jquery/controller/view',
     'lwt/lib/controller.js')
-    .then('//lwt/features/header/date_fi.html')
-    .then('//lwt/features/header/date_se.html')
+    .then('//lwt/features/header/header_fi.html')
+    .then('//lwt/features/header/header_se.html')
     .then(function ($) {
         Lwt.Controller('Lwt.Header', {
             init:function () {
-                $('#date').html(this.lang('//lwt/features/header/date'), {});
+                this.element.html(this.lang('//lwt/features/header/header'), {});
             },
             '#language span click':function (element) {
                 this.setLang(element.attr("id"));

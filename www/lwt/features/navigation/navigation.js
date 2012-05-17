@@ -16,6 +16,7 @@ steal('jquery/controller',
             init:function () {
                 $('#tabs').removeClass('fi se').addClass(this.getLang());
                 $('#navigation-indicator').removeClass('fi se').addClass(this.getLang());
+                $('#header').lwt_header();
                 $('#slider').lwt_slider();
                 $('#footer').lwt_yhteystiedot();
                 $('#ext-links').lwt_social();
