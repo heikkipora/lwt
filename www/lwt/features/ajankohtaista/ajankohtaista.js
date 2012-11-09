@@ -7,6 +7,9 @@ steal('jquery/controller',
         Lwt.Controller('Lwt.Ajankohtaista', {
             init: function() {
                 $('#content').html(this.lang("//lwt/features/ajankohtaista/ajankohtaista"), {});
+                if ($('#content .item').length == 1) {
+                    $('#content .item:first-child .readmore').click();
+                }
             },
             '.item .readmore click':function (element) {
                 element.hide();
