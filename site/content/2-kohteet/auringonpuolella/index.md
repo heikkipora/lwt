@@ -1,0 +1,7 @@
+---
+name: Auringon puolella
+address: Mariankatu 2 B, Loviisa
+---
+Jo 1800-luvun alkupuolella rakennettu talo oli vuonna 2005 niin karseassa kunnossa, että kävijät ihmettelivät ääneen, miten tästä voi tulla mitään.
+Perusteellisessa remontissa rotisko muuttui viehättäväksi kodiksi ja pikkuiselle pihalle on rakentunut sekä silmiä että makuhermoja hivelevä "herkkupuutarha".
+Edelleen jatkuvan remontin alkuvaiheet on ikuistettu kirjaan nimeltä Auringon puolella - jaettujen ajatusten talo (Topos 2006) ja talon "keskeneräisyyden sietämisen filosofiasta" on tehty useita tv- ja radio-ohjelmia.

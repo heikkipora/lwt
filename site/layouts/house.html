@@ -8,12 +8,9 @@
             <a class="current" href="#"><%= @item[:name] %></a>
         </nav>
         <h2><%= @item[:name] %></h2>
-        <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>, Loviisa">kartalla</a>)</em>
+        <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
         <%= yield %>
-        <ul class="inline-list">
-            <% if @item[:year] %><li>Rakennusvuosi: <%= @item[:year] %></li><% end %>
-            <% if @item[:link] %><li><a href="http://<%= @item[:link] %>"><%= @item[:link] %></a></li><% end %>
-        </ul>
+        <% if @item[:link] %>Kotisivu: <a href="http://<%= @item[:link] %>"><%= @item[:link] %></a><% end %>
     </div>
 </div>
 
