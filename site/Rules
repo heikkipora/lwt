@@ -24,6 +24,11 @@ compile '/stylesheet/' do
   filter :sass, syntax: :scss
 end
 
+compile '/2-kohteet/' do
+  filter :kramdown
+  layout 'houses'
+end
+
 compile '/2-kohteet/*', :rep => :thumbnail do
   if item.binary?
     filter :thumbnailize, :size => '220x220'

@@ -1,7 +1,8 @@
 ---
 name: Liisantalo
 address: Mariankatu 2 C
-kind: house
+year: 1800
+link: www.liisantalo.fi
 ---
 1800-luvun alussa rakennettu talo on kunnostettu omin käsin ja perinteitä kunnioittaen asumiskiellossa olleesta rähjästä hurmaavaksi taiteilijakodiksi.
 Suutarimestarin entiseen talliin on rakentunut osin saviseinäinen Tuhannen tuskan kahvila.

@@ -10,6 +10,10 @@
         <h2><%= @item[:name] %></h2>
         <em><%= @item[:address] %></em>
         <%= yield %>
+        <ul class="inline-list">
+            <% if @item[:year] %><li>Rakennusvuosi: <%= @item[:year] %></li><% end %>
+            <% if @item[:link] %><li><a href="http://<%= @item[:link] %>"><%= @item[:link] %></a></li><% end %>
+        </ul>
     </div>
 </div>
 

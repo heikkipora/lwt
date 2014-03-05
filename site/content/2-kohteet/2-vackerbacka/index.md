@@ -1,7 +1,7 @@
 ---
 name: Vackerbacka
 address: Puutarhakatu 34 a
-kind: house
+year: 1700
 ---
 Loviisan ainoa porttitalo on rakennettu 1700-1800-luvuilla. Tontilla on sijainnut aiemmin jopa 9 rakennusta.
 Niissä on asunut lukuisia perheitä laivureista luotseihin ja talossa on aikanaan toiminut pieni kauppakin.
