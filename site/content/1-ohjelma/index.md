@@ -1,5 +1,5 @@
 ---
-navi: Ajankohtaista
+navi: Ohjelma
 title: Loviisan Wanhat Talot 30.–31.8.2014
 ---
 

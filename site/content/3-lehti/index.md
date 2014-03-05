@@ -1,11 +1,15 @@
 ---
-navi: Tapahtumalehti
-title: Tapahtumalehti
+navi: Tapahtumalehti ja -kartta
+title: Tapahtumalehti ja -kartta
 ---
 
-Vuoden 2014 tapahtumalehti ilmestyy elokuun alkupuolella
+Vuoden 2014 tapahtumalehti ja -kartta julkaistaan elokuun alkupuolella
 -----
 
-Sitä odotellessa voit tutustua viime vuoden PDF-lehteen:
+Niitä odotellessa voit tutustua viime vuoden tarjontaan:
 
-[![](messulehti.jpg)](LWT-messulehti-edellinen.pdf)
+<div class="row map">
+<div class="large-12 columns">
+<a href="LWT-messulehti-edellinen.pdf"><img src="messulehti-edellinen.jpg"></a><a href="LWT-kartta-edellinen.pdf"><img src="kartta-edellinen.jpg"></a>
+</div>
+</div>

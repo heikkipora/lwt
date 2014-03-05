@@ -45,3 +45,10 @@ footer {
     vertical-align: bottom;
   }
 }
+
+.row.map {
+  margin-top: 1em;
+  img:first-child {
+    margin-right: 5px;
+  }
+}
