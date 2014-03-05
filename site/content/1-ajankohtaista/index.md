@@ -3,6 +3,27 @@ navi: Ajankohtaista
 title: Loviisan Wanhat Talot 30.–31.8.2014
 ---
 
+<ul class="example-orbit" data-orbit>
+  <li>
+    <img src="/img/slider/liljat.jpg" alt="Lijat" />
+    <div class="orbit-caption">
+      Liljoja Villa Aaltosen puutarhassa.
+    </div>
+  </li>
+  <li>
+    <img src="/img/slider/kuninkaanlampi.jpg" alt="Kuninkaanlammen sali" />
+    <div class="orbit-caption">
+      Kuninkaanlammen valkoinen sali.
+    </div>
+  </li>
+  <li>
+    <img src="/img/slider/kappeli.jpg" alt="Loviisan Kappeli" />
+    <div class="orbit-caption">
+      Kesäravintola Kappeli
+    </div>
+  </li>
+</ul>
+
 Loviisan Wanhat Talot 30.–31.8.2014: RAKKAUDESTA VANHOIHIN TALOIHIN!
 -------
 
