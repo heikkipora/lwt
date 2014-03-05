@@ -47,7 +47,10 @@ footer {
 
 .row.map {
   margin-top: 1em;
-  img:first-child {
-    margin-right: 5px;
+  img {
+    margin-bottom: 1em;
+    &:first-child {
+      margin-right: 5px;
+    }
   }
 }
