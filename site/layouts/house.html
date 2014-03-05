@@ -1,0 +1,20 @@
+<%= render 'partials/head' %>
+<%= render 'partials/navi' %>
+<div class="row">
+    <div class="small-12 columns">
+        <h2><%= @item[:name] %></h2>
+        <em><%= @item[:address] %></em>
+        <%= yield %>
+    </div>
+</div>
+
+<div class="row gallery">
+    <div class="small-12 columns">
+        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4 clearing-thumbs" data-clearing>
+            <% sorted_children(@item).each do |img| %>
+            <li><a class="th" href="<%= img.path %>"><img id="<%= img.identifier.split('/').last.to_i %>" src="<%= img.path(:rep => :thumbnail) %>"></a></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+<%= render 'partials/footer' %>

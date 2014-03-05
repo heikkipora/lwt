@@ -17,11 +17,30 @@ compile '/static/*' do
 end
 
 route '/static/*' do
-  item.identifier.gsub(/htaccess/, '.htaccess').gsub(/\/static/,'').chop
+  item.identifier.gsub(/htaccess/, '.htaccess').gsub(/\/static/, '').chop
 end
 
 compile '/stylesheet/' do
   filter :sass, syntax: :scss
+end
+
+compile '/2-kohteet/*', :rep => :thumbnail do
+  if item.binary?
+    filter :thumbnailize, :size => '220x220'
+  end
+end
+
+route '/2-kohteet/*', :rep => :thumbnail do
+  if item.binary?
+    item.identifier.gsub(/\/\d+-/, "/").chop + '-thumb.' + item[:extension]
+  end
+end
+
+compile '/2-kohteet/*' do
+  if !item.binary?
+    filter :kramdown
+    layout 'house'
+  end
 end
 
 compile '*' do
@@ -47,6 +66,7 @@ route '*' do
     # Write item with identifier /1-foo/ to /foo/index.html
     i.identifier.gsub(/\/\d+-/, "/") + 'index.html'
   end
+
   def route_html
     if item[:is_dir]
       # no output for "is_dir" pages

@@ -1,60 +1,10 @@
-<!DOCTYPE HTML>
-<html lang="fi">
-<head>
-    <title><%= @item[:title] %></title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
-    <meta name="robots" content="all"/>
-    <meta name="description" content="Valtakunnalliset perinne- ja korjausrakentamispäivät Loviisassa 30.-31.8.2014. Vanhoja taloja, ihania koteja, historiallisia pihapiirejä ja hurmaavia puutarhoja. Taidetta, antiikkia ja lukemattomia kirppiksiä."/>
-    <meta name="keywords" content="Loviisa, Lovisa, perinnerakentaminen, vanhat talot, gamla hus, kirpputori, puutarha"/>
-    <meta property="og:title" content="<%= @item[:title] %>"/>
-    <meta property="og:description" content="Valtakunnalliset perinne- ja korjausrakentamispäivät Loviisassa 30.-31.8.2014. Vanhoja taloja, ihania koteja, historiallisia pihapiirejä ja hurmaavia puutarhoja. Taidetta, antiikkia ja lukemattomia kirppiksiä."/>
-    <meta property="og:image" content="http://loviisanwanhattalot.fi/img/preview.jpg"/>
-    <meta property="og:url" content="http://loviisanwanhattalot.fi"/>
-    <meta property="og:site_name" content="Loviisan Wanhat Talot"/>
-    <meta name="google-site-verification" content="GgMjueewBLivZ5HJv_9oDhfi4iyYA6i6s3knuK65p-M"/>
-    <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption|PT+Serif' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/foundation.min.css"/>
-    <link rel="stylesheet" href="/css/lwt.css"/>
-    <script src="/js/vendor/modernizr.js"></script>
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-22631321-1']);
-        _gaq.push(['_trackPageview']);
-    </script>
-</head>
-<body>
-<!--[if lt IE 9]>
-<div class="row">
-    <div class="large-12 columns">
-        <h1>Selaimesi on <em>vanhentunut!</em> <a href="http://browsehappy.com/">Vaihda selainta</a></h1>
-    </div>
-</div>
-<![endif]-->
-<header>
-    <%= render 'partials/header' %>
-</header>
+<%= render 'partials/head' %>
+<%= render 'partials/navi' %>
+
 <div class="row">
     <div class="small-12 columns">
         <%= yield %>
     </div>
 </div>
-<footer>
-    <%= render 'partials/footer' %>
-</footer>
-</body>
-<script src="/js/vendor/jquery.js"></script>
-<script src="/js/foundation.min.js"></script>
-<script>
-    $(document).foundation({
-        orbit: {
-            bullets: true,
-            slide_number: false,
-            timer_speed: 5000,
-            pause_on_hover: false,
-            timer: true
-        }});
-</script>
-<script src="http://www.google-analytics.com/ga.js"></script>
-</html>
+
+<%= render 'partials/footer' %>

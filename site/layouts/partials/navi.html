@@ -1,0 +1,20 @@
+<header>
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="/">Loviisan Wanhat Talot &nbsp;&nbsp; 30.-31.8.2014 klo 10-17 &nbsp;&nbsp; liput 15&euro;</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <% index = @items.find { |i| i.identifier == '/' } %>
+                    <% index.children.select {|i| i[:extension] == 'md'}.each do |item| %>
+                    <li><%= link_to(item[:navi], item, :title => item[:navi] ) %></li>
+                    <% end %>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>
