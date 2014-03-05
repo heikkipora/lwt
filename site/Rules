@@ -24,9 +24,14 @@ compile '/stylesheet/' do
   filter :sass, syntax: :scss
 end
 
+route '/stylesheet/' do
+  '/css/lwt.css'
+end
+
 compile '/2-kohteet/' do
   filter :kramdown
   layout 'houses'
+  filter :relativize_paths, :type => :html
 end
 
 compile '/2-kohteet/*', :rep => :thumbnail do
@@ -45,25 +50,16 @@ compile '/2-kohteet/*' do
   if !item.binary?
     filter :kramdown
     layout 'house'
+    filter :relativize_paths, :type => :html
   end
 end
 
 compile '*' do
-  if item.binary?
-    # don’t filter binary items
-  else
+  if !item.binary?
     filter :kramdown
     layout 'default'
+    filter :relativize_paths, :type => :html
   end
-end
-
-route '/stylesheet/' do
-  '/css/lwt.css'
-end
-
-compile '/' do
-  filter :kramdown
-  layout 'default'
 end
 
 route '*' do
@@ -74,7 +70,7 @@ route '*' do
 
   def route_html
     if item[:is_dir]
-      # no output for "is_dir" pages
+      "/dummy.html"
     elsif item.parent and item.parent[:is_dir] and item == item.parent.children[0]
       html_extension(item.parent)
     else

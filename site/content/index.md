@@ -1,6 +1,4 @@
 ---
-is_dir: true,
-navi: "Ajankohtaista"
-title: "Ajankohtaista"
+is_dir: true
 ---
-Tämän tilalle renderoituu 1-ajankohtaista/index.html
+Tämän tilalle renderoituu 1-ohjelma/index.html
