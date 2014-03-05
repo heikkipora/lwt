@@ -22,8 +22,25 @@ em {
 
 footer {
   margin-top: 2em;
-  padding: 2em 0;
-  background-color: rgb(246, 246, 246);
+  padding-bottom: 2em;
+  color: white;
+  background-color: #074e68;
+
+  .facebook {
+    background-color: #085a78;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  h5 {
+    color: white;
+  }
+
+  h5, p, a {
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+  }
 }
 
 .breadcrumbs {
