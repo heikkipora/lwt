@@ -1,7 +1,12 @@
 <%= render 'partials/head' %>
 <%= render 'partials/navi' %>
+
 <div class="row">
     <div class="small-12 columns">
+        <nav class="breadcrumbs">
+            <a href="/kohteet">Talokohteet</a>
+            <a class="current" href="#"><%= @item[:name] %></a>
+        </nav>
         <h2><%= @item[:name] %></h2>
         <em><%= @item[:address] %></em>
         <%= yield %>
