@@ -1,0 +1,28 @@
+* {
+  font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Serif Caption', serif;
+}
+
+p {
+  margin-bottom: 0
+}
+
+p + p {
+  text-indent: 1em;
+  margin-top: 0
+}
+
+em {
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 2em 0;
+  background-color: rgb(246, 246, 246);
+
+}
