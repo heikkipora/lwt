@@ -11,7 +11,7 @@
                 <ul class="right">
                     <% index = @items.find { |i| i.identifier == '/' } %>
                     <% index.children.select {|i| i[:extension] == 'md'}.each do |item| %>
-                    <li><%= link_to(item[:navi], item, :title => item[:navi] ) %></li>
+                    <li class="<%= 'active' if item === @item %>"><a href="<%= item.path %>"><%= item[:navi] %></a></li>
                     <% end %>
                 </ul>
             </section>
