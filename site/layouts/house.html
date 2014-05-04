@@ -10,7 +10,6 @@
         <h2><%= @item[:name] %></h2>
         <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
         <%= yield %>
-        <% if @item[:link] %>Kotisivu: <a href="http://<%= @item[:link] %>"><%= @item[:link] %></a><% end %>
     </div>
 </div>
 
