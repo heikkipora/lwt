@@ -66,4 +66,4 @@ Onko täällä ketään? -näyttelyssä teokset tulevat ulos valkoisista galleri
 
 Mukaan on lupautunut jo hieno joukko eri alojen kiinnostavimpia suomalaisia taiteilijoita videotaiteilijoista maalareihin ja teippaajiin mm. viime vuoden Suomen edustajat  Venetsian biennalessa eli kuvataiteilijat [Antti Laitinen](http://www.anttilaitinen.com) ja [Terike Haapoja](http://www.terikehaapoja.net). Muita taiteilijoita ovat mm. Perttu Saksa, Hanna Saarikoski, Ilona Valkonen, Frida Hultcrantz, Jenni Rope, Katja Tukiainen, Olli Mantere, Matti Hagelberg, Riku Mäkinen, Niina Räty, Maiju Salmenkivi, Aki-Pekka Sinikoski, Sasha Huber ja Petri Saarikko. Saamme kaupungin kaduille myös Tellervo Kalleisen ja Oliver Kochta-Kalleisen [Valituskuoron](http://www.complaintschoir.org) loviisalaisten muusikoiden Mirella Pendolin-Katzin ja Kalle Katzin johtamana! Tästä tulee sitten lisäinfoa, sillä humoristinen kuoro on avoin valittamiseen halukkaille kaupunkilaisille!
 
-* * *
+![](/ohjelma/monrepos.jpg "Ilona Valkonen: Osa maalausinstallaatiosta 'Loviisa-Monrepos'")
