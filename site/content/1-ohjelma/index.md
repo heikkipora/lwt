@@ -5,9 +5,9 @@ title: Loviisan Wanhat Talot 30.–31.8.2014
 
 <ul class="example-orbit" data-orbit>
   <li>
-    <img src="/img/slider/liljat.jpg" alt="Lijat" />
+    <img src="/img/slider/kuisti.jpg" alt="Lijat" />
     <div class="orbit-caption">
-      Liljoja Villa Aaltosen puutarhassa.
+      Wanhan kaupan rokokoohenkinen kuisti.
     </div>
   </li>
   <li>
