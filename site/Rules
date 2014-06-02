@@ -28,6 +28,33 @@ route '/stylesheet/' do
   '/css/lwt.css'
 end
 
+compile '/1-ohjelma/' do
+  filter :kramdown
+  layout 'events'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/1-ohjelma/*', :rep => :thumbnail do
+  if item.binary?
+    filter :thumbnailize, :size => '220x220'
+  end
+end
+
+route '/1-ohjelma/*', :rep => :thumbnail do
+  if item.binary?
+    item.identifier.gsub(/\/\d+-/, "/").chop + '-thumb.' + item[:extension]
+  end
+end
+
+compile '/1-ohjelma/*' do
+  if !item.binary?
+    filter :kramdown
+    layout 'event'
+    filter :relativize_paths, :type => :html
+  end
+end
+
+
 compile '/2-kohteet/' do
   filter :kramdown
   layout 'houses'

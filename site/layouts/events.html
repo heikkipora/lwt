@@ -1,0 +1,24 @@
+<%= render 'partials/head' %>
+<%= render 'partials/navi' %>
+
+<div class="row">
+    <div class="small-12 columns">
+        <%= yield %>
+    </div>
+</div>
+
+<div class="row events">
+    <div class="small-12 columns">
+        <ul class="large-block-grid-2 clearfix">
+            <% @item.children.each do |item| %>
+            <li>
+                <h4><%= item[:name] %></h4>
+                <a class="th left" href="<%= item.path %>"><img src="<%= item.path %>/1-thumb.jpg"></a>
+                <%= item[:description] %> <a href="<%= item.path %>">Lue lisää »</a>
+
+            </li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+<%= render 'partials/footer' %>
