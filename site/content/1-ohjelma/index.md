@@ -1,6 +1,7 @@
 ---
 navi: Ohjelma
 title: Loviisan Wanhat Talot 30.–31.8.2014
+preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
 ---
 
 <ul class="example-orbit" data-orbit>

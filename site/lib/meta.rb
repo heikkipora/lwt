@@ -11,21 +11,23 @@ module MetaTagsHelper
   def meta_description(item)
     if item[:address]
       "Tervetuloa kylään 30.-31.8.2014 osoitteessa #{item[:address]}"
+    elsif item[:description]
+      item[:description]
     else
       'Valtakunnalliset perinne- ja korjausrakentamispäivät Loviisassa 30.-31.8.2014. Vanhoja taloja, ihania koteja, historiallisia pihapiirejä ja hurmaavia puutarhoja. Taidetta, antiikkia ja lukemattomia kirppiksiä.'
     end
   end
 
   def meta_image(item)
-    if item.children
-      "http://loviisanwanhattalot.fi/2014#{item.path}1.jpg"
+    if item[:preview]
+      item[:preview]
     else
-      'http://loviisanwanhattalot.fi/img/preview.jpg'
+      "http://loviisanwanhattalot.fi#{item.path}1.jpg"
     end
   end
 
   def meta_url(item)
-    "http://loviisanwanhattalot.fi/2014#{item.path}"
+    "http://loviisanwanhattalot.fi#{item.path}"
   end
 end
 
