@@ -1,12 +1,5 @@
 ---
-title: ONKO TÄÄLLÄ KETÄÄN ? - nykytaidenäyttely 30.-31.8.2014
 name: Onko täällä ketään ? -näyttely
 description: LWT-viikonloppuna 30.-31.8.2014 järjestettävässä nykytaidenäyttelyssä on esillä uusinta ja kiinnnostavinta suomalaista nykytaidetta ripoteltuna kaupungille, LWT-koteihin ja julkisiin tiloihin.
+link: http://loviisacontemporary.weebly.com/onko-taumlaumlllauml-ketaumlaumln.html
 ---
-
-Näyttelyssä on esillä uusinta ja kiinnnostavinta suomalaista nykytaidetta ripoteltuna kaupungille: yksityisiin, avoinna oleviin koteihin ja julkisiin tiloihin. Koko näyttely on esillä avajaistapahtuman lisäksi vain tuon yhden loppukesän viikonlopun, erotuksena tavallisista kesänäyttelyistä. Kävijä saa kartan, jolla suunnistaa taiteen äärelle. Taide on seikkailu ja se pitää tulla hakemaan Loviisasta juuri oikeaan aikaan! Loviisalaistuneiden kuvataiteilijoiden vastaperustama yhdistys Loviisa Contemporary ry. järjestää ja tuottaa näyttelyn kuvataiteilija Kati Rapian kuratoimana yhteistyössä Loviisan Wanhat Talot ry:n kanssa.
-
-Onko täällä ketään? -näyttelyssä teokset tulevat ulos valkoisista gallerioista päivänvaloon ja ihmisten ilmoille, koteihin ja toreille (mm. suuri videoprojisio kaupungille), ja teokset pääsevät vuoropuheluun ympäristön kanssa. Jokaiselle teokselle etsitään yleisölle auki olevista taloista oma koti, piha tai muu julkinen esityspaikka. Teos saa uusia tulkintoja ja merkityksiä makuuhuoneen seinällä suvun esi-isiin tai muihin yksityisiin viesteihin rinnastettuna. On myös kutkuttavaa nähdä, miten taide muuttaa kaupunkia ja esimerkiksi ihmisten käsitystä yksityisestä ja julkisesta tilasta. Ja miten puolestaan tila muuttaa taidetta!
-
-Mukaan on lupautunut jo hieno joukko eri alojen kiinnostavimpia suomalaisia taiteilijoita videotaiteilijoista maalareihin ja teippaajiin mm. viime vuoden Suomen edustajat  Venetsian biennalessa eli kuvataiteilijat [Antti Laitinen](http://www.anttilaitinen.com) ja [Terike Haapoja](http://www.terikehaapoja.net). Muita taiteilijoita ovat mm. Perttu Saksa, Hanna Saarikoski, Ilona Valkonen, Frida Hultcrantz, Jenni Rope, Katja Tukiainen, Olli Mantere, Matti Hagelberg, Riku Mäkinen, Niina Räty, Maiju Salmenkivi, Aki-Pekka Sinikoski, Sasha Huber ja Petri Saarikko. Saamme kaupungin kaduille myös Tellervo Kalleisen ja Oliver Kochta-Kalleisen [Valituskuoron](http://www.complaintschoir.org) loviisalaisten muusikoiden Mirella Pendolin-Katzin ja Kalle Katzin johtamana! Tästä tulee sitten lisäinfoa, sillä humoristinen kuoro on avoin valittamiseen halukkaille kaupunkilaisille!
-
