@@ -15,9 +15,7 @@
                 <h4><%= item[:name] %></h4>
                 <a class="th left" href="<%= event_link(item) %>"><img src="<%= item.path %>/1-thumb.jpg"></a>
                 <%= item[:description] %>
-                <% if !inline_event?(item) %>
-                    <a href="<%= item.path %>">Lue lisää »</a>
-                <% end %>
+                <a href="<%= event_link(item) %>">Lue lisää »</a>
             </li>
             <% end %>
         </ul>
