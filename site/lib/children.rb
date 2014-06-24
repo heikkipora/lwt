@@ -4,8 +4,12 @@ module ChildrenHelper
     item.identifier.split('/').last.to_i
   end
 
-  def sorted_children(item)
-    item.children.sort { |a, b| numeric_id(a) <=> numeric_id(b) }
+  def select_images(items)
+    items.select { |item| item[:extension] == "jpg" }
+  end
+
+  def sorted_child_images(item)
+    select_images(item.children).sort { |a, b| numeric_id(a) <=> numeric_id(b) }
   end
 end
 

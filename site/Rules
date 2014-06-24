@@ -35,13 +35,13 @@ compile '/1-ohjelma/' do
 end
 
 compile '/1-ohjelma/*', :rep => :thumbnail do
-  if item.binary?
+  if item[:extension] == "jpg"
     filter :thumbnailize, :size => '220x220'
   end
 end
 
 route '/1-ohjelma/*', :rep => :thumbnail do
-  if item.binary?
+  if item[:extension] == "jpg"
     item.identifier.gsub(/\/\d+-/, "/").chop + '-thumb.' + item[:extension]
   end
 end
@@ -62,13 +62,13 @@ compile '/2-kohteet/' do
 end
 
 compile '/2-kohteet/*', :rep => :thumbnail do
-  if item.binary?
+  if item[:extension] == "jpg"
     filter :thumbnailize, :size => '220x220'
   end
 end
 
 route '/2-kohteet/*', :rep => :thumbnail do
-  if item.binary?
+  if item[:extension] == "jpg"
     item.identifier.gsub(/\/\d+-/, "/").chop + '-thumb.' + item[:extension]
   end
 end
