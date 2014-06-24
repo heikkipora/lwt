@@ -2,6 +2,7 @@
 title: FOXin Rojua, rojua -ohjelma saapuu LWT-tapahtumaan
 name: Rojua, rojua -ohjelma Loviisassa
 description: Suosittu FOXin Rojua, rojua -ohjelma saapuu myös Loviisan Wanhat Talot -tapahtumaan 30.–31.8.2014! Asiantuntijat kertovat ilmaiseksi rojusi arvon ja paljon muuta!
+gallery: no
 ---
 
 Suosittu FOXin [Rojua, rojua -ohjelma](http://www.foxtv.fi/rojua-rojua) saapuu myös Loviisan Wanhat Talot -tapahtumaan 30.–31.8.2014! Asiantuntijat kertovat ilmaiseksi rojusi arvon ja paljon muuta!

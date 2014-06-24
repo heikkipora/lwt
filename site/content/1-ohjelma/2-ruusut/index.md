@@ -2,6 +2,7 @@
 title: Ruusujen hurmaa - Keijukaisten aika 5.-6.7.2014
 name: Ruusujen hurmaa 5.-6.7.2014
 description: Ihanat ruusut valloittavat Loviisan Ruusujen hurmaa -tapahtuman aikana. Ruusuja löytyy paitsi loviisalaisista ruusutarhoista myös runoissa, musiikissa ja taiteessa.
+gallery: yes
 ---
 
 Ruusujen hurmaa Loviisassa- tapahtuma avaa loviisalaisten ruusutarhojen portteja jo neljännen kerran. Tarjolla on myös monenlaisia ruusuisia elämyksiä niin musiikissa, taiteessa kuin tarjottimella.

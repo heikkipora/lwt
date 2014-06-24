@@ -18,6 +18,10 @@ module EventHelper
       item.path
     end
   end
+
+  def has_gallery(item)
+    item[:gallery]
+  end
 end
 
 include EventHelper

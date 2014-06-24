@@ -2,6 +2,7 @@
 title: "Loviisan Wanhat Talot 30.–31.8.2014: RAKKAUDESTA VANHOIHIN TALOIHIN!"
 name: LWT 10 vuotta 30.-31.8.2014
 description: Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.
+gallery: yes
 ---
 
 <em>Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.</em>

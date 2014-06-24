@@ -13,6 +13,7 @@
 </div>
 
 <div class="row gallery content">
+    <% if has_gallery(@item) %>
     <div class="small-12 columns">
         <ul class="clearing-thumbs" data-clearing>
             <% sorted_children(@item).each do |img| %>
@@ -20,5 +21,6 @@
             <% end %>
         </ul>
     </div>
+    <% end %>
 </div>
 <%= render 'partials/footer' %>

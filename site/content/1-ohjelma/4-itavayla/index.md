@@ -2,6 +2,7 @@
 title: Tilaa tapahtumalehti kotiisi tekstiviestillä!
 name: Tilaa tapahtumalehti kotiisi!
 description: Tutustu Loviisan Wanhat Talot 2014 -tapahtumaan ja talokohteisiin etukäteen tilaamalla tapahtumalehti suoraan kotiisi helposti tekstiviestillä.
+gallery: no
 ---
 
 Tutustu Loviisan Wanhat Talot 2014 -tapahtumaan ja talokohteisiin etukäteen tilaamalla tapahtumalehti suoraan kotiisi helposti tekstiviestillä.<br/><br/>
