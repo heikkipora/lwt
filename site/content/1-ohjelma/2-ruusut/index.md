@@ -15,4 +15,4 @@ Kappelin ruusukahvilassa on tarjolla ruusuherkkuja ja ruusuista musiikkia ja Lov
 
 Almin talossa löytyy Hääkaupunki Loviisan  teemaa tukevan Marjatta  Hietaniemen kokoama näyttely  ”Niin on soreaa soutaa kahden”- rakkausrunojen siivittämia hääpukuja eilen ja nyt.  Ruusujen hurmaa Loviisassa -tapahtuman kruunaavat kaikille avoimet Ruusuhäät  Loviisan kirkossa lauantaina klo 17.00. Ja Laivasillalla tanssitaan perinteiset Ruusutanssit, joissa  kaunein ruusumekko palkitaan.
 
-Tapahtuman kartta ja yksityiskohtainen ohjelma alla.
+Lataa kartta ja yksityiskohtainen ohjelma vaikkapa tulostettavaksi [tästä](/ohjelma/ruusut/ruusukartta_ja_ohjelma.pdf).
