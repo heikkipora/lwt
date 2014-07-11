@@ -7,12 +7,12 @@
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
     <meta name="robots" content="all"/>
     <meta name="description" content="<%= meta_description(@item) %>"/>
-    <meta name="keywords" content="Loviisa, Lovisa, perinnerakentaminen, vanhat talot, gamla hus, kirpputori, puutarha"/>
+    <meta name="keywords" content="<%= t('meta.keywords') %>"/>
     <meta property="og:title" content="<%= meta_title(@item) %>"/>
     <meta property="og:description" content="<%= meta_description(@item) %>"/>
     <meta property="og:image" content="<%= meta_image(@item) %>"/>
     <meta property="og:url" content="<%= meta_url(@item) %>"/>
-    <meta property="og:site_name" content="Loviisan Wanhat Talot"/>
+    <meta property="og:site_name" content="<%= t('meta.site_name') %>"/>
     <meta name="google-site-verification" content="GgMjueewBLivZ5HJv_9oDhfi4iyYA6i6s3knuK65p-M"/>
     <link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption|PT+Serif' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/foundation.min.css"/>
@@ -28,7 +28,7 @@
 <!--[if lt IE 9]>
 <div class="row">
     <div class="large-12 columns browser">
-        <h1>Selaimesi on vanhentunut! <a href="http://browsehappy.com/">Vaihda selainta klikkaamalla tästä.</a></h1>
+        <h1><%= t('browser.expired')%></h1>
     </div>
 </div>
 <![endif]-->
