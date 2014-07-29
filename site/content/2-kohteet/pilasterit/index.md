@@ -2,4 +2,6 @@
 name: Pilasterit
 address: Sepänkuja 8, Loviisa
 ---
-Pilasterit, jonka vanhin osa on peräisin vuodelta 1776, on saanut nimensä kaksikerroksisen osansa pystyhirsien pilasteri-päällyksen mukaan. Rakennus korjattiin 1910 sen tuolloin omistaneen tunnetun arkkitehti- taidehistorioitsija Gustav Strengellin johdolla, jolloin siihen yhdistettiin matala jatko-osa. Pilasterit toimii nykyisin ykkösluokan tilausravintolana ja kiinteistössä löytyy myös 23 vuodesijaa. Upeassa puutarhassa sijaitsevasta vanhasta sepänpajasta on tehty oluttupa ja talousrakennuksissa on mm. sauna ja vastavirtauima-allas. [www.degerby.com](http://www.degerby.com/fi/node/158)
+Pilastereiden ensimmäinen osa on rakennettu jo 1600-luvulla.  Nykyisen päärakennuksen  vanhin osa on peräisin vuodelta 1776, ja on saanut nimensä kaksikerroksisen osansa pystyhirsien pilasteri-päällyksen mukaan.  Vuonna 1816 rakennusta laajennettiin pohjoiseen.  Samassa pihapiirissä sijaitsee myös oluttupa - vanha sepän paja, joka on Suomen vanhimpia puurakennuksia jo 1500-luvulta. Koko rakennus korjattiin 1910 sen tuolloin omistaneen  arkkitehti  Gustav Strengelin johdolla.
+
+Pilasterit toimii nykyään tilausravintolana ja majoitustilana.  Upean puutarhan talousrakennuksissa on useita erilaisia remontoituja majoitustiloja, saunatupa ja vastavirtauima-allas.
