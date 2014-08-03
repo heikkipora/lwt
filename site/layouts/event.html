@@ -12,7 +12,7 @@
 <div class="row gallery content">
     <% if has_gallery(@item) %>
     <div class="small-12 columns">
-        <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4" data-clearing>
+        <ul class="clearing-thumbs" data-clearing>
             <% sorted_child_images(@item).each do |img| %>
             <li><a class="th" href="<%= img.path %>"><img data-caption="<%= img[:caption] %>" src="<%= img.path(:rep => :thumbnail) %>"></a></li>
             <% end %>
