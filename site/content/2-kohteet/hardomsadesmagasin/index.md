@@ -1,5 +1,5 @@
 ---
 name: Hardom Sädesmagasin
-address: osoite puuttuu
+address: Lapinjärventie 647 b, Loviisa
 ---
 Kuvaus puuttuu
