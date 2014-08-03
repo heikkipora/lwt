@@ -2,5 +2,4 @@
 name: Metsänvartijantalo
 address: Myrskyläntie 9, Loviisa
 ---
-Metsänvartijan talo on rakennettu 1900-luvun alussa. Aiemmin sähkölämmitetyn talon neljää pönttöuunia ja hellaa nuohonnut nuohooja totesi, ettei ole ikinä nähnyt hormeissa yhtä montaa linnunpesää. Taloon on vedetty sisään vesi ja viemäri ja sinne onrakennettu uusi kylpyhuone. Pinnat on maalattu ja lattioiden vinyylimatot poistettu. Uudet omistajat aikovat sisustaa taloa
-Carl Larssonin akvarellien hengessä. Taloon ei hankita verhoja, silla ikkunoiden läpi näkyvät vanhat kultuurimaisemat ovat jo sinänsä kuin tauluja.
+Malmgårdin kartanon 1900-luvun alussa rakennettu Metsänvartijan talo on ollut Maarit Rokkasen ja Jarmo Parkkisen kakkoskotina viime syksystä alkaen ja saattaapa siitä tulla ykköskotikin, kunhan keittiöremontti valmistuu  Ostoa edelsi 16 kuukauden aktiivinen hakuprosessi, mutta kun pariskunta ajoi Malmgårdin tammikujaa perinnemaisemassa he tiesivät: tässä se on. Tänä kesänä on kunnostettu pihasauna kattoineen, ja pihan suuria puita on kaadettu auringon edestä. Edessä saattaa vielä olla muutaman hirren kengitys – tai sitten ei.
