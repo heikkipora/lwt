@@ -3,5 +3,5 @@ navi: Talokohteet
 title: Talokohteet
 ---
 
-Nämä Loviisalaiskodit avaavat ovensa syksyllä 2014
+Nämä Loviisalaistalot avaavat ovensa syksyllä 2014
 -----
