@@ -34,6 +34,14 @@ compile '/1-ohjelma/' do
   filter :relativize_paths, :type => :html
 end
 
+compile '/1-ohjelma/*' do
+  if !item.binary?
+    filter :kramdown
+    layout 'event'
+    filter :relativize_paths, :type => :html
+  end
+end
+
 compile '/1-ohjelma/*', :rep => :thumbnail do
   if item[:extension] == "jpg"
     filter :thumbnailize, :size => '220x220'
@@ -46,7 +54,14 @@ route '/1-ohjelma/*', :rep => :thumbnail do
   end
 end
 
-compile '/1-ohjelma/*' do
+
+compile '/1-programmet/' do
+  filter :kramdown
+  layout 'events'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/1-programmet/*' do
   if !item.binary?
     filter :kramdown
     layout 'event'
@@ -54,6 +69,17 @@ compile '/1-ohjelma/*' do
   end
 end
 
+compile '/1-programmet/*', :rep => :thumbnail do
+  if item[:extension] == "jpg"
+    filter :thumbnailize, :size => '220x220'
+  end
+end
+
+route '/1-programmet/*', :rep => :thumbnail do
+  if item[:extension] == "jpg"
+    item.identifier.gsub(/\/\d+-/, "/").chop + '-thumb.' + item[:extension]
+  end
+end
 
 compile '/2-kohteet/' do
   filter :kramdown
