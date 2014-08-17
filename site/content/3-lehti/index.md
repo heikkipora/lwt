@@ -3,7 +3,7 @@ navi: Tapahtumalehti ja -kartta
 title: Tapahtumalehti ja -kartta
 ---
 
-Vuoden 2014 tapahtumalehti ja -kartta julkaistaan elokuun alkupuolella
+Vuoden 2014 tapahtumalehti ja -kartta julkaistaan lähipäivinä
 -----
 
 Niitä odotellessa voit tutustua viime vuoden tarjontaan:
