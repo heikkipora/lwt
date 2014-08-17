@@ -14,6 +14,9 @@ sponsors:
 footer:
   facebook: Seuraa meitä Facebookissa
   lippupalvelu: Osta liput ennakkoon
+houses:
+  near: Kohteet Loviisan keskustassa
+  remote: Etäkohteet
 house:
   garden: Huom! Tätä kohdetta pääset ihailemaan vain ulkopuolelta!
   remote: Huom! Etäkohde, sijaitsee Loviisan keskustan ulkopuolella!
