@@ -11,4 +11,4 @@ Asiantuntijoina ovat Jouko Rekola, joka tietää designin sekä varsinkin lasin 
 
 Esine voi olla pihalla ruostetta keräävä auto, kirpparilta löydetty lamppu, isovanhemmilta saatu taulu, nurkissa pyörivä mysteeriesine tai vaikkapa sinun rakas muumimukisi.
 
-Ilmoittaudu ohjelmaan [hakulomakkeella](http://www.kassette.fi/rojuarojua) tai soita 046 637 3107.
+Ilmoittaudu ohjelmaan [hakulomakkeella](http://www.kassette.fi/rojuarojua) tai soita 046 637 3107. Arviointi tapahtuu Laivasillan tanssipaviljongilla lauantaina ja sunnuntaina.
