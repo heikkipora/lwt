@@ -14,9 +14,32 @@ sponsors:
 footer:
   facebook: Seuraa meitä Facebookissa
   lippupalvelu: Osta liput ennakkoon
+  prizes:
+    a: 'Pikkukaupunki-lehti: "2000-luvun merkittävin loviisalainen kulttuuriteko"'
+    b: Loviisan parhain kesätapahtuma", Loviisan Sanomien nettiäänestyksessä 2012
+    c: Kunniamaininta Vartin "Vuoden Kaupunkiteko 2010"-kilpailussa
+    d: Suomen Arkkitehtiliiton SAFA-palkinto 2009
+    e: Loviisa-mitali 2008
+    f: Uudenmaan Ympäristöpalkinto 2007
+  yhteydenotot: Yhteydenotot
+  projektipaallikko: Projektipäällikkö,<br/>Näytteilleasettajat Suolatorilla
+  tiedottaja: Tuottaja / tiedottaja
+  messulehti: Loviisan Wanhat Talot-messulehti
+  ilmoitusmyynti: toteuttaja Itäväylä<br/>Ilmoitusmyynti Maija Laine, myyntipäällikkö
+  itutori: ITU-tori
+  itauudenmaankylat: Itä-Uudenmaan Kylät ry<br/>Li-Marie Santala
+  kerailymessut: Keräilymessut
+  syysmarkkinat: Käsityö- ja syysmarkkinat
+  laivasilta: Laivasilta
+  toripaikat: Toripaikat
+  loviisa: Loviisa
+  antiikkimarkkinat: Aleksanterin Antiikkimarkkinat
+  aleksanterinkatu: Aleksanterinkatu 8
+
 houses:
   near: Kohteet Loviisan keskustassa
   remote: Etäkohteet
 house:
   garden: Huom! Tätä kohdetta pääset ihailemaan vain ulkopuolelta!
   remote: Huom! Etäkohde, sijaitsee Loviisan keskustan ulkopuolella!
+
