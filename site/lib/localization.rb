@@ -6,14 +6,17 @@ module LocalizationHelper
                     'en' => YAML.load_file('lib/dictionary_en.yaml') }
 
   def t(keys)
-    # lookup('en', keys) || lookup('fi', keys)
-    lookup('fi', keys)
+    lookup(lang(@item), keys)
   end
 
   def lookup(lang, keys)
     value = @@dictionaries[lang]
     keys.split('.').each { |key| value = value[key] }
     value
+  end
+
+  def lang(item)
+    item[:lang] || 'fi'
   end
 end
 

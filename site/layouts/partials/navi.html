@@ -10,7 +10,7 @@
             <section class="top-bar-section">
                 <ul class="right">
                     <% index = @items.find { |i| i.identifier == '/' } %>
-                    <% index.children.select {|i| i[:extension] == 'md'}.each do |item| %>
+                    <% index.children.select {|i| i[:extension] == 'md' && lang(i) == lang(@item) }.each do |item| %>
                     <li class="<%= 'active' if (item === @item) || (item === @item.parent) %>"><a href="<%= item.path %>"><%= item[:navi] %></a></li>
                     <% end %>
                 </ul>
