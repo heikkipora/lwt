@@ -1,5 +1,6 @@
 meta:
   description: Valtakunnalliset perinne- ja korjausrakentamispäivät Loviisassa 30.-31.8.2014. Vanhoja taloja, ihania koteja, historiallisia pihapiirejä ja hurmaavia puutarhoja. Taidetta, antiikkia ja lukemattomia kirppiksiä.
+  description_for_house: "Tervetuloa kylään 30.-31.8.2014 osoitteessa "
   keywords: Loviisa, Lovisa, perinnerakentaminen, vanhat talot, gamla hus, kirpputori, puutarha
   site_name: Lovisa Historiska Hus
 browser:
@@ -9,9 +10,13 @@ navi:
 sponsors:
   in_co_operation: I samarbete med
   thanks: Vi tackar även
+  list: Itäväylä, FC-Loviisa, Itä-Uudenmaan kylät, Loviisan Sanomat, Östra Nyland, Airi Kallio, Mia Heijnsbroek-Wirén, Loviisan Seurakuntayhtymä, Lions Club Loviisa, Hotel Degerby / Kari Junnila, Porvoon seudun musiikkiopisto / Loviisa, Kruunu Apteekki, Lääkäriasema Ergo, Tarra-Tac, Eddie Bruce, Kati Rapia
 footer:
   facebook: Följ oss på Facebook
   lippupalvelu: Köp biljetter i förväg
 houses:
   near: Hus i Lovisa centrum
   remote: Hus i Lovisanejden
+house:
+  garden: Huom! Tätä kohdetta pääset ihailemaan vain ulkopuolelta!
+  remote: Huom! Etäkohde, sijaitsee Loviisan keskustan ulkopuolella!
