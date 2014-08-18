@@ -1,5 +1,5 @@
 ---
-name: Casaitalialoviisa
+name: Casa ItaliaLoviisa
 address: Sarvilahdenkatu 7, Loviisa
 number: 8
 ---
