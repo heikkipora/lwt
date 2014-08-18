@@ -95,7 +95,7 @@ footer {
     padding-bottom: 0;
     position: relative;
     &:after {
-      display: none;
+      display: block;
       content: attr(data-number);
       position: absolute;
       bottom: 0;
