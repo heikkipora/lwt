@@ -18,9 +18,9 @@ preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
     </div>
   </li>
   <li>
-    <img src="/img/slider/smedshemman.jpg" alt="Fantsnäsin kartano" />
+    <img src="/img/slider/smedshemman.jpg" alt="Smeds hemman" />
     <div class="orbit-caption">
-      1700-luvun huonekaluja Fantsnäsin kartanossa
+      1700-luvun huonekaluja Smeds hemman:issa
     </div>
   </li>
 </ul>

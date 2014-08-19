@@ -9,19 +9,19 @@ lang: se
   <li>
     <img src="/img/slider/kuisti.jpg" alt="Wanha kauppa" />
     <div class="orbit-caption">
-      Wanhan kaupan rokokoohenkinen kuisti.
+      Verandan i rokokoanda i Wanha kauppa.
     </div>
   </li>
   <li>
-    <img src="/img/slider/kuninkaanlampi.jpg" alt="Kuninkaanlammen sali" />
+    <img src="/img/slider/kuninkaanlampi.jpg" alt="Salen i Kuninkaanlampi" />
     <div class="orbit-caption">
-      Kuninkaanlammen valkoinen sali.
+      Den vita salen i Kuninkaanlampi.
     </div>
   </li>
   <li>
-    <img src="/img/slider/smedshemman.jpg" alt="Fantsnäsin kartano" />
+    <img src="/img/slider/smedshemman.jpg" alt="Smeds hemman" />
     <div class="orbit-caption">
-      1700-luvun huonekaluja Fantsnäsin kartanossa
+      Möbler från 1700-talet i Smeds hemman.
     </div>
   </li>
 </ul>
