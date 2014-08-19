@@ -1,5 +1,5 @@
 ---
-name: Antinkylän kartano (Storskrapis)
+name: Antinkylän kartano
 address: Eteläinen Rauhalantie 2, Loviisa
 number: 43
 ---

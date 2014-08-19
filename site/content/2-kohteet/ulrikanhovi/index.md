@@ -1,5 +1,5 @@
 ---
-name: Ulrikanhovi / Ulrikakoti
+name: Ulrikanhovi
 address: Kuhlefeltinkatu 35, Loviisa
 number: 1
 ---

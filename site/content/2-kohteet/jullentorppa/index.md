@@ -1,5 +1,5 @@
 ---
-name: Jullen torppa
+name: Stenkulla / Jullen torppa
 address: Liljendalintie 50, Loviisa
 remote: true
 number: D

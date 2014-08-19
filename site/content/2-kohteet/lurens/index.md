@@ -1,5 +1,5 @@
 ---
-name: Lurens
+name: Lurensin kartano
 address: Lurensintie 121, Lurens
 remote: true
 number: B
