@@ -20,7 +20,7 @@ preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
   <li>
     <img src="/img/slider/smedshemman.jpg" alt="Smeds hemman" />
     <div class="orbit-caption">
-      1700-luvun huonekaluja Smeds hemman:issa
+      1700-luvun huonekaluja Smeds hemmanissa
     </div>
   </li>
 </ul>
