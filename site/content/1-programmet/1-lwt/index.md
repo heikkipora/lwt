@@ -1,25 +1,23 @@
 ---
-title: "Loviisan Wanhat Talot 30.–31.8.2014: RAKKAUDESTA VANHOIHIN TALOIHIN!"
-name: LWT 10 vuotta 30.-31.8.2014
-description: Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.
+title: "Lovisa Historiska Hus 30.–31.8.2014: AV KÄRLEK TILL HISTORISKA HUS!"
+name: LHH 10 års 30.-31.8.2014
+description: Gamla hus, härliga hem, förtjusande trädgårdar, konst, antikviteter och otaliga lopptorg samt läcker närmat i en idyllisk småstadsmiljö intill havet.
 gallery: yes
 lang: se
 ---
 
-<em>Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.</em>
+<em>Gamla hus, härliga hem, förtjusande trädgårdar, konst, antikviteter och otaliga lopptorg samt läcker närmat i en idyllisk småstadsmiljö intill havet.</em>
 
-Vuonna 2014 Loviisan vanhat talot avaavat ovensa, pihansa ja puutarhansa kymmenennen kerran.  Juhlavuoden teemana on Ruotsin vallan alainen Loviisa  -  Loviisan kaupungin perustaminen 1745 ja sen vuodet osana Ruotsin kuningaskuntaa 1809 asti.
+År 2014 öppnar de historiska husen i Lovisa sina dörrar, gårdar och trädgårdar för tionde gången.
 
-Vuoden 2014 LWT-päivien aikana 1700-luvun jälkipuolisko on esillä monin  tavoin. Osa kohdetaloistamme on rakennettu jo tuolloin, joskin valtaosa "ruotsalaisesta" Loviisasta tuhoutui 1855 suuressa tulipalossa. Loviisan katukuvaa koristavat myös 1700-luvun harrastajat epookinmukaisissa asuissaan.
+Jubileumsårets tema är Lovisa under den svenska tiden, grundandet av staden 1745 och åren som en del av  Kungariket Sverige. En del av husen, som håller öppet hus, är byggda redan då, även om merparten av  bebyggelsen från den svenska tiden förstördes under den stora branden 1855.  Under LHH-dagarna år 2014 hämtas 1700-talet fram på många olika sätt och behandlas även under expertseminariet – kan man ta lärdom av den tidens byggnasteknik?
 
-Panu Kailan tähdittämässä lauantain asiantuntijaseminaarissa keskustellaan siitä, mitä voimme oppia 1700-luvun kestävästä ja lämpimästä puurakentamisesta? Kailan esitelmän aiheena on "Puutalon kestävyys ja energiansäästö 1700-luvulta 2000-luvulle".
+Lovisa Historiska Hus-evenemangets viktigaste syfte är att bevara och förstärka den östnyländska byggnadskulturen med tanke på kommande generationer, att återuppliva gamla kunskaper ifråga om traditionsbyggande och renovering samt att erbjuda besökare som själva skall renovera den kunskap de behöver. De senaste åren har man även aktivt varit med och befrämjat närmats-ideologin.
 
-Juhlavuoden kunniaksi Loviisan Wanhoissa Taloissa ja niiden ulkopuolella nähdään myös korkealaatuista ja mielenkiintoista nykytaidetta. Näyttelyn kuratoi kuvataiteilija, TAM Kati Rapia ja sen tuottaa Loviisa Contemporary ry. Nykytaidetapahtumaan osallistuu 20 taiteilijaa, useammalla teoksella.
+Lovisa Historiska Hus-evenemanget  har vuxit till Lovisa stads och hela östra Nylands populäraste turistmål – man beräknar att besökarantalet år 2013 var ca 16 000.
 
-Loviisan Wanhat Talot -tapahtuman keskeisenä tavoitteena on vahvistaa itäuusmaalaisen rakennuskulttuurin säilymistä elävänä perintönä tuleville sukupolville, elvyttää perinteisten rakennusten kunnostamisen taitoja sekä tarjota korjausrakentamisessa kaivattavaa tietoa. Parin viime vuoden ajan olemme olleet myös aktiivisesti mukana edistämässä lähi- ja luomuruokaideologiaa.
+Evenemanget har uppmärksammats på många sätt:  Nylands miljöpris 2007, Lovisa medalj 2008, Finland Arkitektförbunds högt uppskattade SAFA-pris 2009 och ett hedersomnämnade i  ÖN:s Vartti-tidnings Vuoden kaupunkiteko 2010. Tidningen Småstadslivs kulturråd valde LHH till2000-talets mest betydelsefulla kulturgärning i Lovisa och Loviisan Sanomats nätsidors läsare valde LHH till det populäraste evenemanget 2012.
 
-Loviisan Wanhat Talot -tapahtuma on kehittynyt Loviisan kaupungin ja koko itäisen Uudenmaan ehdottomasti suosituimmaksi matkailutapahtumaksi - tapahtuman kävijämääräksi arvioitiin 2013 noin 15 000 ihmistä.
+Jubileumsåret till ära förevisas högklassig och intressant modern konst både inne i och utanför de historiska husen i Lovisa. Som kurator fungerar konstnär, KoM Kati Rapia och produceras av föreningen Loviisa Contermporary. I utställningen av modern konst deltar 20 konstnärer, med flera konstverk.
 
-Tapahtumaa on kunnioitettu Uudenmaan ympäristöpalkinnolla 2007, Loviisan kaupungin mitalilla 2008, Suomen Arkkitehtiliiton SAFA  palkinnolla 2009 ja Vartin Vuoden kaupunkiteko 2010 -kunniamaininnalla. Pikkukaupunki-lehden kulttuuriraati valitsi LWT:n Loviisan parhaaksi kulttuuriteoksi ja Loviisan sanomien verkkosivujen lukijat vuoden 2012 suosikkitapahtumaksi.
-
-Tapahtuman järjestää Loviisan Wanhat Talot ry/Lovisa Historiska Hus rf
+Evenemanget arrangeras av Loviisan Wanhat Talot ry/Lovisa Historiska hus rf
