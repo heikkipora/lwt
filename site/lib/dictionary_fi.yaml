@@ -35,7 +35,8 @@ footer:
   loviisa: Loviisa
   antiikkimarkkinat: Aleksanterin Antiikkimarkkinat
   aleksanterinkatu: Aleksanterinkatu 8
-
+events:
+  more: Lue lisää »
 houses:
   near: Kohteet Loviisan keskustassa
   remote: Etäkohteet

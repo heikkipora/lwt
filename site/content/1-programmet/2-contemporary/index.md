@@ -1,7 +1,7 @@
 ---
-name: Onko täällä ketään ? -näyttely
-description: LWT-viikonloppuna 30.-31.8.2014 järjestettävässä nykytaidenäyttelyssä on esillä uusinta ja kiinnnostavinta suomalaista nykytaidetta ripoteltuna kaupungille, LWT-koteihin ja julkisiin tiloihin.
-link: http://loviisacontemporary.weebly.com/onko-taumlaumlllauml-ketaumlaumln.html
+name: Finns det någon här? -utställning
+description: "Nutidskonstutställning anländer till Lovisa under LHH-veckoslutet. Utställningen innefattar den mest intressanta finska nutidskonst spritt utöver staden: i öppna privata hem samt det offentliga rummet."
+link: http://loviisacontemporary.weebly.com/finns-det-naringgon-haumlr.html
 gallery: no
 lang: se
 ---
