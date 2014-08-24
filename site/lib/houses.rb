@@ -23,6 +23,11 @@ module HousesHelper
       item.path
     end
   end
+
+  def finnish_house(item)
+    finnish_item = item.identifier.gsub('2-hus', '2-kohteet')
+    @items.find { |i| i.identifier == finnish_item }
+  end
 end
 
 include HousesHelper
