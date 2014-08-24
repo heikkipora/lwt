@@ -16,6 +16,13 @@ module HousesHelper
     select_remote(item).sort { |a, b| a[:number] <=> b[:number] }
   end
 
+  def house_path(item)
+    if lang(item) == 'se'
+      item.path.gsub('/hus', '../kohteet')
+    else
+      item.path
+    end
+  end
 end
 
 include HousesHelper

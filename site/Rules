@@ -107,6 +107,21 @@ compile '/2-kohteet/*' do
   end
 end
 
+
+compile '/2-hus/' do
+  filter :kramdown
+  layout 'houses_se'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/2-hus/*' do
+  if !item.binary?
+    filter :kramdown
+    layout 'house_se'
+    filter :relativize_paths, :type => :html
+  end
+end
+
 compile '*' do
   if !item.binary?
     filter :kramdown

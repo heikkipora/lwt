@@ -1,0 +1,37 @@
+<%= render 'partials/head' %>
+<%= render 'partials/navi' %>
+
+<div class="row">
+    <div class="small-12 columns">
+        <nav class="breadcrumbs">
+            <a class="current" href="#"><%= @item[:navi] %></a>
+        </nav>
+        <%= yield %>
+    </div>
+</div>
+
+<div class="row houses content near">
+    <div class="small-12 columns">
+        <hr>
+        <h4><%= t('houses.near') %>:</h4>
+        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+            <% sorted_near(@item).each do |item| %>
+            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>/1-thumb.jpg"></a></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+
+<div class="row houses content remote">
+    <div class="small-12 columns">
+        <hr>
+        <h4><%= t('houses.remote') %>:</h4>
+        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+            <% sorted_remote(@item).each do |item| %>
+            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>/1-thumb.jpg"></a></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
+
+<%= render 'partials/footer' %>
