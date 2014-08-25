@@ -13,6 +13,13 @@
                     <% index.children.select {|i| i[:extension] == 'md' && lang(i) == lang(@item) }.each do |item| %>
                     <li class="<%= 'active' if (item === @item) || (item === @item.parent) %>"><a href="<%= item.path %>"><%= item[:navi] %></a></li>
                     <% end %>
+                    <li>
+                        <% if lang(@item) == 'se' %>
+                        <a href="/">Suomeksi</a>
+                        <% else %>
+                        <a href="/programmet">På svenska</a>
+                        <% end %>
+                    </li>
                 </ul>
             </section>
         </nav>
