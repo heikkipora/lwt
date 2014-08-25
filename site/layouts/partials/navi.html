@@ -1,0 +1,20 @@
+<header>
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="http://www.lippupalvelu.fi/event/loviisan-wanhat-talot-30-3182014-lippuja/138369"><%= t('navi.title') %></a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <% index = @items.find { |i| i.identifier == '/' } %>
+                    <% index.children.select {|i| i[:extension] == 'md' && lang(i) == lang(@item) }.each do |item| %>
+                    <li class="<%= 'active' if (item === @item) || (item === @item.parent) %>"><a href="<%= item.path %>"><%= item[:navi] %></a></li>
+                    <% end %>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>

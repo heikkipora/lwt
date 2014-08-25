@@ -1,0 +1,155 @@
+* {
+  font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Serif Caption', serif;
+}
+
+p {
+  margin-bottom: 0
+}
+
+p + p {
+  text-indent: 1em;
+  margin-top: 0
+}
+
+em {
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+footer {
+  padding-bottom: 2em;
+  color: white;
+  background-color: #074e68;
+
+  .prizes {
+    background-color: #085a78;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    p {
+      font-size: 80%;
+      font-style: italic;
+      line-height: 120%;
+      display: inline-block;
+    }
+    li {
+      text-align: center;
+      &:first-child {
+        margin-top: 0.1em;
+      }
+    }
+  }
+  .facebook {
+    background-color: #085a78;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    img.fb {
+      width: 105px;
+      height: 38px;
+      margin-left: 40px;
+    }
+    img.ticketmaster {
+      width: 150px;
+      height: 38px;
+      margin-left: 40px;
+    }
+  }
+  .contact {
+    padding-top: 2em;
+  }
+  h5 {
+    color: white;
+  }
+
+  h5 a {
+    color: white;
+    font-size: 100%;
+  }
+
+  h5, p, a {
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+  }
+}
+
+.content {
+  margin-bottom: 2em;
+}
+
+.breadcrumbs {
+  margin: 1em 0 0.5em 0;
+}
+
+.gallery {
+  margin-top: 2em;
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.houses {
+  li {
+    padding-bottom: 0;
+    position: relative;
+    &:after {
+      display: block;
+      content: attr(data-number);
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      color: white;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 0px 0px 5px #000000;
+    }
+    h4 {
+      height: 3em;
+      display: table-cell;
+      vertical-align: bottom;
+    }
+  }
+}
+
+.events {
+  li {
+    padding-bottom: 0;
+  }
+  h4 {
+    height: 3em;
+    display: table-cell;
+    vertical-align: bottom;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  a.th {
+    margin: 8px 10px 0px 0px;
+  }
+}
+
+.row.map {
+  margin-top: 1em;
+  img {
+    margin-bottom: 1em;
+    &:first-child {
+      margin-right: 5px;
+    }
+  }
+}
+
+.sponsors {
+  background-color: rgb(240,240,240);
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.browser {
+  border: 2px solid red;
+  padding: 1em;
+  margin: 1em;
+}

@@ -1,0 +1,60 @@
+
+.background-linear-gradient(@gradient) {
+    background: linear-gradient(@gradient);
+    background: -moz-linear-gradient(@gradient);
+    background: -webkit-linear-gradient(@gradient);
+    background: -khtml-linear-gradient(@gradient);
+    background: -o-linear-gradient(@gradient);
+    background: -ms-linear-gradient(@gradient);
+}
+
+.background-radial-gradient(@gradient) {
+    background: radial-gradient(@gradient);
+    background: -moz-radial-gradient(@gradient);
+    background: -webkit-radial-gradient(@gradient);
+    background: -khtml-radial-gradient(@gradient);
+    background: -o-radial-gradient(@gradient);
+    background: -ms-radial-gradient(@gradient);
+}
+.background-gradient-with-icon(@icon, @gradient) {
+    background: @icon, linear-gradient(@gradient);
+    background: @icon, -moz-linear-gradient(@gradient);
+    background: @icon, -webkit-linear-gradient(@gradient);
+    background: @icon, -khtml-linear-gradient(@gradient);
+    background: @icon, -o-linear-gradient(@gradient);
+    background: @icon, -ms-linear-gradient(@gradient);
+}
+
+.border-radius(@radius) {
+    border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    -khtml-border-radius: @radius;
+    -o-border-radius: @radius;
+    -ms-border-radius: @radius;
+}
+
+.text-shadow(@shadow) {
+    text-shadow: @shadow;
+    -moz-text-shadow: @shadow;
+    -webkit-text-shadow: @shadow;
+    -khtml-text-shadow: @shadow;
+    -o-text-shadow: @shadow;
+    -ms-text-shadow: @shadow;
+}
+
+.box-shadow(@shadow) {
+    box-shadow: @shadow;
+    -moz-box-shadow: @shadow;
+    -webkit-box-shadow: @shadow;
+    -khtml-box-shadow: @shadow;
+    -o-box-shadow: @shadow;
+    -ms-box-shadow: @shadow;
+}
+
+.fade-in(@delay) {
+    -webkit-animation: fadeIn 500ms @delay both;
+    -moz-animation: fadeIn 500ms @delay both;
+    -ms-animation: fadeIn 500ms @delay both;
+    animation: fadeIn 500ms @delay both;
+}
