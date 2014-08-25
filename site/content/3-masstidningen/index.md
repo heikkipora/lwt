@@ -3,7 +3,7 @@ navi: Mässtidningen och karta
 title: Mässtidningen och karta
 lang: se
 ---
-Lataa tapahtumalehti ja -kartta PDF-muodossa klikkaamalla kuvia:
+Ladda ner evenemangtidningen och -kartan i PDF-form genom att klicka på bilderna:
 
 <div class="row map">
 <div class="large-12 columns">

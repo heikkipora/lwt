@@ -1,6 +1,6 @@
 ---
 title: "Lovisa Historiska Hus 30.–31.8.2014: AV KÄRLEK TILL HISTORISKA HUS!"
-name: LHH 10 års 30.-31.8.2014
+name: LHH 10 år 30.-31.8.2014
 description: Gamla hus, härliga hem, förtjusande trädgårdar, konst, antikviteter och otaliga lopptorg samt läcker närmat i en idyllisk småstadsmiljö intill havet.
 gallery: yes
 lang: se

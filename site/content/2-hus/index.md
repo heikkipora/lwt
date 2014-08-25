@@ -4,5 +4,5 @@ title: Hus
 lang: se
 ---
 
-Nämä Loviisalaistalot avaavat ovensa syksyllä 2014
+Dessa Lovisahus håller öppet på hösten 2014
 -----
