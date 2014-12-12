@@ -1,24 +1,17 @@
 ---
-title: "Loviisan Wanhat Talot 30.–31.8.2014: RAKKAUDESTA VANHOIHIN TALOIHIN!"
-name: LWT 10 vuotta 30.-31.8.2014
+title: "Loviisan Wanhat Talot 29.–30.8.2015: LOVIISAN WANHAT TALOT KUTSUVAT KYLÄÄN!"
+name: LWT seuraavan kerran 29.-30.8.2015
 description: Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.
-gallery: yes
 ---
 
-<em>Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.</em>
+<em>Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 29. – 30.8. 2015.</em>
 
-Vuonna 2014 Loviisan vanhat talot avaavat ovensa, pihansa ja puutarhansa kymmenennen kerran.  Juhlavuoden teemana on Ruotsin vallan alainen Loviisa  -  Loviisan kaupungin perustaminen 1745 ja sen vuodet osana Ruotsin kuningaskuntaa 1809 asti.
+Kulttuurihistoriallisena teemana on Kylpyläajan Loviisa. Se myötäilee Sibeliuksen juhlavuoden kunniaksi Loviisan matkailun ja kaupunginmuseon näyttelyn teemaa ”Kylpyläelämää Loviisassa ja nuori Jean Sibelius” - Sibeliushan lomaili nuoruusvuosinaan Loviisassa sukunsa edelleen pystyssä olevassa kotitalossa. 
 
-Vuoden 2014 LWT-päivien aikana 1700-luvun jälkipuolisko on esillä monin  tavoin. Osa kohdetaloistamme on rakennettu jo tuolloin, joskin valtaosa "ruotsalaisesta" Loviisasta tuhoutui 1855 suuressa tulipalossa. Loviisan katukuvaa koristavat myös 1700-luvun harrastajat epookinmukaisissa asuissaan.
+Loviisan Wanhat Talot muuttuvat vuosittain. Osa vanhoista tutuista pitää taukoa, uudet tulokkaat tuovat mukaan uutta nähtävää. Remontit ja kunnostukset jatkuvat, aiemmat rakennustyömaat ovatkin ihastuttavia koteja. Vanhojen talojen henki ja sisustus vaihtuvat myös uusien omistajien myötä, joten nähtävää ja koettavaa riittää.
 
-Panu Kailan tähdittämässä lauantain asiantuntijaseminaarissa keskustellaan siitä, mitä voimme oppia 1700-luvun kestävästä ja lämpimästä puurakentamisesta? Kailan esitelmän aiheena on "Puutalon kestävyys ja energiansäästö 1700-luvulta 2000-luvulle".
+Valtakunnalliseen perinne- ja korjausrakentamisen tapahtumaan sisältyy toki myös työnäytöksiä sekä ”talotohtori ”Panu Kailan tähdittämä perinteinen asiantuntijaseminaari ja korjausklinikka..
 
-Juhlavuoden kunniaksi Loviisan Wanhoissa Taloissa ja niiden ulkopuolella nähdään myös korkealaatuista ja mielenkiintoista nykytaidetta. Näyttelyn kuratoi kuvataiteilija, TAM Kati Rapia ja sen tuottaa Loviisa Contemporary ry. Nykytaidetapahtumaan osallistuu 20 taiteilijaa, useammalla teoksella.
-
-Loviisan Wanhat Talot -tapahtuman keskeisenä tavoitteena on vahvistaa itäuusmaalaisen rakennuskulttuurin säilymistä elävänä perintönä tuleville sukupolville, elvyttää perinteisten rakennusten kunnostamisen taitoja sekä tarjota korjausrakentamisessa kaivattavaa tietoa. Parin viime vuoden ajan olemme olleet myös aktiivisesti mukana edistämässä lähi- ja luomuruokaideologiaa.
-
-Loviisan Wanhat Talot -tapahtuma on kehittynyt Loviisan kaupungin ja koko itäisen Uudenmaan ehdottomasti suosituimmaksi matkailutapahtumaksi - tapahtuman kävijämääräksi arvioitiin 2013 noin 15 000 ihmistä.
-
-Tapahtumaa on kunnioitettu Uudenmaan ympäristöpalkinnolla 2007, Loviisan kaupungin mitalilla 2008, Suomen Arkkitehtiliiton SAFA  palkinnolla 2009 ja Vartin Vuoden kaupunkiteko 2010 -kunniamaininnalla. Pikkukaupunki-lehden kulttuuriraati valitsi LWT:n Loviisan parhaaksi kulttuuriteoksi ja Loviisan sanomien verkkosivujen lukijat vuoden 2012 suosikkitapahtumaksi.
+Loviisan Wanhat Talot on myös Suomen suurin avoimien puutarhojen ja pihapiirien keskittymä. Vanhojen huonekalujen ja tavaroiden kierrätys on oleellinen osa tapahtumaa - antiikkimarkkinoilla, keräilytapahtumissa, suurilla kirpputoreilla ja lukemattomilla pihakirppiksillä voi tehdä mieleisiään löytöjä. Tapahtumassa voi maistella maukasta lähi- ja luomuruokaa sekä talojen omia herkkuja ja ravintoloiden ruokalistoilla nähdään myös parhaita paloja Sibeliuksen nuoruusvuosien menyistä. Taiteen ystäville on tarjolla taidetta ja musiikkia. Ei siis ole ihme, että LWT- tapahtuma on noussut itäisen Uudenmaan suurimmaksi yleisötapahtumaksi ja saanut lukuisia palkintoja ja kunniamainintoja.
 
 Tapahtuman järjestää Loviisan Wanhat Talot ry/Lovisa Historiska Hus rf
