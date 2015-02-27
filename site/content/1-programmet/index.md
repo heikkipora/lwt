@@ -1,6 +1,6 @@
 ---
 navi: Programmet
-title: Lovisa Historiska Hus 30.–31.8.2014
+title: Lovisa Historiska Hus 29.-30.8.2015
 preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
 lang: se
 ---

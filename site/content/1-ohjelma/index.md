@@ -1,6 +1,6 @@
 ---
 navi: Ohjelma
-title: Loviisan Wanhat Talot 30.–31.8.2014
+title: Loviisan Wanhat Talot 29.-30.8.2015
 preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
 ---
 
