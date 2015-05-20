@@ -3,7 +3,7 @@ title: "Loviisan Historiska Hus 29.–30.8.2015: LOVISA HISTORISKA HUS ÖNSKAR E
 name: Lovisa Historiska Hus önskar er hjärtligt välkomna på besök!
 description: Gamla hus, härliga hem, förtjusande trädgårdar, konst, antikviteter och otaliga lopptorg samt läcker närmat i en idyllisk småstadsmiljö intill havet.
 ---
-*De privata hemmen i över 100 år gamla historiska hus öppnar sina dörrar för allmänheten det sista veckoslutet i augusti 29.-30.8.2015*
+*De privata hemmen i över 100 år gamla historiska hus öppnar sina dörrar för allmänheten det sista veckoslutet i augusti 29.-30.8.2015. Nyheten för i år är Isnäs historiska lantgårdar med sina förtjusande byggnader. På dessa gårdar idkar man numera ekologisk odling.  Man kan även besöka 1700-tals arbetarbostäder, som finns i Brukets intressanta  miljö i Strömfors.*
 
 Evenemanget som fått många utmärkelser förärades i år med Östra Nylands Resesten 2014. Juryn som Posintra inbjudit motiverade beslutet bl.a. på följande sätt: ”Utmärkelsen Östra Nylands Resesten 2014 ges till föreningen som har skapat och organiserat det publikevenemang som har vuxit sig störst i Östnyland och blivit nationellt känt. Föreningens verksamhet har utvidgats under en tid av knappa resurser för både offentliga och privata aktörer" 
 

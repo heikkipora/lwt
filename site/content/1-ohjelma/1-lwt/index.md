@@ -3,7 +3,7 @@ title: "Loviisan Wanhat Talot 29.–30.8.2015: LOVIISAN WANHAT TALOT KUTSUVAT KY
 name: Loviisan Wanhat Talot kutsuvat kylään!
 description: Vanhoja taloja, kauniita koteja, historiallisia pihapiirejä, viehättäviä puutarhoja, antiikkia ja taidetta, lukemattomia pihakirppiksiä sekä herkullista lähiruokaa merellisessä pikkukaupunki-idyllissä.
 ---
-*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 29. – 30.8.2015.*
+*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 29. – 30.8.2015. Uutuutena ovat tänä vuonna Isnäsin vanhat, nyttemmin luomutiloina toimivat historialliset maatilat upeine rakennuksineen sekä Ruotsinpyhtään mielenkiintoisen Ruukki-alueen 1700-luvun työläisasunnot.*
 
 Useasti palkittua tapahtumaa kunnioitettiin tänä vuonna Matkakivi 2014 –tunnustuspalkinnolla. Raati perusteli valintaansa mm. näin: ”Loviisan Wanhat talot ry. on luonut ja organisoinut itäisen Uudenmaan suurimmaksi kasvaneen ja valtakunnallisesti tunnistetun yleisötapahtuman ja yhdistyksen toiminta on laajentunut aikana, jolloin julkisten ja yksityisten toimijoiden voimavarat ovat tiukalla.”
 
