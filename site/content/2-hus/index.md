@@ -4,5 +4,5 @@ title: Hus
 lang: se
 ---
 
-Dessa Lovisahus håller öppet på hösten 2014
+Dessa Lovisahus håller öppet på hösten 2015
 -----
