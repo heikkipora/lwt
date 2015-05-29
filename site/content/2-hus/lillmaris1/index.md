@@ -2,7 +2,7 @@
 name: Lillmaris 1
 address: Fasarby skolväg 41, Isnäs
 remote: true
-number: Uusi
+new: true
 ---
 I Pernå intill stranden i Fasarby ligger Lillmaris, som en gång i tiden var Svenska statens kavallerikasern. I nuvarande 
 ägo övergick Lillmaris 1967. Det röda bostadshusets gavel är från 1700-talet och huset har förlängts på 1800-talets sida. 

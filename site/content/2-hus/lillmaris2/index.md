@@ -2,7 +2,7 @@
 name: Lillmaris 2
 address: Fasarbyn koulutie 41, Isnäs
 remote: true
-number: Uusi
+new: true
 ---
 Keltainen päärakennus - ”herrasväen huvila” - on pystytetty 1845, sittemmin remontoitu keittiösiipi on lisätty taloon 
 1950-luvulla.  Lillmarin luomutila siirtyi luonnonmukaiseen viljelyyn osittain vuonna 1993 ja kokonaan vuonna 1998. 

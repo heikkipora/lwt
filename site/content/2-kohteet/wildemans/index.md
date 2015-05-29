@@ -2,7 +2,7 @@
 name: Wildemans
 address: Isnäsintie 86, Isnäs
 remote: true
-number: Uusi
+new: true
 ---
 Wildemansgård oli Pernajan ensimmäinen säterikartano, joka tunnettiin jo 1400-luvulla. Nykyinen päärakennus on 
 1900-luvun toiselta vuosikymmeneltä, tuulimylly vuodelta 1896. Wildemans on tänä päivänä luomutila, jolla on n. 17 ha 

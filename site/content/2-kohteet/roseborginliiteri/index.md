@@ -2,7 +2,7 @@
 name: Roseborgin liiteri
 address: Ruukintie 17, Ruotsinpyhtää
 remote: true
-number: Uusi
+new: true
 ---
 Suomessa on vain kaksi 1700-luvulta säilynyttä hirsistä teollisuuskiinteistöä ja Roseborgin liiterin 1745-48 rakennettu 
 nykyinen toimitila on se toinen. Pian 300 vuotisten komeiden hirsirakennelmien keskeltä löytyy perinteisiin, ekologisiin 

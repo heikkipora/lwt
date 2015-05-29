@@ -4,7 +4,11 @@
 <div class="row">
     <div class="small-12 columns">
         <%= render 'partials/breadcrumbs' %>
-        <h2><%= @item[:number] %>. <%= @item[:name] %></h2>
+        <h2><% if @item[:number] %>
+            <%= @item[:number] %>.&nbsp;
+            <% end %>
+            <%= @item[:name] %>
+        </h2>
         <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
         <% if @item[:garden] %> - <em><%= t('house.garden') %></em><% end %>
         <% if @item[:remote] %> - <em><%= t('house.remote') %></em><% end %>

@@ -1,11 +1,19 @@
 module HousesHelper
 
+  def select_new(item)
+    item.children.select { |item| item[:new] == true }
+  end
+
   def select_near(item)
-    item.children.select { |item| item[:remote] != true }
+    item.children.select { |item| item[:remote] != true and item[:new] != true }
   end
 
   def select_remote(item)
-    item.children.select { |item| item[:remote] == true }
+    item.children.select { |item| item[:remote] == true and item[:new] != true }
+  end
+
+  def sorted_new(item)
+    select_new(item).sort { |a, b| a[:name] <=> b[:name] }
   end
 
   def sorted_near(item)
