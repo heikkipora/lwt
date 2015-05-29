@@ -2,6 +2,7 @@
 name: Seppämestarien talo
 address: Bruksvägen 12 A, Strömfors
 remote: true
+lang: se
 new: true
 ---
 Det ståtliga huset byggdes ursprungligen till bostäder för Brukets mästersmeder 1788. Då fanns det fyra rum med eldstäder 

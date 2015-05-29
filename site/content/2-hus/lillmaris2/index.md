@@ -2,6 +2,7 @@
 name: Lillmaris 2
 address: Fasarbyn koulutie 41, Isnäs
 remote: true
+lang: se
 new: true
 ---
 Keltainen päärakennus - ”herrasväen huvila” - on pystytetty 1845, sittemmin remontoitu keittiösiipi on lisätty taloon 

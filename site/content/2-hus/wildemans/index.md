@@ -2,6 +2,7 @@
 name: Wildemans
 address: Isnäsvägen 86, Isnäs
 remote: true
+lang: se
 new: true
 ---
 Wildemansgård är den första säterigården i Pernå, som man känt till redan på 1400-talet. Den nuvarande huvudbyggnaden är 

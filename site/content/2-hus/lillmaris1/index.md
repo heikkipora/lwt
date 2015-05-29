@@ -2,6 +2,7 @@
 name: Lillmaris 1
 address: Fasarby skolväg 41, Isnäs
 remote: true
+lang: se
 new: true
 ---
 I Pernå intill stranden i Fasarby ligger Lillmaris, som en gång i tiden var Svenska statens kavallerikasern. I nuvarande 
