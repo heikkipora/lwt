@@ -1,7 +1,0 @@
----
-name: Lurensin kartano
-address: Lurensintie 121, Lurens
-remote: true
-number: B
----
-Vanhin osa Lurensin kartanoa on rakennettu 1600-luvulla ja siirretty muualta nykyiselle paikalleen, jossa rakennusta on jatkettu aina tarpeen vaatiessa. Tilan merkittävin omistajasuku olivat Lindforsit ja monet esineet kertovat äveriään merenkulkijakauppias Jacobin kaukomatkoista. Hänen vanhin poikansa, kenraalimajuri Jacob Julius aateloitiin. Kenraali af Lindfors oli menestynyt teollisuusyrittäjä ja hyväntekijä, joka rakennutti mm. Helsingin Eläintarhan suuren kasvihuoneen. Suku sammui 1933, jolloin kartano testamentattiin Pernajan kunnalle turvattomien lasten hoitolaitosta varten. Kun testamentti toimeenpantiin 1962, turvattomia lapsia ei enää löytynyt ja kunta luovutti päärakennuksen puistoineen Östra Nyland Ungdomsförbundin käyttöön. Alueella toimii aktiivinen kesäteatteri, kartanon vierellä on mielenkiintoinen vaunumuseo.
