@@ -17,3 +17,5 @@ Kaikille avoimet ruusuhäät avaavat Loviisan kirkon ovet lauantaina klo 16.00. 
 Kaisa Korpelan, Nina ”Ninitschi ”Wikludin ja Maarit Rokkasen artesaaniruusuja voi ihailla Pitkänpöydäntalon Ruusupajassa. Vackerbackan Maypop Magazinen kädentaitoihin keskittynyt kesäpuoti tarjoaa monenlaista mukavaa kotiin ja puutarhaan – ruusuja unohtamatta!
 
 [» Ruusujen hurmaa -sivu Facebookissa](https://www.facebook.com/pages/Ruusujen-hurmaa-Loviisassa/189692844407686)
+
+[» Lataa tästä tulostettava kartta ja ohjelma (PDF)](/ohjelma/ruusut/kartta.pdf)
