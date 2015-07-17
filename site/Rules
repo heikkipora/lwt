@@ -17,7 +17,7 @@ compile '/static/*' do
 end
 
 route '/static/*' do
-  item.identifier.gsub(/htaccess/, '.htaccess').gsub(/\/static/, '').chop
+  item.identifier.gsub(/\/static/, '').chop
 end
 
 compile '/stylesheet/' do
