@@ -1,5 +1,5 @@
 ---
-name: Antby Herrgård
+name: Storskrapis
 address: Södra Fredsbyvägen 2, Loviisa
 number: 43
 lang: se
