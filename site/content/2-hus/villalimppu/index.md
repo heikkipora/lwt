@@ -4,7 +4,7 @@ address: Kuhlefeltsgatan 12 A, Lovisa
 new: true
 lang: se
 ---
-Uudet omistajat löysivät seiniä ja lattioita avatessaan 1900-luvun kirjeitä ja kirjasia - osa hirsistä on sitäkin 
-vanhempia. Remonttia on tehty kymmenen vuoden aikana kuin Iisakin kirkkoa, huolella huone kerrallaan. On poistettu 
-väliseiniä, avattu vanhoja ovia, uudelleeneristetty lattiat ja seinät, joista osa on jätetty hirrelle. Aiemmin kylmän 
-lasikuistin ikkunoista on rakennettu kekseliäästi vanhempien makuuhuoneen liukuovi.
+De nya ägarna hittade brev och broschyrer från 1900-talet då de öppnade väggar och golv - en del av stockarna är ännu 
+äldre. Man har renoverat huset i tio år, ett rum i gången med pietet. Man har tagit ner mellanväggar, öppnat tidigare 
+dörrar, isolerat golv och väggar på nytt. På endel väggar har man lämnat stockarna synliga. Av fönstren från den tidigare 
+kalla verandan har man påhittigt gjort en skjutdörr till föräldrarnas sovrum.
