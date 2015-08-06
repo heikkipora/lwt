@@ -1,5 +1,5 @@
 ---
-name: Villa Wappu
+name: Villa Vappu
 address: Gislomintie 160, Loviisa
 number: 12
 ---
