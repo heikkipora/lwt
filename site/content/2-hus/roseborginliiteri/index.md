@@ -1,12 +1,13 @@
 ---
 name: Roseborgin liiteri
-address: Ruukintie 17, Ruotsinpyhtää
+address: Bruksvägen 17, Strömfors
 remote: true
 lang: se
 new: true
 ---
-Suomessa on vain kaksi 1700-luvulta säilynyttä hirsistä teollisuuskiinteistöä ja Roseborgin liiterin 1745-48 rakennettu 
-nykyinen toimitila on se toinen. Pian 300 vuotisten komeiden hirsirakennelmien keskeltä löytyy perinteisiin, ekologisiin 
-ja luonnonmateriaaleihin keskittynyt kierrätys-, rakennusmateriaali- ja -tarvikemyymälä. Roseborgin liiteri toivoo 
-voivansa välittää asiakkailleen terveellisempiä ja turvallisempia materiaaleja, jotka ovat myös ”kauniita katsella”.
+I Finland finns det endast två industribyggnader byggda av stock, som bevarats sedan 1700-talet. Den ena av dem är 
+lokaliteterna byggda 1745-48, där Roseborgs lider numera fungerar. Mitt bland de snart 300 år gamla ståtliga 
+stockkonstruktionerna finns återvinnings-, byggnads-material- och tillbehörsaffären som fokuserar sig på traditionella, 
+ekologiska och av naturmaterial  bestående produkter. Rosebrogs lider vill erbjuda sina kunder hälsosammare och tryggare 
+material, som även är "vackra att se på".
 [www.roseborg.fi](http://www.roseborg.fi)
