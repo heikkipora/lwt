@@ -1,11 +1,11 @@
 ---
 name: Sahamäki 2
-address: Ruukintie 12 E, Ruotsinpyhtää
+address: Bruksvägen 12 E, Strömfors
 remote: true
 lang: se
 new: true
 ---
-Talo on rakennettu 1794 alueen seppien navetaksi. Siinä on sijainnut sittemmin Teutjärven säästökassa ja osuuskauppa, 
-lastentarha sekä erilaisia harrastetiloja. Kun talo remontoitiin asuinkäyttöön 2005, se purettiin sisältä kokonaan 
-hirsirungolle ja siihen tehtiin täysin uusi huonejako. Nykyiset omistajat ovat asuneet huolella kunnostetussa 
-talossa vuodesta 2012.
+Huset är byggt 1794 och var urprungligen ortens smeders ladugård. I huset har sedermera fungerat Teutjärvi sparkassa och 
+andelslag, en barnträdgård och olika slag av hobbyutrymmen. När huset renoverades för boende 2005, revs allting inomhus 
+ända till stockstommen och man gjorde en helt ny bottenplan. De nuvarande ägarna har bott i detta välrenoverade hus 
+sedan 2012.
