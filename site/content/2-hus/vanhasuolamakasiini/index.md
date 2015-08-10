@@ -1,12 +1,13 @@
 ---
-name: Vanha suolamakasiini
-address: Markkinamäentie 137, Strömfors
+name: Gamla saltmagasinet
+address: Marknadbacksvägen 137, Strömfors
 remote: true
 new: true
 lang: se
 ---
-Ahvenkosken lohenkalastamot kuuluivat 1300-luvulla Turun katolisille piispoille, jotka saivat kosken äärelle 
-piispankartanon ja kalansaaliiden lisäksi omistukseensa myös Ahvenkosken kylän. Ahvenkosken edustalla merestä kohoava 
-Markkinamäki oli jo keskiajalta tunnettu kauppapaikka, jossa järjestettiin etelärannikkomme tärkeimmät syyskalamarkkinat.
-Fishermans Foodin Kalakeitaan kalamyymälänä toimiva vanha suola-aitta on peräisin 1700-1800-luvun vaihteessa. /
+Abborfors laxfiskevatten hörde på 1300-talet till Åbo katolska biskopar som förutom biskopsgården och fiskfångsten vid 
+forsen blev ägare även till Abborfors by. Marknadbacken som stiger från havet framför Abborsfors var redan på medeltiden 
+en välkänd affärsplats, där de viktigaste höstfiskmarknaderna på vår sydkust ordnades. Den gamla saltbodan där Fishermans 
+Foods Kalakeidas affär finns, är från 1700-1800-talets skifte.
 [www.fishermans.fi](http://www.fishermans.fi)
+
