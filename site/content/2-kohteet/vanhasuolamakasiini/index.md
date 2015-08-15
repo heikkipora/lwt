@@ -2,6 +2,7 @@
 name: Vanha suolamakasiini
 address: Markkinamäentie 137, Ruotsinpyhtää
 remote: true
+number: H
 new: true
 ---
 Ahvenkosken lohenkalastamot kuuluivat 1300-luvulla Turun katolisille piispoille, jotka saivat kosken äärelle 

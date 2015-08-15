@@ -2,6 +2,7 @@
 name: Rautaparta
 address: Myllärintie 3, Ruotsinpyhtää
 remote: true
+number: P
 new: true
 ---
 Joroisista 2005 löytynyt mahtava hirsitalo on rakennettu 1800-luvun alussa ja se alkoi nousta hivenen lyhennettynä 

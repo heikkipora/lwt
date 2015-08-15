@@ -2,6 +2,7 @@
 name: Pihlajarinne 1
 address: Edöntie 130 as 2, Isnäs
 remote: true
+number: E
 new: true
 ---
 Talo rakennettiin vuonna 1897-98 Isnäsin sahan työläisasunnoiksi. Vuonna 2010 alkaneessa länsipäädyn perusteellisessa 

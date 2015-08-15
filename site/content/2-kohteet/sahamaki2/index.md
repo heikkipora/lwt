@@ -2,6 +2,7 @@
 name: Sahamäki 2
 address: Ruukintie 12 E, Ruotsinpyhtää
 remote: true
+number: O
 new: true
 ---
 Talo on rakennettu 1794 alueen seppien navetaksi. Siinä on sijainnut sittemmin Teutjärven säästökassa ja osuuskauppa, 

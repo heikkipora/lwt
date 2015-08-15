@@ -2,6 +2,7 @@
 name: Saarnimäki
 address: Sahamäentie 4 as 2, Ruotsinpyhtää
 remote: true
+number: N
 new: true
 ---
 Ruukin sahan tyypilliseen 1700-luvun lopun työlaisasuntoon kuului huone ja hellahuone. Saarnimäen talossa tällaisia 

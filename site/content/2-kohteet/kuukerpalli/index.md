@@ -2,6 +2,7 @@
 name: Kuukerpalli
 address: Ruukintie 12 A, Ruotsinpyhtää
 remote: true
+number: L
 new: true
 ---
 Vuonna 1793 rakennetussa talossa oli alun perin kuusi asuntoa sekä verstastilaa. Osin vielä keskeneräisen päätyhuoneiston 

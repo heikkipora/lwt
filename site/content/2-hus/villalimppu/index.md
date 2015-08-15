@@ -1,6 +1,7 @@
 ---
 name: Villa Limppu
 address: Kuhlefeltsgatan 12 A, Lovisa
+number: 2
 new: true
 lang: se
 ---

@@ -1,6 +1,7 @@
 ---
 name: Villa Limppu
 address: Kuhlefeltinkatu 12 A, Loviisa
+number: 2
 new: true
 ---
 Uudet omistajat löysivät seiniä ja lattioita avatessaan 1900-luvun kirjeitä ja kirjasia - osa hirsistä on sitäkin 

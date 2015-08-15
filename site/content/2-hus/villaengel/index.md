@@ -1,6 +1,7 @@
 ---
 name: Villa Engel
 address: Östra Åsvägen 4, Lovisa
+number: 36
 new: true
 lang: se
 ---

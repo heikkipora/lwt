@@ -2,6 +2,7 @@
 name: Kuukerpalli
 address: Bruksvägen 12 A, Strömfors
 remote: true
+number: L
 lang: se
 new: true
 ---

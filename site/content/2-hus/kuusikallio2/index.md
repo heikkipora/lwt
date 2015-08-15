@@ -2,6 +2,7 @@
 name: Kuusikallio 2
 address: Edövägen 126 bostad 1, Isnäs
 remote: true
+number: E
 lang: se
 new: true
 ---

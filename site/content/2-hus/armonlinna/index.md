@@ -2,6 +2,7 @@
 name: Armonlinna
 address: Bruksvägen 10, Strömfors
 remote: true
+number: J
 lang: se
 new: true
 ---

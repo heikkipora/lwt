@@ -2,6 +2,7 @@
 name: Lillmaris 2
 address: Fasarby skolväg 41, Isnäs
 remote: true
+number: B
 new: true
 ---
 Den gula huvudbyggnaden - "herrskapets villa" - är uppförd 1845 och den numera renoverade köksflygeln byggdes till på 

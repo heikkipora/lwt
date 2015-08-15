@@ -1,6 +1,7 @@
 ---
 name: Villa Engel
 address: Itäinen harjutie 4, Loviisa
+number: 36
 new: true
 ---
 Vuonna 1912 rakennettua komeaa hirsitaloa on remontoitu pikku hiljaa neljän vuoden ajan. Aiemmin energiasyistä lasketut 

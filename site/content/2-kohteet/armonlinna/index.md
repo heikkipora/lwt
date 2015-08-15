@@ -2,6 +2,7 @@
 name: Armonlinna
 address: Ruukintie 10, Ruotsinpyhtää
 remote: true
+number: J
 new: true
 ---
 Armonlinna rakennettiin 1842 Strömforsin ruukin sahan isännöitsijän ja konttorihenkilökunnan asunnoiksi ja se on 

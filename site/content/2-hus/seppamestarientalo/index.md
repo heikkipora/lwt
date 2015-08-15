@@ -2,6 +2,7 @@
 name: Seppämestarien talo
 address: Bruksvägen 12 A, Strömfors
 remote: true
+number: M
 lang: se
 new: true
 ---

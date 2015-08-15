@@ -2,6 +2,7 @@
 name: Lillmaris 1
 address: Fasarbyn koulutie 41, Isnäs
 remote: true
+number: B
 new: true
 ---
 Pernajan Farasbyn lahden rannalla sijaitseva Lillmaris oli aikoinaan Ruotsin valtioin ratsutila. Nykyiseen omistukseensa 

@@ -1,6 +1,7 @@
 ---
 name: Kyrkan
 address: Puutarhakatu 26, Loviisa
+number: 33
 new: true
 ---
 1800-luvulla rakennettu talo on toiminut aiemmin myös metodistikirkkona 1960-luvulle asti. Sittemmin sen holvi-ikkunat 

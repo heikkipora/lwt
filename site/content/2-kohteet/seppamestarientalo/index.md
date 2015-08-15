@@ -2,6 +2,7 @@
 name: Seppämestarien talo
 address: Ruukintie 12 A, Ruotsinpyhtää
 remote: true
+number: M
 new: true
 ---
 Komea talo on rakennettu alun perin Ruukin seppämestareiden asunnoiksi 1788. Tuolloin sen alakerrassa oli neljä 

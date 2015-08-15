@@ -1,6 +1,7 @@
 ---
 name: Kyrkan
 address: Trädgårdsgatan 26, Lovisa
+number: 33
 lang: se
 new: true
 ---
