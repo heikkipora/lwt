@@ -1,7 +1,7 @@
 ---
 name: Gamla folkstugan
 address: Labby gård 49, Isnäs
-remote: true
+remote: 'Isnäs'
 number: F
 lang: se
 ---

@@ -1,7 +1,7 @@
 ---
 name: Rautaparta
 address: Myllärintie 3, Ruotsinpyhtää
-remote: true
+remote: 'Ruukki'
 number: P
 new: true
 ---

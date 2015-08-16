@@ -1,7 +1,7 @@
 ---
 name: Pihlajarinne 1
 address: Edöntie 130 as 2, Isnäs
-remote: true
+remote: 'Isnäs'
 number: E
 new: true
 ---

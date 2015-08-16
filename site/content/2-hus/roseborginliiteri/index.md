@@ -1,7 +1,7 @@
 ---
 name: Roseborgin liiteri
 address: Bruksvägen 17, Strömfors
-remote: true
+remote: 'Ruukki'
 number: K
 lang: se
 new: true

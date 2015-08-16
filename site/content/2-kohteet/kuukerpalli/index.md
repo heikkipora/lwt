@@ -1,7 +1,7 @@
 ---
 name: Kuukerpalli
 address: Ruukintie 12 A, Ruotsinpyhtää
-remote: true
+remote: 'Ruukki'
 number: L
 new: true
 ---

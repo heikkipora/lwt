@@ -1,7 +1,7 @@
 ---
 name: Roseborgin liiteri
 address: Ruukintie 17, Ruotsinpyhtää
-remote: true
+remote: 'Ruukki'
 number: K
 new: true
 ---

@@ -1,7 +1,7 @@
 ---
 name: Saarnimäki
 address: Sahamäentie 4 as 2, Ruotsinpyhtää
-remote: true
+remote: 'Ruukki'
 number: N
 new: true
 ---

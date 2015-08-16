@@ -1,8 +1,8 @@
 ---
 name: Wildemans
 address: Isnäsvägen 86, Isnäs
+remote: 'Isnäs'
 number: A
-remote: true
 lang: se
 new: true
 ---

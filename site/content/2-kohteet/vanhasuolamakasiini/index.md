@@ -1,7 +1,7 @@
 ---
 name: Vanha suolamakasiini
 address: Markkinamäentie 137, Ruotsinpyhtää
-remote: true
+remote: 'Ahvenkoski'
 number: H
 new: true
 ---

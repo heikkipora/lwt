@@ -1,7 +1,7 @@
 ---
 name: Gamla saltmagasinet
 address: Marknadbacksvägen 137, Strömfors
-remote: true
+remote: 'Ahvenkoski'
 number: H
 new: true
 lang: se

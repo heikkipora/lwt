@@ -1,27 +1,17 @@
 module HousesHelper
 
-  def select_new(item)
-    item.children.select { |item| item[:new] == true }
+  def select(item, location)
+    item.children.select { |house| house[:remote] == location }
   end
 
-  def select_near(item)
-    item.children.select { |item| item[:remote] != true and item[:new] != true }
-  end
-
-  def select_remote(item)
-    item.children.select { |item| item[:remote] == true and item[:new] != true }
-  end
-
-  def sorted_new(item)
-    select_new(item).sort { |a, b| a[:name] <=> b[:name] }
-  end
-
-  def sorted_near(item)
-    select_near(item).sort { |a, b| a[:number] <=> b[:number] }
-  end
-
-  def sorted_remote(item)
-    select_remote(item).sort { |a, b| a[:number] <=> b[:number] }
+  def sorted(item, location)
+    select(item, location).sort { |a, b|
+      if a[:number] == b[:number]
+        a[:name] <=> b[:name]
+      else
+        a[:number] <=> b[:number]
+      end
+    }
   end
 
   def house_path(item)

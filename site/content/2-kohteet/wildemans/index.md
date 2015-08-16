@@ -1,8 +1,8 @@
 ---
 name: Wildemans
 address: Isnäsintie 86, Isnäs
+remote: 'Isnäs'
 number: A
-remote: true
 new: true
 ---
 Wildemansgård oli Pernajan ensimmäinen säterikartano, joka tunnettiin jo 1400-luvulla. Nykyinen päärakennus on 

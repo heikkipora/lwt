@@ -1,7 +1,7 @@
 ---
 name: Saarnimäki
 address: Sågbacksvägen 4 bostad 2, Strömfors
-remote: true
+remote: 'Ruukki'
 number: N
 lang: se
 new: true

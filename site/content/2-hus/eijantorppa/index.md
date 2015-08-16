@@ -1,7 +1,7 @@
 ---
 name: Eijas Torp
 address: Elimäkivägen 74, Strömfors
-remote: true
+remote: 'Ahvenkoski'
 number: I
 lang: se
 ---

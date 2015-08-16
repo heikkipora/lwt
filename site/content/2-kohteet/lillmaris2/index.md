@@ -1,7 +1,7 @@
 ---
 name: Lillmaris 2
 address: Fasarby skolväg 41, Isnäs
-remote: true
+remote: 'Isnäs'
 number: B
 new: true
 ---

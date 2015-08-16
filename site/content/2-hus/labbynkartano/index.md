@@ -1,7 +1,7 @@
 ---
 name: Labby Gård
 address: Labby gård 49, Isnäs
-remote: true
+remote: 'Isnäs'
 number: C
 lang: se
 ---

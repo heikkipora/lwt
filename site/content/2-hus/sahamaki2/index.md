@@ -1,7 +1,7 @@
 ---
 name: Sahamäki 2
 address: Bruksvägen 12 E, Strömfors
-remote: true
+remote: 'Ruukki'
 number: O
 lang: se
 new: true

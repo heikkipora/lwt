@@ -1,7 +1,7 @@
 ---
 name: Armonlinna
 address: Ruukintie 10, Ruotsinpyhtää
-remote: true
+remote: 'Ruukki'
 number: J
 new: true
 ---

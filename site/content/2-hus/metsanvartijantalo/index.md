@@ -1,7 +1,7 @@
 ---
 name: Skogsvaktarens hus
 address: Mörskomvägen 9, Lovisa
-remote: true
+remote: 'Malmgård'
 number: F
 lang: se
 ---

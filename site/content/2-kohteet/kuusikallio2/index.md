@@ -1,7 +1,7 @@
 ---
 name: Kuusikallio 2
 address: Edöntie 126 as 1, Isnäs
-remote: true
+remote: 'Isnäs'
 number: E
 new: true
 ---

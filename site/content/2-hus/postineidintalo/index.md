@@ -1,7 +1,7 @@
 ---
 name: Postineidintalo
 address: Drombomsvägen 835, Lovisa
-remote: true
+remote: 'Malmgård'
 number: G
 lang: se
 ---

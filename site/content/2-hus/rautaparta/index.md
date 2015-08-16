@@ -1,7 +1,7 @@
 ---
 name: Rautaparta
 address: Mjölnarvägen 3, Strömfors
-remote: true
+remote: 'Ruukki'
 number: P
 lang: se
 new: true

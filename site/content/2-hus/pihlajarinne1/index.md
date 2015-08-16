@@ -1,7 +1,7 @@
 ---
 name: Pihlajarinne 1
 address: Edövägen 130 bostad 2, Isnäs
-remote: true
+remote: 'Isnäs'
 number: E
 lang: se
 new: true
