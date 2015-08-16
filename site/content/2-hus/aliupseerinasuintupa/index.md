@@ -1,5 +1,5 @@
 ---
-name: Aliluutnantin asuintupa
+name: Aliupseerin asuintupa
 address: Snickaregränd 15, Lovisa
 number: 4
 lang: se

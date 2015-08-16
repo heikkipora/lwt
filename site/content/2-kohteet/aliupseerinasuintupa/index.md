@@ -1,5 +1,5 @@
 ---
-name: Aliluutnantin asuintupa
+name: Aliupseerin asuintupa
 address: Puusepänkuja 15, Loviisa
 number: 4
 ---
