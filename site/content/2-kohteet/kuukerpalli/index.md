@@ -1,6 +1,6 @@
 ---
 name: Kuukerpalli
-address: Ruukintie 12 A, Ruotsinpyhtää
+address: Ruukintie 12 C, Ruotsinpyhtää
 remote: 'Ruukki'
 number: L
 new: true

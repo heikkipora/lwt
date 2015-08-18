@@ -1,7 +1,7 @@
 ---
 name: Sahamäki 2
-address: Ruukintie 12 E, Ruotsinpyhtää
-remote: true
+address: Sahamäentie 2, Ruotsinpyhtää
+remote: 'Ruukki'
 number: O
 new: true
 ---

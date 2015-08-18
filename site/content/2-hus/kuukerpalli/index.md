@@ -1,6 +1,6 @@
 ---
 name: Kuukerpalli
-address: Bruksvägen 12 A, Strömfors
+address: Bruksvägen 12 C, Strömfors
 remote: 'Ruukki'
 number: L
 lang: se

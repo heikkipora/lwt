@@ -1,6 +1,6 @@
 ---
 name: Sahamäki 2
-address: Bruksvägen 12 E, Strömfors
+address: Sågbacksvägen 2, Strömfors
 remote: 'Ruukki'
 number: O
 lang: se
