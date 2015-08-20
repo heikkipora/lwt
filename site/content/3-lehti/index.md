@@ -2,7 +2,7 @@
 navi: Tapahtumalehti ja -kartta
 title: Tapahtumalehti ja -kartta
 ---
-Lataa viime vuoden tapahtumalehti ja -kartta PDF-muodossa klikkaamalla kuvia:
+Lataa tapahtumalehti ja -kartta PDF-muodossa klikkaamalla kuvia:
 
 <div class="row map">
 <div class="large-12 columns">
