@@ -5,7 +5,4 @@ remote: 'Ruukki'
 number: N
 new: true
 ---
-Ruukin sahan tyypilliseen 1700-luvun lopun työlaisasuntoon kuului huone ja hellahuone. Saarnimäen talossa tällaisia 
-huoneistoja oli aikoinaan neljä. Lisäksi vinttikerroksessa oli kaksi päätyasuntoa. Alakerran päätyasunnon kauniissa 
-ikkunalasiruudukossa näkyy vanhaa vedettyä lasia ja vielä vanhempia käsin tehtyjä puhallettuja ruutuja, joissa kuplat 
-näkyvät selkeästi.
+Saarnimäki on rakennettu Ruukin työläisille 1700-luvun lopulla. Tässä talossa huoneistojako on edelleen alkuperäisen pohjan mukainen: alakerrassa on 4 asuntoa, vintillä kaksi. Talon alla on iso neliholvinen holvikellari, todennäköisesti taloa vanhempi. Länsipäädyn huoneisto on peruskorjattu parikymmentä vuotta sitten: silloin uusittiin sähköt, eristykset sekä keittiö ja asuntoon rakennettiin myös kylpyhuone.

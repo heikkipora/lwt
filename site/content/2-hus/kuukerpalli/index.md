@@ -6,7 +6,4 @@ number: L
 lang: se
 new: true
 ---
-I huset som byggdes 1793 fanns det från början sex bostäder samt en verkstad. Renoveringen av gavellägenheten som ännu 
-pågår påbörjades 2011. Allt arbete har gjorts själv med omsorg och kärlek, utan elmaskiner. Elledningarna är ledningar 
-med tygöverdrag, elkontakterna av porslin, plankgolven har isolerats med sågspån. På väggarna i nedre våningen finns 
-värdinnans, Virpi Ekmans målningar.
+Kuukerpalli byggdes 1793 och bestod ursprungligen av sex bostäder och en verkstad. Nu finns här fyra bostäder. Den senaste renoveringen i den västra gavelns lägenhet påbörjades 2011. Man har inte använt några elverktyg: allt är gjort för hand.  Golven har förnyats och de är täppta med sågspånsmassa och man har använt tygbeklädda elledningar i gammal stil. Renoveringen framskrider sakta.

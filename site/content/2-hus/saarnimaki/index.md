@@ -6,7 +6,4 @@ number: N
 lang: se
 new: true
 ---
-En för Brukets såg typisk arbetarbostad från 1700- talets slut bestod av ett rum och ett spisrum. I Saarnimäkis hus 
-fanns det från början fyra sådana bostäder. Därtill fanns det två gavelbostäder på vinden. I nedre våningens 
-gavellägenhet är de vackra fönsterrutorna av draget glas och av ännu äldre, handblåsta glasrutor i vilka blåser och 
-ojämnheter helt tydligt syns.
+Saarnimäki byggdes till arbetarbostäder vid Bruket i slutet av 1700-talet. I det här huset är bottenplanen den ursprungliga: på bottenvåningen finns fyra bostäder, på vinden två. Under huset finns en valvkällare med fyra valv, som troligen är ännu äldre än huset. Den västra gavelns lägenhet är grundrenoverad för ett tiotal år sedan: då förnyade man elen, isoleringen och köket och byggde ett badrum.

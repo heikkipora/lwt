@@ -5,7 +5,4 @@ remote: 'Ruukki'
 number: L
 new: true
 ---
-Vuonna 1793 rakennetussa talossa oli alun perin kuusi asuntoa sekä verstastilaa. Osin vielä keskeneräisen päätyhuoneiston 
-kunnostaminen on aloitettu 2011. Kaikki työt on tehty huolellisesti ja rakkaudella omin käsin, ilman sähköisiä työkaluja. 
-Sähköjohdoissa on kangaspäällysteet, pistorasiat ovat posliinia, lautalattiat on tilkitty sahanpuruilla. Alakerran 
-seinillä on talon emännän taiteilija Virpi Ekmanin maalauksia.
+Vuonna 1793 rakennetussa Kuukerpallissa oli alun perin kuusi asuntoa ja verstastilaa. Nyt asuntoja on neljä. Läntisen päätyhuoneiston viimeisin remontti alkoi 2011. Siinä ei ole käytetty lainkaan sähköisiä työkaluja: kaikki on tehty käsivoimin. Lattiat on uusittu ja tilkitty sahanpurumassalla, sähköjohdotkin ovat vanhanmallisia kangaspäällysteisiä. Remontti jatkuu pikkuhiljaa. 
