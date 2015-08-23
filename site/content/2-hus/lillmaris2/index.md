@@ -1,13 +1,10 @@
 ---
 name: Lillmaris 2
-address: Fasarbyn koulutie 41, Isnäs
+address: Fasarby skolväg 41, Isnäs
 remote: 'Isnäs'
 number: B
 lang: se
 new: true
 ---
-Keltainen päärakennus - ”herrasväen huvila” - on pystytetty 1845, sittemmin remontoitu keittiösiipi on lisätty taloon 
-1950-luvulla.  Lillmarin luomutila siirtyi luonnonmukaiseen viljelyyn osittain vuonna 1993 ja kokonaan vuonna 1998. 
-Tilalla järjestetään kesäisin erilaisia yrtti- ja ruokakursseja sekä tilakierroksia.  Pihalla löytyy LWT-päivien aikana 
-oman tilan tuotteita sekä kirpputori remontissa yli jääneistä huonekaluista ja tavaroista. 
+Den gula huvudbyggnaden - "herrskapets villa" - är uppförd 1845 och den numera renoverade köksflygeln byggdes till på 1950-talet. Lillmarin luomutila gick delvis över till att odla ekologiskt 1993 och helt och hållet år 1998. På somrarna ordnar man olika ört- och matkurser samt rundvandringar på gården. Under LHH-dagarna säljs ställets egna produkter.
 [lillymaris.wordpress.com](https://lillymaris.wordpress.com)
