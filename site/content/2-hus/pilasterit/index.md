@@ -1,6 +1,7 @@
 ---
 name: Pilastrarna
 address: Smedsgränd 8, Lovisa
+garden: true
 number: 21
 lang: se
 ---
