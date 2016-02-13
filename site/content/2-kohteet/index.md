@@ -3,5 +3,5 @@ navi: Talokohteet
 title: Talokohteet
 ---
 
-Nämä Loviisalaistalot avaavat ovensa syksyllä 2015
+Laitamme talolistaa uusiksi talven mittaan, nähdään keväämmällä 2016!
 -----
