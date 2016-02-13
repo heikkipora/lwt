@@ -1,27 +1,27 @@
 ---
 navi: Programmet
-title: Lovisa Historiska Hus 29.-30.8.2015
-preview: "http://loviisanwanhattalot.fi/img/slider/smedshemman.jpg"
+title: Lovisa Historiska Hus 27.-28.8.2016
+preview: "http://loviisanwanhattalot.fi/img/slider/suolatori.jpg"
 lang: se
 ---
 
 <ul class="example-orbit" data-orbit>
   <li>
-    <img src="/img/slider/kuisti.jpg" alt="Wanha kauppa" />
+    <img src="/img/slider/puutarhakatu.jpg" alt="Trädgårdsgatan" />
     <div class="orbit-caption">
-      Verandan i rokokoanda i Wanha kauppa.
+       Puutarhakatu talvella.
     </div>
   </li>
   <li>
-    <img src="/img/slider/kuninkaanlampi.jpg" alt="Salen i Kuninkaanlampi" />
+    <img src="/img/slider/suolatori.jpg" alt="Salen i Kuninkaanlampi" />
     <div class="orbit-caption">
-      Den vita salen i Kuninkaanlampi.
+      Suolatorin vilinää elokuussa.
     </div>
   </li>
   <li>
-    <img src="/img/slider/smedshemman.jpg" alt="Smeds hemman" />
+    <img src="/img/slider/liisantalo.jpg" alt="Liisantalo" />
     <div class="orbit-caption">
-      Möbler från 1700-talet i Smeds hemman.
+      Tuhannen Tuskan Kahvila Liisantalossa.
     </div>
   </li>
 </ul>
