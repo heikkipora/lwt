@@ -1,9 +1,9 @@
-<%= render 'partials/head' %>
-<%= render 'partials/navi' %>
+<%= render '/partials/head.*' %>
+<%= render '/partials/navi.*' %>
 
 <div class="row">
     <div class="small-12 columns">
-        <%= render 'partials/breadcrumbs' %>
+        <%= render '/partials/breadcrumbs.*' %>
         <h2><% if @item[:number] %>
             <%= @item[:number] %>.&nbsp;
             <% end %>
@@ -25,4 +25,4 @@
         </ul>
     </div>
 </div>
-<%= render 'partials/footer' %>
+<%= render '/partials/footer.*' %>

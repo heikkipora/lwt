@@ -1,15 +1,24 @@
 module ChildrenHelper
 
   def numeric_id(item)
-    item.identifier.split('/').last.to_i
-  end
-
-  def select_images(items)
-    items.select { |item| item[:extension] == "jpg" }
+    item.identifier.without_ext.split('/').last.to_i
   end
 
   def sorted_child_images(item)
-    select_images(item.children).sort { |a, b| numeric_id(a) <=> numeric_id(b) }
+    images = @items.find_all(item.identifier.without_ext.gsub("index", "") + "*.jpg")
+    images.sort { |a, b| numeric_id(a) <=> numeric_id(b) }
+  end
+
+  def child_md_items(item)
+    pattern = item.identifier.without_ext.gsub("index", "**/*.md")
+    @items.find_all(pattern).reject { |i| i.identifier == item.identifier }
+  end
+
+  def parent_md_item(item)
+    path_parts = item.identifier.to_s.split("/")
+    path_parts.delete_at(-2)
+    pattern =  path_parts.join("/")
+    @items[pattern]
   end
 end
 

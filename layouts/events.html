@@ -1,5 +1,5 @@
-<%= render 'partials/head' %>
-<%= render 'partials/navi' %>
+<%= render '/partials/head.*' %>
+<%= render '/partials/navi.*' %>
 
 <div class="row">
     <div class="small-12 columns">
@@ -10,7 +10,7 @@
 <div class="row events content">
     <div class="small-12 columns">
         <ul class="large-block-grid-2 clearfix">
-            <% @item.children.each do |item| %>
+            <% child_md_items(@item).each do |item| %>
             <li>
                 <h4><%= item[:name] %></h4>
                 <a class="th left" href="<%= event_link(item) %>"><img src="<%= item.path %>/1-thumb.jpg"></a>
@@ -22,5 +22,5 @@
     </div>
 </div>
 
-<%= render 'partials/sponsors' %>
-<%= render 'partials/footer' %>
+<%= render '/partials/sponsors.*' %>
+<%= render '/partials/footer.*' %>

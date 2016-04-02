@@ -1,7 +1,7 @@
 module HousesHelper
 
   def select(item, location)
-    item.children.select { |house| house[:remote] == location }
+    child_md_items(item).select { |house| house[:remote] == location }
   end
 
   def sorted(item, location)
@@ -23,7 +23,7 @@ module HousesHelper
   end
 
   def finnish_house(item)
-    finnish_item = item.identifier.gsub('2-hus', '2-kohteet')
+    finnish_item = item.identifier.to_s().gsub('2-hus', '2-kohteet')
     @items.find { |i| i.identifier == finnish_item }
   end
 end
