@@ -4,5 +4,5 @@ title: Hus
 lang: se
 ---
 
-Laitamme talolistaa uusiksi talven mittaan, nähdään keväämmällä 2016!
+Dessa Lovisahus håller öppet på hösten 2016
 -----

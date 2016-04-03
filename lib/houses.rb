@@ -26,6 +26,12 @@ module HousesHelper
     finnish_item = item.identifier.to_s().gsub('2-hus', '2-kohteet')
     @items.find { |i| i.identifier == finnish_item }
   end
+
+  def house_svg(item)
+    folder = house_path(item).split("/")[-1]
+    item.path + folder + ".svg"
+  end
+
 end
 
 include HousesHelper

@@ -16,7 +16,12 @@
         <h4>Hus i Lovisa centrum:</h4>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
             <% sorted(@item, nil).each do |item| %>
-            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>1-thumb.jpg"></a></li>
+            <li data-number="<%= item[:number] %>">
+                <h4><%= item[:name] %></h4>
+                <a class="th" href="<%= item.path %>">
+                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+                </a>
+            </li>
             <% end %>
         </ul>
     </div>
@@ -28,7 +33,12 @@
         <h4>Hus i Isnäs:</h4>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
             <% sorted(@item, 'Isnäs').each do |item| %>
-            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>1-thumb.jpg"></a></li>
+            <li data-number="<%= item[:number] %>">
+                <h4><%= item[:name] %></h4>
+                <a class="th" href="<%= item.path %>">
+                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+                </a>
+            </li>
             <% end %>
         </ul>
     </div>
@@ -40,7 +50,12 @@
         <h4>Hus i Malmgård:</h4>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
             <% sorted(@item, 'Malmgård').each do |item| %>
-            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>1-thumb.jpg"></a></li>
+            <li data-number="<%= item[:number] %>">
+                <h4><%= item[:name] %></h4>
+                <a class="th" href="<%= item.path %>">
+                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+                </a>
+            </li>
             <% end %>
         </ul>
     </div>
@@ -52,7 +67,12 @@
         <h4>Hus i Abborfors:</h4>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
             <% sorted(@item, 'Ahvenkoski').each do |item| %>
-            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>1-thumb.jpg"></a></li>
+            <li data-number="<%= item[:number] %>">
+                <h4><%= item[:name] %></h4>
+                <a class="th" href="<%= item.path %>">
+                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+                </a>
+            </li>
             <% end %>
         </ul>
     </div>
@@ -64,7 +84,12 @@
         <h4>Hus i Strömfors bruk:</h4>
         <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
             <% sorted(@item, 'Ruukki').each do |item| %>
-            <li data-number="<%= item[:number] %>"><h4><%= item[:name] %></h4> <a class="th" href="<%= item.path %>"><img src="<%= house_path(item) %>1-thumb.jpg"></a></li>
+            <li data-number="<%= item[:number] %>">
+                <h4><%= item[:name] %></h4>
+                <a class="th" href="<%= item.path %>">
+                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+                </a>
+            </li>
             <% end %>
         </ul>
     </div>
