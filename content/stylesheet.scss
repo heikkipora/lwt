@@ -24,6 +24,7 @@ em {
   color: white;
 }
 
+
 footer {
   padding-bottom: 2em;
   color: white;
@@ -114,6 +115,13 @@ footer {
       display: table-cell;
       vertical-align: bottom;
     }
+    .house-image {
+      background-size: cover;
+      background-position: center center;
+      background-color: rgb(236, 236, 236);
+      width: 220px;
+      height: 220px;
+    }
   }
 }
 
@@ -146,7 +154,7 @@ footer {
 }
 
 .sponsors {
-  background-color: rgb(240,240,240);
+  background-color: rgb(240, 240, 240);
   margin-top: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
