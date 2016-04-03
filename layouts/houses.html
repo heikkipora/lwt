@@ -1,98 +1,54 @@
 <%= render '/partials/head.*' %>
 <%= render '/partials/navi.*' %>
 
-<div class="row">
-    <div class="small-12 columns">
-        <nav class="breadcrumbs">
-            <a class="current" href="#"><%= @item[:navi] %></a>
-        </nav>
-        <%= yield %>
-    </div>
-</div>
+<div class="content">
+    <h4>Kohteet Loviisan keskustassa:</h4>
+    <ul class="houses flex-list flex-left">
+        <% sorted(@item, nil).each do |item| %>
+        <li data-number="<%= item[:number] %>">
+            <h4><%= item[:name] %></h4>
+            <a href="<%= item.path %>">
+                <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+            </a>
+        </li>
+        <% end %>
+    </ul>
 
-<div class="row houses content">
-    <div class="small-12 columns">
-        <hr>
-        <h4>Kohteet Loviisan keskustassa:</h4>
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            <% sorted(@item, nil).each do |item| %>
-            <li data-number="<%= item[:number] %>">
-                <h4><%= item[:name] %></h4>
-                <a class="th" href="<%= item.path %>">
-                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
-                </a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
-</div>
+    <h4>Kohteet Malmgårdissa:</h4>
+    <ul class="houses flex-list flex-left">
+        <% sorted(@item, 'Malmgård').each do |item| %>
+        <li data-number="<%= item[:number] %>">
+            <h4><%= item[:name] %></h4>
+            <a href="<%= item.path %>">
+                <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+            </a>
+        </li>
+        <% end %>
+    </ul>
 
-<div class="row houses content">
-    <div class="small-12 columns">
-        <hr>
-        <h4>Kohteet Isnäsissä:</h4>
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            <% sorted(@item, 'Isnäs').each do |item| %>
-            <li data-number="<%= item[:number] %>">
-                <h4><%= item[:name] %></h4>
-                <a class="th" href="<%= item.path %>">
-                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
-                </a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
-</div>
+    <h4>Kohteet Ahvenkoskella:</h4>
+    <ul class="houses flex-list flex-left">
+        <% sorted(@item, 'Ahvenkoski').each do |item| %>
+        <li data-number="<%= item[:number] %>">
+            <h4><%= item[:name] %></h4>
+            <a href="<%= item.path %>">
+                <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+            </a>
+        </li>
+        <% end %>
+    </ul>
 
-<div class="row houses content">
-    <div class="small-12 columns">
-        <hr>
-        <h4>Kohteet Malmgårdissa:</h4>
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            <% sorted(@item, 'Malmgård').each do |item| %>
-            <li data-number="<%= item[:number] %>">
-                <h4><%= item[:name] %></h4>
-                <a class="th" href="<%= item.path %>">
-                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
-                </a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
-</div>
-
-<div class="row houses content">
-    <div class="small-12 columns">
-        <hr>
-        <h4>Kohteet Ahvenkoskella:</h4>
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            <% sorted(@item, 'Ahvenkoski').each do |item| %>
-            <li data-number="<%= item[:number] %>">
-                <h4><%= item[:name] %></h4>
-                <a class="th" href="<%= item.path %>">
-                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
-                </a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
-</div>
-
-<div class="row houses content">
-    <div class="small-12 columns">
-        <hr>
-        <h4>Kohteet Ruotsinpyhtään Ruukissa:</h4>
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            <% sorted(@item, 'Ruukki').each do |item| %>
-            <li data-number="<%= item[:number] %>">
-                <h4><%= item[:name] %></h4>
-                <a class="th" href="<%= item.path %>">
-                    <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
-                </a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
+    <h4>Kohteet Ruotsinpyhtään Ruukissa:</h4>
+    <ul class="houses flex-list flex-left">
+        <% sorted(@item, 'Ruukki').each do |item| %>
+        <li data-number="<%= item[:number] %>">
+            <h4><%= item[:name] %></h4>
+            <a href="<%= item.path %>">
+                <div class="house-image" style="background-image: url(<%= house_svg(item) %>)"/>
+            </a>
+        </li>
+        <% end %>
+    </ul>
 </div>
 
 <%= render '/partials/footer.*' %>

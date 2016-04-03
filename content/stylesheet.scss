@@ -19,6 +19,11 @@ em {
   display: inline-block;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background: rgb(150, 196, 203) url(/img/lwt-decoration.svg) repeat-x;
   background-size: auto 40px;
@@ -27,8 +32,6 @@ nav {
   position: relative;
   text-align: center;
   ul {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
     display: inline-block;
     li {
@@ -82,12 +85,13 @@ header img {
 }
 
 ul.flex-list {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
+  &.flex-left {
+    justify-content: flex-start;
+  }
 }
 
 .events {
@@ -129,7 +133,6 @@ footer {
   color: white;
 
   ul.contacts {
-    justify-content: flex-start;
     li {
       padding: 10px;
       width: 240px;
@@ -169,17 +172,16 @@ footer {
 }
 
 .content {
-  margin-bottom: 2em;
-}
-
-.breadcrumbs {
-  margin: 1em 0 0.5em 0;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .gallery {
-  margin-top: 2em;
-  li {
-    margin-bottom: 10px;
+  margin-top: 20px;
+  img {
+    padding: 4px;
+    border: 1px solid rgb(236, 236, 236);
+    margin: 8px;
   }
 }
 
