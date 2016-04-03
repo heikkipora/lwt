@@ -1,5 +1,5 @@
 ---
-name: Postineidintalo
+name: Postfrökens Hus
 address: Rumpilantie 835, Loviisa
 remote: 'Malmgård'
 number: G

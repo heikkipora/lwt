@@ -1,5 +1,5 @@
 ---
-name: Postineidintalo
+name: Postfrökens Hus
 address: Drombomsvägen 835, Lovisa
 remote: 'Malmgård'
 number: G
