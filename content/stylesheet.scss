@@ -81,59 +81,90 @@ header img {
   width: 100%;
 }
 
-footer {
-  padding-bottom: 2em;
-  color: white;
-  background-color: #074e68;
+ul.flex-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
 
-  .prizes {
-    background-color: #085a78;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    p {
-      font-family: 'PT Serif Caption', serif;
-      font-size: 80%;
-      font-style: italic;
-      line-height: 120%;
-      display: inline-block;
+.events {
+  li {
+    padding: 20px;
+    flex-grow: 1;
+    width: 450px;
+    h4 {
+      height: 3em;
+      display: table-cell;
+      vertical-align: bottom;
+      font-size: 1.2em;
     }
+    p {
+      line-height: 1.6;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      float: left;
+      padding: 4px;
+      border: 1px solid rgb(236, 236, 236);
+      margin: 8px 10px 8px 0px;
+    }
+  }
+}
+
+.sponsors {
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+  padding: 20px;
+  li {
+    padding: 10px;
+  }
+}
+
+footer {
+  background-color: #085a78;
+  color: white;
+
+  ul.contacts {
+    justify-content: flex-start;
     li {
-      text-align: center;
-      &:first-child {
-        margin-top: 0.1em;
+      padding: 10px;
+      width: 240px;
+      font-family: Arial, sans-serif;
+      line-height: 120%;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+      p {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
       }
     }
   }
-  .facebook {
-    background-color: #085a78;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    img.fb {
-      width: 105px;
-      height: 38px;
-      margin-left: 40px;
-    }
-    img.ticketmaster {
-      width: 150px;
-      height: 38px;
-      margin-left: 40px;
-    }
-  }
-  .contact {
-    padding-top: 2em;
-  }
-  h5 {
-    color: white;
-  }
 
-  h5 a {
-    color: white;
-    font-size: 100%;
-  }
-
-  h5, p, a {
-    font-family: Arial, sans-serif;
-    font-size: 90%;
+  .prizes {
+    background-color: #074e68;
+    padding: 20px 20px 40px 20px;
+    ul {
+      p {
+        font-style: italic;
+      }
+    }
+    .facebook {
+      text-align: center;
+      margin-bottom: 20px;
+      img {
+        width: 105px;
+        height: 38px;
+        margin-left: 40px;
+        vertical-align: middle;
+      }
+    }
   }
 }
 
@@ -182,24 +213,6 @@ footer {
   }
 }
 
-.events {
-  li {
-    padding-bottom: 0;
-  }
-  h4 {
-    height: 3em;
-    display: table-cell;
-    vertical-align: bottom;
-  }
-  img {
-    width: 120px;
-    height: 120px;
-  }
-  a.th {
-    margin: 8px 10px 0px 0px;
-  }
-}
-
 .row.map {
   margin-top: 1em;
   img {
@@ -209,14 +222,6 @@ footer {
     }
   }
 }
-
-.sponsors {
-  background-color: rgb(240, 240, 240);
-  margin-top: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
 .browser {
   border: 2px solid red;
   padding: 1em;

@@ -3,20 +3,20 @@
 
 <%= yield %>
 
-<div class="row events content">
-    <div class="small-12 columns">
-        <ul class="large-block-grid-2 clearfix">
-            <% child_md_items(@item).each do |item| %>
-            <li>
-                <h4><%= item[:name] %></h4>
-                <a class="th left" href="<%= event_link(item) %>"><img src="<%= item.path %>/1-thumb.jpg"></a>
-                <%= item[:description] %>
-                <a href="<%= event_link(item) %>"><%= t('events.more') %></a>
-            </li>
-            <% end %>
-        </ul>
-    </div>
-</div>
+<ul class="events flex-list">
+    <% child_md_items(@item).each do |item| %>
+    <li>
+        <h4><%= item[:name] %></h4>
+        <p>
+            <a href="<%= event_link(item) %>">
+                <img src="<%= item.path %>/1-thumb.jpg">
+            </a>
+            <%= item[:description] %>
+            <a href="<%= event_link(item) %>"><%= t('events.more') %></a>
+        </p>
+    </li>
+    <% end %>
+</ul>
 
 <%= render '/partials/sponsors.*' %>
 <%= render '/partials/footer.*' %>
