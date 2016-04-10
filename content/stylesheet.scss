@@ -11,6 +11,11 @@ ul {
 }
 
 $color-brown: #45362a;
+$color-turquoise-light: #75c3b2;
+$color-turquoise-medium: #66a195;
+$color-turquoise-dark: #3e8477;
+$color-border: rgb(236, 236, 236);
+
 
 nav {
   background: rgb(150, 196, 203) url(/img/lwt-decoration.svg) repeat-x;
@@ -24,7 +29,7 @@ nav {
       text-align: center;
       flex-grow: 1;
       &.spacer {
-        flex-grow: 2;
+        flex-grow: 3;
       }
       a {
         display: inline-block;
@@ -50,6 +55,8 @@ header {
   z-index: 0;
 
   $logo-size: 240px;
+  $logo-size-medium: 180px;
+  $logo-size-small: 120px;
 
   .logo {
     position: absolute;
@@ -64,6 +71,25 @@ header {
     border-radius: 50%;
     z-index: 1;
   }
+
+  @media screen and (max-width: 800px){
+    height: 400px;
+    .logo {
+      margin-left: -$logo-size-medium / 2;
+      width: $logo-size-medium;
+      height: $logo-size-medium;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    height: 200px;
+    .logo {
+      margin-left: -$logo-size-small / 2;
+      width: $logo-size-small;
+      height: $logo-size-small;
+    }
+  }
+
 }
 
 header img {
@@ -99,23 +125,22 @@ ul.flex-list {
       height: 120px;
       float: left;
       padding: 4px;
-      border: 1px solid rgb(236, 236, 236);
+      border: 1px solid $color-border;
       margin: 8px 10px 8px 0px;
     }
   }
 }
 
 .sponsors {
-  background-color: rgb(240, 240, 240);
-  margin-top: 20px;
-  padding: 20px;
+  border-top: 1px solid $color-border;
+  margin: 20px;
   li {
     padding: 10px;
   }
 }
 
 footer {
-  background-color: #085a78;
+  background-color: $color-turquoise-medium;
   color: white;
 
   ul.contacts {
@@ -137,11 +162,10 @@ footer {
   }
 
   .prizes {
-    background-color: #074e68;
+    background-color: $color-turquoise-dark;
     padding: 20px 20px 40px 20px;
     ul {
       p {
-        font-style: italic;
         text-align: center;
       }
     }
