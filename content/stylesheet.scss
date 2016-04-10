@@ -24,6 +24,7 @@ nav {
   height: 80px;
   position: relative;
   ul {
+    display: none !important;
     flex-wrap: nowrap;
     li {
       text-align: center;
