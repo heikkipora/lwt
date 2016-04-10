@@ -32,25 +32,22 @@ nav {
   background-position: center bottom;
   height: 80px;
   position: relative;
-  text-align: center;
   ul {
-    list-style-type: none;
-    display: inline-block;
+    flex-wrap: nowrap;
     li {
-      display: inline-block;
+      flex-grow: 1;
+      &.spacer {
+        flex-grow: 2;
+      }
       a {
+        display: inline-block;
         color: white;
-        width: 180px;
         padding: 12px 0px;
         font-size: 16px;
         text-decoration: none;
-        display: inline-block;
         &:hover {
           color: $color-brown;
         }
-      }
-      &:nth-of-type(2) {
-        margin-right: 200px;
       }
     }
   }
