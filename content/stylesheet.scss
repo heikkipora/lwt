@@ -132,8 +132,8 @@ footer {
   color: white;
 
   ul.contacts {
+    padding: 10px;
     li {
-      padding: 10px;
       width: 240px;
       font-family: Arial, sans-serif;
       line-height: 120%;
@@ -155,6 +155,7 @@ footer {
     ul {
       p {
         font-style: italic;
+        text-align: center;
       }
     }
     .facebook {
