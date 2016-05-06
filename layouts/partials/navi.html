@@ -1,11 +1,14 @@
 <nav>
     <ul class="flex-list">
         <% items = @items.find_all(/^\/[a-z0-9\-]+\/index.md/).select {|i| lang(i) == lang(@item) } %>
-        <li><a href="<%= items[0].path %>"><%= items[0][:navi] %></a></li>
+        <li></li>
+        <li></li>
+        <li class="spacer"></li>
+<!--        <li><a href="<%= items[0].path %>"><%= items[0][:navi] %></a></li>
         <li><a href="<%= items[1].path %>"><%= items[1][:navi] %></a></li>
         <li class="spacer"></li>
         <li><a href="<%= items[2].path %>"><%= items[2][:navi] %></a></li>
-        <li>
+-->        <li>
             <% if lang(@item) == 'se' %>
             <a href="/">Suomeksi</a>
             <% else %>
