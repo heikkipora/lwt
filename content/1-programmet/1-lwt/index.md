@@ -1,13 +1,13 @@
 ---
-name: Loviisan Wanhat Talot 27.–28.8.2016
-description: Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna.
+name: Lovisa Historiska Hus 27.–28.8.2016
+description: De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti.
 ---
-*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 29. – 30.8.2015.*
+*De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti 27. – 28.8.2016.*
  
-Tervetuloa jälleen viihtymään Loviisassa LWT-viikonlopun aikana. Monet kävijät rakastuvat Loviisaan ja kehuvat kaupunkia siitä, että vanhoja rakennuksia on säilytetty. Eniten arvostetaan paikallisten asukkaiden vieraanvaraisuutta ja ainutlaatuista mahdollisuutta vierailla yksityiskodeissa, jotka sijaisevat kunnostetuissa, yli 100-vuotta vanhoissa taloissa, usein kauniiden pihojen ja puutarhojen ympäröiminä. 
+Välkommen att trivas i Lovisa under LHH-veckoslutet. Många besökare blir förtjusta sig i Lovisa och ger staden beröm för att gamla byggnader har bevarats. Mest uppskattas lokalbefolkningens gästfrihet och möjligheten att besöka de privata hemmen i de över hundra år gamla husen, som ofta är omgivna av vackra gårdar och trädgårdar.
 
-Viikonlopun anti on todella monipuolinen. Tori on täynnä myyjiä, Karlskrona-bulevardilta löytyy lähituottajien ja artesaanien ITU-tori, Lovisa Gymnasiumissa keräilymessut, Laivasillalla käsityöläismarkkinat, Aleksanterinpihalla antiikkimarkkinat, Ravintola Kappelin terassilla työnäytöksiä ja neuvontaa ja Suolatorilla näytteille-asettajia sekä työnäytöksiä. Sen lisäksi on tarjolla seminaari, kirpputoreja, näyttelyitä ja konsertteja. Ravintoloiden ruokalistoilta löytyy parhaita paloja ja erityisesti päivää varten tehtyjä herkkuja.
+Utbudet under veckoslutet är verkligen mångsidigt. Torget är fyllt av försäljare, på Karlskronabulevarden finns närproducenternas och artesanernas ITU-torg, i Lovisa Gymnasium arrangeras en samlarmässa och på Skeppsbron en hantverkarmarknad. På Alexandersgården hålls en antikmarknad samt på Restaurang Kapellets terass kan man se på arbetsuppvisningar och få råd om renovering. På Saltbodtorget finns utställare och också där ordnas det arbetsuppvisningar. Dessutom ordnas det ett expertseminarium, lopptorg, utställningar och konserter. Restaurangernas menyer är fyllda med goda rätter och speciellt för dagen planerade delikatesser.
 
-Loviisan Wanhat Talot on myös Suomen suurin avoimien puutarhojen ja pihapiirien keskittymä. Ja kun paikalliset asukkaat vielä pitävät lukuisia kirpputoreja ja "pop up-kahviloita" kaikkialla kaupungissa, tunnelma on taattu.
+Lovisa Historiska Hus är också Finlands största samling av öppna gårdar och trädgårdar. Lokalbefolkningens många lopptorg och pop up kaféer runt om i staden säkrar stämningen.
 
-Ei siis ole ihme, että LWT- tapahtuma on noussut itäisen Uudenmaan suosituimmaksi yleisötapahtumaksi. Tervetuloa Loviisaan viihtymään tästä ainutlaatuisesta tunnelmasta ja monipuolisesta tarjonnasta!
+Det är lätt att förstå att LHH-evenemanget blivit östra Nylands populäraste publikevenemang. Välkomna till Lovisa för att njuta av den unika stämningen och det mångsidiga programutbudet!

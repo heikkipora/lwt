@@ -1,12 +1,12 @@
 ---
-name: Ruusuja & puutarhoja Loviisassa 2.-3.7.2016
-description: Tervetuloa nauttimaan ruusujen hurmasta, ihanista puutarhoista, romanttisista häistä ja Prinsessa Ruususesta heinäkuussa. Tänä vuonna Loviisan Wanhat Talot ry järjestää tapahtuman yhdessä Loviisan Puutarhayhdistyksen kanssa.
+name: Rosor & trädgårdar i Lovisa 2.-3.7.2016
+description: Välkomna att njuta av rosornas charm, underbara trädgårdar, romantiska bröllop och Prinsessan Törnrosa i juli. I år arrangerar Lovisa Historiska Hus rf evenemanget i samarbete med Lovisa Trädgårdsförening.
 gallery: yes
 ---
-*Tervetuloa nauttimaan ruusujen hurmasta, ihanista puutarhoista, romanttisista häistä ja Prinsessa Ruususesta heinäkuussa. Tänä vuonna Loviisan Wanhat Talot ry järjestää tapahtuman yhdessä Loviisan Puutarhayhdistyksen kanssa.*
+*Välkomna att njuta av rosornas charm, underbara trädgårdar, romantiska bröllop och Prinsessan Törnrosa i juli. I år arrangerar Lovisa Historiska Hus rf evenemanget i samarbete med Lovisa Trädgårdsförening.*
 
-Ruusuja & puutarhoja Loviisassa avaa loviisalaisten ruusutarhojen ja puutarhojen portit. Puutarhat ovat hyvinkin erilaisia, alkaen pienehköistä omakotitalopuutarhoista suurempiin näyttelypuutarhoihin. Niissä on yleensä jokin teema tai omistajalla on jokin lempiharrastus, joka näkyy hänen puutarhassaan. Muutamassa puutarhassa on kahvila ja taidenäyttelyitä, myös lasitöitten harrastajat esittelevät omia töitään. Joissakin puutarhoissa myydään lisäksi taimia sekä muuta puutarhaan ja sisustukseen liittyvää kaunista rekvisiittaa.
+Rosor & trädgårdar i Lovisa öppnar portarna till lovisabornas rosengårdar och trädgårdar. Trädgårdarna är mycket olika, från små egnahemsträdgårdar till större utställningsträdgårdar. Trädgårdarna har ofta ett tema och ibland återspeglas också ägarens favorithobby i trädgårdsarrangemangen. En del trädgårdar har kafé eller konstutställningar och även glasarbeten finns för påseende. I en del trädgårdar säljs också plantor och annan rekvisita för trädgården.
 
-Lauantaina klo 17 Loviisan kirkossa on kaikille avoimet ruusuhäät. Prinsessa Ruusunen on tavattavissa tänä vuonna Rantapuistossa Anneli & Onneli puiston yhteydessä sekä Österstjernanin ruusuristeilyllä la 2.7. Ravintoloissa ja kahviloissa on tarjolla erilaisia teemaan liittyviä herkkuja. Tarjolla on myös monipuolista ohjelmaa, näyttelyitä ja kesäpuoteja.
+På lördagen kl 17 hålls rosenbröllopet i Lovisa kyrka. Bröllopet är öppet för alla. Prinsessan Törnrosa kan man i år träffa i Strandparken intill Adas och Gladas lekpark och på Österstjernans rosenkryssning lördagen 2.7. Restaurangerna och kaféerna bjuder på delikatesser med anknytning till temat.  Under veckoslutet ordnas även en hel del program samt flera utställningar. 
 
-Tervetuloa ihastuttavaan Loviisaan!
+Välkomna till förtjusande Lovisa!
