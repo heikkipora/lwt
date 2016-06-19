@@ -1,7 +1,7 @@
 ---
 name: Loviisan Wanhat Talot 27.–28.8.2016
 description: Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna. Tutustu viikonlopun ohjelmaan!
-gallery: yes
+gallery: no
 ---
 *Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 27. – 28.8.2016.*
 
