@@ -2,7 +2,7 @@
 name: Smirnoff's hus
 address: Drottninggatan 6, Lovisa
 garden: true
-number: 26
+number: 22
 lang: se
 ---
-Det s.k. Smirnoffska husets nuvarande ägares förfäder lät förena flera hus av olika format till en L-formad helhet. Den rappade delen av huset är ännu äldre än stockdelen. I slutet av 1800-talet bestämde sig statsrådinnan Smirnoff för att använda gården som sommarvilla,. Hon flyttade till lägenheten i övre våningen och nedre våningen uppdelades i hyresbostäder. 
+Mormors farfar till den nuvarande ägaren av det s.k. Smirnoffska huset förenade flera byggnader av olika storlek till en L-formad helhet. Det fristående rappade huset är ännu äldre än stockbyggnaden. I slutet av 1800-talet bestämde sig statsrådinnan Smirnoff för att använda släktstället som sommarvilla. Hon flyttade in i lägenheten i övre våningen och nedre våningen uppdelades i hyresbostäder. Endast gården öppen för besökarna.

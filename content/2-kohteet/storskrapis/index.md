@@ -1,6 +1,6 @@
 ---
 name: Storskrapis
 address: Eteläinen Rauhalantie 2, Loviisa
-number: 43
+number: 37
 ---
-Storskrapiksen ”possensionsgård” mainitaan ensimmäisen kerran Pernajan historiassa 1696. Rakennuksen iästä ei ole tarkkaa tietoa, sitä on vuosien mittaan jatkettu. Talon kulttuurihistoriallinen perinne on vahva: Storskrapiksesta lauletaan Bellmannin epistoloissa ja se esiintyy Runar Schildtin teoksissa. Kartanon alamäki alkoi 1910 Loviisan kaupungin omistuksessa: ensin kulkutautisairaalana, sitten sosiaalisessa asuntotuotannossa. Nyt perustervettä taloa kunnostetaan uuteen uskoon.
+Storskrapiksen ”possessionsgård” mainitaan ensimmäisen kerran Pernajan historiassa 1696. Rakennuksen iästä ei ole tarkkaa tietoa, sitä on vuosien mittaan jatkettu. Storskrapis rappioitui ollessaan vuosia asumattomana, kunnes uudet omistajat käynnistivät mittavan remontin. Taloon on tähän mennessä tuskaisan kahden vuoden aikana purettu ja rakennettu uudelleen noin 50 neliötä lattiaa, kylpyhuone ja keittiö. Lisäksi hirsirungon vauriot on korjattu, pihatyöt käynnistetty. Edessä on vielä mm. 5 kaakeliuunin korjaaminen, toinen kylpyhuone ja keittiön korjaaminen.  

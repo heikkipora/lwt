@@ -1,7 +1,7 @@
 ---
 name: Villa Hanna
 address: Östra Åsvägen 14, Lovisa
-number: 24
+number: 20
 lang: se
 ---
-Villa Hanna nämns i tomtböckerna första gången år 1825, men av husets byggnadsmaterial och -sätt att döma har stommen uppförts redan på 1700-talet. Gränsen mellan den gamla och den nya stommen syns tydligt. Det ursprungliga köket förstördes under andra världskrigets bombningar. Detta hem, som är inrett i den rena, skandinaviska stilen med många intressanta detaljer rymmer en vind, som renoverats och nu inrymmer sov- och hobbyrum – lägg märke till den speciella trappuppgången. 
+Villa Hanna nämns i tomtböckerna första gången år 1825, men av husets byggnadsmaterial och byggnadssätt att döma har stommen uppförts redan på 1700-talet. Gränsen mellan den gamla och den nya stommen syns tydligt. Det ursprungliga köket förstördes under andra världskrigets bombningar. Hemmet är inrett i en ren skandinavisk stil med många intressanta detaljer. Den renoverade vinden inrymmer föräldrarnas sovrum – lägg märke till den speciella trappuppgången. Endast nedre våningen är öppen för besökarna.

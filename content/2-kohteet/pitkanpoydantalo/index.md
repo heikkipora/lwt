@@ -1,6 +1,6 @@
 ---
 name: Pitkänpöydäntalo
 address: Mariankatu 7, Loviisa
-number: 30
+number: 25
 ---
-Perheen lempioleskelupaikaksi muodostunut muutaman vuoden ikäinen avara lasikuisti kruunaa 1856 rakennettua Pitkänpöydäntaloa, jossa on ollut aikoinaan kolme erillistä asuntoa. Opettajapariskunta on korjaillut pikku hiljaa 1980-luvun modernien remonttiajatusten epäonnistuneita ratkaisuja oikeaoppisen perinnerakentamisen puitteissa ja Museoviraston ohjeiden mukaisesti. Talossa on keskitytty puulämmitykseen. Sen apuna toimiva ilmalämpöpumppu saa perheeltä paljon kiitoksia.
+1856 rakennetussa talossa on alun perin ollut kolme erillistä asuntoa.  Talon vuonna 1993 ostanut opettajapariskunta on pikku hiljaa korjaillut 1980-luvun modernien remonttiajatusten epäonnistuneita ratkaisuja. Talon kunnostus on tehty oikeaoppisen perinnerakentamisen puitteissa ja Museoviraston ohjeiden mukaisesti. Taloon myöhemmin lisätty kuisti on muodostunut perheen lempioleskelupaikaksi. Sen kanssa kilpailee vain keraamikkoemännän alapihalle rakennettu työpaja, johon kuuluu kasvihuone sekä isännän valtamerikontti, joka sisältää kaikki, mitä mies tarvitsee.

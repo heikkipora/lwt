@@ -4,4 +4,4 @@ address: Sarvlaxgatan 9, Lovisa
 number: 13
 lang: se
 ---
-Casa ItaliaLoviisa, som tidigare hette Lövdahl, är byggd i början av 1900-talet. Musikingenjör, producent och kompositör Fabio Putrino köpte huset 2011 och flyttade dit med sin familj från Toscana. De vackra trädekorationerna i fönstren är ursprungliga. Huset renoveras sakta men stilla. Huset värms upp med över hundra år gamla vedeldade ugnar. RadioQueenLoviisan studion är belägen i huset.
+Huset som är byggt i början av 1900-talet är ett bra exempel på hur det fortfarande går bra att bo i ett gammalt hus som aldrig genomgått några större saneringsprojekt. Man reparerar det som behövs men inget ”onödigt”. Huset ger gott om utrymme för en stor familj och besökare. De gamla ursprungliga fönstren har dekorerats med italienska färger.

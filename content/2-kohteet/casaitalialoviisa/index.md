@@ -3,4 +3,4 @@ name: Casa ItaliaLoviisa
 address: Sarvilahdenkatu 9, Loviisa
 number: 13
 ---
-Aiemmin Lövdahlin taloksi kutsuttu Casaitalialoviisa on rakennettu 1900-luvun alkupuolella. Musiikki-insinööri, tuottaja ja säveltajä Fabio Putrino osti talon  2011 ja muutti sinne aiemmin Toscanassa asuneen perheensä kera. Talon ikkunoissa on kauniit alkuperäiset puuleikkaukset. Rakennusta kunnostetaan pikku hiljaa.  Lämmitys hoituu yha edelleen yli satavuotiailla uuneilla ja puilla. Talossa sijaitsee myos RadioQueenLoviisan studio.
+1900-luvun alussa rakennettu Casa ItaliaLoviisa on hyvä esimerkki siitä, miten vanhoissa taloissa asutaan yhä edelleen ilman suurempia saneerauksia. Paikkoja kohennetaan tarpeen mukaan sieltä ja täältä ja sopu antaa tilaa suurelle perheelle ja vierailijoille. Talon vanhat ikkunapielet ovat alkuperäiset ja niitä on koristeltu Italian värein.

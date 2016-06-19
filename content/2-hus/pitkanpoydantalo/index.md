@@ -1,7 +1,7 @@
 ---
 name: Pitkänpöydäntalo
 address: Mariegatan 7, Lovisa
-number: 30
+number: 25
 lang: se
 ---
-Huset byggdes 1856 och bestod ursprungligen av tre lägenheter. Det unga lärarparet som köpte huset 1993 har litet i gången renoverat huset och tagit itu med de misslyckade lösningar som gjorts i samband med moderniseringar på 1980-talet. Renoveringarna har gjorts i enlighet med principerna för god byggnadsvård och Museiverkets direktiv. Verandan har nu blivit deras favoritplats.Huset värms huvudsakligen med ved och därtill har man installerat en luftvärme-pump.
+Huset byggdes år 1856 och bestod ursprungligen av tre lägenheter. Lärarparet som köpte huset 1993 har litet i gången renoverat huset och åtgärdat de misslyckade lösningar som gjorts i samband med moderniseringar på 1980-talet. Renoveringen har gjorts i enlighet med principerna för god byggnadsvård och Museiverkets direktiv. Den senare tillbyggda verandan har nu blivit familjens favoritplats. Med den tävlar endast keramikverkstaden och orangeriet, som byggts till för värdinnan samt havscontainern, som innehåller allt en man kan behöva.

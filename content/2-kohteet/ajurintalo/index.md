@@ -1,6 +1,6 @@
 ---
 name: Ajurintalo
 address: Puutarhakatu 32, Loviisa
-number: 32
+number: 27
 ---
-Alfred Lindborg -niminen vossikka-ajuri rakennutti Suolatorin nurkalle 1900-luvun alussa viime vuosina pikku hiljaa rempatun Ajurintalon. Talon materiaalina käytettiin todennäköisesti samalta tontilta purettujen vanhempien rakennusten hirret ja lankut. Pihapiiristä löytyy edelleen myös vanha hevostalli.  Myöhemmin talossa on toiminut mm. parturiliike ja ylilääkärin vastaanotto. Erillinen liiketila on yhdistetty muuhun taloon. Kannattaa kivuta myös talon hurmaavalle ”chillausvintille.”
+Ajurintalon rakennutti 1900-luvun alussa Suolatorin nurkalle Alfred Lindborg -niminen vossikka-ajuri. Materiaalina käytettiin todennäköisesti samalta tontilta purettujen rakennusten vanhat hirret ja lankut. Vanha ihastuttava hevostalli on pihapiirissä vieläkin. Myöhemmin talossa on toiminut ainakin rakennuttajan pojan parturiliike ja ylilääkärin vastaanotto. Talo oli myös pitkään Loviisan poliisipäällikön kotina.

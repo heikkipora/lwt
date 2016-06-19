@@ -1,6 +1,6 @@
 ---
 name: Vackerbacka
 address: Puutarhakatu 34 A, Loviisa
-number: 31
+number: 26
 ---
-Loviisan ainoa porttitalo Suolatorin laidalla on rakennettu 1700- ja 1800-luvuilla. Tontilla on sijainnut aiemmin jopa 9 rakennusta, joissa on asunut lukuisia perheitä laivureista luotseihin. Vuosiklausia vuotanut katto oli aiheuttanut mittavia vahinkoja. Karvoset ovat tehneet taloon perusteellisen uudesta katosta alkaneen täysremontin. Talon vanhempi puoli valmistui vuosi sitten perheen kodiksi. Uudempi puoli on edelleen vaiheessa: sinne tulee tekstiilitaiteilijaäidin työhuone/liiketilat sekä lisää asuinhuoneita..
+Loviisan ainoa porttitalo Suolatorin laidalla on rakennettu 1700-1800-luvuilla. Tontilla on sijainnut aiemmin jopa 9 rakennusta. Niissä on asunut lukuisia perheitä päälliköistä luotseihin. Pitkään vuotanut katto oli aiheuttanut talolle mittavat vahingot. Uudet omistajat aloittivat uusimalla katon ja tekemällä talon vanhemmasta osasta toimivan kodin koko kuusihenkiselle perheelle. Talon toinenkin osa on valmis ja siellä on tekstiilitaiteilija-äidin työhuone ja liiketilaa.

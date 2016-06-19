@@ -2,6 +2,5 @@
 name: Villa Limppu
 address: Kuhlefeltinkatu 12 A, Loviisa
 number: 2
-new: true
 ---
-Uudet omistajat löysivät seiniä ja lattioita avatessaan 1900-luvun kirjeitä ja kirjasia - osa hirsistä on sitäkin vanhempia. Remonttia on tehty kymmenen vuoden aikana kuin Iisakin kirkkoa, huolella huone kerrallaan. On poistettu väliseiniä, avattu vanhoja ovia, uudelleeneristetty lattiat ja seinät, joista osa on jätetty hirrelle. Aiemmin kylmän lasikuistin ikkunoista on rakennettu kekseliäästi vanhempien makuuhuoneen liukuovi.
+Talon nykyiset omistajat alkoivat remontoida taloa noin kymmenen vuotta sitten. Remonttia on tehty huolella huone kerrallaan. Pohjaratkaisuun on tehty pieniä muutoksia poistamalla väliseiniä. Kaikki lattiat ja ulkoseinät on avattu ja eristetty. Siinä yhteydessä löytyi myös 1900-luvun alussa kirjoitettu kirje joka oli osoitettu talon alkuperäiselle omistajalle. Talon emäntä on innokas leipomaan joten talon vanha nimi Villa Limppu sopii täydellisesti myös nykyiselle perheelle.

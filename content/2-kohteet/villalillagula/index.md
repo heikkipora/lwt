@@ -1,6 +1,6 @@
 ---
 name: Villa Lilla Gula
 address: Puutarhakatu 20, Loviisa
-number: 35
+number: 29
 ---
-Pikkuinen hirsitalo on rakennettu 1890. Vuoden 2002 remontin yhteydessä siihen lisättiin keittiön jatkeeksi talvilämmin kuisti. Wahlströmit hankkivat talon 2012 syksyllä. Rakennusta on laajennettu 2014 uudella lisäosalla, jotta kaksilapsisen perheen tilatarpeet tyydyttyvät. Huomionarvoista on makuu-/olohuoneen viehättävä kaakeliuuni, joka on peräisin Loviisan vanhasta apteekista.
+Villa Lilla Gula on rakennettu 1890. Vuoden 2002 remontin yhteydessä siihen lisättiin keittiön jatkeeksi talvilämmin kuisti. Seuraava laajennus vanhaan taloon oli vuorossa 2014. Kaksikerroksisessa uudisosassa sijaitsee mm. vanhempien makuuhuone. Entinen makuuhuone toimii nykyisin olohuoneena ja lastenhuone ruokasalina. Huomionarvoista on olohuoneen viehättävä kaakeliuuni, joka on peräisin Loviisan vanhasta apteekista.

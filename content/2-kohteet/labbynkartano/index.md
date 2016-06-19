@@ -2,6 +2,6 @@
 name: Labbyn kartano
 address: Labbyn kartano 49, Isnäs
 remote: 'Isnäs'
-number: C
+number: 50
 ---
-Labbyn kartanon päärakennus on siirretty 1860-luvun jälkeen meriteitse Suomenlinnasta Isnäsiin, jo 1300-luvulla tunnetun suurtilan maille. Perinteinen kartanoelämä on tätä nykyä toimivaa maataloutta ja kun Juha Närin alkoi isännöidä Labbya, sen maatalous siirtyi kokonaisuudessaan moderniin biodynaamiseen tuotantoon. Labbyn mailla sijaitsee myös Edesbyn keskiaikaisen kylän museoalue. [www.labby.fi](http://www.labby.fi)
+Labbyn kartanon päärakennus on siirretty Suomenlinnasta 1860--luvun puolivälissä nykyiselle paikalleen juustomestarin ja pehtorin asunnoksi jo 1600-luvulla tunnetun kartanon maille. 1900- luvun alussa rakennus restauroitiin ja  sai näköalakuistin lisäksi hienot kaakeliuunit ja ympärilleen kartanopuiston monine puulajeineen ja istutuksineen. Perinteinen kartanoelämä on tätä nykyä toimivaa luomumaataloutta. Labbyn erikoisuutena on valtakunnallisesti arvokkaat vanhat niittyalueet, joita hoidetaan edelleen laiduntamalla. Labbyn mailla sijaitsee myös Edesbyn keskiaikaisen kartanon ja kylän muinaismuistoalue. [www.labby.fi](http://www.labby.fi)
