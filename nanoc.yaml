@@ -58,3 +58,11 @@ data_sources:
     # it will become “/about.html/” instead.
     allow_periods_in_identifiers: true
     encoding: utf-8
+
+deploy:
+  default:
+    kind:                  fog
+    provider:              aws
+    region:                eu-central-1
+    bucket:                loviisanwanhattalot.fi
+    path_style:            true
