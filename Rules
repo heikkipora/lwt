@@ -65,9 +65,17 @@ compile '/2-kohteet/*.md' do
   filter :relativize_paths, :type => :html
 end
 
+compile '/2-kohteet/**/*.jpg' do
+  filter :optimize, :size => '1600x1200'
+end
+
 compile '/2-kohteet/**/*.jpg', :rep => :thumbnail do
   filter :thumbnailize, :size => '220x220'
   write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
+end
+
+compile '/2-kohteet/**/*.svg' do
+  filter :svgoptimize
 end
 
 compile '/2-kohteet/**/*.md' do

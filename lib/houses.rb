@@ -33,7 +33,7 @@ module HousesHelper
     if @items.find_all(primary_img + '.svg').one?
       house_path(item) + folder + '.svg'
     elsif @items.find_all(primary_img + '.jpg').one?
-      house_path(item) + folder + '.jpg'
+      house_path(item) + folder + '-thumb.jpg'
     else
       '/img/house-dummy.jpg'
     end

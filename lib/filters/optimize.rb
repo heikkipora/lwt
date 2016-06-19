@@ -1,5 +1,5 @@
-class Thumbnailize < Nanoc::Filter
-  identifier :thumbnailize
+class Optimize < Nanoc::Filter
+  identifier :optimize
   type :binary
 
   def run(filename, params={})
@@ -14,11 +14,7 @@ class Thumbnailize < Nanoc::Filter
         '-quality',
         '85%',
         '-resize',
-        params[:size] + '^',
-        '-gravity',
-        'center',
-        '-extent',
-        params[:size],
+        params[:size] + '>',
         output_filename
     )
   end
