@@ -29,7 +29,7 @@ module HousesHelper
 
   def house_svg(item)
     folder = house_path(item).split("/")[-1]
-    primary_img = item.identifier.without_ext.gsub('index', '') + folder
+    primary_img = finnish_house(item).identifier.without_ext.gsub('index', '') + folder
     if @items.find_all(primary_img + '.svg').one?
       house_path(item) + folder + '.svg'
     elsif @items.find_all(primary_img + '.jpg').one?
