@@ -206,7 +206,7 @@ DEPENDENCIES
   fog (= 1.38.0)
   guard-nanoc (= 2.0.0)
   kramdown (= 1.11.1)
-  mime-types
+  mime-types (= 3.1)
   nanoc (= 4.2.1)
   sass (= 3.4.22)
 

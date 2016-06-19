@@ -16,7 +16,7 @@ module HousesHelper
 
   def house_path(item)
     if lang(item) == 'se'
-      item.path.gsub('/hus', '../kohteet')
+      item.path.gsub('/hus', '/kohteet')
     else
       item.path
     end
@@ -29,7 +29,14 @@ module HousesHelper
 
   def house_svg(item)
     folder = house_path(item).split("/")[-1]
-    item.path + folder + ".svg"
+    primary_img = item.identifier.without_ext.gsub('index', '') + folder
+    if @items.find_all(primary_img + '.svg').one?
+      house_path(item) + folder + '.svg'
+    elsif @items.find_all(primary_img + '.jpg').one?
+      house_path(item) + folder + '.jpg'
+    else
+      '/img/house-dummy.jpg'
+    end
   end
 
 end

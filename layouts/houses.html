@@ -15,18 +15,6 @@
     <% end %>
 
     <li class="divider">
-        <h4>Malmgård:</h4>
-    </li>
-
-    <% sorted(@item, 'Malmgård').each do |item| %>
-    <li data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
-        <a href="<%= item.path %>">
-            <h4><%= item[:name] %></h4>
-        </a>
-    </li>
-    <% end %>
-
-    <li class="divider">
         <h4>Ahvenkoski:</h4>
     </li>
 
@@ -49,7 +37,30 @@
         </a>
     </li>
     <% end %>
-</ul>
 
+    <li class="divider">
+        <h4>Isnäs:</h4>
+    </li>
+
+    <% sorted(@item, 'Isnäs').each do |item| %>
+    <li data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+        <a href="<%= item.path %>">
+            <h4><%= item[:name] %></h4>
+        </a>
+    </li>
+    <% end %>
+
+    <li class="divider">
+        <h4>Pernaja:</h4>
+    </li>
+
+    <% sorted(@item, 'Pernaja').each do |item| %>
+    <li data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+        <a href="<%= item.path %>">
+            <h4><%= item[:name] %></h4>
+        </a>
+    </li>
+    <% end %>
+</ul>
 
 <%= render '/partials/footer.*' %>

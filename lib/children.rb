@@ -5,13 +5,15 @@ module ChildrenHelper
   end
 
   def sorted_child_images(item)
-    images = @items.find_all(item.identifier.without_ext.gsub("index", "") + "*.jpg")
+    pattern = item.identifier.without_ext.gsub("index", "") + "*.jpg"
+    images = @items.find_all(pattern)
     images.sort { |a, b| numeric_id(a) <=> numeric_id(b) }
   end
 
   def child_md_items(item)
     pattern = item.identifier.without_ext.gsub("index", "**/*.md")
-    @items.find_all(pattern).reject { |i| i.identifier == item.identifier }
+    documents = @items.find_all(pattern)
+    documents.reject { |i| i.identifier == item.identifier }
   end
 
   def parent_md_item(item)
