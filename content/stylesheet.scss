@@ -22,25 +22,15 @@ nav {
   background-size: auto 40px;
   background-position: center bottom;
   height: 80px;
-  position: relative;
-  ul {
-    flex-wrap: nowrap;
-    li {
-      text-align: center;
-      flex-grow: 1;
-      &.spacer {
-        flex-grow: 3;
-      }
-      a {
-        display: inline-block;
-        color: white;
-        padding: 12px 0px;
-        font-size: 16px;
-        text-decoration: none;
-        &:hover {
-          color: $color-brown;
-        }
-      }
+  a {
+    float: right;
+    display: inline-block;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    &:hover {
+      color: $color-brown;
     }
   }
 }
