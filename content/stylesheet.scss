@@ -31,6 +31,9 @@ nav {
     &:hover {
       color: $color-brown;
     }
+    &.back {
+      float: left;
+    }
   }
 }
 

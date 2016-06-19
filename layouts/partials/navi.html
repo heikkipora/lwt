@@ -1,4 +1,10 @@
 <nav>
+  <% parent = parent_md_item(@item) %>
+  <% puts @item.path %>
+  <% if parent and parent.path != "/dummy.html" %>
+    <a class="back" href="<%= parent.path %>">&laquo; <%= parent[:navi] %></a>
+  <% end %>
+
   <% if lang(@item) == 'se' %>
     <a href="/">Suomeksi</a>
   <% else %>
