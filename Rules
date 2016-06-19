@@ -25,74 +25,64 @@ compile '/stylesheet.*' do
   write '/css/lwt.css'
 end
 
-compile '/1-ohjelma/*.md' do
+compile '/**/*.jpg', :rep => :thumbnail do
+  filter :thumbnailize, :size => '220x220'
+  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
+end
+
+compile '/**/*.jpg' do
+  filter :optimize, :size => '1600x1200'
+end
+
+compile '/**/*.svg' do
+  filter :svgoptimize
+end
+
+compile '/1-ohjelma/index.md' do
   filter :kramdown
   layout '/events.*'
   filter :relativize_paths, :type => :html
 end
 
-compile '/1-ohjelma/**/*.md' do
-  filter :kramdown
-  layout '/event.*'
-  filter :relativize_paths, :type => :html
-end
-
-compile '/1-ohjelma/**/*.jpg', :rep => :thumbnail do
-  filter :thumbnailize, :size => '220x220'
-  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
-end
-
-compile '/1-programmet/*.md' do
-  filter :kramdown
-  layout '/events.*'
-  filter :relativize_paths, :type => :html
-end
-
-compile '/1-programmet/**/*.md' do
-  filter :kramdown
-  layout '/event.*'
-  filter :relativize_paths, :type => :html
-end
-
-compile '/1-programmet/**/*.jpg', :rep => :thumbnail do
-  filter :thumbnailize, :size => '220x220'
-  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
-end
-
-compile '/2-kohteet/*.md' do
+compile '/1-ohjelma/*-kohteet/index.md' do
   filter :kramdown
   layout '/houses.*'
   filter :relativize_paths, :type => :html
 end
 
-compile '/2-kohteet/**/*.jpg' do
-  filter :optimize, :size => '1600x1200'
-end
-
-compile '/2-kohteet/**/*.jpg', :rep => :thumbnail do
-  filter :thumbnailize, :size => '220x220'
-  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
-end
-
-compile '/2-kohteet/**/*.svg' do
-  filter :svgoptimize
-end
-
-compile '/2-kohteet/**/*.md' do
+compile '/1-ohjelma/*-kohteet/**/*.md' do
   filter :kramdown
   layout '/house.*'
   filter :relativize_paths, :type => :html
 end
 
-compile '/2-hus/*.md' do
+compile '/1-ohjelma/*/*.md' do
+  filter :kramdown
+  layout '/event.*'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/1-programmet/index.md' do
+  filter :kramdown
+  layout '/events.*'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/1-programmet/*-kohteet/index.md' do
   filter :kramdown
   layout '/houses_se.*'
   filter :relativize_paths, :type => :html
 end
 
-compile '/2-hus/**/*.md' do
+compile '/1-programmet/*-kohteet/**/*.md' do
   filter :kramdown
   layout '/house_se.*'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/1-programmet/*/*.md' do
+  filter :kramdown
+  layout '/event.*'
   filter :relativize_paths, :type => :html
 end
 

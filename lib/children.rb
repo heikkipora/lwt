@@ -11,7 +11,7 @@ module ChildrenHelper
   end
 
   def child_md_items(item)
-    pattern = item.identifier.without_ext.gsub("index", "**/*.md")
+    pattern = item.identifier.without_ext.gsub("index", "*/*.md")
     documents = @items.find_all(pattern)
     documents.reject { |i| i.identifier == item.identifier }
   end

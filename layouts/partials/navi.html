@@ -1,7 +1,7 @@
 <nav>
   <% parent = parent_md_item(@item) %>
   <% puts @item.path %>
-  <% if parent and parent.path != "/dummy.html" %>
+  <% if parent and !parent[:is_dir] %>
     <a class="back" href="<%= parent.path %>">&laquo; <%= parent[:navi] %></a>
   <% end %>
 

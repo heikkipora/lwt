@@ -16,14 +16,14 @@ module HousesHelper
 
   def house_path(item)
     if lang(item) == 'se'
-      item.path.gsub('/hus', '/kohteet')
+      item.path.gsub('/programmet', '/ohjelma')
     else
       item.path
     end
   end
 
   def finnish_house(item)
-    finnish_item = item.identifier.to_s().gsub('2-hus', '2-kohteet')
+    finnish_item = item.identifier.to_s().gsub('programmet', 'ohjelma')
     @items.find { |i| i.identifier == finnish_item }
   end
 
