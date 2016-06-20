@@ -10,7 +10,7 @@
         <% sorted_child_images(@item).each do |img| %>
         <li>
             <a href="<%= img.path %>">
-                <img data-caption="<%= img[:caption] %>" src="<%= img.path(:rep => :thumbnail) %>">
+                <img src="<%= img.path(:rep => :thumbnail) %>">
             </a>
         </li>
         <% end %>
