@@ -26,7 +26,7 @@ compile '/stylesheet.*' do
 end
 
 compile '/**/*.jpg', :rep => :thumbnail do
-  filter :thumbnailize, :size => '220x220'
+  filter :thumbnailize, :size => '240x240'
   write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
 end
 
