@@ -16,7 +16,7 @@ Ei siis ole ihme, että LWT- tapahtuma on noussut itäisen Uudenmaan suosituimma
 &nbsp;
 
 LWT-päivien ohjelma 2016
-====
+----
 
 **Aktia, Brandensteininkatu 11**, Bukowskis arvioi kävijöiden antiikkiesineitä Aktian tiloissa la klo 11 - 14.
 
@@ -91,7 +91,7 @@ LWT-päivien ohjelma 2016
 &nbsp;
 
 Samana viikonloppuna Loviisassa
-====
+----
 
 **Ruotsinpyhtään Ruukissa** talokohteiden lisäksi tapahtumia, erikoismyymälöitä, kahviloita ja ravintoloita.
 

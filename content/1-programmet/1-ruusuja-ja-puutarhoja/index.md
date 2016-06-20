@@ -10,8 +10,8 @@ lang: se
 
 &nbsp;
 
-PROGRAM 
-====
+PROGRAM
+----
 
 **ALMSKA HUSET, Brandensteinsgatan 3:** Utställning Malmgård/Tarulinna och produktionsanläggningen. Utställning som presenterar Malmgårds historia i Almska Huset. Till påseende finns konstskatter från nyrenässans herrgården samt fotografier av Signe Brander som förevigat herrgårdslivet på ett unikt sätt.  Lö-sö 10 -17.
 
@@ -62,7 +62,7 @@ PROGRAM
 &nbsp;
 
 ROSENTRÄDGÅRDARNA öppna lö-sö kl 10-17
-====
+----
 
 *Rosor & trädgårdar i Lovisa öppnar portarna till lovisabornas rosengårdar och trädgårdar. Trädgårdarna är mycket olika, från små egnahemsträdgårdar till större utställningsträdgårdar. Trädgårdarna har ofta ett tema och ibland återspeglas också ägarens favorithobby i trädgårdsarrangemangen. En del trädgårdar har kafé eller konstutställningar och även glasarbeten finns för påseende. I en del trädgårdar säljs också plantor och annan rekvisita för trädgården.*
 
@@ -72,7 +72,7 @@ ROSENTRÄDGÅRDARNA öppna lö-sö kl 10-17
 
 **Lowisa Rosarium/Hälsocentralens rosengård/Öhmansgatan 4.** 33 gamla rosor/16 olika arter donerade av rosenexperten Toini Grönqvist från Åbo.
 
-**Ruusuranta i Strandparken.** Rosor planterade av Lovisas gerilla"trädgårdsmästare". 
+**Ruusuranta i Strandparken.** Rosor planterade av Lovisas gerilla"trädgårdsmästare".
 
 **Villa  Aaltonen, Långgränd 12.** Kafe’ Villa Sorella serverar olika rosendelikatesser.
 
@@ -80,7 +80,7 @@ ROSENTRÄDGÅRDARNA öppna lö-sö kl 10-17
 
 **Pitkänpöydäntalo, Mariegatan 7.** Keramik i Korpelas gårdsbyggnad.
 
-**Vackerbacka, Trädgårdsgatan 34.** I trädgården bl.a. växtfärgat garn till salu. 
+**Vackerbacka, Trädgårdsgatan 34.** I trädgården bl.a. växtfärgat garn till salu.
 
 **Muistojen kivipuutarha, Strandvägen 12 A.**
 
@@ -95,5 +95,3 @@ ROSENTRÄDGÅRDARNA öppna lö-sö kl 10-17
 [» Här kan du ladda ner och printa kartan (PDF)](/ohjelma/ruusuja-ja-puutarhoja/kartta.pdf)
 
 [» Rosor & Trädgårdar i Lovisa -sidan i Facebook](https://www.facebook.com/ruusutjapuutarhat)
-
-

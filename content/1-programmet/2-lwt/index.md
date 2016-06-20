@@ -16,7 +16,7 @@ Det är lätt att förstå att LHH-evenemanget blivit östra Nylands populärast
 &nbsp;
 
 LHH-dagarnas program 2016
-====
+----
 
 **Aktia**, Brandensteinsgatan 11, Bukowskis värderar besökarnas antikföremål i Aktias utrymmen lö kl 11 - 14.
 
@@ -91,7 +91,7 @@ LHH-dagarnas program 2016
 &nbsp;
 
 Under samma veckoslut i Lovisa
-====
+----
 
 **Jokela hembygdsmuseum**. Turkkilavägen 39, Svenskby. Gamla tiders dagar lö och sö.
 

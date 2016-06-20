@@ -9,8 +9,8 @@ gallery: yes
 
 &nbsp;
 
-OHJELMA 
-====
+OHJELMA
+----
 
 **ALMIN TALO, Brandensteininkatu 3:**  Näyttely Malmgård/Tarulinna ja tuotantolaitos. Malmgårdin kartanon historiaa esittelevä näyttely Almintalossa. Esillä on uusrenessanssikartanon taideaarteita sekä kartanoelämää ainutlaatuisella tavalla ikuistaneita Signe Branderin valokuvavedoksia.  La-su 10 -17.
 
@@ -30,9 +30,9 @@ OHJELMA
 
 **LIIKUNTAHALLI, Brandensteininkatu 27:** Spelmasförbundet. Pelimannikonsertti la klo 18. Tanssia pelimannien tahtiin la klo 20.
 
-**LOVIISAN KIRKKO:**  Kaikille avoimet Ruusuhäät la klo 17. 
+**LOVIISAN KIRKKO:**  Kaikille avoimet Ruusuhäät la klo 17.
 
-**ONNELIN & ANNELIN leikkipuisto, Rantatie, Satupuisto:** Prinsessojen piknik. Prinsessa Ruusunen toivottaa kaikki vierailijat tervetulleiksi, leikkii, kertoo satuja ja tarjoilee myös hieman piknik-evästä; ruusunpunaista ruusunterälehdillä maustettua mehua ja vaaleanpunaisia vaahtokarkkeja. Prinsessa Ruusunen paikalla molempina päivinä klo 11-15.  La ja su 10-17. 
+**ONNELIN & ANNELIN leikkipuisto, Rantatie, Satupuisto:** Prinsessojen piknik. Prinsessa Ruusunen toivottaa kaikki vierailijat tervetulleiksi, leikkii, kertoo satuja ja tarjoilee myös hieman piknik-evästä; ruusunpunaista ruusunterälehdillä maustettua mehua ja vaaleanpunaisia vaahtokarkkeja. Prinsessa Ruusunen paikalla molempina päivinä klo 11-15.  La ja su 10-17.
 
 **PIKKUVÄEN POLKU:** Loviisan taiteilijat, artesaanit ja kädentaitajat ovat luoneet Pikkukaupungin pikkuväen pikkuovea löydettäviksi keskustan, historialliseen alakaupungin ja Garnisonin saaren tienoilta. Järjestäjä Hakeva ry. Karttoja saa Lovinfosta, Mariankatu 12. Mobiilisuunnistuskartan voi ladata [oktrian.fi/mobo](http://oktrian.fi/mobo)
 
@@ -54,7 +54,7 @@ OHJELMA
 
 **ULRIKANHOVI, Kuhlefeltinkatu 35:** Ulrikanhovin ihastuttavassa pihapiirissä Eliko Roots johdattaa ruusujen runsaaseen maailmaan. Kuulet tietoa eri ruusulajikkeista ja miten ruusua voidaan hyödyntää mm. ruoanvalmistuksessa ja kauneudenhoidossa. Voit myös osallistua ruusujen istuttamiseen la 11-15. Ukkolan käsityö- ja lahjatavaraliike avoinna la 11-15.  [www.ulrikanhovi.fi](http://www.ulrikanhovi.fi)
 
-**WANHA KAUPPA, Itäinen Tullikatu 20:** Wanhassa Kaupassa mm. ruusu- ja kukka-aiheisia kirjoja ja astioita la-su klo 11-16. 
+**WANHA KAUPPA, Itäinen Tullikatu 20:** Wanhassa Kaupassa mm. ruusu- ja kukka-aiheisia kirjoja ja astioita la-su klo 11-16.
 
 **ÖLVIN, Rantatie:** Ruusuinen tunnelma ja ruusuisia drinkkejä. La-su alkaen klo 10.  [www.olvin.fi](http://www.olvin.fi)
 
@@ -63,7 +63,7 @@ OHJELMA
 &nbsp;
 
 RUUSUPUUTARHAT avoinna la-su klo 10-17
-====
+----
 
 *Ruusuja & puutarhoja Loviisassa avaa loviisalaisten ruusutarhojen ja puutarhojen portit. Puutarhat ovat hyvinkin erilaisia, alkaen pienehköistä omakotitalopuutarhoista suurempiin näyttelypuutarhoihin. Niissä on yleensä jokin teema tai omistajalla on jokin lempiharrastus, joka näkyy hänen puutarhassaan. Muutamassa puutarhassa on kahvila ja taidenäyttelyitä, myös lasitöitten harrastajat esittelevät omia töitään. Joissakin puutarhoissa myydään lisäksi taimia sekä muuta puutarhaan ja sisustukseen liittyvää kaunista rekvisiittaa.*
 
@@ -71,23 +71,23 @@ RUUSUPUUTARHAT avoinna la-su klo 10-17
 
 **Villa Ilenna, Tinanvalajankuja 7.**
 
-**Lowisa Rosarium/Terveyskeskuksen ruusutarha/Öhmaninkatu 4.** Turkulaisen ruusuasiantuntija Toini Grönqvistin lahjoittamat  33 vanhaa ruusua/16 eri lajia. 
+**Lowisa Rosarium/Terveyskeskuksen ruusutarha/Öhmaninkatu 4.** Turkulaisen ruusuasiantuntija Toini Grönqvistin lahjoittamat  33 vanhaa ruusua/16 eri lajia.
 
 **Rantapuiston Ruusuranta.** Loviisan sissipuutarhurien ruusuistutus rantapuistossa.
 
-**Villa  Aaltonen, Pitkäkuja 12.** Villa Sorellan kahvilassa monenmoisia ruusuherkkuja. 
+**Villa  Aaltonen, Pitkäkuja 12.** Villa Sorellan kahvilassa monenmoisia ruusuherkkuja.
 
 **Liisantalo, Mariakatu 2C.** Pienelle sisäpihallekin saa ihastuttavan puutarhan. Puutarhassa myös kahvila ja Taisto Huttusen taidetta.
 
 **Pitkänpöydäntalo, Mariankatu 7.** Korpelan alatalossa keramiikkaa.
 
-**Vackerbacka, Puutarhakatu 34.** Puutarhassa myynnissä mm. kasvivärjättyä lankaa. 
+**Vackerbacka, Puutarhakatu 34.** Puutarhassa myynnissä mm. kasvivärjättyä lankaa.
 
 **Muistojen kivipuutarha, Rantatie 12 A.**
 
 **Tallmo, Snyggigsentie 23, Kuggom.**
 
-**Tallgård, Peikkomäentie 52, Gislom.** 
+**Tallgård, Peikkomäentie 52, Gislom.**
 
 **Eija´s Garden – 1,5 ha elämyspuutarha Loviisan Ahvenkoskella, Elimäentie 74.** Myymälässä hyvä valikoima ruusuja. Avoinna joka päivä paitsi ma. Maksullinen.  Su ruusukierros klo 12 ja 14. [www.eijasgarden.fi](http://www.eijasgarden.fi)
 
