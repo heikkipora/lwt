@@ -231,10 +231,10 @@ ul.houses {
       font-size: 20px;
       text-shadow: 0px 0px 5px #000000;
     }
-    &.new:before {
+    &.new-fi:before {
       display: block;
       content: '';
-      background: transparent url(/img/new-stamp.png) no-repeat right bottom;
+      background: transparent url(/img/new-stamp-fi.png) no-repeat right bottom;
       background-size: contain;
       bottom: 0;
       right: 0;
@@ -243,10 +243,10 @@ ul.houses {
       position: absolute;
       z-index: 10;
     }
-    &.public:before {
+    &.public-fi:before {
       display: block;
       content: '';
-      background: transparent url(/img/public-stamp.png) no-repeat right bottom;
+      background: transparent url(/img/public-stamp-fi.png) no-repeat right bottom;
       background-size: contain;
       bottom: 0;
       right: 0;
@@ -255,7 +255,31 @@ ul.houses {
       position: absolute;
       z-index: 10;
     }
-    &.divider {
+    &.new-se:before {
+      display: block;
+      content: '';
+      background: transparent url(/img/new-stamp-se.png) no-repeat right bottom;
+      background-size: contain;
+      bottom: 0;
+      right: 0;
+      width: 220px;
+      height: 220px;
+      position: absolute;
+      z-index: 10;
+    }
+    &.public-se:before {
+      display: block;
+      content: '';
+      background: transparent url(/img/public-stamp-se.png) no-repeat right bottom;
+      background-size: contain;
+      bottom: 0;
+      right: 0;
+      width: 220px;
+      height: 220px;
+      position: absolute;
+      z-index: 10;
+    }
+      &.divider {
       background-color: $color-brown;
       h4 {
         width: 220px;

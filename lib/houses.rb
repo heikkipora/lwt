@@ -16,9 +16,9 @@ module HousesHelper
 
   def house_class(item)
     if item[:public]
-      'public'
+      'public-' + lang(item)
     elsif item[:new]
-      'new'
+      'new-' + lang(item)
     else
       ''
     end
