@@ -14,6 +14,16 @@ module HousesHelper
     }
   end
 
+  def house_class(item)
+    if item[:public]
+      'public'
+    elsif item[:new]
+      'new'
+    else
+      ''
+    end
+  end
+
   def house_path(item)
     if lang(item) == 'se'
       item.path.gsub('/programmet', '/ohjelma')

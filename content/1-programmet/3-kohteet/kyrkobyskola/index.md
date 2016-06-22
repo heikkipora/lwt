@@ -5,6 +5,7 @@ remote: 'Pernaja'
 number: 52
 lang: se
 new: true
+public: true
 ---
 År 1877 fick pojkarna i Fasarby och Kyrkobyn börja sin skolgång. Den första skollokalen i Kyrkobyn var i Sockenstugan som på den tiden var tingshus. Hösten 1877 startade Kyrkoby skola i sina nuvarande utrymmen och hade redan 44 elever. I Kyrkobyn var man missnöjd över att flickorna blev utan undervisning. Men ortsbornas energi resulterade i att skolan ändrades till en samskola och var nu tillgänglig för både flickor och pojkar.
 
