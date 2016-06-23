@@ -7,6 +7,7 @@
         <% end %>
         <%= @item[:name] %>
     </h1>
+    <img src="<%= house_large_svg(item) %>" class="house-hero"/>
     <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
     <% if @item[:garden] %> - <em><%= t('house.garden') %></em><% end %>
     <% if @item[:remote] %> - <em><%= t('house.remote') %></em><% end %>

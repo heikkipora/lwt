@@ -49,6 +49,10 @@ module HousesHelper
     end
   end
 
+  def house_large_svg(item)
+    house_svg(item).gsub('-thumb', '')
+  end
+
 end
 
 include HousesHelper

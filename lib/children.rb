@@ -6,7 +6,7 @@ module ChildrenHelper
 
   def sorted_child_images(item)
     pattern = item.identifier.without_ext.gsub("index", "") + "*.jpg"
-    images = @items.find_all(pattern)
+    images = @items.find_all(pattern).reject { |i| numeric_id(i) == 0}
     images.sort { |a, b| numeric_id(a) <=> numeric_id(b) }
   end
 
@@ -22,6 +22,7 @@ module ChildrenHelper
     pattern =  path_parts.join("/")
     @items[pattern]
   end
+
 end
 
 include ChildrenHelper
