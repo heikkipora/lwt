@@ -4,7 +4,7 @@ meta:
   keywords: Loviisa, Lovisa, perinnerakentaminen, vanhat talot, gamla hus, kirpputori, puutarha
   site_name: Loviisan Wanhat Talot
 browser:
-  expired: Selaimesi on vanhentunut! <a href="http://browsehappy.com/">Vaihda selainta klikkaamalla tästä.</a>
+  expired: Selaimesi on vanhentunut! <br/><a href="http://browsehappy.com/">Vaihda selainta klikkaamalla tästä.</a>
 navi:
   title: Loviisan Wanhat Talot &nbsp;&nbsp; 27.-28.8.2016 klo 10-17 &nbsp;&nbsp; liput 15&euro;
 sponsors:
@@ -42,4 +42,3 @@ events:
 house:
   garden: Huom! Tätä kohdetta pääset ihailemaan vain ulkopuolelta!
   remote: Huom! Etäkohde, sijaitsee Loviisan keskustan ulkopuolella!
-
