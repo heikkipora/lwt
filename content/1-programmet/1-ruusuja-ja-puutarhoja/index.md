@@ -37,7 +37,7 @@ PROGRAM
 
 **PILASTRARNA:** Konungen anländer till Lovisa 2.-3.7. 1700-tals gästgiveridagar i Pilastrarna: hästskjutsar, mat, skvaller, mamseller, soldater och konung Adolf Fredrik. Arrangör:  Lovisa Stads Goda Inwånare rf. Tel. 044 565 1011, [facebook.com/kuningassaapuu](http://facebook.com/kuningassaapuu)
 
-**PILASTRARNA:** Köpmansänkans promenad. Dramaguidning med köpmansänkan Madame Clayhills i 1700-tals Lovisa. Den guidade turen startar vid Skeppsbron sö 3.7. kl 13. Pris 6 euro/person.
+**PILASTRARNA:** Köpmansänkans promenad. Dramaguidning med köpmansänkan Madame Clayhills i 1700-tals Lovisa. Den guidade turen startar vid Pilastrarna sö 3.7. kl 13. Pris 6 euro/person.
 
 **RESTAURANG BELLA, Mannerheimgatan 2:** husets special rosencocktail lö 10-24 sö 10-22. [www.bellaloviisa.fi](http://www.bellaloviisa.fi)
 

@@ -38,7 +38,7 @@ OHJELMA
 
 **PILASTERIT:** Kuningas saapuu Loviisaan 2.-3.7. 1700-luvun kievaripäivät Pilastereiden pihapiirissä: hevoskyytejä, ruokaa, juoruja, mamselleja, sotilaita ja kuningas Adolf Fredrik. Järjestäjä:  Loviisan Kaupungin Hywät Asukkaat ry. Puh. 044 565 1011, [facebook.com/kuningassaapuu](http://facebook.com/kuningassaapuu)
 
-**PILASTERIT:** Kauppiaanlesken promenadi. Draamaopastus 1700-luvun Loviisaan kauppiaanleski Madame Clayhillsin johdolla. Opastuskierros lähtee Laivasillalta su 3.7. klo 13. Hinta 6 euroa/henkilö.
+**PILASTERIT:** Kauppiaanlesken promenadi. Draamaopastus 1700-luvun Loviisaan kauppiaanleski Madame Clayhillsin johdolla. Opastuskierros lähtee Pilastereista su 3.7. klo 13. Hinta 6 euroa/henkilö.
 
 **RAVINTOLA BELLA, Mannerheiminkatu 2:** erikoisuutena talon ruusucocktail la 10-24 su 10-22. [www.bellaloviisa.fi](http://www.bellaloviisa.fi)
 
