@@ -7,8 +7,12 @@ module MetaTagsHelper
     end
   end
 
+  def is_house(item)
+    item.key?(:address)
+  end
+
   def meta_description(item)
-    if item[:address]
+    if is_house(item)
       t('meta.description_for_house') + item[:address]
     elsif item[:description]
       item[:description]
@@ -20,6 +24,9 @@ module MetaTagsHelper
   def meta_image(item)
     if item[:preview]
       item[:preview]
+    elsif is_house(item)
+      preview_image = house_fb_preview(item)
+      "http://loviisanwanhattalot.fi#{preview_image}"
     else
       "http://loviisanwanhattalot.fi#{item.path}1.jpg"
     end

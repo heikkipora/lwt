@@ -37,6 +37,16 @@ module HousesHelper
     @items.find { |i| i.identifier == finnish_item }
   end
 
+  def house_fb_preview(item)
+    folder = house_path(item).split("/")[-1]
+    primary_img = finnish_house(item).identifier.without_ext.gsub('index', '') + folder
+    if @items.find_all(primary_img + '.svg').one? or @items.find_all(primary_img + '.jpg').one?
+      house_path(item) + folder + '.jpg'
+    else
+      '/img/house-dummy.jpg'
+    end
+  end
+
   def house_svg(item)
     folder = house_path(item).split("/")[-1]
     primary_img = finnish_house(item).identifier.without_ext.gsub('index', '') + folder

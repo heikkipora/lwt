@@ -7,3 +7,5 @@ It's mosty Markdown + SASS compiled with nanoc. Served from S3
 rvm use ruby 2.3.1
 gem install bundler
 bundle install
+
+npm install -g svgexport svgo

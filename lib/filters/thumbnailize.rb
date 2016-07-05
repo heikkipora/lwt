@@ -3,7 +3,17 @@ class Thumbnailize < Nanoc::Filter
   type :binary
 
   def run(filename, params={})
-    system(
+    if filename.end_with? '.svg'
+      system(
+        'svgexport',
+        filename,
+        output_filename,
+        'jpg',
+        '80%',
+        params[:size],
+      )
+    else
+      system(
         'convert',
         filename,
         '-strip',
@@ -20,6 +30,7 @@ class Thumbnailize < Nanoc::Filter
         '-extent',
         params[:size],
         output_filename
-    )
+      )
+    end
   end
 end

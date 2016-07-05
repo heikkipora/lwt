@@ -34,8 +34,13 @@ compile '/**/*.jpg' do
   filter :optimize, :size => '1600x1200'
 end
 
-compile '/**/*.svg' do
+compile '/1-ohjelma/*-kohteet/*/*.svg' do
   filter :svgoptimize
+end
+
+compile '/1-ohjelma/*-kohteet/*/*.svg', :rep => :thumbnail do
+  filter :thumbnailize, :size => '1200:628'
+  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '.jpg'
 end
 
 compile '/1-ohjelma/index.md' do
