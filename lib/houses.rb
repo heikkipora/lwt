@@ -63,6 +63,13 @@ module HousesHelper
     house_svg(item).gsub('-thumb', '')
   end
 
+  def house_photographer(item)
+    if item[:photographer]
+      item[:photographer]
+    else
+      'Carita Liljendahl'
+    end
+  end
 end
 
 include HousesHelper
