@@ -2,7 +2,7 @@
 name: Pernajankirkko
 address: Pernajantie 305, Pernaja
 remote: 'Pernaja'
-number: 53
+number: 46
 new: true
 public: true
 ---

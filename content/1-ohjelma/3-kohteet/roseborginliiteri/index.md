@@ -2,7 +2,7 @@
 name: Roseborgin liiteri
 address: Ruukintie 17, Ruotsinpyhtää
 remote: 'Ruukki'
-number: 44
+number: 39
 new: true
 public: true
 ---
