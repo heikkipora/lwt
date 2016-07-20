@@ -2,7 +2,7 @@
 name: Höganås
 address: Höganåsvägen 25, Pernå
 remote: 'Pernaja'
-number: 44
+number: 45
 lang: se
 new: true
 public: true

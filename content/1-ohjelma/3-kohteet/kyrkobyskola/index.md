@@ -2,7 +2,7 @@
 name: Kyrkobyn koulu
 address: Pernajantie 197, Pernaja
 remote: 'Pernaja'
-number: 45
+number: 46
 new: true
 public: true
 ---

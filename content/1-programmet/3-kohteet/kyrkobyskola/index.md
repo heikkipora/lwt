@@ -2,7 +2,7 @@
 name: Kyrkoby skola
 address: Pernåvägen 197, Pernå
 remote: 'Pernaja'
-number: 45
+number: 46
 lang: se
 new: true
 public: true
