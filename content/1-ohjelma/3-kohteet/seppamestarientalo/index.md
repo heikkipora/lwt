@@ -1,6 +1,6 @@
 ---
 name: Seppämestarien talo
-address: Ruukintie 12 A, Ruotsinpyhtää
+address: Ruukintie 12 B, Ruotsinpyhtää
 remote: 'Ruukki'
 number: 42
 ---
