@@ -8,4 +8,5 @@ rvm use ruby 2.3.1
 gem install bundler
 bundle install
 
+nvm use 6.2.2
 npm install -g svgexport svgo
