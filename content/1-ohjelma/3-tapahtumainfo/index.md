@@ -7,7 +7,7 @@ gallery: no
 
 **Lipunmyynti:**
 
-LWT-rannekkeet maksavat 15 euroa ja ovat voimassa sekä lauantaina että sunnuntaina. Alle 12 vuotiaat ilmaiseksi. Ryhmät yli 20 henkilöä á 12 euroa. Rannekkeita (maksu käteisellä) myydään kahdeksassa eri paikassa klo 10 alkaen: Ulrikanhovi, Kuhlefeltinkatu 35 (voi maksaa kortilla), Loviisan tori (klo 9 alkaen), Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys, Puutarhakadun eteläpää ja Ravintola Kappeli, Kuningattarenkatu 19 (voi maksaa kortilla).  Lipunmyynti merkitty karttaan (kts kohta Kartta).
+LWT-rannekkeet maksavat 15 euroa ja ovat voimassa sekä lauantaina että sunnuntaina. Alle 12 vuotiaat ilmaiseksi. Ryhmät yli 20 henkilöä á 12 euroa. Rannekkeita (maksu käteisellä) myydään kahdeksassa eri paikassa klo 10 alkaen: Ulrikanhovi, Kuhlefeltinkatu 35 (voi maksaa kortilla), Loviisan tori (klo 9 alkaen), Konditoria-Café Vaherkylä, Aleksanterinkatu 2 (voi maksaa kortilla), Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys, Puutarhakadun eteläpää ja Ravintola Kappeli, Kuningattarenkatu 19 (voi maksaa kortilla).  Lipunmyynti merkitty karttaan (kts kohta Kartta).
 
 **Varaa käteistä mukaan jo lähtiessä:**
 
@@ -23,7 +23,7 @@ Katso ravintolat ja kahvilat jo etukäteen [www.visitloviisa.fi](http://www.visi
 
 **Yöpyminen:**
 
-Kun haluat yöpyä varaa majoituspaikkasi hyvissä ajoin. Majoituspaikat löytyvät osoitteesta [www.visitloviisa.fi](http://www.visitloviisa.fi/fi/majoitu.
+Kun haluat yöpyä varaa majoituspaikkasi hyvissä ajoin. Majoituspaikat löytyvät osoitteesta [www.visitloviisa.fi](http://www.visitloviisa.fi/fi/majoitu).
 
 **Talovierailut:**
 
@@ -40,3 +40,7 @@ Tapahtumassa on useita turvallisuusmiehiä. Heidät tunnistaa liiveistä ja heih
 **Muutoksia:**
 
 ITU-tori on tänä vuonna avoinna vain lauantaina klo 10-17.
+
+**Muuta:**
+
+LWT:n aikaan tulee olemaan kaksi Karhu Voima Oy:n laatikkopyörällä liikkuvaa latauspistettä Loviisassa. Pyörät tarjoavat veloituksetta LWT:n vieraille mahdollisuuden ladata puhelimia, tabletteja ja kameroita. Pyörät liikkuvat keskustan alueella.
