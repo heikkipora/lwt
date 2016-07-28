@@ -1,6 +1,6 @@
 ---
 name: Sandranmäki
-address: Pohjoinen tullitie 27, Loviisa
+address: Pohjoinen Tullitie 27, Loviisa
 number: 12
 new: true
 ---
