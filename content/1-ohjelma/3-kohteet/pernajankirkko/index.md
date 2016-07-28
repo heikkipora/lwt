@@ -1,5 +1,5 @@
 ---
-name: Pernajankirkko
+name: Pernajan kirkko
 address: Pernajantie 305, Pernaja
 remote: 'Pernaja'
 number: 47
