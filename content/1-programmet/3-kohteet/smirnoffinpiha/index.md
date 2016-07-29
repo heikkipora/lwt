@@ -1,5 +1,5 @@
 ---
-name: Smirnoff's hus
+name: Smirnoff's gård
 address: Drottninggatan 6, Lovisa
 garden: true
 number: 22

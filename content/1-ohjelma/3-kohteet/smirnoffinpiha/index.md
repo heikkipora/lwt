@@ -1,5 +1,5 @@
 ---
-name: Smirnoffin talo
+name: Smirnoffin piha
 address: Kuningattarenkatu 6, Loviisa
 garden: true
 number: 22
