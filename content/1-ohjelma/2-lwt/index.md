@@ -102,3 +102,90 @@ Samana viikonloppuna Loviisassa
 **Wanhan ajan päivät Jokelan kotiseutumuseossa** la ja su. Turkkilantie 39, Ruotsinkylä
 
 **Loviisan museot ja muut nähtävyydet**, katso [www.visitloviisa.fi](http://www.visitloviisa.fi) ja [www.loviisa.fi](http://www.loviisa.fi)
+
+&nbsp;
+
+Näytteilleasettajia, työnäytöksiä ja neuvontaa
+----
+
+SUOLATORI:
+
+**Amisto ja Opso.** Porvoon ammattiopisto, Amisto, esittelee nuorisoasteen ammatillista koulutusta ja Itä-Uudenmaan oppisopimus keskus, Opso, esittelee oppisopimuskoulutusta sekä nuorille että aikuisille. Osastolla on työnäytöksiä.
+
+**Fortum.** Sähkösopimuksia kotiin ja mökille – myös muuttaessa.
+
+**Habitare messut/Antiikki-tapahtuma.** Tervetuloa 7.-11.9. Helsingin Messukeskukseen: Antiikin, vintagen & vanhan taiteen myyntitapahtuma Antiikki - yhtäaikaisesti Suomen suurimman huonekalu-, sisustus- ja designtapahtuma Habitaren kanssa.
+
+**Hattulan kaakelitehdas.** Perinteisiä kaakeliuuneja ja korjauskaakeleita vanhoihin uuneihin.
+
+**Hokola.** Koko talon helat portista kalusteisiin.
+
+**Huoneistokeskus.** Asunnon vaihtoon liittyvää neuvontaa.
+
+**Hämeen Sininen Ikkuna.** Vanhojen ikkunoiden entisöintiä perinteisin menetelmin työnäytöksinä, ikkunaentisöijä Tiina Torniainen.
+
+**Itäväylä.**
+
+**K-Rauta Porvoo ja Ekovilla.** Ekovilla lämmin vihreä. Tule pyytämään tarjous talosi lisäeristyksestä. Ekovillan edustajan lisäksi K-Rauta Porvoon edustaja Olli Vanne paikalla. Tule keskustelemaan rakentamiseen ja remontointiin liittyvistä tuotteista.
+
+**Loviisan kaupunki.** Sidu goes Uimakoppi-Badhytten! Miltä Loviisa kuulostaa? Astu sisälle uimakoppiin, istahda hetkeksi rauhassa alas – yksin tai yhdessä – ja anna ”Sidu” -ääni- ja kuvateoksen kuljettaa sinut loviisalaiseen elämänmenoon – tule, tutustu ja ihastu! Loviisan kaupungin tarjoama hengähdyshetki.
+
+**Mika Häkkinen.** Käsityönä perinteisiä pönttöuuneja ja -kiukaita.
+
+**Maalla lehti/Otava media.** Maalla on ensimmäinen suomalainen country living -lehti. Heille, jotka haaveilevat leppoisammasta elämänrytmistä ja maaseutumaisesta asumisesta.
+
+**Pellatrix.** Ekologinen sisustaminen ja rakentaminen.
+
+**Porvoon Wanha Rautakauppa.** Korjaajan, entisöijän ja vanhasta pitävän aarreaitta.
+
+**Porvoon Vaskisepät.** Kestävimpiä kattoja suurella sydämellä.
+
+**Porvoon seudun Musiikkiopisto** esittäytyy.
+
+**Rakennuskonservointi Mestarinpuolikas.** Vanhojen rakennuksien korjaaminen ja ekologinen rakentaminen.
+
+**Roseborgin Liiteri.** Uudesta vanhaan ja vanhasta uutta. Vanhoja rakennustarvikkeita sekä verkkokauppa.
+
+**Rosk´n Roll jätehuoltopalvelu.** Tietoa jätehuollon järjestämisestä, kierrätyksestä sekä kompostoinnista.
+
+**Saviyhdistys.** Saviyhdistys savirakentamisen edistämiseksi ry. on perustettu antamaan tietoa ekologisesta, terveellisestä ja turvallisesta savirakentamisesta. Savirappaustyönäytös.
+
+**Studio Hilpeä.** Suomessa käsityönä valmistettuja keraamisia seinälaattoja, ilmankostuttimia ja astioita.
+
+**Suomalaiset tulisijat – Finnish Fireplaces ry.** Tulisijoihin ja puulämmitykseen liittyvää neuvontaa ja opastusta, kaakeliuuni- ja muuraustyönäytöksiä.
+
+**Takomo Rautahovi.** Takomo Rautahovin pajalla taottuja tuotteita laidasta laitaan perinteisellä ja uudella designilla; koruista työkaluihin ja nauloista portteihin. Kuvittaja ja muotokuvataiteilija Pia-Maria Pohto tuo markkinoille käsityö- ja paperituotteita ihastuttavilla kuvituksilla.
+
+**Teamteach.** Fresh Wash täysi huolto ja sisäyksikön pesu. Uusi patentoitu tapa puhdistaa ilmalämpöpumppu!
+
+**T:mi Sulonen.** Kotimaisia design-puuvillamattoja.
+
+SCHILLMARKIN PUISTO:
+
+**Mustila Garden Shop - Mustilan Taimitarha.** Tarjoamme laadukkaita taimia 80 vuoden kokemuksella. Valikoimiimme kuuluvat myös tyylikkäät ja kestävät työkalut sekä puutarhan ihanat tarvikkeet kangasruukuista aina Garden Girl vaatteisiin. Ihanat kukkasipulit kauniissa pakkauksissaan ovat syksyllä valikoimassamme pääosassa.
+
+MARIANKADUN PUISTIKKO:
+
+**Loviisan seudun vihreät**
+
+**Lämpöpumppupiste.** Thermia lämpöpumppujen esittely
+
+**Myyry Tuomo.** Antiikkia
+
+**Pelastuslaitos esittäytyy**
+
+**Pienpuhdistamot Nissinen.** Jätevesijärjestelmiä ja Biolan-tuotteita.
+
+**Tarja Alm.** Wanhaa tavaraa
+
+**Terveystekniikka Valko.** Sisäilmandesinfiointi- sekä terveydenhoitolaitteita.
+
+**T:mi Mikko Laitamo.** Riippumattoja.
+
+DEGERBY GILLEN PIHARAKENNUS:
+
+**Kai Andersson** päivystää arkkitehtitoimistollaan ja konsultoi historiallisten talojen "rempassa". La klo 12-14.
+
+RAVINTOLA LOVIISAN KAPPELI:
+
+**Perinne- ja korjausrakentamisen klinikka.** ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 14.30 eteenpäin. Kappelin verannalla Porvoon Restauroinnin käsityöläispihasta entisöijät Valeri Rezov ja Barbro Blomster sekä kädentaitaija Tarja Heikkilä.Työnäytöksiä ja neuvontaa.
