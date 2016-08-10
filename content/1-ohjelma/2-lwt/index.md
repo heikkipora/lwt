@@ -11,90 +11,94 @@ Viikonlopun anti on todella monipuolinen. Tori on täynnä myyjiä, Karlskrona-b
 
 Loviisan Wanhat Talot on myös Suomen suurin avoimien puutarhojen ja pihapiirien keskittymä. Ja kun paikalliset asukkaat vielä pitävät lukuisia kirpputoreja ja "pop up-kahviloita" kaikkialla kaupungissa, tunnelma on taattu.
 
-Ei siis ole ihme, että LWT- tapahtuma on noussut itäisen Uudenmaan suosituimmaksi yleisötapahtumaksi. Tervetuloa Loviisaan viihtymään tästä ainutlaatuisesta tunnelmasta ja monipuolisesta tarjonnasta!
+Ei siis ole ihme, että LWT-tapahtuma on noussut itäisen Uudenmaan suosituimmaksi yleisötapahtumaksi. Tervetuloa Loviisaan viihtymään tästä ainutlaatuisesta tunnelmasta ja monipuolisesta tarjonnasta!
 
 &nbsp;
 
 LWT-päivien ohjelma 2016
 ----
 
-**Aktia, Brandensteininkatu 11**, Bukowskis arvioi kävijöiden antiikkiesineitä Aktian tiloissa la klo 11 - 14.
+**Aktia. Brandensteininkatu 11.** Bukowskis arvioi kävijöiden antiikkiesineitä Aktian tiloissa la klo 11 - 14.
 
-**Aleksanterinpihan antiikkimarkkinat**, Aleksanterinkatu 8. Sisäpihalla tuttuja antiikki-kauppiaita. Taidenäyttelyitä. Mukana myös ravintola Bella ja postikorttitaiteilija Inge Löök. La ja su 10 - 17.
+**Aleksanterinpihan antiikkimarkkinat.**  Aleksanterinkatu 8. Sisäpihalla tuttuja antiikki-kauppiaita. Taidenäyttelyitä. Mukana myös ravintola Bella ja postikorttitaiteilija Inge Löök, joka signeeraa kortteja klo 10-16 työhuonella 2. kerros. La ja su 10 - 17.
 
-**Almintalo**, Brandensteininkatu 3. Näyttelyt: Sigrid af Forselles, Loviisan Kulttuuri- ja ympäristöliikkeen kokoama näyttely Almintalon historiasta sekä Mimosa Elon valokuvanäyttely. La ja su klo 10 - 17.
+**Almintalo.** Brandensteininkatu 3. Näyttelyt: Sigrid af Forselles, Loviisan Kulttuuri- ja ympäristöliikkeen kokoama näyttely Almintalon historiasta sekä Mimosa Elon valokuvanäyttely. La ja su klo 10 - 17.
 
-**Bongan Linna.** Linnankuja. Yli 200 professori/taiteilija Riitta Nelimarkan työtä noin kahdenkymmenen vuoden ajalta. La ja su 11-16. [www.bonga.fi](http://www.bonga.fi)
+**Bongan Linna.** Ateljee. Linnankuja. Mahdollisuus tutustua professori/taiteilija Riitta Nelimarkan työtiloihin. Huolella entisöidyt avarat tilat pulppuavat kaikkialla Nelimarkan väri-iloittelua. La ja su 11-16.  [www.bonga.fi](http://www.bonga.fi). LWT-rannekkeella.
 
-**Degerby Gillen piharakennus**, Sepänkatu 4. Kai Andersson konsultoi historiallisten talojen ”rempassa”. La klo 12-14.
+**Degerby Gillen piharakennus.** Sepänkatu 4. Kai Andersson konsultoi historiallisten talojen ”rempassa”. La klo 12-14.
 
-**Galleria Theodor**. Mariankatu 21. Loviisan seudun taideyhdistyksen vuosinäyttely, näyteikkuna-arpajaiset sekä taidekirppis la ja su 10-17.
+**Galleria Theodor.** Mariankatu 21. Loviisan seudun taideyhdistyksen vuosinäyttely, näyteikkuna-arpajaiset sekä taidekirppis la ja su 10-17.
 
-**ITU-tori**. Karlskronabulevardi. SILMU-kylät tarjoaa paikallista osaamista eri muodoissa: luomua, lähiruokaa, käsityöläistuotteita. La 9-17.
+**Glint.** GLINT on Itä-Uudellamaalla vaikuttava jousikvartetti. LWT:ssä GLINT tarjoaa lauantaina "katusoittoa säävaruksella ja pilke silmäkulmassa"; sunnuntaina on vuorossa "kupliva konsertti" Gamla Segersbyssä.
 
-**Keräilymessut**. Lovisa Gymnasium. Brandensteininkatu 27. Loviisanseudun keräilijät, pitkälti yli 30 myyjää. llmainen sisäänpääsy, ilmaiset wc:t.  Pihateltoissa syötävää ja juotavaa. La klo 10 -17 ja su 10-15.
+**ITU-tori.** Karlskronabulevardi. SILMU-kylät tarjoaa paikallista osaamista eri muodoissa: luomua, lähiruokaa, käsityöläistuotteita. La 9-17.
 
-**Keskus-Centralen**, Eteläharju 2. Loviisan Teatterin Jörö-kabaree. Esitys tarjoaa aivojumppaa aikuisille, mutta tunnin tykitystä tuijottaa herkeämättä jälkikasvukin. La klo 19.
+**Keräily- ja Antiikkimessut. Lovisa Gymnasium. Brandensteininkatu 27. Loviisanseudun keräilijät, pitkälti yli 30 myyjää. llmainen sisäänpääsy, ilmaiset wc:t.  Pihateltoissa syötävää ja juotavaa. La klo 10 -17 ja su 10-15.
 
-**Kirpputoreja**: katso [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
+**Keskus-Centralen.** Eteläharju 2. Loviisan Teatterin Jörö-kabaree. Esitys tarjoaa aivojumppaa aikuisille, mutta tunnin tykitystä tuijottaa herkeämättä jälkikasvukin. La klo 19.
 
-**Kirjasto, restauroitu Seurahuone**. Kuningattarenkatu 24.  La 10-14.
+**Kirjasto.** Restauroitu Seurahuone. Kuningattarenkatu 24.  La 10-14.
 
-**Komendantintalo, Loviisan kaupungin museo.** Puistokatu 2. Näyttely: Valokuvaajan ateljeessa – Loviisalaisvalokuvaajia kautta aikojen. Kävijöillä on myös mahdollisuus ottaa itsestään selfie 1800–1900-lukujen vaihteen ateljeessa poseeraavana hahmona. Vapaa pääsy. La ja su 10- 17.
+**Komendantintalo.** Loviisan kaupungin museo.** Puistokatu 2. Näyttely: Valokuvaajan ateljeessa – Loviisalaisvalokuvaajia kautta aikojen. Kävijöillä on myös mahdollisuus ottaa itsestään selfie 1800–1900-lukujen vaihteen ateljeessa poseeraavana hahmona. Vapaa pääsy. La ja su 10- 17.
 
-**Käsityökuja ja Korttelikahvila**, Aleksanterinkatu 4:n sisäpihalla  - käsityöalan yrittäjien kattaus laadukkaita, Suomessa valmistettuja käsityötuotteita. La 9-17 ja su 10-17.
+**Käsityökuja ja Korttelikahvila.** Aleksanterinkatu 4:n sisäpihalla  - käsityöalan yrittäjien kattaus laadukkaita, Suomessa valmistettuja käsityötuotteita. La 9-17 ja su 10-17.
 
-**Labbyn kartano**. Labby 49. Valokuvanäyttely: näyttely kertoo tilan elämästä ja rakennuksista sadan viime vuoden ajalta. La ja su 10-17.
+**Labbyn kartano.** Labby 49. Valokuvanäyttely: näyttely kertoo tilan elämästä ja rakennuksista sadan viime vuoden ajalta. La ja su 10-17.
 
-**Laivasilta**. Laivasillan markkinat la - su 10-17. Ravintoloita, taidenäyttelyitä, Svartholman laivaliikenne. Tanssit  ja Muinaistulien yö la klo 20 alkaen.
+**Laivasilta.** Laivasillan markkinat la - su 10-17. Ravintoloita, taidenäyttelyitä, Svartholman laivaliikenne. Tanssit  ja Muinaistulien yö la klo 20 alkaen.
 
-**Lapsiparkki**. Onnelin & Annelin leikkipuisto/Rantatie, la ja su klo 10-17.
+**Lapsiparkki.** Onnelin & Annelin leikkipuisto/Rantatie, la ja su klo 10-17.
 
-**LOVinfo**. Mariankatu 12 A. Kysy tonteista, asumisesta ja kaupungin palveluista. La ja su 9-18.
+**LOVinfo.** Mariankatu 12 A. Kysy tonteista, asumisesta ja kaupungin palveluista. La ja su 9-18.
 
-**Loviisa-kiertoajelut** Opastetulla bussikierroksella kuulet kaupungin historiasta ja nykypäivästä. Lähdöt la ja su klo 11 Aleksanterinkadun turistipysäkiltä. Kesto n. 1 h, ilmainen, max 50 hlöä/ kierros.
+**Loviisa-kiertoajelut.** Opastetulla bussikierroksella kuulet kaupungin historiasta ja nykypäivästä. Lähdöt la ja su klo 11 Aleksanterinkadun turistipysäkiltä. Kesto n. 1 h, ilmainen, max 50 hlöä/ kierros.
 
-**Loviisan kirkko**.  Näyttely: Ragnwei Axellien maalausten näyttely "Jorden".  Jumalanpalvelus ruots klo 10 ja suom klo 12. Kirkko auki la ja su 10-17.
+**Loviisan kirkko.**  Näyttely: Ragnwei Axellien maalausten näyttely "Jorden".  Jumalanpalvelus ruots klo 10 ja suom klo 12. Kirkko auki la ja su 10-17.
 
-**Loviisan tori**. La klo 7-17 ja su 10-17. LWT- lipunmyyntipiste la-su 9.30-17.
+**Loviisan suomalainen seurakunta.** Kuningattarenkatu 22. Seurakunnan vapaaehtoiset yhdessä muiden vapaaehtoisten kanssa paistavat puistossa lettuja ja kertovat srk:n toiminnasta. Tarjolla myös muita herkkuja ja Onnenpyörä.
 
-**Loviisan Merenkulkumuseo**, Laivasilta.Vapaaehtoinen sisäänpääsymaksu. La ja su 11-18.
+**Loviisan tori.** La klo 7-17 ja su 10-17. LWT- lipunmyyntipiste la-su 9.30-17.
 
-**Mariankadun puistikko**. Näytteilleasettajia ja kahvio la ja su 10-17.
+**Loviisan Merenkulkumuseo.** Laivasilta.Vapaaehtoinen sisäänpääsymaksu. La ja su 11-18.
 
-**Matkailutoimisto/Turistbyrån**, Mariankatu 12 A, puh. 040 555 3387. La ja su klo 9-18. Ruukin kesäinfo, Ruukintie 11 A, puh. 0440 555 366. Molemmissa LWT-lippujen ennakkomyynti. La ja su klo 10-17.
+**Mariankadun puistikko.** Näytteilleasettajia ja kahvio la ja su 10-17.
 
-**Pernajan kirkko**, Pernajantie 305. Tutustu tähän keskiaikaiseen kirkkoon oppaan johdolla. Opas paikalla la 12 - 18 ja su 12-15. Urkuvartti la klo 15.
+**Matkailutoimisto/Turistbyrån**, Mariankatu 12 A, puh. 040 555 3387. La ja su klo 9-18. Ruukin kesäinfo, Ruukintie 11 A, puh. 0440 555 366. La ja su klo 10-17. Molemmissa LWT-lippujen ennakkomyynti.
 
-**Perinne- ja korjausrakentamisen asiantuntijaseminaari**, Kulttuuriravintola Loviisan Kappeli. La klo 13. alkaen. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 14.30 eteenpäin.
+**Pernajan kirkko.** Pernajantie 305. Tutustu tähän keskiaikaiseen kirkkoon oppaan johdolla. Opas paikalla la 12 - 18 ja su 12-15. Urkuvartti la klo 15.
 
-**Porvoon musiikkiopisto**, Loviisan toimipiste: oppilaat soittavat tapahtuman aikana kaupungilla.
+**Perinne- ja korjausrakentamisen asiantuntijaseminaari.** Kulttuuriravintola Loviisan Kappeli. La klo 13. alkaen. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 14.30 eteenpäin.
 
-**Ravintola Loviisan Kappeli**. Kappelinpuisto. Huolella restauroitu Kulttuuriravintola Loviisan Kappeli: ravintola, ruusukahvila sekä avoterassi,  jonka edessä avautuu hurmaava Kappelinpuisto.  Kappelin verannalla Porvoon Restauroinnin käsityöläispihasta entisöijät Valeri Rezov ja Barbro Blomster sekä kädentaitaija Tarja Heikkilä.Työnäytöksiä ja neuvontaa.  LWT- seminaari la klo 13-14.30, Panu Kailan korjausklinikka n. klo 14.30 alkaen.  La 10 - 18 ja su 11-17.
+**Porvoon musiikkiopisto.** Loviisan toimipiste: oppilaat soittavat tapahtuman aikana kaupungilla.
 
-**Runda munken**, kahvila/konditoria. Aleksanterinkatu 6. Veli-Matti Hynnisen maalauksia. La 9-18 ja su 11-17.
+**Rantapuisto.** Soiva kontti. Loviisan Sibeliuspäivillä 2.–3.9. 2016 soi Sibeliuksen lisäksi monien mainekkaiden säveltäjien musiikki. Virittäydy tunnelmaan LWT:n aikana Rantapuiston Sibeliuskontissa. Istahda, levähdä ja nauti - kokemus on maksuton.
 
-**Suolatori**. Näytteilleasettajia, työnäytöksiä sekä katukeittiöitä.  La-su klo 10-17
+**Ravintola Loviisan Kappeli.** Kappelinpuisto. Huolella restauroitu Kulttuuriravintola Loviisan Kappeli: ravintola, ruusukahvila sekä avoterassi,  jonka edessä avautuu hurmaava Kappelinpuisto.  Kappelin verannalla Porvoon Restauroinnin käsityöläispihasta entisöijät Valeri Rezov ja Barbro Blomster sekä kädentaitaija Tarja Heikkilä.Työnäytöksiä ja neuvontaa.  LWT- seminaari la klo 13-14.30, Panu Kailan korjausklinikka n. klo 14.30 alkaen.  La 10 - 18 ja su 11-17.
 
-**Svartholman merilinnoitus**. Vesibussi Laivasillalta, tarkista aikataulu [www.visitloviisa.fi/svartholmanmerilinnoitus](http://www.visitloviisa.fi/svartholmanmerilinnoitus). Opastetut kävelykierrokset la ja su klo 13 suomeksi ja ruotsiksi, maksullinen. Lastenseikkailu ”Svartholman unohdettu mysteeri” la ja su klo 12, maksullinen.  Näyttely "Svartholma - Sotilaiden, vankien ja matkailijoiden saari" avoinna la ja su klo 11-17, ilmainen.
+**Runda munken, kahvila/konditoria.** Aleksanterinkatu 6. Veli-Matti Hynnisen maalauksia. La 9-18 ja su 11-17.
 
-**Taidetalli**. Aleksanterinkatu 8, Intialaista keramiikkaa, nukkeja ja tekstiilejä sekä elokuvia, la 12-17.
+**Suolatori.** Näytteilleasettajia, työnäytöksiä, katukeittiöitä ja ääni- ja kuvataideteos Sidu goes Uimakoppi-Badhytten.  La-su klo 10-17
 
-**Taidevintti**. Aleksanterinkatu 8, Itäuusimaalaisia kartanoita - valokuvia ja kertomuksia, la 12-17.
+**Svartholman merilinnoitus.** Vesibussi Laivasillalta, tarkista aikataulu [www.visitloviisa.fi/svartholmanmerilinnoitus](http://www.visitloviisa.fi/svartholmanmerilinnoitus). Opastetut kävelykierrokset la ja su klo 13 suomeksi ja ruotsiksi, maksullinen. Lastenseikkailu ”Svartholman unohdettu mysteeri” la ja su klo 12, maksullinen.  Näyttely "Svartholma - Sotilaiden, vankien ja matkailijoiden saari" avoinna la ja su klo 11-17, ilmainen.
 
-**Tuhannen tuskan kahvila**. Poikkikuja. Taisto Huttusen taidetta.
+**Taidetalli.** Aleksanterinkatu 8, Intialaista keramiikkaa, nukkeja ja tekstiilejä sekä elokuvia, la 12-17.
 
-**Ulrikanhovi/Ulrikakoti**. Kuhlefeltinkatu 35. Isoäidin runsas noutopöytä 15€ (lapset 1€/ikävuosi). la klo 14-18 ja su klo12-15. Lahjatavaraliike Ukkolan loppuunmyynti ja liiterikirppis avoinna la 13-17 su klo 12-15. LWT-lipunmyyntipiste la ja su alk. klo 9.00. Maksu myös pankkikortilla.
+**Taidevintti.** Aleksanterinkatu 8, Itäuusimaalaisia kartanoita - valokuvia ja kertomuksia, la 12-17.
 
-**Österstjernan**. 1800-luvun pakettireplika, Laivasilta.
+**Tuhannen tuskan kahvila.** Poikkikuja. Taisto Huttusen taidetta.
+
+**Ulrikanhovi/Ulrikakoti.** Kuhlefeltinkatu 35. Isoäidin runsas noutopöytä 15€ (lapset 1€/ikävuosi). la klo 14-18 ja su klo12-15. Lahjatavaraliike Ukkolan loppuunmyynti ja liiterikirppis avoinna la 13-17 su klo 12-15. LWT-lipunmyyntipiste la ja su alk. klo 9.00. Maksu myös pankkikortilla.
+
+**Österstjernan.** 1800-luvun pakettireplika, Laivasilta.
 
 &nbsp;
 
 Samana viikonloppuna Loviisassa
 ----
 
-**Ruotsinpyhtään Ruukissa** talokohteiden lisäksi tapahtumia, erikoismyymälöitä, kahviloita ja ravintoloita.
+**Ruotsinpyhtään Ruukissa** talokohteiden lisäksi pajamuseo, näyttelyitä,tapahtumia, erikoismyymälöitä, kahviloita ja ravintoloita. Taontanäytöksiä yläpajassa la-su klo 12-14.
 
-**Wanhan ajan päivät** Jokelan kotiseutumuseossa la ja su. Turkkilantie 39, Ruotsinkylä
+**Wanhan ajan päivät Jokelan kotiseutumuseossa** la ja su. Turkkilantie 39, Ruotsinkylä
 
 **Loviisan museot ja muut nähtävyydet**, katso [www.visitloviisa.fi](http://www.visitloviisa.fi) ja [www.loviisa.fi](http://www.loviisa.fi)
