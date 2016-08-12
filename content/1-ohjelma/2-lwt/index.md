@@ -132,8 +132,6 @@ SUOLATORI:
 
 **Mika Häkkinen.** Käsityönä perinteisiä pönttöuuneja ja -kiukaita.
 
-**Maalla lehti/Otava media.** Maalla on ensimmäinen suomalainen country living -lehti. Heille, jotka haaveilevat leppoisammasta elämänrytmistä ja maaseutumaisesta asumisesta.
-
 **Pellatrix.** Ekologinen sisustaminen ja rakentaminen.
 
 **Porvoon Wanha Rautakauppa.** Korjaajan, entisöijän ja vanhasta pitävän aarreaitta.
