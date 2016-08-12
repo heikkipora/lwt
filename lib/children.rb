@@ -10,6 +10,12 @@ module ChildrenHelper
     images.sort { |a, b| numeric_id(a) <=> numeric_id(b) }
   end
 
+  def sorted_child_pdfs(item)
+    pattern = item.identifier.without_ext.gsub("index", "") + "*.pdf"
+    pdfs = @items.find_all(pattern)
+    pdfs.sort { |a, b| a.identifier <=> a.identifier }
+  end
+
   def child_md_items(item)
     pattern = item.identifier.without_ext.gsub("index", "*/*.md")
     documents = @items.find_all(pattern)

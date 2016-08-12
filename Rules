@@ -27,7 +27,12 @@ end
 
 compile '/**/*.jpg', :rep => :thumbnail do
   filter :thumbnailize, :size => '240x240'
-  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.' + item[:extension]
+  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.jpg'
+end
+
+compile '/**/*.pdf', :rep => :thumbnail do
+  filter :thumbnailize, :size => '240x240'
+  write item.identifier.without_ext.gsub(/\/\d+-/, "/") + '-thumb.jpg'
 end
 
 compile '/**/*.jpg' do

@@ -10,3 +10,4 @@ bundle install
 
 nvm use 6.2.2
 npm install -g svgexport svgo
+brew install gs

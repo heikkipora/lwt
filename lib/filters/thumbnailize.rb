@@ -12,6 +12,17 @@ class Thumbnailize < Nanoc::Filter
         '80%',
         params[:size],
       )
+    elsif filename.end_with? '.pdf'
+      system(
+        'convert',
+        '-density',
+        '30',
+        '-trim',
+        filename,
+        '-quality',
+        '100%',
+        'jpg:' + output_filename
+      )
     else
       system(
         'convert',
