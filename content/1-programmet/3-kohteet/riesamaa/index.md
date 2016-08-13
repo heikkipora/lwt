@@ -1,6 +1,6 @@
 ---
 name: Riesamaa
-address: Puutarhakatu 4 a, Loviisa
+address: Puutarhakatu 4 A, Loviisa
 number: 34
 lang: se
 new: true
