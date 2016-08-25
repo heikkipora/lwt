@@ -1,5 +1,5 @@
 ---
-name: Lovisa Historiska Hus 27.–28.8.2016
+name: Lovisa Historiska Hus 27.–28.8.2016 kl 10-17
 description: De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti. Kolla in veckoslutets program!
 gallery: no
 ---
