@@ -1,9 +1,11 @@
 ---
-name: Lovisa Historiska Hus 27.–28.8.2016 kl 10-17
+name: Lovisa Historiska Hus 26.-27.8.2017 kl 10-17
 description: De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti. Kolla in veckoslutets program!
 gallery: no
 ---
-*De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti 27. – 28.8.2016.*
+*De privata hemmen i historiska, över hundra år gamla hus i Lovisa öppnar åter dörrarna under sista veckoslutet i augusti 26.-27.8.2017*
+
+### Nedan förra årets program, årets program uppdateras senare på våren.
 
 Välkommen att trivas i Lovisa under LHH-veckoslutet. Många besökare blir förtjusta sig i Lovisa och ger staden beröm för att gamla byggnader har bevarats. Mest uppskattas lokalbefolkningens gästfrihet och möjligheten att besöka de privata hemmen i de över hundra år gamla husen, som ofta är omgivna av vackra gårdar och trädgårdar.
 
