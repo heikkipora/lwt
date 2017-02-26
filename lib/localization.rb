@@ -2,8 +2,7 @@ module LocalizationHelper
   require 'yaml'
 
   @@dictionaries = {'fi' => YAML.load_file('lib/dictionary_fi.yaml'),
-                    'se' => YAML.load_file('lib/dictionary_se.yaml'),
-                    'en' => YAML.load_file('lib/dictionary_en.yaml') }
+                    'se' => YAML.load_file('lib/dictionary_se.yaml') }
 
   def t(keys)
     lookup(lang(@item), keys)
