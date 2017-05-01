@@ -13,11 +13,6 @@ p, li {
   font-weight: 300;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 $color-brown: #45362a;
 $color-turquoise-light: #75c3b2;
 $color-turquoise-medium: #66a195;
@@ -96,6 +91,8 @@ header img {
 }
 
 ul.flex-list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -144,6 +141,7 @@ footer {
   color: white;
 
   ul.contacts {
+    margin: 0;
     padding: 20px;
     li {
       width: 240px;
@@ -166,6 +164,8 @@ footer {
     background-color: $color-turquoise-dark;
     padding: 20px 20px 40px 20px;
     ul {
+      margin: 0;
+      padding: 0;
       p {
         text-align: center;
         margin: 0.5em;
@@ -199,6 +199,8 @@ footer {
 }
 
 ul.houses {
+  margin: 0;
+  padding: 0;
   border: 2px solid $color-brown;
   li {
     width: 220px;
