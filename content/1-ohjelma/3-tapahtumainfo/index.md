@@ -5,19 +5,11 @@ gallery: no
 ---
 ***Tervetuloa ihastuttavaan Loviisan ja monipuolista ohjelmaa koko perheelle tarjoavaan LWT-tapahtumaan. Haluamme tehdä vierailustanne mahdollisimman mukavan.***
 
+Tänä vuonna Suomen juhlavuoden ja Loviisan nimipäivän kunniaksi pääsee kurkistamaan muutamaan LWT-kohteeseen jo perjantaina 25.8. klo 15 - 18. Rannekkeen (joka on voimassa myös koko viikonlopun) voi ostaa Lovinfosta, Mariankatu 12 A.
+
 **Lipunmyynti:**
 
 LWT-rannekkeet maksavat 15 euroa ja ovat voimassa sekä lauantaina että sunnuntaina. Alle 12-vuotiaat pääsevät ilmaiseksi. Ryhmät yli 20 henkilöä á 12 euroa. Rannekkeet maksetaan yleensä käteisellä, mutta korttikin käy eräissä myyntipisteissä. Rannekkeita myydään käteisellä Loviisan torilla klo 9.00 alkaen ja seuraavissa paikoissa klo 10.00 alkaen, joissa voi maksaa pankkikortilla: Ulrikanhovi Kuhlefeltinkatu 35, Konditoria-Café Vaherkylä Aleksanterinkatu 2, Ravintola Kappeli Kuningattarenkatu 19. Seuraavissa myyntipaikoissa käy vain käteinen: Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys sekä Puutarhakadun eteläpää. Lipunmyyntipaikat on merkitty karttaan.
-
-**Ennakkoliput:**
-
-Loviisan matkailutoimisto, Mariankatu 12 A, 07900 Loviisa<br/>
-17.-26.8. ma-pe klo 10-16. Vain käteisellä!<br/>
-Lipunmyyntipiste myös LWT-päivien aikana la 27.8. klo 9-18 ja su 28.8. klo 9-18.
-
-Strömforsin ruukin kesäinfo, Ruukintie 11 A, 07970 Ruotsinpyhtää<br/>
-17.-26.8. la-su klo 11-17. Vain käteisellä!<br/>
-Lipunmyyntipiste myös LWT-päivien aikana la 27.8. klo 10-17 ja su 28.8. klo 10-17.
 
 **Varaa käteistä mukaan jo lähtiessä:**
 
@@ -25,7 +17,7 @@ Pankkiautomaateille on aina ollut jono, joten jos haluat välttää jonottamista
 
 **Autoilijalle:**
 
-Jos tulet autolla, niin Loviisassa saa maksutta pysäköidä melko vapaasti. Kaupungin keskustan kadunvarret täyttyvät kuitenkin usein heti aamusta. Olemme siksi järjestäneet pysäköintialueita, jotka on merkitty karttaan. Kun saavut kaupunkiin, sinut ohjataan kohti pysäköintialueita, jotka ovat maksuttomia ja sijaitsevat lähellä tapahtuma-alueita.
+Jos tulet autolla, niin Loviisassa saa maksutta pysäköidä melko vapaasti. Kaupungin keskustan kadunvarret täyttyvät kuitenkin usein heti aamusta. Olemme siksi järjestäneet pysäköintialueita, jotka on merkitty karttaan. Kun saavut kaupunkiin, sinut ohjataan kohti pysäköintialueita, jotka ovat maksuttomia ja sijaitsevat lähellä tapahtuma-alueita. Tänä vuonna keskeisin paikoitusalueemme Rantapuiston vieressä on kuitenkin muussa käytössä. Korvaava P-alue sijaitsee Raviradan vieressä, joka ei ole yhtä keskeisellä paikalla - kuitenkin kävelymatkan päässä tapahtuma-alueelta. Tänä vuonna järjestämme myös kuljetuksen, reitti tulee olemaan Ravirata - Laivasilta - Garnisoni.
 
 **Ruokailu:**
 
@@ -47,9 +39,11 @@ Karttaan on merkitty, missä yleisö WC:t sijaitsevat. Talokohteiden WC-tiloja e
 
 Tapahtumassa on useita turvallisuusmiehiä. Heidät tunnistaa liiveistä ja heihin saa yhteyttä myös ovivartijoiden kautta. Hätänumero ja poliisi toimii normaalisti päivien aikana.
 
-**Muutoksia:**
+**Ensiapu ja lääkärin päivystys:**
+Ensiapupiste on merkittynä karttaan ja paikalle saadaan tarvittaessa myös lääkäri.
 
-ITU-tori on tänä vuonna avoinna vain lauantaina klo 10-17.
+**Muutoksia:**
+ITU-torin järjestäjä on vaihtunut ja on nyt Herkkujen puisto, joka on tänä vuonna avoinna sekä lauantaina että sunnuntaina klo 10-18.
 
 **Muuta:**
 
