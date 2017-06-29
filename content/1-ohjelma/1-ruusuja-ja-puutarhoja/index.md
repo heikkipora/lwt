@@ -55,6 +55,6 @@ Puutarhojen esittelyt ja kartat: [www.avoimetpuutarhatloviisa.com](http://www.av
 
 &nbsp;
 
-[» Lataa tästä tulostettava kartta (PDF)](/ohjelma/ruusut/kartta.pdf)
+[» Lataa tästä tulostettava kartta (PDF)](/ohjelma/ruusuja-ja-puutarhoja/kartta.pdf)
 
 [» Ruusuja & Puutarhoja Loviisassa -sivu Facebookissa](https://www.facebook.com/ruusutjapuutarhat)
