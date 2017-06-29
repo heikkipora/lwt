@@ -53,3 +53,9 @@ Läs mera: [www.avoimetpuutarhatloviisa.com](http://www.avoimetpuutarhatloviisa.
 - **Tallgård**, Trollbackavägen 52, Gislom.
 - **Eija´s Garden** –  1,5 ha upplevelseträdgård i Abborfors, Lovisa, Elimäkivägen 74.  I butiken bra urval rosor.  Avgiftsbelagd. Sö rosenrunda kl 14.
  [www.eijasgarden.fi](http://www.eijasgarden.fi)
+
+ &nbsp;
+
+ [» Här kan du ladda ner och printa kartan (PDF)](/ohjelma/ruusuja-ja-puutarhoja/kartta.pdf)
+
+ [» Rosor & Trädgårdar i Lovisa -sidan i Facebook](https://www.facebook.com/ruusutjapuutarhat)

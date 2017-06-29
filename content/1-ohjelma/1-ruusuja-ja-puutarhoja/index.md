@@ -1,7 +1,7 @@
 ---
 name: Ruusuja & Puutarhoja Loviisassa 1.-2.7.2017
 description: Ruusuja & Puutarhoja Loviisassa avaa loviisalaisten puutarhojen portit ja tarjolla on mm. ruusuisia elämyksiä. Lauantaina 1.7. Loviisan kirkossa kaikille avoimet Ruusuhäät!
-gallery: no
+gallery: yes
 ---
 *Ruusuja & Puutarhoja Loviisassa avaa loviisalaisten puutarhojen portit ja tarjolla on mm. ruusuisia elämyksiä.
 Loviisan Wanhat Talot ry järjestää tapahtuman yhdessä Loviisan Puutarhayhdistyksen sekä tänä vuonna myös Loviisan kaupungin puistoyksikön kanssa.*
@@ -52,3 +52,9 @@ Puutarhojen esittelyt ja kartat: [www.avoimetpuutarhatloviisa.com](http://www.av
 - **Muistojen kivipuutarha**, Rantatie 12 A.
 - **Tallgård**, Peikkomäentie 52. Kuggom.
 - **Eija´s Garden** –  1,5 ha elämyspuutarha Loviisan Ahvenkoskella, Elimäentie 74.  Myymälässä hyvä valikoima ruusuja. Maksullinen. Su ruusukierros klo 14. [www.eijasgarden.fi](http://www.eijasgarden.fi)
+
+&nbsp;
+
+[» Lataa tästä tulostettava kartta (PDF)](/ohjelma/ruusut/kartta.pdf)
+
+[» Ruusuja & Puutarhoja Loviisassa -sivu Facebookissa](https://www.facebook.com/ruusutjapuutarhat)
