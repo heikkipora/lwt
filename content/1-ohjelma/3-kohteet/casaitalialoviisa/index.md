@@ -1,6 +1,6 @@
 ---
 name: Casa ItaliaLoviisa
 address: Sarvilahdenkatu 9, Loviisa
-number: 13
+number: 15
 ---
-1900-luvun alussa rakennettu Casa ItaliaLoviisa on hyvä esimerkki siitä, miten vanhoissa taloissa asutaan yhä edelleen ilman suurempia saneerauksia. Paikkoja kohennetaan tarpeen mukaan sieltä ja täältä ja sopu antaa tilaa suurelle perheelle ja vierailijoille. Talon vanhat ikkunapielet ovat alkuperäiset ja niitä on koristeltu Italian värein.
+Talo on rakennettu 1900-luvun alussa.  Talossa on joitakin alkuperäisiä yksityiskohtia, kuten olohuoneen puulattia, ulko-ovet ja uunit. Uunit toimivat edelleen ja ovat talon ainoat lämpölähteet. Myös talon vanhat ikkunapielet ovat alkuperäiset ja niitä on koristeltu Italian värein. Vanhassa piharakennuksessa toimii Loviisan ensimmäinen ja ainoa radioasema RQL106FM.
