@@ -8,7 +8,7 @@ gallery: no
 **Aleksanterinpihan antiikkimarkkinat**<br/>
 Aleksanterinkatu 8, la-su klo 10-17
 
-Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä.  Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Antiikkimarkkinat järjestetään rakennusten keskellä olevalla sisäpihalla. Tarjolla on kuolinpesien mielenkiitoista irtaimistoa: huonekaluja, valaisimia, pienesineistöä, lasitavaraa ja koruja.
+Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Antiikkimarkkinat järjestetään rakennusten keskellä olevalla sisäpihalla. Tarjolla on kuolinpesien mielenkiitoista irtaimistoa: huonekaluja, valaisimia, pienesineistöä, lasitavaraa ja koruja.
 
 **Keräily- ja antiikkimessut**<br/>
 Lovisa Gymnasium. Brandensteininkatu 27, la klo 10-17 ja su 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
@@ -21,20 +21,15 @@ Mariankatu 22, la klo 9-18 ja su 9-17 - [www.suurkirppis.fi](http://www.suurkirp
 Suurkirppiksellä on tarjolla laaja valikoima erilaisia tuotteita sekä asiakkaiden kirppispöytiä. LWT-päivien aikana toimintaa myös osittain pihalla.
 
 **Krinti**<br/>
-Kungingattarenkatu 2, la- su klo 10-17 - [www.facebook.com/Krinti-580449775336409](https://www.facebook.com/Krinti-580449775336409)
+Laivasilta 1, Suolatori, la-su klo 10-17 - [www.facebook.com/Krinti-580449775336409](https://www.facebook.com/Krinti-580449775336409)
 
 Krinti on uutta ja vanhaa tavaraa laidasta laitaan fiiliksen mukaan myyvä pieni lifestyle -puoti. Myös verhoilu- ja entisöintipalvelut.
 
-**Kirppisaitat, Käsityökuja ja Korttelikahvila**<br/>
-Aleksanterinkatu 4:n sisäpiha,  la  klo 9-17 ja su 10-17
+**Vadelmatarha**<br/>
+Kuningattarenkatu 3, la-su klo 10-17 – [www.vadelmatarha.fi/loviisa](http://www.vadelmatarha.fi/loviisa)
 
-Pihapiirin aitoissa voi tehdä kaikenlaisia löytöjä. Samalta pihalta löytyy myös käsityöalan yrittäjien laadukkaita, Suomessa valmistettuja käsityötuotteita sekä Korttelikahvila.
+Löydä lasten ja naisten vaatteet, kengät, lelut, sportit ja tarvikkeet siististi järjesteltyinä omilta osastoiltaan. Taukotuvassa voit levähtää ja nauttia omiakin eväitä lasten temmeltäessä leikkipaikalla. Saman katon alta saat luomu- ja lähituotteita.
 
 **Yksityisiä kirpputoreja eri puolilla kaupunkia**
 
 Kirppispöytiä löytyy myös eri puolilla kaupunkia, joten jokaiselle löytyy varmasti jotakin kivaa kotiin viemistä.
-
-**Bukowskin arviointitilaisuus**<br/>
-Aktia Pankki, Brandensteininkatu 11, la klo 11-15
-
-Voi myös tuoda omia esineitäsi ilmaiseksi arvioitavaksi lauantaina. Paikalla ovat asiantuntijat Helena Laakso ja Joachim Borgström.
