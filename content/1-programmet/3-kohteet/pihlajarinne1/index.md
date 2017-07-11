@@ -2,7 +2,7 @@
 name: Pihlajarinne 1
 address: Edövägen 130, Isnäs
 remote: 'Isnäs'
-number: 51
+number: 48
 lang: se
 new: true
 ---

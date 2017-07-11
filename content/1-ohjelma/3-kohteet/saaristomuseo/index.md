@@ -2,7 +2,7 @@
 name: Rönnäsin Saaristomuseo
 address: Museotie 1, Rönnäs
 remote: 'Isnäs'
-number: 54
+number: 50
 public: true
 new: true
 ---

@@ -2,7 +2,7 @@
 name: Pihlajarinne 1
 address: Edöntie 130, Isnäs
 remote: 'Isnäs'
-number: 51
+number: 48
 new: true
 ---
 Isnäsin “ruukkikujan” suojellussa maisemassa on kolme 1800-luvun lopulla sahan työväelle rakennettua punaista hirsitaloa ja niitä vastapäätä ulkorakennukset. Talojen nimet olivat Hakala, Rokola ja Pomola, mutta tällä hetkellä on epävarmuutta, mikä mikin oli.

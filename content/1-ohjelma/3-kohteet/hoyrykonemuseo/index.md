@@ -2,7 +2,7 @@
 name: Isnäsin höyrykonemuseo
 address: Edöntie, pienteollisuusalue, Isnäs
 remote: 'Isnäs'
-number: 53
+number: 49
 public: true
 new: true
 ---
