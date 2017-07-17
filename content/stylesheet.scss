@@ -303,11 +303,16 @@ ul.houses {
   background-color: white;
 }
 
+.house-title {
+  margin-bottom: 0;
+}
+
 .house-hero {
    display: block;
    width: 100%;
    max-width: 450px;
    max-height: 450px;
+   margin-top: 1em;
 }
 
 // mobile
