@@ -7,7 +7,7 @@
         <% end %>
         <%= @item[:name] %>
     </h1>
-    <img src="<%= house_large_svg(item) %>" class="house-hero"/>
+    <img src="<%= house_large_svg(item) %>" class="house-hero bordered"/>
     <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">på karta</a>)</em>
     <% if @item[:garden] %> - <em><%= t('house.garden') %></em><% end %>
     <% if @item[:remote] %> - <em><%= t('house.remote') %></em><% end %>
@@ -18,7 +18,7 @@
       <% img = intro_image(finnish_house(@item))%>
       <% if img %>
       <a href="<%= img.path %>" class="gallery">
-          <img src="<%= img.path(:rep => :thumbnail) %>">
+          <img class="bordered" src="<%= img.path(:rep => :thumbnail) %>">
       </a>
       <% end %>
       <p><%= @item[:family].gsub("\n", "<br/>") %></p>
@@ -28,7 +28,7 @@
         <% sorted_child_images(finnish_house(@item)).each do |img| %>
         <li>
             <a href="<%= img.path %>">
-                <img src="<%= img.path(:rep => :thumbnail) %>">
+                <img class="bordered" src="<%= img.path(:rep => :thumbnail) %>">
             </a>
         </li>
         <% end %>
