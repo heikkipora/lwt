@@ -14,6 +14,16 @@
 
     <%= yield %>
 
+    <% if @item[:family] %>
+      <% img = intro_image(@item)%>
+      <% if img %>
+      <a href="<%= img.path %>" class="gallery">
+          <img src="<%= img.path(:rep => :thumbnail) %>">
+      </a>
+      <% end %>
+      <p><%= @item[:family].gsub("\n", "<br/>") %></p>
+    <% end %>
+
     <ul class="gallery flex-list flex-left">
         <% sorted_child_images(@item).each do |img| %>
         <li>

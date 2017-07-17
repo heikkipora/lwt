@@ -29,6 +29,10 @@ module ChildrenHelper
     @items[pattern]
   end
 
+  def intro_image(item)
+    pattern = item.identifier.without_ext.gsub("index", "") + "asukkaat.jpg"
+    @items.find_all(pattern).first
+  end
 end
 
 include ChildrenHelper
