@@ -1,6 +1,6 @@
 ---
 name: Riemumaisterin huvila
-address: Köydenpunojankatu 8, Loviisa
+address: Köydenpunojantie 8, Loviisa
 number: 36
 new: true
 ---
