@@ -15,6 +15,11 @@ Lovisa Gymnasium. Brandensteinsgatan 27, lö kl 10-17 och sö 10-15 - [www.kolum
 
 Ett storevenemang som ordnas av Lovisanejdens samlare i det svenskspråkiga gymnasiets utrymmen. Gymnasiets byggnad har planerats i början av 1900-talet av arkitekt Magnus Schjerfbeck, bror till Helene Schjerfbeck. I evenemanget deltar över 30 säljare och bland utbudet finns bl.a. gamla vykort, samlarbilder, förtjänsttecken, militaria, småföremål och möbler. På området också kafé och rikligt med parkeringsutrymme.
 
+**Loviisan Romu & Realisointi**<br/>
+Valkomträskvägen 2, lö-sö 10-15
+
+Loviisan Romu & Realisointi är beläget i Valkom, ca 5 km utanför centrum, i en gul tegelbyggnad bredvid kiosken. Vi säljer varor av alla slag; retro, vintage, antikt, konstglas, verktyg och byggnadsdelar m.m.
+
 **Loviisan suurkirppis**<br/>
 Mariegatan 22, lö kl 9-18 och sö 9-17 - [www.suurkirppis.fi](http://www.suurkirppis.fi)
 
