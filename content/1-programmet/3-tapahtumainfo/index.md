@@ -5,10 +5,13 @@ gallery: no
 ---
 ***Välkommen till ett förtjusande Lovisa och LHH-evenemanget som bjuder på ett mångsidigt program för hela familjen. Vi vill att Ert besök skall bli så trevligt som möjligt. Här hittar du information om biljettpriser och en hel del praktiska råd.***
 
-**Biljettförsäljning:**
+Finlands jubileumsår och Lovisa namnsdag till ära kan besökarna redan på fredag bekanta sig med några LHH-objekt, fredagen den 25 augusti klockan 15–18. Ett kontrollband, som är biljett också för lördag och söndag, kan köpas från Lovinfo på Mariegatan 12 A.
 
-LHH-kontrollbanden kostar 15 euro och är i kraft både lördag och söndag. Under 12 år gratis. Grupper över 20 personer á 12 euro.  Kontrollbanden betalas vanligen med kontanter, men kan på vissa platser betalas även bankkort.  Kontrollband säljs på Lovisa torg börjande kl 9.00 och på följande ställen börjande 10.00, där man kan betala även med bankkort:  Ulrikahemmet, Kuhlefeltsgatan 35, Konditori-Café Vaherkylä, Alexandersgatan 2 och Restaurang Kapellet, Drottninggatan 19. På följande ställen enbart kontant betalning:
-i hörnet av Saltbodtorget och Skeppsbron, i korsningen mellan Mariegatan och Långgränd och i södra änden av Trädgårdsgatan. Biljettförsäljningen är märkt på kartan.
+**Bästa bilister! Ta i beaktande, att Travbanans parkering fungerar som vår huvudparkering i år, Drottninggatan 50.**
+
+**LHH-biljettförsäljning:**
+
+LHH-kontrollbanden kostar 15 euro och är i kraft både lördag och söndag. Under 12 år gratis. Grupper över 20 personer á 12 euro. Kontrollband betalas vanligen kontant, men kan på några ställen betalas även med bankkort. Kontantbetalning på Lovisa torg fr.o.m kl 9 och på följande ställen (även bankkortsbetalning) börjande kl 10: Ulrikahemmet Kuhlefeltsgatan 35 och restaurang Kapellet Drottninggatan 19. Följande enbart kontantbetalning: Lovinfo Mariegatan 10, Travbanan Drottninggatan 50, i hörnet av Saltbodtorget och Skeppsbron, i korsningen mellan Mariegatan och Långgränd och i södra ändan av Trädgårdsgatan. Biljettförsäljningen är märkt på kartan.
 
 **Förhandsköp av biljetter:**
 
@@ -26,7 +29,7 @@ Det har alltid uppstått kö till bankautomaterna, så om ni vill undvika köa, 
 
 **Bilister:**
 
-Om du kommer med egen bil kan du parkera gratis och ganska fritt i Lovisa. Parkeringsutrymmet längs gatorna i centrum fylls ofta genast på morgonen. Vi har därför upprättat parkeringsområden, som märkts på kartan.  När du anländer till staden leds du till parkeringsområdena. Parkeringsområdena är gratis och de är belägna i närheten av platsen för evenemanget.
+Om du kommer med egen bil kan du parkera gratis och ganska fritt i Lovisa. Parkeringsutrymmet längs gatorna i centrum fylls ofta genast på morgonen. Vi har därför upprättat parkeringsområden, som märkts på kartan (se Karta).  När du anländer till staden leds du till parkeringsområdena. Parkeringsområdena är gratis och de är belägna i närheten av platsen för evenemanget.  I år är vår tidigare huvudparkering i annat bruk. Som ersättande P-område används parkering intill Travbanan, som inte ligger lika centralt, men på gångavstånd från evenemangområdet.  Vi har också arrangerat busstransport med en museibuss, rutten blir Travbanan-Skeppsbron-Garnison (se Kartan).
 
 **Bespisning:**
 
@@ -48,9 +51,13 @@ På kartan finns publik-wc:n utmärkta. Husens WC-utrymmen får ej användas och
 
 Säkerhetspersonal finns närvarande vid evenemanget. Du känner igen dem på västarna och man kan kontakta dem också via dörrvakterna. Polisen och allmänna nödnumret fungerar normalt under dagarna.
 
+**Förstahjälp och läkardejour:**
+
+Förstahjälpen finns märkt på kartan och läkare kallas vid behov på plats.
+
 **Förändringar:**
 
-ITU-torget är i år öppet endast på lördag kl 10-17.
+ITU-torget har ny arrangör och nytt namn, Delikatessernas park och är i år öppet  både lördag och söndag kl 10-18.
 
 **Övrigt:**
 

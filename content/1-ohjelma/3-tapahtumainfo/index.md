@@ -7,9 +7,11 @@ gallery: no
 
 Tänä vuonna Suomen juhlavuoden ja Loviisan nimipäivän kunniaksi pääsee kurkistamaan muutamaan LWT-kohteeseen jo perjantaina 25.8. klo 15 - 18. Rannekkeen (joka on voimassa myös koko viikonlopun) voi ostaa Lovinfosta, Mariankatu 12 A.
 
-**Lipunmyynti:**
+**Hyvät autoilijat! Huomioikaa, että tänä vuonna pääpaikoitusalueena toimii Raviradan paikoitus, Kuningattarenkatu 50.**
 
-LWT-rannekkeet maksavat 15 euroa ja ovat voimassa sekä lauantaina että sunnuntaina. Alle 12-vuotiaat pääsevät ilmaiseksi. Ryhmät yli 20 henkilöä á 12 euroa. Rannekkeet maksetaan yleensä käteisellä, mutta korttikin käy eräissä myyntipisteissä. Rannekkeita myydään käteisellä Loviisan torilla klo 9.00 alkaen ja seuraavissa paikoissa klo 10.00 alkaen, joissa voi maksaa pankkikortilla: Ulrikanhovi Kuhlefeltinkatu 35, Konditoria-Café Vaherkylä Aleksanterinkatu 2, Ravintola Kappeli Kuningattarenkatu 19. Seuraavissa myyntipaikoissa käy vain käteinen: Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys sekä Puutarhakadun eteläpää. Lipunmyyntipaikat on merkitty karttaan.
+**LWT-lipunmyynti:**
+
+LWT-ranneke 15 euroa. Voimassa sekä lauantaina että sunnuntaina. Alle 12-v ilmaiseksi. Ryhmät yli 20 hlö á 12 euroa. Rannekkeet maksetaan yleensä käteisellä, mutta korttikin käy eräissä myyntipisteissä. Käteismyynti Loviisan torilla klo 9 alkaen ja seuraavissa paikoissa (maksaa voi myös kortilla) klo 10 alkaen: Ulrikanhovi, Kuhlefeltinkatu 35 ja Ravintola Kappeli, Kuningattarenkatu 19. Seuraavissa myyntipaikoissa käy vain käteinen: Lovinfo Mariankatu 10, Ravirata Kuningattarenkatu 50, Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys sekä Puutarhakadun eteläpää. Lipunmyyntipaikat on merkitty karttaan.
 
 **Varaa käteistä mukaan jo lähtiessä:**
 
