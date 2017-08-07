@@ -1,5 +1,5 @@
 ---
-name: Sahamäki 2
+name: Sahanmäki 2
 address: Sahanmäentie 2, Ruotsinpyhtää
 remote: 'Ruukki'
 number: 44

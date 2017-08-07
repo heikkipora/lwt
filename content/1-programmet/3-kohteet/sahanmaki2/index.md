@@ -1,5 +1,5 @@
 ---
-name: Sahamäki 2
+name: Sahanmäki 2
 address: Sågbacksvägen 2, Strömfors
 remote: 'Ruukki'
 number: 44
