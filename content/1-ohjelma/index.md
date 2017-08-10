@@ -1,6 +1,6 @@
 ---
 navi: Ohjelma
-title: Loviisan Wanhat Talot 27.-28.8.2016
+title: Loviisan Wanhat Talot 26.-27.8.2017
 preview: "http://loviisanwanhattalot.fi/img/preview.png"
 ---
 <header>
