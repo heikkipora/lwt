@@ -59,7 +59,7 @@ Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/per
 
 **Pernajan kirkko.** Pernajantie 305. Vanhin talo Loviisassa, Pernajan kirkko, on auki LWT tapahtuman aikana la 26.8 klo 12-18 ja su 27.8 klo 12-18 jolloin opas paikalla. Lauantaina urkuvartti klo 15.
 
-**Perinne- ja korjausrakentamisen asiantuntijaseminaari.** Kulttuuriravintola Loviisan Kappeli. La alkaen klo 13. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 15.00 eteenpäin. 
+**Perinne- ja korjausrakentamisen asiantuntijaseminaari.** Kulttuuriravintola Loviisan Kappeli. La alkaen klo 13. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 15.00 eteenpäin.
 
 **Porvoon musiikkiopisto.** Loviisan toimipiste: oppilaat soittavat tapahtuman aikana kaupungilla.
 
@@ -90,3 +90,65 @@ Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/per
 **Wanhan ajan päivät** Jokelan kotiseutumuseossa la ja su. Turkkilantie 39, Ruotsinkylä
 
 **Loviisan museot ja muut nähtävyydet**, katso [www.visitloviisa.fi](http://www.visitloviisa.fi) ja [www.loviisa.fi](http://www.loviisa.fi)
+
+## Näytteilleasettajia, työnäytöksiä ja neuvontaa 2017
+
+### SUOLATORI
+
+**Amisto ja Opso.**  Porvoon ammattiopisto, Amisto, esittelee nuorisoasteen ammatillista koulutusta ja Itä-Uudenmaan oppisopimus keskus, Opso, esittelee oppisopimuskoulutusta sekä nuorille että aikuisille. Osastolla on työnäytöksiä.
+
+**Eltete** valmistaa rakennuspapereita Loviisassa. Valikoimaamme kuuluu mm. kondenssisuojattu ilmansulkupaperi, tuulenohjain ja hengittävät aluskatteet.
+
+**Puulattia.com**
+Loviisan Söderbyssä valmistetaan aitoja leveitä, perinteisiä lattialankkuja. Lattialankkuja on saatavilla hiottuna ja valmiiksi öljyttyinä yli kolmessakymmenessä värissä.
+
+**Fortum.** Sähkösopimuksia kotiin ja mökille – myös muuttaessa.
+
+**Habitare messut**/Antiikki-tapahtuma. Tervetuloa 13.-17.9. Helsingin Messukeskukseen: Antiikin, vintagen & vanhan taiteen myyntitapahtuma Antiikki - yhtäaikaisesti Suomen suurimman huonekalu-, sisustus- ja designtapahtuma Habitaren kanssa. 							
+
+**Hattulan kaakelitehdas.** Perinteisiä kaakeliuuneja ja korjauskaakeleita vanhoihin uuneihin. 
+
+**Ikkunaentisöinti Sininen Ikkuna Oy**. Vanhojen ikkunoiden entisöintiä perinteisin menetelmin työnäytöksinä, ikkunaentisöijä Tiina Torniainen.
+
+**Kaskadi.** Yksilöllisten kristallivalaisimien suunnittelua ja valmistusta käsityönä ensiluokkaisista materiaaleista.
+
+**K-Rauta Porvoo ja Ekovilla.** Ekovilla lämmin vihreä. Tule pyytämään tarjous talosi lisäeristyksestä. Ekovillan edustajan lisäksi  K-Rauta Porvoon edustaja Olli Vanne paikalla. Tule keskustelemaan rakentamiseen ja remontointiin liittyvistä tuotteista.                         
+
+**Loviisan kaupunki.**  Sidu goes Uimakoppi-Badhytten – elämys kojussa. Voit tavata päivystävän loviisalaisen.
+
+**Maalla lehti**/Otava media. Maalla on ensimmäinen suomalainen country living -lehti. Heille, jotka haaveilevat leppoisammasta elämänrytmistä ja maaseutumaisesta asumisesta.
+
+**Porvoon Wanha Rautakauppa.** Korjaajan, entisöijän ja vanhasta pitävän aarreaitta.		
+
+**Pölli.fi** on erikoistunut perinnerakentamiseen - perinneaidan tekijä jo kolmannessa polvessa.  Työnäytöksiä.
+
+**Roseborgin Liiteri.** Uudesta vanhaan ja vanhasta uutta. Vanhoja rakennustarvikkeita sekä verkkokauppa.
+
+**Rosk´n Roll jätehuoltopalvelu.** Tietoa jätehuollon järjestämisestä, kierrätyksestä sekä kompostoinnista.
+
+**Saviyhdistys.** Saviyhdistys savirakentamisen edistämiseksi ry. on perustettu antamaan tietoa ekologisesta, terveellisestä ja turvallisesta savirakentamisesta. Savirappaustyönäytös.		
+
+### SCHILLMARKIN PUISTO
+
+**Mustila Garden Shop** - Mustilan Taimitarha. Laadukkaita taimia 80 vuoden kokemuksella. Valikoimiin kuuluvat myös tyylikkäät ja kestävät työkalut sekä puutarhan ihanat tarvikkeet kangasruukuista aina Garden Girl vaatteisiin. Ihanat kukkasipulit kauniissa pakkauksissaan ovat syksyllä valikoiman pääosassa.  
+
+### MARIANKADUN PUISTIKKO
+
+**Lämpöpumppupiste.** Thermia lämpöpumppujen esittely. 
+Suunnittelutoimisto Kruunu. Historiallisten rakennusten sisätilasuunnittelu ja arkkitehtuurineuvonta. Paikalla vain sunnuntaina.
+
+**Shell Loviisa** esittäytyy. Paikalla vain lauantaina.
+
+**Terveystalo.** Toiminnan esittely ja ensiapupiste. Sairaanhoitaja paikalla.
+
+**T:mi Mikko Laitamo.** Riippumattoja.
+
+### DEGERBY GILLEN PIHARAKENNUS
+
+**Kai Andersson** päivystää arkkitehtitoimistollaan ja konsultoi historiallisten talojen "rempassa". La klo 12-14.
+
+### RAVINTOLA LOVIISAN KAPPELI
+
+**Perinne- ja korjausrakentamisen klinikka.** ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 15.00 eteenpäin. Ravintola Kappelin verannalla työnäytöksiä ja neuvontaa.  
+
+**HÖGANÅS** Höganåsintie 25, Pernaja. Höganåsin seurantalolla multamaalin keittoa (keltamulta, ostettavissa mukaan)) sekä perinnekorjaamiseen liittyviä työnäytöksiä.
