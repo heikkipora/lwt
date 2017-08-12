@@ -5,14 +5,17 @@ gallery: no
 ---
 *Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 26.-27.8.2017*
 
+Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/perjantai)
+
 ## LWT-päivien ohjelma 2017
 
-**Aleksanterinpihan antiikkimarkkinat.**  Aleksanterinkatu 8. Sisäpihalla tuttuja antiikki-kauppiaita. Taidenäyttelyitä. Mukana myös ravintola Bella ja postikorttitaiteilija Inge Löök, joka signeeraa kortteja klo 10-16 työhuonella 2. kerros. La ja su 10 - 17.
+**Aleksanterinpihan antiikkimarkkinat.** Aleksanterinkatu 8. Sisäpihalla tuttuja antiikki-kauppiaita. Taidenäyttelyitä, mm Suvi af Hällströmin ”Rajut ruusut, toiset mekot"-näyttely,  Aleksanterinkadun puoleisen pop up kahvilan tiloissa. Mukana myös ravintola Bella ja postikorttitaiteilija Inge Löök, joka signeeraa kortteja klo 10-16 työhuonella 2. kerros. Antiikkimarkkinat pe, la ja su 10 - 17.
 
-**Almintalo.** Almintalo on Loviisan kaupungin kulttuuritalo kaikenikäisille. Almintalon kesänäyttelyt Kartanoiden puutarhat ja puistot sekä Viva Vivica! Vivica Bandler 100 vuotta kutsuvat puutarhatunnelmiin ja tutustumaan teatterin voimanaiseen Vivica Bandleriin. Almintalon yläkerran Upstairs-näyttelyssä nähdään Olga Denisenkon, Aleksandra Kulosen, Kristina Elon ja Kaija Asikaisen maalauksia sekä Mimosa Elon ja Aarne Westerbergin valokuvia. Piipahda myös Almintalon pihaan, joka muuntautuu sorapihasta värikkääksi, kukkivaksi ja satoa tuottavaksi keitaaksi kaksivuotisen opetuspuutarhaprojektin aikana. Vapaa pääsy. La ja su klo 10 – 17.
-Almintalo, Brandensteininkatu 3.
+**Almintalo.** Brandensteininkatu 3. Almintalo on Loviisan kaupungin kulttuuritalo kaikenikäisille. Almintalon kesänäyttelyt Kartanoiden puutarhat ja puistot sekä Viva Vivica! Vivica Bandler 100 vuotta kutsuvat puutarhatunnelmiin ja tutustumaan teatterin voimanaiseen Vivica Bandleriin. Almintalon yläkerran Upstairs-näyttelyssä nähdään Olga Denisenkon, Aleksandra Kulosen, Kristina Elon ja Kaija Asikaisen maalauksia sekä Mimosa Elon ja Aarne Westerbergin valokuvia.Piipahda myös Almintalon pihaan, joka muuntautuu sorapihasta värikkääksi, kukkivaksi ja satoa tuottavaksi keitaaksi kaksivuotisen opetuspuutarhaprojektin aikana. Pop-up ravintola, afgaaniruokaa. Vapaa pääsy. La ja su klo 10 – 17.
 
-**Bongan Linna.** Ateljee. Linnankuja. Mahdollisuus tutustua professori/taiteilija Riitta Nelimarkan työtiloihin. Huolella entisöidyt avarat tilat pulppuavat kaikkialla Nelimarkan väri-iloittelua. La ja su 11-16.  [www.bonga.fi](http://www.bonga.fi). LWT-rannekkeella.
+**Bongan Linna.** Ateljee. Linnankuja. Mahdollisuus tutustua professori/taiteilija Riitta Nelimarkan työtiloihin. Huolella entisöidyt avarat tilat pulppuavat kaikkialla Nelimarkan väri-iloittelua. La ja su 11-16. [www.bonga.fi](http://www.bonga.fi). LWT-rannekkeella.
+
+**Degerby Gille.** Smedsgränd 4. Suomenkielinen opas kertoo tarinoita Gillestä ja Loviisan historiasta la klo 11-13 ja 14-16 sekä su  klo 12-15. [www.degerbygille.fi](http://www.degerbygille.fi)
 
 **Degerby Gillen piharakennus.** Sepänkatu 4. Kai Andersson konsultoi historiallisten talojen ”rempassa”. La klo 12-14.
 
@@ -20,17 +23,25 @@ Almintalo, Brandensteininkatu 3.
 
 **Herkkujen puisto.** Karlskronabulevardi. Paikalla on ruokatuottajia ja käsityöläisiä sekä Herkkujen kahvila, jossa tarjoillaan lähituottajien raaka-aineista valmistettuja annoksia. La ja su 10-18.
 
-**Keräily- ja Antiikkimessut.** Lovisa Gymnasium. Brandensteininkatu 27. Loviisanseudun keräilijät, pitkälti yli 30 myyjää. llmainen sisäänpääsy, ilmaiset wc:t. Pihateltoissa syötävää ja juotavaa. La klo 10-17 ja su 10-15.
+**Höganås.** Höganåsintie 25, Pernaja.Höganåsin seurantalolla multamaalin keittoa (keltamulta, ostettavissa mukaan)) sekä perinnekorjaamiseen liittyviä työnäytöksiä. Kirpputoripöytiä vuokrattavana.  Tarjolla mm. vanhaa tavaraa sekä uusia sisustustuotteita, joiden tuotto menee lyhentämättömänä Höganås seurantalon korjaukseen sekä ylläpitoon. Seurantalon yhdistys pitää kahvilaa viikonlopun ajan. Tarjolla on suolaista ja makeaa leivonnaista (kello 10 - 17) sekä lounasta (kello 11 - 16).
 
-**Komendantintalo.** Loviisan kaupungin museo. Puistokatu 2. Loviisa Lovisa 1017 - 2017. Vuosisadan historiaa esitellään sekä ydinkaupungin että Liljendalin, Pernajan ja Ruotsinpyhtään paikallisnäkökulmasta. Keskiössä on asukkaiden arkielämä, arjesta juhlaan. Vapaa pääsy. La ja su 10 - 17.
+**Höyryjuna.** Wanhojen talojen tunnelmaan sopivaa junakyytiäkin on tarjolla, kun Wanha höyryjuna Ukko-Pekka kuljettaa matkustajia Kouvolasta ja Lahden suunnasta molempina tapahtumapäivinä. Junalla voi myös tehdä pienen nostalgiamatkan Loviisan satamaan tai Lapinjärvelle ja takaisin. Aikataulut ja lippujen hinnat: [hoyryveturimatkat1009.fi/aikataulut-ja-hinnat](http://hoyryveturimatkat1009.fi/aikataulut-ja-hinnat)
+
+**Kappelinpuisto.** Loviisan Wanhat Talot ja Loviisan oppaat kutsuvat Itsenäsyyden polulle. Kävelykierros alkaa Kappelinpuistosta ja kulkee keskustan kohteista historialliseen Alakaupunkiin. Opastuksella paneudutaan Loviisan kaupungin elämään sadan vuoden ajalta. Kaupunkikuvan säilyminen, rakennuskulttuuri, vaikuttavat loviisalaiset ja myös maailmansotien aika Loviisassa ovat teemoina. Kierrokset tehdään LWT-viikonloppuna 26. ja 27.8.2017. Sekä suomen- että ruotsinkieliset ryhmät lähtevät liikkelle kumpanakin päivänä kello 12 ja 14 Kappelinpuistosta. Kesto n. 2 h, kierrokset ovat osallistujille ilmaisia.
+
+**Keräily- ja Antiikkimessut.** Lovisa Gymnasium. Brandensteininkatu 27. Loviisanseudun keräilijät, pitkälti yli 30 myyjää. llmainen sisäänpääsy, ilmaiset wc:t.  Pihateltoissa syötävää ja juotavaa. La klo 10 -17 ja su 10-15. [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
+
+**Kirkkopuisto.** Sibeliuskonttikonsertti. Loviisan Sibeliuspäivät lähestyvät ja tänä vuonna on tarjolla yleisökonsertteja myös Kirkkopuistossa. Viisi alttoviulua – Sibelius & Bach. Heidi Ketola, Jussi-Matti Haavisto, Tiina Konttinen, Pirkko Simojoki & Johanna Paananen klo 11, klo 12 sekä mahd. Klo 13. La 26.8.2017.
+
+**Komendantintalo.** Loviisan kaupungin museo. Puistokatu 2. Näyttely: Loviisa Lovisa 1017 - 2017. Vuosisadan historiaa esitellään sekä ydinkaupungin että Liljendalin, Pernajan ja Ruotsinpyhtään paikallisnäkökulmasta. Keskiössä on asukkaiden arkielämä, arjesta juhlaan. Vapaa pääsy. La ja su 10 - 17.
 
 **Labbyn kartano.** Labby 49. Valokuvanäyttely: näyttely kertoo tilan elämästä ja rakennuksista sadan viime vuoden ajalta. La ja su 10-17.
 
-**Laivasilta.** Laivasillan markkinat la - su 10-17. Ravintoloita, taidenäyttelyitä. Tanssit  ja Muinaistulien yö la klo 20 alkaen.
+**Laivasilta.** Laivasillan markkinat la - su 10-17. Ravintoloita, taidenäyttelyitä ja Karamaloo-kauppa. Heidi Lunabban taideteos Sauna Obscura on tuotu Loviisanlahdelle. Sauna Obscura on samalla sauna ja kamera – saunominen tapahtuu kameran sisällä. Kävijöillä on mahdollisuus vierailla saunassa päivien aikana klo 10-14 (ei ole lämmitetty), saunomien klo 14-18 (uimapuku mukaan). Saunaan pääsee Laivasillalta soutuveneellä. Tanssit ja Muinaistulien yö la klo 20 alkaen.
 
 **Lapsiparkki.** Onnelin & Annelin leikkipuisto/Rantatie, la ja su klo 10-17.
 
-**LOVinfo.** Mariankatu 12 A. Kysy tonteista, asumisesta ja kaupungin palveluista. La ja su 9-18.
+**Lovinfo.** Mariankatu 12 A. Kysy tonteista, asumisesta ja kaupungin palveluista. La ja su 9-18.
 
 **Loviisa-kiertoajelut.** Opastetulla bussikierroksella kuulet kaupungin historiasta ja nykypäivästä. Lähdöt la ja su klo 11 Aleksanterinkadun turistipysäkiltä. Kesto n. 1 h, ilmainen, max 50 hlöä / kierros.
 
@@ -48,13 +59,17 @@ Almintalo, Brandensteininkatu 3.
 
 **Pernajan kirkko.** Pernajantie 305. Vanhin talo Loviisassa, Pernajan kirkko, on auki LWT tapahtuman aikana la 26.8 klo 12-18 ja su 27.8 klo 12-18 jolloin opas paikalla. Lauantaina urkuvartti klo 15.
 
-**Perinne- ja korjausrakentamisen asiantuntijaseminaari.** Kulttuuriravintola Loviisan Kappeli. La alkaen klo 13. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 14.30 eteenpäin.
+**Perinne- ja korjausrakentamisen asiantuntijaseminaari.** Kulttuuriravintola Loviisan Kappeli. La alkaen klo 13. Perinne- ja korjausrakentamisen klinikassa ”Talotohtori” Panu Kaila vastaa yleisön kysymyksiin la noin klo 15.00 eteenpäin. 
 
 **Porvoon musiikkiopisto.** Loviisan toimipiste: oppilaat soittavat tapahtuman aikana kaupungilla.
 
-**Ravintola Loviisan Kappeli.** Kappelinpuisto. Huolella restauroitu Kulttuuriravintola Loviisan Kappeli: ravintola, Romanov-kahvila sekä avoveranta, jonka edessä avautuu hurmaava Kappelinpuisto. Kappelin verannalla entisöintinäytöksiä. LWT-seminaari la klo 13-14.30, Panu Kailan korjausklinikka n. klo 14.30 alkaen.  La 11–17, keittiö sulkee klo 16.
+**Ravintola Loviisan Kappeli.** Kappelinpuisto. Huolella restauroitu Kulttuuriravintola Loviisan Kappeli: ravintola, Romanov-kahvila sekä avoveranta, jonka edessä avautuu hurmaava Kappelinpuisto. Kappelin verannalla entisöintinäytöksiä. LWT- seminaari la klo 13-15.00, jonka jälkeen Panu Kailan korjausklinikka n. klo 14.30 alkaen.  Avoinna La 10-17, su 10-16 (keittiö sulkee klo 16 molempina päivinä).
 
 **Runda munken**, kahvila/konditoria. Aleksanterinkatu 6. Mirja Marschin taidenäyttely. La 9-18 ja su 11-17.
+
+**Smirnoffin pihapiiri**. Kuningattarenkatu 6. Keskusteluopas paikalla. Baderska-asuiset Loviisan oppaat päivystävät Smirnoffin mukulakivipihalla kumpanakin päivänä kello 10-17. Oppaat valottavat Ammondtin ja Smirnoffin perheiden sekä pihapiirin rakennusten vaiheita kävijöiden kanssa keskustellen.
+
+**Soiva kontti.** Kirkkopuisto. Virittäydy Loviisan Sibeliuspäivien tunnelmaan la-su 26.-27.8. klo 10-17.
 
 **Strömforsin ruukki.** Taontanäytökset yläpajassa la ja su klo 12–14. Pajamuseo avoinna la ja su klo 10–17. Ilmainen sisäänpääsy.
 
