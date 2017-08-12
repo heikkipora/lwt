@@ -91,6 +91,8 @@ Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/per
 
 **Loviisan museot ja muut nähtävyydet**, katso [www.visitloviisa.fi](http://www.visitloviisa.fi) ja [www.loviisa.fi](http://www.loviisa.fi)
 
+&nbsp;
+
 ## Näytteilleasettajia, työnäytöksiä ja neuvontaa 2017
 
 ### SUOLATORI
