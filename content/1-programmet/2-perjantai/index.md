@@ -17,6 +17,7 @@ Följande hus är öppna på fredag. I en del av dem kan man också övernatta. 
 - [Villa Lilla Gula](/programmet/kohteet/villalillagula)
 - [Villa Limppu](/programmet/kohteet/villalimppu) - övernattning, förfrågningar: Mona Ahonen, [0400 619 916](tel:+358400619916), [mona.ahonen@luukku.com](mailto:mona.ahonen@luukku.com)
 - [Välimeren majatalo](/programmet/kohteet/valimerenmajatalo)
+- [Wanha kauppa](/programmet/kohteet/wanhakauppa)
 
 ## Utanför Lovisa centrum
 

@@ -17,6 +17,8 @@ Muutamissa taloissa on myös mahdollisuus yöpyä. [Tutustu myös muihin majoitu
 - [Villa Lilla Gula](/ohjelma/kohteet/villalillagula)
 - [Villa Limppu](/ohjelma/kohteet/villalimppu) - yöpyminen, tiedustelut: Mona Ahonen, [0400 619 916](tel:+358400619916), [mona.ahonen@luukku.com](mailto:mona.ahonen@luukku.com)
 - [Välimeren majatalo](/ohjelma/kohteet/valimerenmajatalo)
+- [Wanha kauppa](/ohjelma/kohteet/wanhakauppa)
+
 
 ## Etäkohteita
 
