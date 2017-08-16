@@ -114,7 +114,7 @@ Loviisan Söderbyssä valmistetaan aitoja leveitä, perinteisiä lattialankkuja.
 
 **Kaskadi.** Yksilöllisten kristallivalaisimien suunnittelua ja valmistusta käsityönä ensiluokkaisista materiaaleista.
 
-**K-Rauta Porvoo ja Ekovilla.** Ekovilla lämmin vihreä. Tule pyytämään tarjous talosi lisäeristyksestä. Ekovillan edustajan lisäksi  K-Rauta Porvoon edustaja Olli Vanne paikalla. Tule keskustelemaan rakentamiseen ja remontointiin liittyvistä tuotteista.                         
+**K-Rauta Porvoo yhteistyössä Terveysilma, GVK, Ainoa koti, Kimara.** Tule tapaamaan K-Rauta Porvoo projektimyyjä Olli Vanne, talomyyjä Patrik Blom sekä Terveysilman ja GVK edustajia. Tule keskustelemaan rakentamiseen ja remontointiin liittyvistä tuotteista.
 
 **Loviisan kaupunki.**  Sidu goes Uimakoppi-Badhytten – elämys kojussa. Voit tavata päivystävän loviisalaisen.
 
