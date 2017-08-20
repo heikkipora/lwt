@@ -16,12 +16,13 @@ LHH-kontrollbanden kostar 15 euro och är i kraft både lördag och söndag. Und
 **Förhandsköp av biljetter:**
 
 Lovisa turistbyrå, Mariegatan 12 A, 07900 Lovisa<br/>
-17-26.8. mån.-fre. kl. 10-16. Endast kontant betalning!<br/>
-Biljettförsäljning även under LHH-dagarna lör. 27.8. klo 9-18 och sön. 28.8. kl. 9-18.
+Må 21.8 - to 24.8 kl 10-18. Fre 25.8 kl 10-2017-26.8. Endast kontant betalning!<br/>
+Biljettförsäljning även under LHH-dagarna lö och sö kl 9-18.
 
-Strömfors bruks sommarinfo, Bruksvägen 11 A, 07970 Strömfors<br/>
-17.-26.8. lör.-sön. kl. 11-17. Endast kontant betalning!<br/>
-Biljettförsäljning även under LHH-dagarna lör. 27.8. klo 10-17 och sön. 28.8. kl. 10-17.
+_Förköp av biljetter också i Borgå och Helsingfors!_
+
+Borgå: Itäväyläs kontor, Krämartorget A. Må-fre kl 8-16.<br/>
+Helsingfors: Lönnrotsgatan 23, Helsingfors, onsdagen 23.8. kl 12-19.
 
 **Reservera med kontanter innan avfärd:**
 
