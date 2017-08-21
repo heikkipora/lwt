@@ -1,5 +1,5 @@
 ---
-name: Dunderfeldtin talo
+name: Dunderfeltin talo
 address: Puutarhakatu 25, Loviisa
 number: 32
 family: "Asun talossani yksin. Talo on vanha noin 220 vuotta, mutta täysin kunnossa. Talo oli sopivasti myynnissä 1983 kun muutin takaisin Loviisaan. Se sijaitsee juuri oikeassa paikassa. Alkuun tein itse mahdollisimman paljon; lisäeristykset, sisäpinnat, lattiat, ikkunakorjaukset. Uunit, putki- ja sähköasennukset teetin ammattimiehillä. Myöhemmät laajennukset ja korjaukset teetin rakennusliikkeellä. Tulevia muutossuunnitelmia ei ole, vain kunnossapitoa."

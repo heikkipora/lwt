@@ -1,5 +1,5 @@
 ---
-name: Dunderfeldts hus
+name: Dunderfelts hus
 address: Trädgårdsgatan 25, Lovisa
 number: 32
 family: "Jag bor ensam i huset. Det är gammalt, nästan 220 år, men helt i skick. Huset råkade finnas till salu 1983 då jag flyttade tillbaka till Lovisa. Det ligger på precis rätt plats. Till en början gjorde jag så mycket som möjligt själv; tilläggsisolering, ytorna inomhus, golven, fönsterrenoveringar. Arbeten med ugnarna, rör- och elinstallationer lät jag yrkesmänniskor utföra. Senare utvidgningar och renoveringar skötte ett byggföretag. Några planer på att göra ändringsarbeten i huset finns inte, bara fastighetsunderhåll."
