@@ -10,6 +10,9 @@ Alexandersgatan 8, lö-sö kl 10-17
 
 Fastigheten Alexander är belägen i Lovisa centrum bredvid kyrkan. Byggnadens äldsta del färdigställdes år 1859, och den senaste delen av byggnaden är från 1930. Antikmarknaden ordnas på innergården mellan byggnaderna. Bland utbudet finns intressanta föremål från dödsbon: möbler, lampor, småföremål, glasföremål och smycken.
 
+**Gamla apotekshuset**<br/>
+Alexandersgatan 6. I apotekets laboratorium konst, antik och design. I det gamla häststallet kärl och möbler. Beroende på vädret konst  även  på gården. Fre, lö och sö kl 10-18.
+
 **Samlar- och antikmässa**<br/>
 Lovisa Gymnasium. Brandensteinsgatan 27, lö kl 10-17 och sö 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
 

@@ -27,6 +27,8 @@ En del av husen öppna redan på fredag 25.8. kl 15-18  [Läs mera..](/programme
 
 **Galleri Theodor.** Mariegatan 21. Lovisanejdens konstnärers årsutställning, skyltfönster-lotteri och konstlopptorg. Utanför Theodor Pop up konst-hållplats, där man kan bekanta sej med föreningens medlemmars arbeten. Esma Haddas är på plats och presenterar sin debutroman TARUNDIA - matka hevosten valtakuntaan, som riktar sej till ungdomar. Ponnyridning. Lö och Sö 10-17. [galleriatheodor.fi](http://galleriatheodor.fi)
 
+**Gamla apotekshuset.** Alexandersgatan 6. I apotekets laboratorium konst, antik och design. I det gamla häststallet kärl och möbler. Beroende på vädret konst  även  på gården. Fre, lö och sö kl 10-18.
+
 **Höganås.** Höganåsvägen 25, Pernå. Vid Höganås föreningshus tillverkning av slamfärg (gulmylla, kan köpas) och arbetsuppvisningar om traditionsrenovering. Lopptorgsbord uthyres. I sortimentet finns bl.a. gamla saker och nya inredningsprodukter. Avkastningen går oavkortad till reparation och underhåll av Höganås föreningshus. Föreningen håller café under veckoslutet och serverar både saltigt och söta bakelser (kl 10-17) samt lunch (kl 11-16).
 
 **Kapellparken.** Lovisa Historiska Hus och Lovisa guider bjuder på Självständighetens stig. Promenaden börjat från Kapellparken, genom centrum och mot Neristans historiska delar. Under guidningen kommer vi att bekanta oss med livet i Lovisa under de senaste 100 åren. Hur stadsbilden har förändrats, byggnadskulturen, inflytelserika Lovisabor och också världskrigena ur Lovisa perspektiv. Promenaderna görs under LHH-veckoslutet 26. och 27.8.2017. Både på svenska och finska start båda dagarna från Kapellparken kl 12.00 och 14.00 och tar ett par timmar. Promenaderna är avgiftsfria.

@@ -10,6 +10,9 @@ Aleksanterinkatu 8, la-su klo 10-17
 
 Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Antiikkimarkkinat järjestetään rakennusten keskellä olevalla sisäpihalla. Tarjolla on kuolinpesien mielenkiitoista irtaimistoa: huonekaluja, valaisimia, pienesineistöä, lasitavaraa ja koruja.
 
+**Gamla apotekshuset**<br/>
+Aleksanterinkatu 6. Apteekin laboratorissa taidetta, antiikkia, designia. Vanhassa hevostallissa astiota ja huonekaluja. Taidetta on pihalla säävarauksin. Pe, la ja su klo 10-18.
+
 **Keräily- ja antiikkimessut**<br/>
 Lovisa Gymnasium. Brandensteininkatu 27, la klo 10-17 ja su 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
 
@@ -19,7 +22,6 @@ Loviisanseudun keräilijöiden järjestämä suurtapahtuma ruotsinkielisen lukio
 Valkolammentie 2, la-su 10-15
 
 Loviisan Romu & Realisointi sijaitsee Valkossa, n. 5 km keskustan ulkopuolella, keltaisessa tiilirakennuksessa kioskin vieressä. Myymme kaikenlaista tavaraa; retroa, vintagea, antiikkia, taidelasia, työkaluja sekä rakennusosia ym.
-
 
 **Loviisan suurkirppis**<br/>
 Mariankatu 22, la klo 9-18 ja su 9-17 - [www.suurkirppis.fi](http://www.suurkirppis.fi)

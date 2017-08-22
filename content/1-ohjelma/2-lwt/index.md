@@ -21,6 +21,8 @@ Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/per
 
 **Galleria Theodor.** Mariankatu 21. Loviisan seudun taideyhdistyksen vuosinäyttely, näyteikkuna-arpajaiset sekä taidekirppis. Theodorin edustalla Pop up taide-pysäkki, missä esillä yhdistyksen jäsenten töitä. Esma Haddas läsnä päivien aikana esittelemässä nuorisolle suunnatun esikoisromaaninsa TARUNDIA - matka hevosten valtakuntaan. Poniratsastusta.  La ja su 10-17. [galleriatheodor.fi](http://galleriatheodor.fi)
 
+**Gamla apotekshuset.** Aleksanterinkatu 6. Apteekin laboratorissa taidetta, antiikkia, designia. Vanhassa hevostallissa astiota ja huonekaluja. Taidetta on pihalla säävarauksin. Pe, la ja su klo 10-18.
+
 **Herkkujen puisto.** Karlskronabulevardi. Paikalla on ruokatuottajia ja käsityöläisiä sekä Herkkujen kahvila, jossa tarjoillaan lähituottajien raaka-aineista valmistettuja annoksia. La ja su 10-18.
 
 **Höganås.** Höganåsintie 25, Pernaja.Höganåsin seurantalolla multamaalin keittoa (keltamulta, ostettavissa mukaan)) sekä perinnekorjaamiseen liittyviä työnäytöksiä. Kirpputoripöytiä vuokrattavana.  Tarjolla mm. vanhaa tavaraa sekä uusia sisustustuotteita, joiden tuotto menee lyhentämättömänä Höganås seurantalon korjaukseen sekä ylläpitoon. Seurantalon yhdistys pitää kahvilaa viikonlopun ajan. Tarjolla on suolaista ja makeaa leivonnaista (kello 10 - 17) sekä lounasta (kello 11 - 16).
