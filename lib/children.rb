@@ -22,6 +22,10 @@ module ChildrenHelper
     documents.reject { |i| i.identifier == item.identifier }
   end
 
+  def sorted_md_items(item)
+    child_md_items(item).sort { |a, b| a.identifier <=> b.identifier }
+  end
+
   def parent_md_item(item)
     path_parts = item.identifier.to_s.split("/")
     path_parts.delete_at(-2)

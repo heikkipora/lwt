@@ -4,7 +4,7 @@
 <%= yield %>
 
 <ul class="events flex-list">
-    <% child_md_items(@item).each do |item| %>
+    <% sorted_md_items(@item).each do |item| %>
     <li>
         <h4><%= item[:name] %></h4>
         <p>
