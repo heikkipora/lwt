@@ -6,7 +6,9 @@ class SvgOptimize < Nanoc::Filter
     system(
         'svgo',
         '--disable=collapseGroups',
+        '-i',
         filename,
+        '-o',
         output_filename
     )
   end
