@@ -1,6 +1,6 @@
 ---
 navi: Programmet
-title: Lovisa Historiska Hus 26.-27.8.2017
+title: Lovisa Historiska Hus 25.-26.8.2018
 preview: "http://loviisanwanhattalot.fi/img/preview.png"
 lang: se
 ---

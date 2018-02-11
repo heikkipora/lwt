@@ -1,11 +1,13 @@
 ---
-name: Loviisan Wanhat Talot 26.-27.8.2017 klo 10-17
+name: Loviisan Wanhat Talot 25.-26.8.2018 klo 10-17
 description: Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna. Tutustu viikonlopun ohjelmaan!
 gallery: no
 ---
-*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 26.-27.8.2017*
+*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 25.-26.8.2018*
 
-Osa taloista avoinna jo perjantaina 25.8. klo 15-18 [Lue lisää..](/ohjelma/perjantai)
+**Alla viime vuoden ohjelma, tämän vuoden ohjelma tarkentuu loppukeväästä.**
+
+<hr/>
 
 ## LWT-päivien ohjelma 2017
 
