@@ -29,15 +29,14 @@ footer:
   kerailymessut: Loviisan Keräily- ja Antiikkimessut
   kirpputoripaikkoja: Myös kirpputoripaikkoja
   naytteilleasettajat: Näytteilleasettajat
-  naytteilleasettajat_paikat: Suolatori<br/><i>Perinnerakentaminen sekä siihen liittyvä yhdistystoiminta ja koulutus</i><br/>Mariankadun puistikko<br/><i>Asumista ja viihtyisyyttä tukevaa toimintaa</i>
+  naytteilleasettajat_suolatori: Suolatori<br/><i>Perinnerakentaminen sekä siihen liittyvä yhdistystoiminta ja koulutus</i>
+  naytteilleasettajat_mariankatu: Mariankadun puistikko<br/><i>Asumista ja viihtyisyyttä tukevaa toimintaa</i>
   varaukset: Varaukset
   syysmarkkinat: Käsityö- ja syysmarkkinat
   laivasilta: Laivasilta
   toripaikat: Toripaikat
   toripaikat_kuvaus: <i>Kaupungin tori, myös kirpputoripaikkoja</i>
   loviisa: Loviisa
-  antiikkimarkkinat: Aleksanterin Antiikkimarkkinat
-  aleksanterinkatu: Aleksanterinkatu 8
 events:
   more: Lue lisää »
 house:
