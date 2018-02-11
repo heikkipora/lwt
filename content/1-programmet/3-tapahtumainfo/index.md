@@ -1,5 +1,5 @@
 ---
-name: Evenemanginfo & biljetter
+name: Evenemanginfo & biljetter 2017
 description: Välkommen till ett förtjusande Lovisa och LHH-evenemanget som bjuder på ett mångsidigt program för hela familjen. Vi vill att Ert besök skall bli så trevligt som möjligt. Här hittar du information om biljettpriser och en hel del praktiska råd.
 gallery: no
 ---

@@ -1,5 +1,5 @@
 ---
-name: Tapahtumainfo & liput
+name: Tapahtumainfo & liput 2017
 description: Tervetuloa ihastuttavaan Loviisan ja monipuolista ohjelmaa koko perheelle tarjoavaan LWT-tapahtumaan. Haluamme tehdä vierailustanne mahdollisimman mukavan.
 gallery: no
 ---
