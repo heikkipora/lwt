@@ -1,17 +1,23 @@
 ---
-name: Tapahtumainfo & liput 2017
+name: Tapahtumainfo & liput
 description: Tervetuloa ihastuttavaan Loviisan ja monipuolista ohjelmaa koko perheelle tarjoavaan LWT-tapahtumaan. Haluamme tehdä vierailustanne mahdollisimman mukavan.
 gallery: no
 ---
 ***Tervetuloa ihastuttavaan Loviisan ja monipuolista ohjelmaa koko perheelle tarjoavaan LWT-tapahtumaan. Haluamme tehdä vierailustanne mahdollisimman mukavan.***
 
-Tänä vuonna Suomen juhlavuoden ja Loviisan nimipäivän kunniaksi pääsee kurkistamaan muutamaan LWT-kohteeseen jo perjantaina 25.8. klo 15 - 18. Rannekkeen (joka on voimassa myös koko viikonlopun) voi ostaa Lovinfosta, Mariankatu 12 A.
+Tänä vuonna tapahtuman ajankohta on 25.-26.8 2018. Talokohteet ovat avoinna la-su klo 10-17. Rannekkeen hinta on 18 euroa, ja se on voimassa koko viikonlopun.  Lapset alle 12 v veloituksetta ja yli 20 hengen ryhmä á 15 euroa.
+
+Joissakin kohteissa voi yöpyä, tilaa löytyy vielä seuraavista LWT-kohteista:
+
+ - **Villa Hanna**, Itäinen Harjutie 14, Hanna Stringer [hannastringer@yahoo.se](mailto:hannastringer@yahoo.se) [0400 470 817](tel:+358400470817)
+
+ - **Ulrikanhovi**, Kuhlefeltinkatu 35, Kaarina Liljeström [kaarina.liljestrom@rantakartano.fi](mailto:kaarina.liljestrom@rantakartano.fi) [040 551 9002](tel:+358405519002), Minna Lähdeaho [minna.lahdeaho@rantakartano.fi](mailto:minna.lahdeaho@rantakartano.fi) [040 183 7855](tel:+358401837855)
 
 **Hyvät autoilijat! Huomioikaa, että tänä vuonna pääpaikoitusalueena toimii Raviradan paikoitus, Kuningattarenkatu 50.**
 
-**LWT-lipunmyynti:**
+<hr/>
 
-LWT-ranneke 15 euroa. Voimassa sekä lauantaina että sunnuntaina. Alle 12-v ilmaiseksi. Ryhmät yli 20 hlö á 12 euroa. Rannekkeet maksetaan yleensä käteisellä, mutta korttikin käy eräissä myyntipisteissä. Käteismyynti Loviisan torilla klo 9 alkaen ja seuraavissa paikoissa (maksaa voi myös kortilla) klo 10 alkaen: Ulrikanhovi, Kuhlefeltinkatu 35 ja Ravintola Kappeli, Kuningattarenkatu 19. Seuraavissa myyntipaikoissa käy vain käteinen: Lovinfo Mariankatu 10, Ravirata Kuningattarenkatu 50, Suolatorin ja Laivasillan kulma, Mariankadun ja Pitkäkujan risteys sekä Puutarhakadun eteläpää. Lipunmyyntipaikat on merkitty karttaan.
+## ALLA OLEVAT TIEDOT VIEDÄÄN AJAN TASALLE LOPPUKEVÄÄSTÄ:
 
 **Lippujen ennakkomyynti:**
 

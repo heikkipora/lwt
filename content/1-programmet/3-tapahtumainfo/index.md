@@ -1,17 +1,23 @@
 ---
-name: Evenemanginfo & biljetter 2017
+name: Evenemanginfo & biljetter
 description: Välkommen till ett förtjusande Lovisa och LHH-evenemanget som bjuder på ett mångsidigt program för hela familjen. Vi vill att Ert besök skall bli så trevligt som möjligt. Här hittar du information om biljettpriser och en hel del praktiska råd.
 gallery: no
 ---
 ***Välkommen till ett förtjusande Lovisa och LHH-evenemanget som bjuder på ett mångsidigt program för hela familjen. Vi vill att Ert besök skall bli så trevligt som möjligt. Här hittar du information om biljettpriser och en hel del praktiska råd.***
 
-Finlands jubileumsår och Lovisa namnsdag till ära kan besökarna redan på fredag bekanta sig med några LHH-objekt, fredagen den 25 augusti klockan 15–18. Ett kontrollband, som är biljett också för lördag och söndag, kan köpas från Lovinfo på Mariegatan 12 A.
+I år anordnas evenemanget 25.-26.8 2018. Husobjekten är öppna lö-sö kl 10-17.  Kontrollbandet kostar 18 euro och är i kraft hela veckoslutet. Barn under 12 år gratis och grupper över 20 personer á 15 euro. 
+
+Det finns en möjlighet att övernatta i några LHH-husobjekt,  lediga platser finns  ännu i början av året enligt följande:
+
+ - **Villa Hanna**, Östra Åsvägen 14, Hanna Stringer [hannastringer@yahoo.se](mailto:hannastringer@yahoo.se) [0400 470 817](tel:+358400470817)
+
+ - **Ulrikanhovi**, Kuhlefeltsgatan 35, Kaarina Liljeström [kaarina.liljestrom@rantakartano.fi](mailto:kaarina.liljestrom@rantakartano.fi) [040 551 9002](tel:+358405519002), Minna Lähdeaho [minna.lahdeaho@rantakartano.fi](mailto:minna.lahdeaho@rantakartano.fi) [040 183 7855](tel:+358401837855)
 
 **Bästa bilister! Ta i beaktande, att Travbanans parkering fungerar som vår huvudparkering i år, Drottninggatan 50.**
 
-**LHH-biljettförsäljning:**
+<hr/>
 
-LHH-kontrollbanden kostar 15 euro och är i kraft både lördag och söndag. Under 12 år gratis. Grupper över 20 personer á 12 euro. Kontrollband betalas vanligen kontant, men kan på några ställen betalas även med bankkort. Kontantbetalning på Lovisa torg fr.o.m kl 9 och på följande ställen (även bankkortsbetalning) börjande kl 10: Ulrikahemmet Kuhlefeltsgatan 35 och restaurang Kapellet Drottninggatan 19. Följande enbart kontantbetalning: Lovinfo Mariegatan 10, Travbanan Drottninggatan 50, i hörnet av Saltbodtorget och Skeppsbron, i korsningen mellan Mariegatan och Långgränd och i södra ändan av Trädgårdsgatan. Biljettförsäljningen är märkt på kartan.
+## NEDANSTÅENDE UPPGIFTER UPPDATERAS SENARE PÅ VÅREN:
 
 **Förhandsköp av biljetter:**
 
