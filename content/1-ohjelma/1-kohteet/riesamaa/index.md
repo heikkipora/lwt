@@ -1,7 +1,0 @@
----
-name: Riesamaa
-address: Puutarhakatu 4 A, Loviisa
-number: 35
-family: "”Riesamaa” ei suinkaan tarkoita että talo olisi riesa, päinvastoin. Vielä 19 vuoden jälkeenkin talon asukkaat Kati Forss-Lounamaa ja Markku Lounamaa nauttivat olostaan päivittäin. \n– Riesa oli pieni ensimmäinen rakkaus-koirani, kertoo Kati. Vietimme häämmekin tässä talossa. Nyt olemme eläkkeellä. Markku on neljännen polven stadilainen, entinen purjehtija, Kati taas etelä-Pohjanmaalta, naivisti-maalari. Lapsuudesta asti Kati on rakastanut vanhoja esineitä.\n– Niissä ovat sekä tarina että tunne läsnä. Ne elävät jo itsessään. Talossa kylpuhuone uusittiin jo heti alussa, sen jälkeen ei remontteja ennen vuosia 2016-17. Ulkokatto maalattu, vesikourut uusittu, lattia vaihdettu ja tehty täysi remontti entiseen saunarakennukseen.\n– Itse hoidamme vain puutarhaa, ei remontteja. Pikkukaupungin ihanassa hengessä elämme onnellisina elämämme loppuun asti."
----
-Kaksikerroksinen, hirsirakenteinen talo sijaitsee ns. porvariston tupakkaviljelmillä harjun kupeessa. Alue kutsuttiin tupakkapelloksi ja siellä kasvatettiin tupakkaa paikalliselle sikaritehtaalle. Talon ensimmäinen kauppakirja on vuodelta 1880, jolloin "sjömansänkan" osti talon 150 mk:lla. Voidaan olettaa että talo on rakennettu 1800-luvun alkupuolella. Alkuperäinen talo ollut yksikerroksinen, sitä on korotettu myöhemmin sekä lisätty nykyinen keittiö ja kylpyhuone.
