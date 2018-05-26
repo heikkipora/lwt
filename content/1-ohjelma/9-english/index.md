@@ -15,6 +15,6 @@ The old town in Lovisa survived from the great fire of 1855 and is today one of 
 
 Every year during the last weekend in August there is a unique possibility to visit around 40 private homes located in over 100 years old houses. During the same weekend there is a lot to experience; antiques, art, music, good food and innumerable flea markets!
 
-On the Finnish pages you can find the event map [”Tapahtumakartta”](/ohjelma/kartta/kartta.pdf) over the event area. Tickets are available when you arrive, payable in cash. The ticket price for adults is 18 EUR and groups over 20 members á 15 EiR. Kids under age 12 are for free.
+On the Finnish pages you can find the event map [”Tapahtumakartta”](/ohjelma/kartta/kartta.pdf) over the event area. Tickets are available when you arrive, payable in cash. The ticket price for adults is 18 EUR and groups over 20 members á 15 EUR. Kids under age 12 are for free.
 
 For more information contact: [loviisanwanhattalot@gmail.com](mailto:loviisanwanhattalot@gmail.com)
