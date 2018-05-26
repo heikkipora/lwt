@@ -2,7 +2,7 @@
 name: Kuukerpalli
 address: Ruukintie 12 C, Ruotsinpyhtää
 remote: 'Ruukki'
-number: 43
+number: 44
 family: "Kaikki alkoi siitä, kun perhe Kokkonen vieraili ohikulkumatkallaan Strömforsin ruukissa ensi kertaa. Heinäkuinen päivä oli kaunis ja aurinkoinen. Parhaillaan esitettiin kesäteatterissa näytelmää Keihäsmatkat. Tunnelma oli upea ja vanha ruukkialue kuhisi elämää. Myöhemmin syksyllä vähän kuin vahingossa rouvan eteen tupsahti asunnon myynti-ilmoitus Strömforsin ruukista. Sirkka ja Joona Kokkonen lapsineen lähtivät Vantaalta katsomaan asuntoa lomakodikseen. Kaupat syntyivät ja Kuukerpalli on ollut siitä lähtien ahkerassa mökkikäytössä. Kokkoset kehuvat ruukissa asuvia ihmisiä erittäin ystävällisiksi ja yhteisöllisiksi ja kokevat olevansa tervetulleita porukkaan."
 new: true
 ---

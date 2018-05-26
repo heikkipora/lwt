@@ -1,7 +1,7 @@
 ---
 name: Helgas 2
 address: Sibeliusgatan 6, Lovisa
-number: 17
+number: 18
 lang: se
 photographer: Sini Hassinen
 ---

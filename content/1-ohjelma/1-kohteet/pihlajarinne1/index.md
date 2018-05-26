@@ -2,7 +2,7 @@
 name: Pihlajarinne 1
 address: Edöntie 130, Isnäs
 remote: 'Isnäs'
-number: 48
+number: 51
 family: "Pihlajarinne on yksi kolmesta hirsitalosta  jotka  Askolinin saha rakennutti työntekijöilleen  1890-luvun viimeisinä vuosina. Taloissa asui suuria perheitä ja “hyyryläisiäkin”.  Edöntien maisema on nyt suojeltu. Keskimmäisessä talossa on Marjaleena ja Yrjö Länsipuron kakkosasunto, jonka  he hankkivat 2009 ja jossa he nyt viettävät lähes puolet ajastaan.\nVanhat hirret  olivat erinomaisessa kunnossa, mutta sisäpinnat  olivat sadan vuoden aikana jääneet pinkopahvin sekä tapetti- ja maalikerrosten alle. Vähä vähältä vanha talo kuorittiin esille – helmipaneelikatto paljastui pahvin ja “miljoonien nupien” alta, hirsiseinät jätettiin näkyviin sieltä täältä. Lattian paksu ruskea maali poistettiin, laudat  hiottiin ja öljyttiin. Työ kesti vuosia ja jatkuu yhä – vanhoissa ikkunanpokissa riittää kunnostamista hamaan  tulevaisuuteen."
 ---
 Isnäsin “ruukkikujan” suojellussa maisemassa on kolme 1800-luvun lopulla sahan työväelle rakennettua punaista hirsitaloa ja niitä vastapäätä ulkorakennukset. Talojen nimet olivat Hakala, Rokola ja Pomola, mutta tällä hetkellä on epävarmuutta, mikä mikin oli.

@@ -2,7 +2,7 @@
 name: Skärgårdsmuseet i Rönnäs
 address: Museivägen 1, Rönnäs
 remote: 'Isnäs'
-number: 50
+number: 54
 lang: se
 public: true
 ---

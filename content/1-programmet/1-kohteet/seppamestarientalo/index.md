@@ -2,7 +2,7 @@
 name: Seppämestarien talo
 address: Bruksvägen 12 B, Strömfors
 remote: 'Ruukki'
-number: 43
+number: 45
 photographer: Marko Laukkanen, Carita Liljendahl
 lang: se
 ---

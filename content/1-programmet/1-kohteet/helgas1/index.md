@@ -1,7 +1,7 @@
 ---
 name: Helgas 1
 address: Sibeliusgatan 6, Lovisa
-number: 16
+number: 17
 lang: se
 photographer: Heli Hassinen
 ---

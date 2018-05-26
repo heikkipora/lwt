@@ -1,7 +1,7 @@
 ---
 name: Bonga slott
 address: Klockargränd, Lovisa
-number: 19
+number: 20
 public: true
 lang: se
 ---

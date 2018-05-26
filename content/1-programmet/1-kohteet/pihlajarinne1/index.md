@@ -2,7 +2,7 @@
 name: Pihlajarinne 1
 address: Edövägen 130, Isnäs
 remote: 'Isnäs'
-number: 48
+number: 51
 family: "Pihjalarinne är ett av tre stockhus som Askolins såg lät bygga åt sina arbetstagare under slutet av 1890-talet. I husen bodde stora familjer och även hyresgäster. Landskapet längs Edövägen är nu skyddat. I det mittersta huset har Marjaleena och Yrjö Länsipuro sin andra bostad som de skaffade 2009 och där de nu tillbringar ungefär hälften av sin tid.\nDe gamla stockarna var i ypperligt skick, men ytorna inomhus hade under hundra års tid täckts in av flera lager spännpapp, tapeter och målning. Bit för bit skalades det gamla huset fram – taket av pärlspont kom fram då ett lager papp och ”miljoner nubb” hade avlägsnats. Stockväggarna har här och där lämnats synliga i huset. Ett tjockt lager av brun målning togs bort från golvet, brädorna slipades och oljades. Arbetet krävde flera år och fortsätter än – gamla fönsterbågar att renovera finns det gott om."
 lang: se
 ---
