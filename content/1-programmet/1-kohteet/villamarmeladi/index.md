@@ -2,7 +2,7 @@
 name: Villa Marmeladi / Fatihuusi
 address: Bruksvägen 5 B 1, Strömfors
 remote: 'Ruukki'
-number: 41
+number: 39
 family: "Företagaren Heidi Niemi bodde förr i Kronohagen i Helsingfors. Men hon hade många år drömt om att få bo i ett gammalt trähus. Ungefär samtidigt som hon behövde hitta en ny bostad läste hon en artikel i Ilta-Sanomat om evenemanget Lovisa Historiska Hus. I intervjun berättade Päivi Storgård om den underbara bruksmiljön och sitt hem där.\nSedan oktober 2016 bor Heidi med katterna Taneli och Amelie i det så kallade Fatihuset, som idag heter Villa Marmeladi. Innan det bodde hon i ett annat gammalt hus på bruksområdet.\n– När det här huset renoverades fick jag själv välja tapeter. Jag har försökt skapa en egen värld av färger och tyger som passar ihop med mina saker.\nI hallen lyser solen alltid välkomnande i form av gula tapeter och en rund färgglad matta. I köket är den stora gjutjärnsspisen röd och samma färg har den höga plåtugnen i vardagsrummet.\n– Jag kände ingen då jag flyttade hit, men i dag har jag ett rikt socialt liv. Jag har kvar PinUp-Garages studio i Helsingfors men jag har även en studio och en fin klädaffär här i Strömfors. Mina vänner från Helsingfors kommer gärna och ofta på besök."
 lang: se
 ---

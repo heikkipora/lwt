@@ -1,7 +1,7 @@
 ---
 name: Sjömansstugan
 address: Trädgårdsgatan 13, Lovisa
-number: 34
+number: 32
 lang: se
 family: "Här bor Margareeta och Niclas Mattsson med döttrarna Lotta, Anna och Lina. Familjen köpte tomten 2008 och började med att bygga en bastu och ett rum på den nedre delen av tomten. Där skulle man bo medan Sjömansstugan renoverades. På den tiden jobbade bägge föräldrarna i Helsingfors och Sjömansstugan skulle främst vara ett veckosluts- och sommarhem.\nEfter några år bestämde sig familjen för att bo i Lovisa på heltid och flyttade in i bastubyggnaden. Men då renoveringen drog ut på tiden köptes en höghuslägenhet i närheten.\n– Det känns som om jag minst femtio gånger sagt att snart är vi klara med allt, säger Margareeta med ett skratt. Men eftersom jag till en viss del vill renovera enligt traditionella metoder har mycket tagit längre tid än jag kunnat tänka mig. Att klä väggarna inomhus med lera var bara ett av flera tidskrävande moment.\nNu hoppas familjen ändå kunna ta Sjömansstugan i användning den här hösten. En del taklister fattas och elarbeten ska ännu utföras.\nFör Margareeta är renoveringen är kär hobby. Annars tar fotbollen en stor del av familjens tid. Pappa Niclas är tränare och alla tre flickor spelar i FC Lovisa."
 ---

@@ -1,7 +1,7 @@
 ---
 name: Merimiehen mökki
 address: Puutarhakatu 13, Loviisa
-number: 34
+number: 32
 family: "Täällä asuvat Margareeta ja Niclas Mattsson sekä heidän tyttäret Lotta, Anna ja Lina. Perhe osti Merimiehenmökin tontin 2008 ja rakensi siihen saunan ja pienen huoneen, missä oli tarkoitus asua sillä aikaa, kun Merimiehen mökkiä kunnostettiin. Siihen aikaan molemmat vanhemmat olivat töissä Helsingissä ja Merimiehen mökki oli kesä- ja viikonloppukoti.\nHieman myöhemmin perhe päätti muuttaa pysyvästi Loviisaan. Korjaustyöt veivät kuitenkin sen verran aikaa että perhe osti asunnon kerrostalosta.\n– Tuntuu siltä että olen vähintään 50 kertaa todennut, että kohta voimme muuttaa taloon, sanoo Margareeta ja nauraa. Olen kiinnostunut perinteisistä korjaustavoista, kuten saven käytöstä seinien kunnostuksessa, ja ne vaativat yleensä aikaa.\nPerhe toivoo silti että Merimiehen mökki on muuttovalmis syksyn aikana. Muutamat kattolistat puuttuvat ja sähkötöitä pitää vielä tehdä.\nMargareetalle peruskorjaustyöt ovat rakas harrastus. Muuten perhettä kiinnostaa jalkapallo, koska isä Niclas on valmentaja ja kaikki kolme tytärtä pelaavat futista FC Loviisassa."
 ---
 Pikkuinen merimiehen mökki on merkitty karttoihin ensimmäisen kerran vuonna 1825. Talon kadunpuoleinen ryhdikäs osa on rakennustavoista päätellen rakennettu kuitenkin jo 1700-luvulla. Kauan tyhjillään seisseeseen taloon ei tullut vettä eikä siinä ollut viemäröintiä. Pihan puoleinen osin romahtanut uudempi osa on purettu ja sen tilalle on rakennettu moderni "mukavuusosio", jonne on sijoitettu talon keittiö ja märkätilat.

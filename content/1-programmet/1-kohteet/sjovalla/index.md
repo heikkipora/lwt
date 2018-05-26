@@ -1,7 +1,7 @@
 ---
 name: Sjövalla
 address: Varfsvägen 14, Loviisa
-number: 38
+number: 36
 lang: se
 new: true
 family: "Lotsfamiljen Berlin byggde Sjövalla år 1907. År 1912 köpte familjen Lindroos huset. Då följande generation tog över Sjövalla år 1967 blev huset sommarstuga för familjen som bodde i Helsingfors. Huset hade inte rinnande vatten och nästan inga renoveringar hade gjorts då den nya ägaren köpte huset 2016. Sedan dess har huset fått nytt tak, ny isolering och en nybyggd del med badrum, toalett och sovrum. Den gamla glasverandan revs och en större, vinterbonad byggdes. Huset har nu isolerats med ekovilla och träfiberskivor, och ägaren har strävat till att alla material skall andas. De gamla golven och takpanelen kunde sparas i vissa rum, och den stora köksspisen och kakelugnen i salen kunde användas så gott som genast."

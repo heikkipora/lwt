@@ -1,7 +1,7 @@
 ---
 name: Villa Lilla Gula
 address: Trädgårdsgatan 20, Lovisa
-number: 30
+number: 29
 lang: se
 family: "Här bor Kristian och Rebecca Wahlström med sina två söner, Zacharias 7 år och Espen 4 år. Till familjen hör även hundarna Turbo och Randolf. Kristian och Rebecca jobbar båda som vårdare av funktionshindrade och på sidan av jobbet delar de ett starkt gemensamt intresse för inredning och CrossFit.\n
 – Vi har ett stort behov av att försöka förnya vårt hem på ett eller annat sätt. Vi vill inte bli uttråkade så vi ändrar om med jämna mellanrum."

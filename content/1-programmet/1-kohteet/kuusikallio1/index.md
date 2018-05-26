@@ -2,7 +2,7 @@
 name: Kuusikallio 1
 address: Edövägen 126, Isnäs
 remote: 'Isnäs'
-number: 52
+number: 50
 family: "Riikka Kaihovaara har ägt huset sedan mars 2017.\n– Själv har jag närmast ytrenoverat bostaden. Jag har renoverat fönstren, satt paneler i taket och skivor och tapeter på väggarna. De berömda listerna saknas ännu.\n– Jag försöker högakta husets ursprungliga anda. Jag vill inte att huset ska få en alltför borgerlig prägel eller likna en herrgård, det har ju från första början varit ett hem för arbetarfamiljer. Inredningen utgör en blandning av gammalt och nytt, de historiska skikten får synas. Jag uppskattar gamla, hållbara föremål och möbler, och jag är inte heller rädd för starka färger. Tillsvidare bor jag med min sju år gamla son i Helsingfors. Kuusikallio är vårt andra hem, men kanske jag någon gång flyttar in för att bo där för gott."
 lang: se
 new: true

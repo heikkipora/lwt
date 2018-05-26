@@ -2,7 +2,7 @@
 name: Isnäs ångmaskinsmuseum
 address: Edövägen, småindustriområdet, Isnäs
 remote: 'Isnäs'
-number: 53
+number: 51
 lang: se
 public: true
 ---
