@@ -1,7 +1,7 @@
 ---
 name: Villa Jose
 address: Trädgårdsgatan 21, Lovisa
-number: 31
+number: 30
 lang: se
 family: "I Villa Jose bor fyra personer: Susanne, Petri, Jose och David Vauhkonen. Susanne är chef för ett vårdhem, Petri säkerhets- och kvalitetsexpert. Vår son Jose är född 2002 och David 2007.\nVi flyttade till Trädgårdsgatan 21 år 1999. På tomten växte högt gräs och husets målning flagade mot gatan. Gårdsbyggnadens tak var trasigt, det reparerade vi genast. Under den första renoveringen ersatte vi värmepannan från 1950-talet med en ny.\nDen del av husets nedre våning som vetter mot gatan är äldst, byggd i mitten av 1800-talet. Nedre våningen har byggts ut några gånger och på 1940-talet fick huset sin andra våning. De förra ägarna hade renoverat nedre våningen, vilket räckte gott och väl för oss i början. Vi bodde i nedre våningen och övre våningen fungerade som lagerutrymme.\n2002 fick vi vårt första barn, Jose, och behovet av utrymme ökade. Vi renoverade övre våningen 2006. Den kalla vinden förvandlades till en stor barnkammare, det gamla badrummet renoverades och gjordes större, och vi byggde en bastu. 2007 fick vi vår andra son, David. Såväl han som Jose är adopterade från Colombia. De har bägge varit små bebisar då de kommit till Finland.\nDå vi steg in i huset första gången blev vi genast förtjusta i det. Där fanns en god stämning, många skrymslen och rum som tilltalade och gav oss möjligheter att förverkliga våra idéer.\nDet har varit underbart att pojkarna inte har behövt flytta en enda gång. Vi har alla starka känsloband till huset och till Lovisa. Huset är väldigt kärt för oss, en viktig plats. Det är vårt hem."
 ---

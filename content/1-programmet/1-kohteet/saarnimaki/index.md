@@ -2,7 +2,7 @@
 name: Saarnimäki
 address: Sågbacksvägen 4 bostad 1, Strömfors
 remote: 'Ruukki'
-number: 45
+number: 43
 lang: se
 family: "I maj 2015 flyttade Patrik Fordell från Vasagatan i Helsingfors till idylliska, lilla och lugna Strömfors bruk.\n– Jag hade fått nog av hetsen i storstaden där jag hade bott hela mitt liv, säger han. När jag sedan såg en annons på nätet om att det här huset hyrs ut kom jag och tittade och jag gillade det direkt.\nFordell är core perfomance coach som bland annat leder och utbildar företagsledare, entreprenörer, organisationer, team och chefer så att det ska få tillgång till sin fulla potential. Ibland jobbar han i Helsingfors, men distansjobb går också bra.\nPå fritiden gillar han att laga mat och att syssla med tai chi och qigong. Det estetiska i livet tilltalar honom och i Strömfors behöver han bara titta ut genom sina fönster för att få uppleva allt som är vackert."
 ---

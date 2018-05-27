@@ -2,7 +2,7 @@
 name: Kuukerpalli
 address: Bruksvägen 12 C, Strömfors
 remote: 'Ruukki'
-number: 42
+number: 40
 lang: se
 family: "Allt fick sin början då familjen Kokkonen på en resa passerade Strömfors och gjorde sitt första besök i bruket där. Det var en solig och vacker dag i juli. Sommarteatern visade pjäsen Keihäsmatkat. Stämningen var förtjusande och det gamla bruksområdet sjöd av liv. Senare på hösten råkade frun i familjen av en slump få syn på en bostadsannons från Strömfors bruk. Sirkka och Joona Kokkonen tog barnen med sig och åkte från Vanda för att se om familjen kunde hitta en semesterbostad. Det blev affär och Kuukerpalli har efter det varit i flitig användning som stuga. Familjen Kokkonen säger att den känt sig välkommen. Alla som bor i bruket är vänliga och det har varit lätt att komma med i gemenskapen på orten."
 new: true

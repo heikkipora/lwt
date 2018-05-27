@@ -1,7 +1,7 @@
 ---
 name: Sjövalla
 address: Varvintie 14, Loviisa
-number: 36
+number: 34
 new: true
 family: "Lapsena asuin tässä samassa kylässä ja kävin usein katsomassa tätä taloa, missä uneksin jonakin päivänä asuvani. Onnellisten yhteensattumien kautta sain mahdollisuuden ostaa kyseisen talon vuonna 2016. Kunnostimme ensin talon vanhaa osaa, mihin muutimme sisään juhannukseksi 2017. Aluksi käytimme ulkovessaa ja kävimme sukulaisten luona suihkussa.  Syksyllä 2017 saimme sisävessan ja joulukuussa kylpyhuone oli valmis. Samoihin aikoihin saatiin myös lämpöjärjestelmä kytkettyä, joten iloitsimme koko syksyn siitä, että talossa oli toimiva puulämmitys. Uudenvuoden jälkeen makuuhuonekin valmistui ja sali vapautui taas salikäyttöön. Viihdymme erinomaisesti tämän talon lämpimässä ja rauhallisessa tunnelmassa."
 ---

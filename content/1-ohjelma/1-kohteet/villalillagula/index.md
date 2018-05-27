@@ -1,7 +1,7 @@
 ---
 name: Villa Lilla Gula
 address: Puutarhakatu 20, Loviisa
-number: 29
+number: 28
 family: "Täällä asuvat Kristian ja Rebecca Wahlström kahden poikansa, Zacharias 7v. ja Espen 4v., kanssa. Perheeseen kuuluvat myös koirat Turbo ja Randolf. Sekä Kristian että Rebecca työskentelevät kehitysvammaisten hoitajina. Työn lisäksi vahvat yhteiset kiinnostuksen kohteet ovat sekä sisustaminen sekä CrossFit.\n
 – Meillä on tarve uudistaa kotiamme tavalla tai toisella. Emme halua kyllästyä ja siksi teemme muutoksia sisustukseemme tasaisin väliajoin."
 ---

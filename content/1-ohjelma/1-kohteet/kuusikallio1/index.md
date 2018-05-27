@@ -2,7 +2,7 @@
 name: Kuusikallio 1
 address: Edöntie 126, Isnäs
 remote: 'Isnäs'
-number: 50
+number: 48
 family: "Riikka Kaihovaaran omistukseen talo siirtyi maaliskuussa 2017.\n- Itse olen tehnyt lähinnä pintaremonttia: ikkunoiden kunnostusta, kattojen panelointia ja seinien kuitulevytystä ja tapetointia. Ne kuuluisat listat puuttuvat vielä.\n
 - Pyrin kunnioittamaan talon alkuperäistä henkeä, enkä halua tehdä talosta liian kartanomaista tai porvarillista, onhan se alun alkujaan työläiskoti! Sisustus on sekoitus uutta ja vanhaa, historialliset kerrostumat saavat näkyä. Arvostan vanhoja, kestäviä esineitä ja huonekaluja. En pelkää vahvojakaan värejä. Toistaiseksi asun 7-vuotiaan poikani kanssa Helsingissä, ja Kuusikallio on kakkoskotimme, mutta ehkä joskus muutan taloon pysyvästi."
 new: true
