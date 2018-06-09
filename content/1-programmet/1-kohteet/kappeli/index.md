@@ -1,7 +1,7 @@
 ---
 name: Kapellet
 address: Drottningsgatan 19, Lovisa
-number: 9
+number: 8
 lang: se
 public: true
 

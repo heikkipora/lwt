@@ -2,7 +2,7 @@
 name: Wanha navetta
 address: Ruukintie 10 G, Ruotsinpyhtää
 remote: 'Ruukki'
-number: 38
+number: 37
 family: "Nykyisen asukkaan pitkäaikainen haave toteutui, kun hän vuokrasi navetan päädyn Loviisan Kaupungilta 2015. Pia Mustonen oli vieraillut kesäisin ruukissa, sillä hänen äitinsä on kotoisin Ruotsinpyhtääseen kuuluvalta Ahvenkoskelta. Näillä käynneillä alkoi syntyä haave saada joskus toimitila ruukista ja mieleen jäi erityisesti navetan päätyhuoneisto . Huoneistossa toimi tuolloin yrittäjinä pariskunta, joille Mustonen kerran käynnillään sanoi: ” mikäli joskus olette aikeissa luopua toimitilastanne, niin ilmoittakaa minulle välittömästi”. Eräänä päivänä vuosien päästä puhelin soi ja unelmasta tuli totta, tosin muutamien mielenkiintoisten vaiheiden jälkeen.Mustonen piti aluksi huoneistoa hyvinvointiyrityksensä toimitilana, mutta elämä Strömforsissa tuntui niin hyvältä, että syksyllä 2017 hän muutti tyttärensä Sofian kanssa Helsingistä kokonaan ruukkiin ja Wanhasta Navetasta tuli heidän kotinsa. Nyt asunnossa asuvat viikonloppuisin myös uusioperheeseen kuuluvat ruukin seppä Paul Partanen ja hänen tyttärensä Laura. Hyvinvointiyrityksen toimitilat ovat siirtyneet viereisen perinnesaunan yläkertaan."
 new: true
 ---

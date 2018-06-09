@@ -2,7 +2,7 @@
 name: Wanha navetta
 address: Bruksvägen 10 G, Strömfors
 remote: 'Ruukki'
-number: 38
+number: 37
 family: "Den nuvarande invånaren fick en dröm uppfylld då hon hyrde bostaden i ena ändan av ladugården av Lovisa stad 2015. Pia Mustonen hade besökt bruket om somrarna, hennes mamma är hemma från Abborrfors som hör till Strömfors.\nUnder besöken väcktes visionen om att någon gång få ett verksamhetsutrymme i bruket och särskilt väl kom hon ihåg bostaden i ändan av ladugården. I bostaden hade då ett företagarpar sin verksamhet. Då Mustonen besökte paret en gång bad hon dem genast ta kontakt om de hade för avsikt att avstå från utrymmet.\nEn dag några år senare ringde telefonen och drömmen blev sann, även om det blev några intressanta skeden däremellan.\nFörst hade Mustonen sitt wellnessföretag i utrymmet, men livet i Strömfors kändes så bra att hon hon hösten 2017 flyttade från Helsingfors med dottern Sofia för att bo permanent i bruket, och Wanha Navetta blev familjens hem. Till den nybildade familjen hör nu också brukets smed Paul Partanen och hans dotter Laura som under veckosluten bor i bostaden. Wellnessföretaget har flyttat till övrevåningen i traditionsbastun som finns i byggnaden bredvid."
 lang: se
 new: true

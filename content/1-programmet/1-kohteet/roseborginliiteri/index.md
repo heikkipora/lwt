@@ -2,7 +2,7 @@
 name: Roseborgin liiteri
 address: Bruksvägen 17, Strömfors
 remote: 'Ruukki'
-number: 39
+number: 38
 lang: se
 public: true
 ---

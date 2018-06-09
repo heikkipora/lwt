@@ -1,7 +1,7 @@
 ---
 name: Lovisa församlingshem
 address: Östra Tullgatan 6, Lovisa
-number: 10
+number: 9
 public: true
 lang: se
 ---

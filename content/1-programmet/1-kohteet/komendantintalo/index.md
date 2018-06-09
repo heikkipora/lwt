@@ -1,7 +1,7 @@
 ---
 name: Kommendanthuset
 address: Parkgatan 2, Lovisa
-number: 8
+number: 7
 lang: se
 public: true
 ---

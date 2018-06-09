@@ -1,7 +1,7 @@
 ---
 name: Lilla Ljuva
 address: Oltermanninkatu 8, Loviisa
-number: 11
+number: 10
 family: "Kattavan remontin jälkeen Lilla Ljuvasta on tullut rakas koti Ninalle ja Muru-kissalle. Talossa ei ollut kunnallistekniikkaa, ei kylpyhuonetta, ei keittiötä, eikä lattioitakaan kaikissa tiloissa. Talo oli hylättynä kymmenisen vuotta, seinissä kaikui kylmyys ja yksinäisyys. Halusin tuoda taloon elämää ja kauneutta.\nLista on pitkä mitä kaikkea täällä on vuosien varrella tehty, kun katselen vanhoja valokuvia alkutaipaleelta, en ole uskoa silmiäni. Miten nopeasti sitä tottuu valmiiseen.\nElän unelmaani ja siksi on tärkeää muistaa nauttia talosta, ettei arki muutu pelkäksi työleiriksi."
 photographer: Benny Liljendahl
 ---

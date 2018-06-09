@@ -1,7 +1,7 @@
 ---
 name: Villa Linnea
 address: Norrtullsvägen 9, Lovisa
-number: 12
+number: 11
 lang: se
 family: "I Villa Linnéa bor Sanne och Peter Salminen med barnen Ella, 9 år, Melvin, 6 år och Vera, 3 år. Både Sanne och Peter är lärare. Efter de två första mest intensiva renoveringsåren renoverar vi i första hand då vi har mera tid under sommaren. Under vardagarna hinner vi inte med så mycket annat än jobb och fritidsintressen. Peter har triathlon som hobby, Sanne spelar korgboll och sjunger i kör och barnen sysslar med allt från brottning till ritt och scouting.\nMera om vår renovering på svenska i bloggen: <a href=\"http://villalinnea.ratata.fi\">villalinnea.ratata.fi</a>"
 ---

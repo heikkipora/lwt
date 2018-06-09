@@ -1,7 +1,7 @@
 ---
 name: Almska huset
 address: Brandensteinsgatan 3, Lovisa
-number: 19
+number: 18
 lang: se
 public: true
 ---

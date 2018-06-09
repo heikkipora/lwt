@@ -2,7 +2,7 @@
 name: Strömfors bruks smedjemuseum
 address: Bruksvägen 11, Strömfors
 remote: 'Ruukki'
-number: 44
+number: 43
 lang: se
 public: true
 ---

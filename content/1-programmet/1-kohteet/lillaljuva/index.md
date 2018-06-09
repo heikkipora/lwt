@@ -1,7 +1,7 @@
 ---
 name: Lilla Ljuva
 address: Åldermansgatan 8, Lovisa
-number: 11
+number: 10
 lang: se
 family: "Efter en omfattande renovering har Lilla Ljuva blivit ett kärt hem för Nina och Muru katten. Kommunalteknik fanns inte, inte heller badrum och kök, och i vissa utrymmen fanns det inga golv. Huset var övergivet i ett tiotal år, väggarna ekade av kyla och ensamhet. Jag ville ge liv och skönhet till huset.\nListan är lång på allt som renoverats under årens lopp, det är svårt att tro sina ögon när jag ser på gamla fotografier. Otroligt vad snabbt man blir van vid det färdiga.\nJag lever min dröm och därför är det viktigt att komma ihåg att njuta av huset, så att inte vardagen enbart blir ett arbetsläger."
 photographer: Benny Liljendahl
