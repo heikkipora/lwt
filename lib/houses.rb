@@ -37,37 +37,35 @@ module HousesHelper
     @items.find { |i| i.identifier == finnish_item }
   end
 
-  def house_fb_preview(item)
+  def house_primary(item)
     folder = house_path(item).split("/")[-1]
     primary_img = finnish_house(item).identifier.without_ext.gsub('index', '') + folder
-    if @items.find_all(primary_img + '.svg').one? or @items.find_all(primary_img + '.jpg').one?
+    if @items.find_all(primary_img + '.jpg').one?
       house_path(item) + folder + '.jpg'
     else
       '/img/house-dummy.jpg'
     end
   end
 
-  def house_svg(item)
+  def house_primary_thumb(item)
     folder = house_path(item).split("/")[-1]
     primary_img = finnish_house(item).identifier.without_ext.gsub('index', '') + folder
-    if @items.find_all(primary_img + '.svg').one?
-      house_path(item) + folder + '.svg'
-    elsif @items.find_all(primary_img + '.jpg').one?
+    if @items.find_all(primary_img + '.jpg').one?
       house_path(item) + folder + '-thumb.jpg'
     else
       '/img/house-dummy.jpg'
     end
   end
 
-  def house_large_svg(item)
-    house_svg(item).gsub('-thumb', '')
+  def house_hero(item)
+    house_primary(item)
   end
 
   def house_photographer(item)
     if item[:photographer]
       item[:photographer]
     else
-      'Carita Liljendahl'
+      'Carita Liljendahl, Evy Nickström'
     end
   end
 end

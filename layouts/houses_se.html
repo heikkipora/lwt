@@ -7,7 +7,7 @@
     </li>
 
     <% sorted(@item, nil).each do |item| %>
-    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_primary_thumb(item) %>)">
         <a href="<%= item.path %>">
             <h4><%= item[:name] %></h4>
         </a>
@@ -19,7 +19,7 @@
     </li>
 
     <% sorted(@item, 'Ahvenkoski').each do |item| %>
-    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_primary_thumb(item) %>)">
         <a href="<%= item.path %>">
             <h4><%= item[:name] %></h4>
         </a>
@@ -31,7 +31,7 @@
     </li>
 
     <% sorted(@item, 'Ruukki').each do |item| %>
-    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_primary_thumb(item) %>)">
         <a href="<%= item.path %>">
             <h4><%= item[:name] %></h4>
         </a>
@@ -43,7 +43,7 @@
     </li>
 
     <% sorted(@item, 'Isnäs').each do |item| %>
-    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_primary_thumb(item) %>)">
         <a href="<%= item.path %>">
             <h4><%= item[:name] %></h4>
         </a>
@@ -55,7 +55,7 @@
     </li>
 
     <% sorted(@item, 'Pernaja').each do |item| %>
-    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_svg(item) %>)">
+    <li class="<%= house_class(item) %>" data-number="<%= item[:number] %>" style="background-image: url(<%= house_primary_thumb(item) %>)">
         <a href="<%= item.path %>">
             <h4><%= item[:name] %></h4>
         </a>

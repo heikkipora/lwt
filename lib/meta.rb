@@ -25,7 +25,7 @@ module MetaTagsHelper
     if item[:preview]
       item[:preview]
     elsif is_house(item)
-      preview_image = house_fb_preview(item)
+      preview_image = house_primary(item)
       "http://loviisanwanhattalot.fi#{preview_image}"
     else
       "http://loviisanwanhattalot.fi#{item.path}1.jpg"
