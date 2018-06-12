@@ -1,7 +1,7 @@
 ---
 name: Rosor & Trädgårdar i Lovisa 7.-8.7.2018
 description: Rosor & Trädgårdar i Lovisa öppnar portarna till Lovisabornas trädgårdar och bjuder på upplevelser med rosentema. Lovisa Historiska Hus rf arrangerar evenemanget i samarbete med LovisaTrädgårdsförening och Lovisa stads parkenhet.
-gallery: no
+gallery: yes
 ---
 *Rosor & Trädgårdar i Lovisa öppnar portarna till Lovisabornas trädgårdar och bjuder på upplevelser med rosentema. Lovisa Historiska Hus rf arrangerar evenemanget i samarbete med LovisaTrädgårdsförening och Lovisa stads parkenhet.*
 
@@ -45,4 +45,6 @@ Trädgårdar som är öppna 7.7 ja 8.7:
 
  &nbsp;
 
- [» Rosor & Trädgårdar i Lovisa -sidan i Facebook](https://www.facebook.com/ruusutjapuutarhat)
+[» Här kan du ladda ner och printa kartan (PDF)](/ohjelma/ruusuja-ja-puutarhoja/kartta.pdf)
+
+[» Rosor & Trädgårdar i Lovisa -sidan i Facebook](https://www.facebook.com/ruusutjapuutarhat)

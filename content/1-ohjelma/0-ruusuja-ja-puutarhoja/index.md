@@ -7,7 +7,6 @@ gallery: yes
 
 **RUUSUHÄÄT, LOVIISAN KIRKKO la klo 17.00: kaikille avoimet häät, tervetuloa!**
 
-
 Loviisan keskusta-alueella löytyy useita puistoja. Voit liikkuessasi keskustan tapahtuma-alueella halutessasi valita reittejä puistojen varrella.
 
 ### Ohjelma
@@ -43,5 +42,7 @@ Avoinna olevat puutarhat 7.7 ja 8.7:
 - **Eija´s Garden**, Elimäentie 74
 
 &nbsp;
+
+[» Lataa tästä tulostettava kartta (PDF)](/ohjelma/ruusuja-ja-puutarhoja/kartta.pdf)
 
 [» Ruusuja & Puutarhoja Loviisassa -sivu Facebookissa](https://www.facebook.com/ruusutjapuutarhat)

@@ -20,7 +20,7 @@ module EventHelper
   end
 
   def has_gallery(item)
-    item[:gallery] == 'yes'
+    item[:gallery] == true
   end
 
   def has_pdf_gallery(item)
