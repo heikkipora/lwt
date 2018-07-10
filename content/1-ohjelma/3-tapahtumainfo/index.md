@@ -5,38 +5,39 @@ gallery: no
 ---
 ***Tervetuloa ihastuttavaan Loviisan ja monipuolista ohjelmaa koko perheelle tarjoavaan LWT-tapahtumaan. Haluamme tehdä vierailustanne mahdollisimman mukavan.***
 
-Tänä vuonna tapahtuman ajankohta on 25.-26.8 2018. Talokohteet ovat avoinna la-su klo 10-17. Rannekkeen hinta on 18 euroa, ja se on voimassa koko viikonlopun.  Lapset alle 12 v veloituksetta ja yli 20 hengen ryhmä á 15 euroa.
+Tänä vuonna tapahtuman ajankohta on 25.-26.8 2018. Talokohteet ovat avoinna la-su klo 10-17. Rannekkeen hinta on 18 euroa, ja se on voimassa koko viikonlopun. Lapset alle 12 v veloituksetta ja yli 20 hengen ryhmä á 15 euroa.
 
 Joissakin kohteissa voi yöpyä, tilaa löytyy vielä seuraavista LWT-kohteista:
 
- - **Villa Hanna**, Itäinen Harjutie 14, Hanna Stringer [hannastringer@yahoo.se](mailto:hannastringer@yahoo.se) [0400 470 817](tel:+358400470817)
-
- - **Ulrikanhovi**, Kuhlefeltinkatu 35, Kaarina Liljeström [kaarina.liljestrom@rantakartano.fi](mailto:kaarina.liljestrom@rantakartano.fi) [040 551 9002](tel:+358405519002), Minna Lähdeaho [minna.lahdeaho@rantakartano.fi](mailto:minna.lahdeaho@rantakartano.fi) [040 183 7855](tel:+358401837855)
+ - **Ulrikanhovi**, Kuhlefeltinkatu 35, [ulrikanhovi@rantakartano.fi](mailto:ulrikanhovi@rantakartano.fi), [044 9865841](tel:+358449865841)
 
 **Hyvät autoilijat! Huomioikaa, että tänä vuonna pääpaikoitusalueena toimii Raviradan paikoitus, Kuningattarenkatu 50.**
 
 <hr/>
 
-## ALLA OLEVAT TIEDOT VIEDÄÄN AJAN TASALLE LOPPUKEVÄÄSTÄ:
-
 **Lippujen ennakkomyynti:**
 
-Loviisan matkailutoimisto, Mariankatu 12 A, 07900 Loviisa<br/>
-Ma 21.8 – to 24.8 klo 10-18. Pe 25.8 klo 10-20. Vain käteisellä!<br/>
+Loviisan matkailutoimisto, Mariankatu 12 A, ma 30.7. alkaen.<br/>
 Lipunmyynti myös LWT-päivien aikana la ja su klo 9-18.
 
-_Lippuja ennakkoon myös Porvoosta ja Helsingistä!_
+Ruukin kesäinfo, Ruukintie 11 A, ma 30.7. alkaen.<br/>
+Lipunmyynti myös LWT-päivien aikana la ja su klo 10-17.
 
-Porvoo: Itäväylän toimitus, Rihkamatori A. Ma 21.8 – pe 25.8 klo 8-16.<br/>
-Helsinki: Lönnrotinkatu 23, Helsinki, keskiviikkona 23.8. klo 12-19.
+_Lippuja ennakkoon myös Porvoosta!_
+
+Itäväylän toimitus, Rihkamatori A. Ma 20.8 – pe 25.8 klo 8-16.
 
 **Varaa käteistä mukaan jo lähtiessä:**
 
-Pankkiautomaateille on aina ollut jono, joten jos haluat välttää jonottamista, varaa mukaan käteistä jo lähtiessä. Pankkiautomaatteja löydät torin laidalta Aktian kulmalta Brandensteininkatu 11, Kauppakeskus Galleriasta, Kuningattarenkatu 11 sekä S-marketista, Arkkitehdintie 5. Käteistä tarvitaan rannekkeiden ostoon, löytöihin Antiikkimarkkinoilla, ITU-torilla, Keräilymessuilla ja kirpputoreilla sekä Pop up-ravintoloihin ja -kahviloihin.
+Pankkiautomaateille on aina ollut jono, joten jos haluat välttää jonottamista, varaa mukaan käteistä jo lähtiessä. Pankkiautomaatteja löydät torin laidalta Aktian kulmalta Brandensteininkatu 11, Kauppakeskus Galleriasta, Kuningattarenkatu 11 sekä S-marketista, Arkkitehdintie 5. Käteistä tarvitaan rannekkeiden ostoon, löytöihin Käsityö- ja Antiikkimarkkinoilla, Herkkujen puistossa, Keräilymessuilla ja kirpputoreilla sekä Pop up-ravintoloissa ja -kahviloissa.
 
 **Autoilijalle:**
 
-Jos tulet autolla, niin Loviisassa saa maksutta pysäköidä melko vapaasti. Kaupungin keskustan kadunvarret täyttyvät kuitenkin usein heti aamusta. Olemme siksi järjestäneet pysäköintialueita, jotka on merkitty karttaan. Kun saavut kaupunkiin, sinut ohjataan kohti pysäköintialueita, jotka ovat maksuttomia ja sijaitsevat lähellä tapahtuma-alueita. Tänä vuonna keskeisin paikoitusalueemme Rantapuiston vieressä on kuitenkin muussa käytössä. Korvaava P-alue sijaitsee Raviradan vieressä, joka ei ole yhtä keskeisellä paikalla - kuitenkin kävelymatkan päässä tapahtuma-alueelta. Tänä vuonna järjestämme myös kuljetuksen, reitti tulee olemaan Ravirata - Laivasilta - Garnisoni.
+Jos tulet autolla, niin Loviisassa saa maksutta pysäköidä melko vapaasti. Kaupungin keskustan kadunvarret täyttyvät kuitenkin usein heti aamusta. Olemme siksi järjestäneet pysäköintialueita, jotka on merkitty karttaan. Kun saavut kaupunkiin, sinut ohjataan kohti pysäköintialueita, jotka ovat maksuttomia ja sijaitsevat lähellä tapahtuma-alueita. Tänä vuonna keskeisin paikoitusalueemme Rantapuiston vieressä on kuitenkin muussa käytössä. Korvaava P-alue sijaitsee Raviradan vieressä, joka ei ole yhtä keskeisellä paikalla - kuitenkin kävelymatkan päässä tapahtuma-alueelta. Tänä vuonna järjestämme myös kuljetuksen, reitti tulee olemaan Ravirata - Laivasilta - Garnisoni (kts kohta Museobussi).
+
+**Museobussi:**
+
+Museobussin reitti on merkitty karttaan. Bussi ajaa klo 10-12 n. 20 minuutin välein ja loppupäivän 30 minuutin välein molempina päivinä klo 10-17. Museobussin tunnistaa helposti ja kyytiin sekä kyydistä pois pääsee missä vaan reitin varrella.
 
 **Ruokailu:**
 
@@ -58,12 +59,5 @@ Karttaan on merkitty, missä yleisö WC:t sijaitsevat. Talokohteiden WC-tiloja e
 
 Tapahtumassa on useita turvallisuusmiehiä. Heidät tunnistaa liiveistä ja heihin saa yhteyttä myös ovivartijoiden kautta. Hätänumero ja poliisi toimii normaalisti päivien aikana.
 
-**Ensiapu ja lääkärin päivystys:**
-Ensiapupiste on merkittynä karttaan ja paikalle saadaan tarvittaessa myös lääkäri.
-
-**Muutoksia:**
-ITU-torin järjestäjä on vaihtunut ja on nyt Herkkujen puisto, joka on tänä vuonna avoinna sekä lauantaina että sunnuntaina klo 10-18.
-
-**Muuta:**
-
-LWT:n aikaan tulee olemaan kaksi Karhu Voima Oy:n laatikkopyörällä liikkuvaa latauspistettä Loviisassa. Pyörät tarjoavat veloituksetta LWT:n vieraille mahdollisuuden ladata puhelimia, tabletteja ja kameroita. Pyörät liikkuvat keskustan alueella.
+**Ensiapu:**
+Ensiapupiste on merkittynä karttaan. Tänä vuonna SPR on Kappakeskus Galleriassa, Kuningattarenkatu 11.
