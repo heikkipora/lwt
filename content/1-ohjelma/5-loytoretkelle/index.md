@@ -5,13 +5,13 @@ gallery: no
 ---
 ***Löytöretkelle Loviisaan: antiikkia, vanhaa tavaraa, keräilyesineitä ja kirpputoreja.***
 
-**Aleksanterinpihan antiikkimarkkinat**<br/>
+**Aleksanterinpihan käsityömarkkinat**<br/>
 Aleksanterinkatu 8, la-su klo 10-17
 
-Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Antiikkimarkkinat järjestetään rakennusten keskellä olevalla sisäpihalla. Tarjolla on kuolinpesien mielenkiitoista irtaimistoa: huonekaluja, valaisimia, pienesineistöä, lasitavaraa ja koruja.
+Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Eri alojen käsillä tekijät esittelevät osaamistaan ja kertovat materiaaleista ja työtavoista. Luonnonmateriaalit ja kestävä kehitys ja tekemisen ilo kohtaavat! 
 
-**Gamla apotekshuset**<br/>
-Aleksanterinkatu 6. Apteekin laboratorissa taidetta, antiikkia, designia. Vanhassa hevostallissa astiota ja huonekaluja. Taidetta on pihalla säävarauksin. Pe, la ja su klo 10-18.
+**Gamla apotekshuset, Antiikkimarkkinat**<br/>
+uusi paikka: Aleksanterinkatu 6. Antiikkia, designia ja taidetta. Pihakahvila sekä työnäytöksiä ja käsityöntekijöitä. La–su 9–17.
 
 **Keräily- ja antiikkimessut**<br/>
 Lovisa Gymnasium. Brandensteininkatu 27, la klo 10-17 ja su 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
@@ -32,11 +32,6 @@ Suurkirppiksellä on tarjolla laaja valikoima erilaisia tuotteita sekä asiakkai
 Laivasilta 1, Suolatori, la-su klo 10-17 - [www.facebook.com/Krinti-580449775336409](https://www.facebook.com/Krinti-580449775336409)
 
 Krinti on uutta ja vanhaa tavaraa laidasta laitaan fiiliksen mukaan myyvä pieni lifestyle -puoti. Myös verhoilu- ja entisöintipalvelut.
-
-**Vadelmatarha**<br/>
-Kuningattarenkatu 3, la-su klo 10-17 – [www.vadelmatarha.fi/loviisa](http://www.vadelmatarha.fi/loviisa)
-
-Löydä lasten ja naisten vaatteet, kengät, lelut, sportit ja tarvikkeet siististi järjesteltyinä omilta osastoiltaan. Taukotuvassa voit levähtää ja nauttia omiakin eväitä lasten temmeltäessä leikkipaikalla. Saman katon alta saat luomu- ja lähituotteita.
 
 **Yksityisiä kirpputoreja eri puolilla kaupunkia**
 

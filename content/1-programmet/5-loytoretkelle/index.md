@@ -5,13 +5,13 @@ gallery: no
 ---
 ***Löytöretkelle Loviisaan: antiikkia, vanhaa tavaraa, keräilyesineitä ja kirpputoreja.***
 
-**Alexandersgårdens antikmarknad**<br/>
+**Alexandersgårdens hantverksmarknad**<br/>
 Alexandersgatan 8, lö-sö kl 10-17
 
-Fastigheten Alexander är belägen i Lovisa centrum bredvid kyrkan. Byggnadens äldsta del färdigställdes år 1859, och den senaste delen av byggnaden är från 1930. Antikmarknaden ordnas på innergården mellan byggnaderna. Bland utbudet finns intressanta föremål från dödsbon: möbler, lampor, småföremål, glasföremål och smycken.
+Fastigheten Alexander är belägen i Lovisa centrum bredvid kyrkan. Byggnadens äldsta del färdigställdes år 1859, och den senaste delen av byggnaden är från 1930. Olika sorters hantverkare presenterar sitt kunnande och berättar om både material och arbetsmetoder. Här råkas naturmaterial, hållbar utveckling och skapandets glädje!
 
-**Gamla apotekshuset**<br/>
-Alexandersgatan 6. I apotekets laboratorium konst, antik och design. I det gamla häststallet kärl och möbler. Beroende på vädret konst  även  på gården. Fre, lö och sö kl 10-18.
+**Gamla apotekshuset, Antikmarknad**<br/>
+ny plats: Alexandersgatan 6. Antik, design och konst. Gårdscafé, arbetsuppvisningar och hantverkare. Lö–sö 9–17.
 
 **Samlar- och antikmässa**<br/>
 Lovisa Gymnasium. Brandensteinsgatan 27, lö kl 10-17 och sö 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
@@ -32,11 +32,6 @@ Suurkirppis har utöver kundernas lopptorgsbord också ett brett urval olika pro
 Skeppsbron 1, Saltbodtorget, lö-sö kl 10-17 - [www.facebook.com/Krinti-580449775336409](https://www.facebook.com/Krinti-580449775336409)
 
 Krinti är en liten lifestylebutik som säljer gammalt och nytt, än det ena, än det andra, allt enligt humör. Också möbeltapetsering och restaureringstjänster.
-
-**Vadelmatarha**<br/>
-Drottninggatan 3, lö-sö kl 10-17 – [www.vadelmatarha.fi/loviisa](http://www.vadelmatarha.fi/loviisa)
-
-Hitta barnkläder, damkläder , skor, leksaker, sportutrustning och tillbehör, prydligt ordnade på egna avdelningar. I pausutrymmet kan du vila och avnjuta också egna mellanmål medan barnen håller till i lekplatsen. Under samma tak även ekoprodukter och närproducerat.
 
 **Privata lopptorg på olika håll i staden**
 
