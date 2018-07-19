@@ -1,6 +1,6 @@
 ---
 name: Tapahtumakartta
-description: Tutustu vuoden 2017 tapahtumakarttaan ja lataa itsellesi tulostettava kartat tai tallenna se vaikkapa tablettiisi.
+description: Tutustu vuoden 2018 tapahtumakarttaan ja lataa itsellesi tulostettava kartat tai tallenna se vaikkapa tablettiisi.
 gallery: pdf
 ---
 

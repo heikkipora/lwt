@@ -1,6 +1,6 @@
 ---
 name: Evenemangskarta
-description: Bekanta dig med evenemangskartan för år 2017, printa ut kartan eller spara den på din tablett.
+description: Bekanta dig med evenemangskartan för år 2018, printa ut kartan eller spara den på din tablett.
 gallery: pdf
 ---
 
