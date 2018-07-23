@@ -8,23 +8,18 @@ gallery: no
 **Aleksanterinpihan käsityömarkkinat**<br/>
 Aleksanterinkatu 8, la-su klo 10-17
 
-Aleksanterin kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Rakennuksen vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Eri alojen käsillä tekijät esittelevät osaamistaan ja kertovat materiaaleista ja työtavoista. Luonnonmateriaalit ja kestävä kehitys ja tekemisen ilo kohtaavat! 
+Aleksanterin kiinteistön vanhin osa on valmistunut v. 1859, viimeisin osa rakennusta 1930. Käsityömarkkinat järjestetään rakennusten keskellä olevalla sisäpihalla. Eri alojen käsillä tekijät esittelevät osaamistaan ja kertovat materiaaleista ja työtavoista. Luonnonmateriaalit ja kestävä kehitys ja tekemisen ilo kohtaavat!
 
-**Gamla apotekshuset, Antiikkimarkkinat**<br/>
-uusi paikka: Aleksanterinkatu 6. Antiikkia, designia ja taidetta. Pihakahvila sekä työnäytöksiä ja käsityöntekijöitä. La–su 9–17.
+**Antiikkimarkkinat**<br/>
+uusi paikka: **Gamla apotekshuset**, Aleksanterinkatu 6 kiinteistö sijaitsee Loviisan keskustassa kirkon välittömässä läheisyydessä. Antiikkia, designia ja taidetta. Pihakahvila sekä työnäytöksiä ja käsityöntekijöitä. La–su 9–17.
 
 **Keräily- ja antiikkimessut**<br/>
 Lovisa Gymnasium. Brandensteininkatu 27, la klo 10-17 ja su 10-15 - [www.kolumbus.fi/lovthk/Collectors.htm](http://www.kolumbus.fi/lovthk/Collectors.htm)
 
 Loviisanseudun keräilijöiden järjestämä suurtapahtuma ruotsinkielisen lukion tiloissa. Lukion rakennus on Helene Schjerfbeckin arkkitehtiveljen Magnus Schjerfbeck suunnittelema 1910-luvun alussa. Tapahtumaan osallistuu yli 30 myyjää ja valikoimista löytyy mm.vanhoja postikortteja, keräilykuvia, kunniamerkkejä, militariaa, pientavaraa ja huonekaluja. Alueella myös kahvio sekä runsaasti paikoitustilaa.
 
-**Loviisan Romu & Realisointi**<br/>
-Valkolammentie 2, la-su 10-15
-
-Loviisan Romu & Realisointi sijaitsee Valkossa, n. 5 km keskustan ulkopuolella, keltaisessa tiilirakennuksessa kioskin vieressä. Myymme kaikenlaista tavaraa; retroa, vintagea, antiikkia, taidelasia, työkaluja sekä rakennusosia ym.
-
 **Loviisan suurkirppis**<br/>
-Mariankatu 22, la klo 9-18 ja su 9-17 - [www.suurkirppis.fi](http://www.suurkirppis.fi)
+Mariankatu 22, la klo 9-18 ja su 9-17 - [www.suurkirppis.fi](https://www.suurkirppis.fi)
 
 Suurkirppiksellä on tarjolla laaja valikoima erilaisia tuotteita sekä asiakkaiden kirppispöytiä. LWT-päivien aikana toimintaa myös osittain pihalla.
 
