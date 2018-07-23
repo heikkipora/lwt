@@ -26,14 +26,14 @@ module MetaTagsHelper
       item[:preview]
     elsif is_house(item)
       preview_image = house_primary(item)
-      "http://loviisanwanhattalot.fi#{preview_image}"
+      "https://loviisanwanhattalot.fi#{preview_image}"
     else
-      "http://loviisanwanhattalot.fi#{item.path}1.jpg"
+      "https://loviisanwanhattalot.fi#{item.path}1.jpg"
     end
   end
 
   def meta_url(item)
-    "http://loviisanwanhattalot.fi#{item.path}"
+    "https://loviisanwanhattalot.fi#{item.path}"
   end
 end
 

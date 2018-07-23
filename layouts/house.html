@@ -7,7 +7,7 @@
         <% end %>
         <%= @item[:name] %>
     </h1>
-    <em><%= @item[:address] %> (<a href="http://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
+    <em><%= @item[:address] %> (<a href="https://maps.google.com/?q=<%= @item[:address] %>">kartalla</a>)</em>
     <% if @item[:garden] %> - <em><%= t('house.garden') %></em><% end %>
     <% if @item[:remote] %> - <em><%= t('house.remote') %></em><% end %>
     <a href="<%= house_hero(item) %>">
