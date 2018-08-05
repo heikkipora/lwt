@@ -31,7 +31,9 @@ gallery: no
 
 **Lovinfo**, Mariegatan 12 A. Fråga om tomter, boende och stadens tjänster. Lö–sö 9–18.
 
-**Loviisan församlingshem**, Östra Tullgatan 6. Lö–sö 10–17. Husmanskost och kaffe kl. 11–15.
+**Lovinfo.** Mariegatan 12 A. Fråga om tomter, boende och stadens tjänster. Lö och sö 9-18.
+
+**Lovisa församlingshem**, Östra Tullgatan 6. Lö–sö 10–17. Husmanskost och kaffe kl. 11–15.
 
 **Lovisa kyrka**. Gudstjänst sö kl. 12. Kyrkan öppen lö 10–17 och sö 10–15.
 

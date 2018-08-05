@@ -43,6 +43,8 @@ gallery: no
 
 **Loviisan tori.** La klo 7–17 ja su 10–17. LWT-lipunmyyntipiste la–su 9.30–17.
 
+**Lovinfo.** Mariankatu 12 A. Kysy tonteista, asumisesta ja kaupungin palveluista. La ja su 9-18.
+
 **Mariankadun puistikko.** Näytteilleasettajia.
 
 **Matkailutoimisto**, Mariankatu 12 A, puh. 040 555 3387. La ja su klo 9-18. **Ruukin kesäinfo**, Ruukintie 11 A, puh. 0440 555 366. La ja su klo 10-17. Molemmissa LWT-lippujen ennakkomyynti.
