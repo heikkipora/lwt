@@ -2,7 +2,7 @@
 name: Pernå kyrka
 address: Pernåvägen 305, Pernå
 remote: 'Pernaja'
-number: 51
+number: 50
 lang: se
 public: true
 ---
