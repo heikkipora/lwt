@@ -7,10 +7,6 @@ gallery: no
 
 I år anordnas evenemanget 25.-26.8. 2018. Husobjekten är öppna lö-sö kl 10-17. Kontrollbandet kostar 18 euro och är i kraft hela veckoslutet. Barn under 12 år gratis och grupper över 20 personer á 15 euro.
 
-Det finns en möjlighet att övernatta i några LHH-husobjekt, lediga platser finns ännu:
-
- - **Ulrikanhovi**, Kuhlefeltsgatan 35, [ulrikanhovi@rantakartano.fi](mailto:ulrikanhovi@rantakartano.fi), [044 9865841](tel:+358449865841)
-
 **Bästa bilister! Ta i beaktande, att Travbanans parkering fungerar som vår huvudparkering i år, Drottninggatan 50.**
 
 <hr/>

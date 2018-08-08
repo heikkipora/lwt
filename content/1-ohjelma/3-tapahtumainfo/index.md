@@ -7,10 +7,6 @@ gallery: no
 
 Tänä vuonna tapahtuman ajankohta on 25.-26.8 2018. Talokohteet ovat avoinna la-su klo 10-17. Rannekkeen hinta on 18 euroa, ja se on voimassa koko viikonlopun. Lapset alle 12 v veloituksetta ja yli 20 hengen ryhmä á 15 euroa.
 
-Joissakin kohteissa voi yöpyä, tilaa löytyy vielä seuraavista LWT-kohteista:
-
- - **Ulrikanhovi**, Kuhlefeltinkatu 35, [ulrikanhovi@rantakartano.fi](mailto:ulrikanhovi@rantakartano.fi), [044 9865841](tel:+358449865841)
-
 **Hyvät autoilijat! Huomioikaa, että tänä vuonna pääpaikoitusalueena toimii Raviradan paikoitus, Kuningattarenkatu 50.**
 
 <hr/>
