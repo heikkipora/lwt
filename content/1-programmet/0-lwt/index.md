@@ -37,6 +37,8 @@ gallery: no
 
 **Lovisa kyrka**. Gudstjänst sö kl. 12. Kyrkan öppen lö 10–17 och sö 10–15.
 
+**Lovisa ortodoxa kyrka**, Östra Tullgatan 17. Den ortodoxa vägkyrkan som kommit med den ryska armen och är fylld av skatter, är nu belägen i en officers kasern från 1750-talet. Lö-sö kl 10-17.
+
 **Lovisa-rundturer**. Under den guidade bussturen får du höra både om stadens historia och om nutiden. Start lö–sö kl. 11 från Alexandersgatans turisthållplats. Ca 1 h, gratis, max. 50 pers./tur.
 
 **Lovisa Sjöfartsmuseum**, Skeppsbron. Frivillig inträdesavgift. Lö–sö 10–18.

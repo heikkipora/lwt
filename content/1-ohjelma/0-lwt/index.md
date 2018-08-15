@@ -39,6 +39,8 @@ gallery: no
 
 **Loviisan Merenkulkumuseo**, Laivasilta. Vapaaehtoinen sisäänpääsymaksu. La–su 10–18.
 
+**Loviisan ortodoksinen kirkko**, Itäinen tullitie 17. Venäjän armeijan mukana matkannut, aarteita täynnä oleva ortodoksinen kenttäkirkko sijaitsee 1750-luvun upseerikasarmissa. La-su klo 10-17.
+
 **Loviisan seurakuntakoti**, Itäinen Tullikatu 6.  La–su 10–17. Kotiruokaa ja kahvia klo 11–15. 
 
 **Loviisan tori.** La klo 7–17 ja su 10–17. LWT-lipunmyyntipiste la–su 9.30–17.
