@@ -1,9 +1,9 @@
 ---
-name: Loviisan Wanhat Talot 25.-26.8.2018 klo 10-17
+name: Loviisan Wanhat Talot 24.-25.8.2019 klo 10-17
 description: Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna. Tutustu viikonlopun ohjelmaan!
 gallery: no
 ---
-*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 25.-26.8.2018*
+*Loviisan historiallisissa, yli satavuotiaissa taloissa sijaitsevat yksityiset kodit avaavat ovensa jälleen elokuun viimeisenä viikonloppuna 24.-25.8.2019*
 
 <hr/>
 
